@@ -196,12 +196,13 @@ img {
   box-sizing: border-box;
 }
 
+/* Contenitore PDF */
 .pdf-wrapper {
-  width: 100%;
+  width: 130%;
   height: 80vh;
   max-height: 900px;
   margin: 0 auto 20px auto;
-  overflow: hidden; /* evita sbordi */
+  overflow: hidden;
 }
 
 .pdf-frame {
@@ -211,23 +212,26 @@ img {
   display: block;
 }
 
-/* Fix mobile */
+/* Mobile fix */
 @media (max-width: 768px) {
 
-  /* elimina ogni possibile scroll orizzontale */
+  /* elimina qualsiasi scroll orizzontale ovunque */
   html, body {
     overflow-x: hidden !important;
   }
 
+  /* Contenitore senza margini né padding */
   .pdf-wrapper {
     margin: 0;
     padding: 0;
-    width: 100vw; /* prende esattamente la viewport */
+    width: 100%;   /* evita il bug di 100vw che causa bordo a sx */
   }
 
+  /* Iframe perfettamente aderente a sinistra */
   .pdf-frame {
-    width: 100vw; /* impedisce sforamenti */
+    width: 110%;
     height: 75vh;
+    margin-left: -30px; /* elimina il bordino residuo */
   }
 }
 
