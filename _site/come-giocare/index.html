@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Come giocare</title>
+  <meta name="description" content="Uno shard di Ultima Online ispirato a Dungeons & Dragons. Lore, regole, guide e download." />
+  <link rel="stylesheet" href="/assets/css/style.css" />
+</head>
+<body>
+  <div class="site">
+    <header class="site-header">
+      <div class="container">
+        <img
+          src="/assets/images/banner.jpg"
+          alt="Banner Ultima Online D&D"
+          style="width:100%; height:auto; max-height: 250px;"
+        />
+        <nav class="main-nav">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/come-giocare/">Come giocare</a></li>
+            <li><a href="/ambientazione/">Ambientazione</a></li>
+            <li><a href="/classi-e-razze/">Classi e Razze</a></li>
+            <li><a href="/sistemi/">Sistemi</a></li>
+            <li><a href="/download/">Download</a></li>
+            <li><a href="/regolamento/">Regolamento</a></li>
+            <li><a href="/contatti/">Contatti</a></li>
+            <li><a href="/manuale/">Manuale di gioco</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container layout">
+
+      
+
+      <section class="page-content">
+        <h1 id="come-giocare">Come giocare</h1>
+
+<p>Segui questi passi per entrare nel mondo:</p>
+
+<ol>
+  <li>Leggi il <a href="/regolamento/">Regolamento</a> per conoscere le regole base, ti serviranno per creare un background adatto.</li>
+  <li>Entra nel nostro <a href="https://whispersofswoardcoast.forumcommunity.net/">forum</a> creando un account valido, poi manda il tuo background in questa <a href="https://whispersofswoardcoast.forumcommunity.net/?f=9150141">sezione</a>, solo tu ed lo staff potranno vederlo, quindi non preoccuparti!</li>
+  <li>Attendi l’approvazione del background, controlla spesso, un DM ti avviserá se il background é valido o ti chiederá correzioni, dopodiché approverá un background valido per te</li>
+  <li>Scarica il launcher dalla pagina <a href="/download/">Download</a>.
+    <p align="center">
+ <img src="/assets/images/launcher.jpg" alt="launcher" width="70%" />
+ </p>
+    <p>Dovrai semplicemente inserire una cartella valida (consigliamo una cartella vuota prparata apposta), e cliccare “controlla e aggiorna”. Attendi che tutto sia pronto e… complimenti, sei pronto per iniziare!</p>
+  </li>
+  <li>Inserisci ora le credenziali che ti sono state comunicate, dopo di che nella schermata che si aprirá, clicca “new”. Customizza il personaggio e dagli un nome per ora qualsiasi. Ti verrá chiesta una classe, scegli “Necromancer” e non preoccuparti, non é una scelta influente, dopo di che clicca uno dei pulsanti “sala della creazione” che appariranno, non importa quale.
+A questo punto dovresti essere nella sala della creazione. Scrivi semplicemente “ .pgstart -Nome Personaggio- “, dove nome personaggio é il nome approvato in sede di approvazione background.</li>
+  <li>A questo punto devi solo scegliere abilitá, talenti, e statistiche, dopodiché il personaggio verrá portato a Baldur’s Gate, pronto per iniziare la sua avventura!</li>
+  <li>Unisciti al nostro Discord per supporto e per trovare compagni d’avventura.</li>
+</ol>
+
+<h3 id="consigli-per-nuovi-giocatori">Consigli per nuovi giocatori</h3>
+<ul>
+  <li>Leggi l’ambientazione per capire il tono del mondo.</li>
+  <li>Se é la prima volta, prova un background un personaggio di semplice interpretazione</li>
+  <li>Non essere timidi, il nostro discord é sempre attivo e c’é sempre qualcuno per aiutare ad ambientarvi o per rispondere alle vostre domande</li>
+</ul>
+
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© 2025 Whispers of the Sword Coast — Non ufficiale</p>
+        <p><a href="https://discord.gg/Sd8evXW3">Discord</a> • <a href="/regolamento/">Regolamento</a></p>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const toggleBtn = document.getElementById('toggle-news');
+      const sidebarWrapper = document.getElementById('sidebar-wrapper');
+
+      if (toggleBtn && sidebarWrapper) {
+        toggleBtn.addEventListener('click', function () {
+          if (sidebarWrapper.style.display === 'block') {
+            sidebarWrapper.style.display = 'none';
+            toggleBtn.textContent = 'News & Aggiornamenti ▼';
+          } else {
+            sidebarWrapper.style.display = 'block';
+            toggleBtn.textContent = 'Chiudi aggiornamenti ▲';
+          }
+        });
+      }
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sistemi</title>
+  <meta name="description" content="Uno shard di Ultima Online ispirato a Dungeons & Dragons. Lore, regole, guide e download." />
+  <link rel="stylesheet" href="/assets/css/style.css" />
+</head>
+<body>
+  <div class="site">
+    <header class="site-header">
+      <div class="container">
+        <img
+          src="/assets/images/banner.jpg"
+          alt="Banner Ultima Online D&D"
+          style="width:100%; height:auto; max-height: 250px;"
+        />
+        <nav class="main-nav">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/come-giocare/">Come giocare</a></li>
+            <li><a href="/ambientazione/">Ambientazione</a></li>
+            <li><a href="/classi-e-razze/">Classi e Razze</a></li>
+            <li><a href="/sistemi/">Sistemi</a></li>
+            <li><a href="/download/">Download</a></li>
+            <li><a href="/regolamento/">Regolamento</a></li>
+            <li><a href="/contatti/">Contatti</a></li>
+            <li><a href="/manuale/">Manuale di gioco</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container layout">
+
+      
+
+      <section class="page-content">
+        <h1 id="sistemi-e-meccaniche">Sistemi e meccaniche</h1>
+
+<p>Descrizione dei sistemi custom presenti sullo shard:</p>
+
+<ul>
+  <li>Sistema di progressione ispirato a D&amp;D (livelli, talenti).</li>
+  <li>Crafting avanzato e modding degli oggetti.</li>
+  <li>Sistema di magie con incantesimi scalabili.</li>
+  <li>Economy e crafting player-driven.</li>
+</ul>
+
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© 2025 Whispers of the Sword Coast — Non ufficiale</p>
+        <p><a href="https://discord.gg/Sd8evXW3">Discord</a> • <a href="/regolamento/">Regolamento</a></p>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const toggleBtn = document.getElementById('toggle-news');
+      const sidebarWrapper = document.getElementById('sidebar-wrapper');
+
+      if (toggleBtn && sidebarWrapper) {
+        toggleBtn.addEventListener('click', function () {
+          if (sidebarWrapper.style.display === 'block') {
+            sidebarWrapper.style.display = 'none';
+            toggleBtn.textContent = 'News & Aggiornamenti ▼';
+          } else {
+            sidebarWrapper.style.display = 'block';
+            toggleBtn.textContent = 'Chiudi aggiornamenti ▲';
+          }
+        });
+      }
+    });
+  </script>
+</body>
+</html>

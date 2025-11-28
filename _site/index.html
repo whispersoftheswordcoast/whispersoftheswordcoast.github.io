@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Benvenuto</title>
+  <meta name="description" content="Uno shard di Ultima Online ispirato a Dungeons & Dragons. Lore, regole, guide e download." />
+  <link rel="stylesheet" href="/assets/css/style.css" />
+</head>
+<body>
+  <div class="site">
+    <header class="site-header">
+      <div class="container">
+        <img
+          src="/assets/images/banner.jpg"
+          alt="Banner Ultima Online D&D"
+          style="width:100%; height:auto; max-height: 250px;"
+        />
+        <nav class="main-nav">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/come-giocare/">Come giocare</a></li>
+            <li><a href="/ambientazione/">Ambientazione</a></li>
+            <li><a href="/classi-e-razze/">Classi e Razze</a></li>
+            <li><a href="/sistemi/">Sistemi</a></li>
+            <li><a href="/download/">Download</a></li>
+            <li><a href="/regolamento/">Regolamento</a></li>
+            <li><a href="/contatti/">Contatti</a></li>
+            <li><a href="/manuale/">Manuale di gioco</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container layout">
+
+      
+      <button id="toggle-news" class="toggle-news-btn">News & Aggiornamenti ▼</button>
+      <div id="sidebar-wrapper" class="sidebar-wrapper">
+        <aside class="sidebar">
+          <h2>News & Aggiornamenti</h2>
+          <ul class="news-list">
+            
+            <li>
+              <a href="/2025/01/01/benvenuto.html">Benvenuto nel nostro shard</a>
+              <small>01/01/2025</small>
+            </li>
+            
+          </ul>
+        </aside>
+      </div>
+      
+
+      <section class="page-content">
+        <h2 id="benvenuto-avventuriero-su-whispers-of-the-swords-coast">Benvenuto, Avventuriero, su <em>Whispers of the Swords Coast</em>!</h2>
+
+<p>Questo server offre un’esperienza unica che unisce gioco di ruolo profondo e una presentazione indie estremamente curata.<br />
+Il sistema di gioco si colloca a metà strada tra <strong>Dungeons &amp; Dragons 3.0/3.5</strong> e <strong>Pathfinder 1e</strong>, completo di talenti, abilità e meccaniche scriptate con attenzione per ricreare il feeling del gioco da tavolo… in una forma <strong>in tempo reale</strong>.</p>
+
+<p>Tutto è pensato per dare vita nel modo più fedele possibile all’ambientazione scelta:<br />
+una ricostruzione dettagliata delle <strong>Terre Centrali Occidentali</strong>, con al centro la leggendaria <strong>Baldur’s Gate</strong>.</p>
+
+<hr />
+
+<h3 id="sei-pronto-a-unesperienza-di-ruolo-davvero-immersiva">Sei pronto a un’esperienza di ruolo davvero immersiva?</h3>
+<p>Sessioni sempre restando nel personaggio, un mondo vivo, avventure che nascono dalle scelte dei personaggi, e una comunità pronta a giocare insieme.</p>
+
+<p>Unisciti a noi!</p>
+
+<hr />
+
+<p>Per rendere possibile tutto questo, il mondo è costruito su una versione <strong>completamente customizzata di Ultima Online</strong>, supportata da un <strong>client rivisto da zero</strong> per soddisfare le nostre necessità e garantire prestazioni ottimali sui sistemi moderni.</p>
+
+<h2 id="inizia-da-qui">Inizia da qui</h2>
+<ul>
+  <li><a href="/come-giocare/">Come giocare</a></li>
+  <li><a href="/regolamento/">Regolamento</a></li>
+  <li><a href="/ambientazione/">Ambientazione</a></li>
+  <li><a href="/classi-e-razze/">Classi e Razze</a></li>
+  <li><a href="/download/">Download client</a></li>
+  <li><a href="/manuale/">Manuale di gioco</a></li>
+</ul>
+
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© 2025 Whispers of the Sword Coast — Non ufficiale</p>
+        <p><a href="https://discord.gg/Sd8evXW3">Discord</a> • <a href="/regolamento/">Regolamento</a></p>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const toggleBtn = document.getElementById('toggle-news');
+      const sidebarWrapper = document.getElementById('sidebar-wrapper');
+
+      if (toggleBtn && sidebarWrapper) {
+        toggleBtn.addEventListener('click', function () {
+          if (sidebarWrapper.style.display === 'block') {
+            sidebarWrapper.style.display = 'none';
+            toggleBtn.textContent = 'News & Aggiornamenti ▼';
+          } else {
+            sidebarWrapper.style.display = 'block';
+            toggleBtn.textContent = 'Chiudi aggiornamenti ▲';
+          }
+        });
+      }
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>{{ page.title | default: site.title }}</title>
+  <meta name="description" content="{{ page.excerpt | escape | default: site.description }}" />
+  <link rel="stylesheet" href="/assets/css/style.css" />
+  <link rel="stylesheet" href="/assets/css/ambientazione.css" />
+</head>
+<body>
+  <div class="site">
+    <header class="site-header">
+      <div class="container">
+        <img src="/assets/images/banner.jpg" alt="Banner Ultima Online D&D" style="width:100%; height:auto; max-height: 250px;" />
+        <nav class="main-nav">
+          <ul>
+            <li><a href="{{ '/' | relative_url }}">Home</a></li>
+            <li><a href="{{ '/come-giocare/' | relative_url }}">Come giocare</a></li>
+            <li><a href="{{ '/ambientazione/' | relative_url }}">Ambientazione</a></li>
+            <li><a href="{{ '/classi-e-razze/' | relative_url }}">Classi e Razze</a></li>
+            <li><a href="{{ '/sistemi/' | relative_url }}">Sistemi</a></li>
+            <li><a href="{{ '/download/' | relative_url }}">Download</a></li>
+            <li><a href="{{ '/regolamento/' | relative_url }}">Regolamento</a></li>
+            <li><a href="{{ '/contatti/' | relative_url }}">Contatti</a></li>
+            <li><a href="{{ '/manuale/' | relative_url }}">Manuale di gioco</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container-ambientazione">
+      <aside class="ambientazione-sidebar">
+        <h3>Sezioni Ambientazione</h3>
+        <ul>
+          {% assign ambientazione_pages = site.pages | where_exp: "page", "page.path contains 'ambientazione/'" %}
+          {% assign ambientazione_pages = ambientazione_pages | where_exp: "page", "page.title" %}
+          {% assign ambientazione_pages_sorted = ambientazione_pages | sort: "order" %}
+          {% for p in ambientazione_pages_sorted %}
+            <li {% if page.url == p.url %}class="active"{% endif %}>
+              <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </aside>
+
+      <!-- Pulsante toggle subito dopo la sidebar -->
+      <button class="sidebar-toggle-button" aria-label="Apri/Chiudi menu">Menu</button>
+
+      <section class="ambientazione-content">
+        {{ content }}
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© {{ site.time | date: '%Y' }} {{ site.title }} — Non ufficiale</p>
+        <p><a href="https://discord.gg/Sd8evXW3">Discord</a> • <a href="/regolamento/">Regolamento</a></p>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+  const toggleButton = document.querySelector('.sidebar-toggle-button');
+  const sidebar = document.querySelector('.ambientazione-sidebar');
+
+  toggleButton.addEventListener('click', () => {
+    sidebar.classList.toggle('active');
+    // Nascondi o mostra il toggle button
+    if (sidebar.classList.contains('active')) {
+      toggleButton.style.display = 'none';
+    } else {
+      toggleButton.style.display = 'block';
+    }
+  });
+</script>
+</body>
+</html>
+
+

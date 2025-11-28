@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>{{ page.title | default: site.title }}</title>
+  <meta name="description" content="{{ page.excerpt | escape | default: site.description }}" />
+  <link rel="stylesheet" href="/assets/css/style.css" />
+</head>
+<body>
+  <div class="site">
+    <header class="site-header">
+      <div class="container">
+        <img
+          src="/assets/images/banner.jpg"
+          alt="Banner Ultima Online D&D"
+          style="width:100%; height:auto; max-height: 250px;"
+        />
+        <nav class="main-nav">
+          <ul>
+            <li><a href="{{ '/' | relative_url }}">Home</a></li>
+            <li><a href="{{ '/come-giocare/' | relative_url }}">Come giocare</a></li>
+            <li><a href="{{ '/ambientazione/' | relative_url }}">Ambientazione</a></li>
+            <li><a href="{{ '/classi-e-razze/' | relative_url }}">Classi e Razze</a></li>
+            <li><a href="{{ '/sistemi/' | relative_url }}">Sistemi</a></li>
+            <li><a href="{{ '/download/' | relative_url }}">Download</a></li>
+            <li><a href="{{ '/regolamento/' | relative_url }}">Regolamento</a></li>
+            <li><a href="{{ '/contatti/' | relative_url }}">Contatti</a></li>
+            <li><a href="{{ '/manuale/' | relative_url }}">Manuale di gioco</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container layout">
+
+      {% if page.url == '/' %}
+      <button id="toggle-news" class="toggle-news-btn">News & Aggiornamenti ▼</button>
+      <div id="sidebar-wrapper" class="sidebar-wrapper">
+        <aside class="sidebar">
+          <h2>News & Aggiornamenti</h2>
+          <ul class="news-list">
+            {% for post in site.posts limit:5 %}
+            <li>
+              <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+              <small>{{ post.date | date: '%d/%m/%Y' }}</small>
+            </li>
+            {% endfor %}
+          </ul>
+        </aside>
+      </div>
+      {% endif %}
+
+      <section class="page-content">
+        {{ content }}
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© {{ site.time | date: '%Y' }} {{ site.title }} — Non ufficiale</p>
+        <p><a href="https://discord.gg/Sd8evXW3">Discord</a> • <a href="/regolamento/">Regolamento</a></p>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const toggleBtn = document.getElementById('toggle-news');
+      const sidebarWrapper = document.getElementById('sidebar-wrapper');
+
+      if (toggleBtn && sidebarWrapper) {
+        toggleBtn.addEventListener('click', function () {
+          if (sidebarWrapper.style.display === 'block') {
+            sidebarWrapper.style.display = 'none';
+            toggleBtn.textContent = 'News & Aggiornamenti ▼';
+          } else {
+            sidebarWrapper.style.display = 'block';
+            toggleBtn.textContent = 'Chiudi aggiornamenti ▲';
+          }
+        });
+      }
+    });
+  </script>
+</body>
+</html>

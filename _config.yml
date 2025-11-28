@@ -1,0 +1,11 @@
+title: Whispers of the Sword Coast
+email: info@example.com
+description: >- # this means to fold newlines to spaces
+  Uno shard di Ultima Online ispirato a Dungeons & Dragons. Lore, regole, guide e download.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://whispersoftheswordcoast.github.io" # the base hostname & protocol for your site
+theme: minima
+plugins: []
+markdown: kramdown
+paginate: 5
+exclude: ["node_modules", "vendor"]
