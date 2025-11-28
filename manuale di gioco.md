@@ -4,9 +4,6 @@ title: Manuale
 permalink: /manuale/
 ---
 
-<iframe 
-  src="/assets/pdf/nomefile.pdf"
-  width="120%" 
-  height="800px"
-  style="border: none;">
-</iframe>
+<div class="pdf-wrapper">
+  <iframe class="pdf-frame" src="/assets/pdf/nomefile.pdf"></iframe>
+</div>
