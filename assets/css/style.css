@@ -198,7 +198,7 @@ img {
 
 /* --- PDF STANDARD DESKTOP --- */
 .pdf-wrapper {
-  width: 100%;
+  width: 130%;
   height: 80vh;
   max-height: 900px;
   margin: 0 auto 20px auto;
