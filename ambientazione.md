@@ -11,13 +11,13 @@ Le avventure dello shard si svolgono tra le **Terre Centrali Occidentali**,compr
 # Terre di Cuore Occidentali
 
 ---
-title: Western Heartlands
+title: Terre Centrali Occidentali
 date: 2025-11-27
 layout: post
 categories: faerun heartlands western
 ---
 
-# Western Heartlands (1372 DR)
+# Terre Centrali Occidentali (1372 DR)
 
 **Capitale:** Nessuna  
 **Popolazione:** 1.641.600 (umani 78%, elfi 7%, mezzelfi 4%, halfling 4%, mezzorchi 3%, gnomi 2%, nani 1%)  
@@ -29,7 +29,7 @@ categories: faerun heartlands western
 
 ## Panoramica geografica e descrizione generale
 
-La Western Heartlands copre una vasta area che si estende tra le Storm Horns di Cormyr e la Sword Coast, a sud di Waterdeep, dal Lizard Marsh a nord-ovest fino al Lonely Moor ai margini del deserto di Anauroch a nord-est; scende verso sud-ovest fino a Beregost e Green Fields, e a sud-est fino a Easting, al confine con la Dragon Coast.
+La Terre Centrali Occidentali copre una vasta area che si estende tra le Storm Horns di Cormyr e la Sword Coast, a sud di Waterdeep, dal Lizard Marsh a nord-ovest fino al Lonely Moor ai margini del deserto di Anauroch a nord-est; scende verso sud-ovest fino a Beregost e Green Fields, e a sud-est fino a Easting, al confine con la Dragon Coast.
 
 Per i carovanieri di Amn e Sembia, la Heartlands occidentale è nota come "miles and miles of miles and miles": vaste praterie spazzate dal vento che costeggiano paludi intransitabili, terre desolate, colline ondulate, altopiani malsani e foreste isolate, tutte popolate da mostri.
 
@@ -37,13 +37,13 @@ Nonostante le difficoltà, agricoltori, abitanti di frontiera, cittadini delle c
 
 La regione ospita decine di città murate, enclave razziali, villaggi agricoli, monasteri, fortezze fortificate e domini armati.
 
-La Western Heartlands attrae avventurieri ambiziosi: dozzine di imperi ormai in rovina hanno cercato di conquistarla, lasciando dietro di sé fortezze, tesori, magia pericolosa, o entrambi. A differenza delle regioni densamente popolate delle Heartlands centrali o del Nord, nella Heartlands occidentale i viaggi per terra tra le destinazioni sono lunghi — ma almeno, qualcuno che muore di freddo per strada non rischia.
+La Terre Centrali Occidentali attrae avventurieri ambiziosi: dozzine di imperi ormai in rovina hanno cercato di conquistarla, lasciando dietro di sé fortezze, tesori, magia pericolosa, o entrambi. A differenza delle regioni densamente popolate delle Heartlands centrali o del Nord, nella Heartlands occidentale i viaggi per terra tra le destinazioni sono lunghi — ma almeno, qualcuno che muore di freddo per strada non rischia.
 
 ---
 
 ## Vita e società
 
-Gli abitanti delle Western Heartlands vivono sparsi in insediamenti nella natura selvaggia. Le persone dell’ovest tendono a essere ostinate, indipendenti e fiere della propria capacità di sopravvivere in un ambiente difficile. Il loro spirito da frontiera si accompagna a una mentalità da mercanti: spesso accolgono gli stranieri come potenziali amici, non come nemici.
+Gli abitanti delle Terre Centrali Occidentali vivono sparsi in insediamenti nella natura selvaggia. Le persone dell’ovest tendono a essere ostinate, indipendenti e fiere della propria capacità di sopravvivere in un ambiente difficile. Il loro spirito da frontiera si accompagna a una mentalità da mercanti: spesso accolgono gli stranieri come potenziali amici, non come nemici.
 
 Diversamente da alcune popolazioni “civilizzate” delle nazioni orientali, la gente dell’ovest guarda con favore agli avventurieri: li vede come possibili clienti, buoni alleati in battaglia, e magari anche come futuri vicini.
 
@@ -51,7 +51,7 @@ Diversamente da alcune popolazioni “civilizzate” delle nazioni orientali, la
 
 ## Principali caratteristiche geografiche
 
-Il termine “Western Heartlands” è un po’ generico: include una vasta fascia di terra tra Amn e il Nord, che si estende dalla Sword Coast fino alla Dragon Coast del Mare Interno. I suoi confini precisi sono oggetto di dibattito.
+Il termine “Terre Centrali Occidentali” è un po’ generico: include una vasta fascia di terra tra Amn e il Nord, che si estende dalla Sword Coast fino alla Dragon Coast del Mare Interno. I suoi confini precisi sono oggetto di dibattito.
 
 ### Battle of Bones
 
@@ -163,7 +163,7 @@ La “Città degli Splendori”, capitale culturale e commerciale della regione,
 
 ## Storia regionale e dinamiche di potere
 
-La storia antica della Western Heartlands emerge da tombe sparse, statue rotte e rovine di decine di potenti regni. Zone come la Fields of the Dead o la Battle of Bones testimoniano che pochi di questi regni terminarono pacificamente.
+La storia antica della Terre Centrali Occidentali emerge da tombe sparse, statue rotte e rovine di decine di potenti regni. Zone come la Fields of the Dead o la Battle of Bones testimoniano che pochi di questi regni terminarono pacificamente.
 
 Nei secoli precedenti l’ascesa di Waterdeep, il regno più grande fu probabilmente Illefarn — un regno elfico che rivaleggiava con Myth Drannor. Dopo la caduta di Illefarn, altri regni come Phalorm (il “Regno delle Tre Corone”) e vari regni umani si succedettero al potere, ma nessuno riuscì mai a controllare l’intera regione.
 
