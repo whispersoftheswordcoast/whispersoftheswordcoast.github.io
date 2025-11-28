@@ -183,3 +183,15 @@ a { color: #e6c996; }
     width: 30%;
   }
 }
+
+/* Immagini nel contenuto, responsive e centrate */
+.content img, /* se hai un container con classe content */
+.post-content img, /* o classe post-content */
+article img, /* o direttamente img dentro articoli */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1rem auto;
+  box-sizing: border-box;
+}
