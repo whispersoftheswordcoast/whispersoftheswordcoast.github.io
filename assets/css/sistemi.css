@@ -1,0 +1,145 @@
+/* Container principale */
+.container-sistemi {
+  display: flex;
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 1.2rem;
+  gap: 2rem;
+  align-items: flex-start;
+  flex-direction: row;
+  color: #e6e1d9;
+  font-family: "Georgia", serif;
+  background: transparent;
+}
+
+/* Sidebar */
+.sistemi-sidebar {
+  width: 260px;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 1rem;
+  border-radius: 8px;
+  position: sticky;
+  top: 20px;
+  font-family: "Georgia", serif;
+  color: #f6e7c1;
+  box-shadow: 0 0 10px rgba(246, 231, 193, 0.3);
+  transition: transform 0.3s ease-in-out;
+  z-index: 1000;
+}
+
+/* Titolo sidebar */
+.sistemi-sidebar h3 {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  color: #f6e7c1;
+  border-bottom: 1px solid rgba(246, 231, 193, 0.3);
+  padding-bottom: 0.5rem;
+}
+
+/* Lista */
+.sistemi-sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Elementi lista */
+.sistemi-sidebar li {
+  margin: 0.5rem 0;
+}
+
+/* Link sidebar */
+.sistemi-sidebar a {
+  color: #d9c9a6;
+  text-decoration: none;
+  font-weight: normal;
+  transition: color 0.3s;
+}
+
+/* Link attivo e hover */
+.sistemi-sidebar li.active a,
+.sistemi-sidebar a:hover {
+  font-weight: bold;
+  color: #f6e7c1;
+  text-decoration: underline;
+}
+
+/* Contenuto principale */
+.sistemi-content {
+  flex: 1;
+  max-width: 700px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #e6e1d9;
+  font-family: "Georgia", serif;
+}
+
+/* Headings contenuto */
+.sistemi-content h1,
+.sistemi-content h2,
+.sistemi-content h3 {
+  font-family: "Palatino Linotype", "Book Antiqua", serif;
+  color: #f6e7c1;
+  margin-top: 1.5rem;
+}
+
+/* Link contenuto */
+.sistemi-content a {
+  color: #e6c996;
+  text-decoration: none;
+}
+
+.sistemi-content a:hover {
+  text-decoration: underline;
+  color: #f6e7c1;
+}
+
+/* Pulsante toggle sidebar (mobile) */
+.sidebar-toggle-button {
+  display: none; /* nascosto di default */
+  margin-top: 0.5rem;
+  background: rgba(246, 231, 193, 0.9);
+  border: none;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  color: #3a2d12;
+  cursor: pointer;
+  border-radius: 5px;
+  z-index: 1100;
+}
+
+/* Responsive - mobile */
+@media (max-width: 767px) {
+  .container-sistemi {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .sistemi-sidebar {
+    width: 100%;
+    max-width: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    padding: 2rem 1.5rem;
+    background: rgba(0, 0, 0, 0.9);
+    color: #f6e7c1;
+    transform: translateX(-110%);
+    border-right: 2px solid #f6e7c1;
+    box-shadow: 3px 0 15px rgba(0,0,0,0.6);
+  }
+
+  .sistemi-sidebar.active {
+    transform: translateX(0);
+  }
+
+  .sidebar-toggle-button {
+    display: block; /* visibile solo in mobile */
+  }
+
+  .sistemi-content {
+    max-width: 100%;
+    margin-top: 3rem;
+  }
+}

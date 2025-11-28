@@ -1,0 +1,9 @@
+{% assign sistemi_pages = site.pages | where_exp: "page", "page.path contains 'sistemi/'" %}
+{% assign sistemi_pages = sistemi_pages | where_exp: "page", "page.order != 1" %}
+{% assign sistemi_pages_sorted = sistemi_pages | sort: "order" %}
+
+{% for p in sistemi_pages_sorted %}
+  <article class="sistemi-article">
+    {{ p.content | markdownify }}
+  </article>
+{% endfor %}
