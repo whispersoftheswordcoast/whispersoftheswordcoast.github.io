@@ -6,6 +6,8 @@ order: 1
 
 # Terre Centrali Occidentali
 
+<img src="{{ '/assets/images/WesternHeartlands5e.webp' | relative_url }}" alt="westernheartlands" style="display: block; margin: 0 auto;" />
+
 **Capitale:** Nessuna  
 **Popolazione:** 1.641.600 (umani 78%, elfi 7%, mezzelfi 4%, halfling 4%, mezzorchi 3%, gnomi 2%, nani 1%)  
 **Governo:** Città-stato, ognuna con un proprio tipo di governo  

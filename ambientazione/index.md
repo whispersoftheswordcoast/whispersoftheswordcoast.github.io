@@ -5,11 +5,11 @@ order: 0
 ---
 
 # Ambientazione
-
+<img src="{{ '/assets/images/ulcaster.jpg' | relative_url }}" alt="Ulcaster" style="display: block; margin: 0 auto;" />
 Le avventure dello shard si svolgono tra le **Terre Centrali Occidentali**,comprendenti Baldur's Gate, e **l'Amn**, territori esplorati in diversi giochi e campagne classiche e non, ma con una particolaritá: tutto é reso coerentemente per essere ambientato nel 1368, e coincide grossomodo con la timeline dei manuali D&D di seconda edizione.
 
 # Fonti maggiormente usate
-
+<img src="{{ '/assets/images/candlekeep.jpg' | relative_url }}" alt="Candlekeep" style="display: block; margin: 0 auto;" />
 Se desideraste in autonomia studiare l'ambientazione che utilizziamo, le fonti a cui ci appoggiamo maggiormente sono le seguenti
 
  - *Ed Greenwood (1994). Volo's Guide to the Sword Coast. (TSR, Inc), p. 8. ISBN 1-5607-6940-1.*
