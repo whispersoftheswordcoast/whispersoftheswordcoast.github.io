@@ -9,10 +9,10 @@ order: 2
 ---
 
 ## Agricoltore
+<img src="{{ '/assets/images/agricoltura.jpg' | relative_url }}" alt="agricoltura" style="display: block; margin: 0 auto;" />
 
 **Descrizione**  
 L’agricoltore é una figura fondamentale per la produzione di piante, frutti e semi necessari a molti altri mestieri come alchimisti, cuochi e sarti.
-
 
 **Meccaniche**
 - Arare: doppio click sull’aratro → click sul terreno.  
@@ -36,6 +36,7 @@ L’agricoltore é una figura fondamentale per la produzione di piante, frutti e
 
 ---
 ## Cuoco
+<img src="{{ '/assets/images/cuoco.jpg' | relative_url }}" alt="cuoco" style="display: block; margin: 0 auto;" />
 
 **Descrizione**
 Il cuoco trasforma ingredienti e materie prime in cibo pronto da consumare. Serve a garantire pasti, viveri e preparazioni alimentari utili per la sopravvivenza quotidiana, viaggi, avventure o commercio.
@@ -84,6 +85,7 @@ Il cuoco trasforma ingredienti e materie prime in cibo pronto da consumare. Serv
 ---
 
 ## Erborista
+<img src="{{ '/assets/images/erborista.jpg' | relative_url }}" alt="erborista" style="display: block; margin: 0 auto;" />
 
 **Descrizione**
 Gli alchimisti hanno sempre bisogno di reagenti per le proprie pozioni, e la maggior parte di questi si possono trovare tra le erbe dei verdi prati di Faerûn: solo un attento erborista sarà in grado di riconoscerli e raccoglierli senza danneggiarli, e solo con lo strumento giusto. Grazie all’apposito sradicatore, l’esperto raccoglitore di erbe può selezionare i reagenti migliori e raccoglierli per uso futuro. Anche se il lavoro è lento e ripetitivo, il rendimento è assicurato.
@@ -116,6 +118,7 @@ Gli alchimisti hanno sempre bisogno di reagenti per le proprie pozioni, e la mag
 ---
 
 ## Metallurgia
+<img src="{{ '/assets/images/metallurgia.jpg' | relative_url }}" alt="metallurgia" style="display: block; margin: 0 auto;" />
 
 **Descrizione**  
 Il minatore estrae minerali, metalli e pietre da cave e montagne. Le risorse ottenute alimentano il lavoro di fabbri, inventori e altri artigiani.
@@ -136,7 +139,8 @@ Il minatore estrae minerali, metalli e pietre da cave e montagne. Le risorse ott
 
 ---
 
-## Boscaiolo
+## Taglialegna
+<img src="{{ '/assets/images/boscaiolo.jpg' | relative_url }}" alt="boscaiolo" style="display: block; margin: 0 auto;" />
 
 **Descrizione**  
 Abbattendo gli alberi, il boscaiolo ricava tronchi e legno utile a molti altri mestieri. Esistono varie tipologie di legno, ognuna con proprietà specifiche.
@@ -153,7 +157,7 @@ Abbattendo gli alberi, il boscaiolo ricava tronchi e legno utile a molti altri m
 
 ---
 
-## Alchimista
+## Alchimia
 
 **Descrizione**  
 L’alchimista combina reagenti per creare pozioni con vari effetti. Servono solo un mortaio (con pestello) e un’ampolla per contenere il risultato.
@@ -168,6 +172,53 @@ L’alchimista combina reagenti per creare pozioni con vari effetti. Servono sol
 |----------|----------|
 | Mortaio | Strumento base per combinare i reagenti. |
 | Bottiglie Vuote | Contenitori per le pozioni create. |
+
+---
+
+# Fabbro
+
+## Descrizione  
+Il fabbro è l’artigiano che, una volta che i metalli sono stati estratti e fusi in lingotti, li lavora per creare armi, armature, utensili e altri oggetti metallici necessari.  
+Con incudine, martello da fabbro e lingotti, il fabbro plasma metalli secondo le proprie esigenze, dando vita a spade, corazze, chiodi, strumenti e molto altro.
+
+## Meccaniche / Procedura  
+- Equipaggiare il martello da fabbro → due click sul martello → click su un’incudine vicina → click sui lingotti da usare → nel menu scegliere il tipo di oggetto (es. “Armi” → “Spade” → “Spada lunga”) → dopo il tempo necessario l’oggetto viene creato e finisce nello zaino o nella borsa.  
+- Se si vuole, con le pinze per fusione e una forgia è possibile fondere o rifondere oggetti metallici: usare pinze → click sulla forgia → click su un oggetto metallico → si ottengono parte dei lingotti impiegati.
+
+## Attrezzi necessari  
+
+| Attrezzo / Oggetto        | Funzione / Utilizzo |
+|---------------------------|----------------------|
+| Incudine                  | Supporto per battere e modellare metalli con martello. |
+| Martello da Fabbro        | Strumento principale per forgiare armi/oggetti partendo da lingotti. |
+| Forgia                    | Necessaria per fondere metalli o rifondere oggetti. |
+| Pinze per Fusione         | Usate insieme alla forgia per fondere o smantellare oggetti in metallo. |
+| Incisore                  | Permette di incidere decorazioni o testi su oggetti metallici già creati. |
+
+## Materie prime / Materiali lavorabili  
+
+I metalli e materiali che un fabbro può utilizzare sono numerosi, da quelli comuni a quelli molto rari. Ecco alcuni esempi tipici:
+
+- Ferro — metallo base, ampiamente usato per armi, utensili e armature.  
+- Rame, Bronzo, Ottone, Electrum — metalli e leghe più leggeri o semplici, usati per oggetti meno “bellici” o decorativi.  
+- Acciaio — lega resistente per armi e armature robuste.  
+- Metalli pregiati o speciali come Argento, Oro, Platino — utilizzati per monili, decorazioni o armi/armature da cerimonia o magiche.  
+- Metalli rari o esotici (ad es. Dlarun, Ferro Febbrile, Metallo Vivente, leghe leggendarie come Arandur, Mithral, Adamantio/Adamantite) — materiali rari e difficili da reperire, usati per manufatti di alto livello, con proprietà particolari.  
+
+## Prodotti tipici  
+
+Un fabbro qualificato può produrre:
+
+- Armi: spade, pugnali, lance, mazze, asce, ecc.  
+- Armature e protezioni: corazze, elmi, scudi, gambali, corazze leggere o pesanti a seconda del metallo.  
+- Utensili e oggetti metallici di uso quotidiano: chiodi, strumenti, portoni, serrature, elementi utili a altri artigiani.  
+- Oggetti personalizzati o decorati, grazie all’incisore — ad esempio con incisioni, fregi, decorazioni su armi, armature o monili.  
+
+## Note  
+
+- La qualità del metallo usato influisce molto su resistenza, durata ed efficacia dell’oggetto finale.  
+- La lavorazione richiede attenzione: una forgia, materiali adeguati e strumenti specifici.  
+- Un fabbro può anche smantellare o rifondere oggetti, recuperando parte del materiale di base se usa pinze e forgia.  
 
 ---
 
@@ -193,7 +244,7 @@ Lavora il legno per creare mobili, contenitori, armi (archi, balestre, bastoni),
 
 ---
 
-## Inventore
+## Ferramenta/Intagliare gemmem
 
 **Descrizione**  
 L’inventore è un artigiano versatile che unisce materiali diversi (metalli, legni, gemme, argilla, ossa, vetro, scaglie) per creare oggetti complessi, strumenti, monili e armature particolari.
@@ -220,7 +271,7 @@ L’inventore è un artigiano versatile che unisce materiali diversi (metalli, l
 Con canna ed esche pesca pesci e a volte oggetti rari o utili come reagenti.
 
 **Meccaniche**
-- Selezionare l’esca → usare la canna → click sull’acqua.  
+- Selezionare l’esca → usare la canna → click sull’acqua. Non é necessaria ma migliora le possibilitá
 - Si consiglia di non lanciare troppo lontano per aumentare la riuscita.
 
 **Attrezzi**
@@ -231,7 +282,7 @@ Con canna ed esche pesca pesci e a volte oggetti rari o utili come reagenti.
 
 ---
 
-## Sarto
+## Tessitura/Lavorare pellami
 
 **Descrizione**  
 Crea vestiti, bende, armature leggere e abiti decorati usando stoffe, pelli o cuoio. Può tingere, incidere o ricamare i capi.
