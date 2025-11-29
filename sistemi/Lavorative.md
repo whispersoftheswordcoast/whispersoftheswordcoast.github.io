@@ -11,7 +11,8 @@ order: 2
 ## Agricoltore
 
 **Descrizione**  
-L’agricoltore
+L’agricoltore é una figura fondamentale per la produzione di piante, frutti e semi necessari a molti altri mestieri come alchimisti, cuochi e sarti.
+
 
 **Meccaniche**
 - Arare: doppio click sull’aratro → click sul terreno.  
@@ -34,19 +35,19 @@ L’agricoltore
 | Boccette Vuote | Contenitori per imbottigliare prodotti come il vino. |
 
 ---
-# Cucinare (Cuoco)
+## Cuoco
 
-## Descrizione  
+**Descrizione**
 Il cuoco trasforma ingredienti e materie prime in cibo pronto da consumare. Serve a garantire pasti, viveri e preparazioni alimentari utili per la sopravvivenza quotidiana, viaggi, avventure o commercio.
 
-## Meccaniche / Procedura  
+**Meccaniche / Procedura**
 - Il cuoco deve avere gli ingredienti necessari (materie prime e utensili da cucina).  
 - In base alla ricetta o tipo di cibo, seleziona gli ingredienti → usa gli utensili per combinare, cucinare, impastare, bollire, friggere, cuocere, ecc.  
 - Il risultato appare nello zaino o nella borsa del personaggio.  
 
 > **Nota:** la disponibilità di ricette, ingredienti e risultati può dipendere da regole interne, equipaggiamenti e variabili di gioco.  
 
-## Attrezzi necessari  
+**Attrezzi necessari**
 
 | Attrezzo / Oggetto          | Funzione / Utilizzo                              |
 |----------------------------|-------------------------------------------------|
@@ -55,7 +56,7 @@ Il cuoco trasforma ingredienti e materie prime in cibo pronto da consumare. Serv
 | Contenitori / Pentole / Padelle / Recipienti | Mescolare, cuocere, conservare gli alimenti          |
 | Tagliere / Coltelli / Strumenti da preparazione | Pulire, tagliare, sminuzzare ingredienti crudi       |
 
-## Materie prime / Ingredienti  
+**Materie prime / Ingredienti**
 
 | Categoria                | Esempi / Note                                     |
 |-------------------------|--------------------------------------------------|
@@ -68,13 +69,13 @@ Il cuoco trasforma ingredienti e materie prime in cibo pronto da consumare. Serv
 | Acqua / Liquidi / Bevande | Acqua, brodi, bevande base, liquidi per cottura               |
 | Prodotti conservati / Essiccati / Salati | Carne secca, salumi, pesce secco, frutti secchi, scorte durevoli |
 
-## Possibili Prodotti / Risultati  
+**Possibili Prodotti / Risultati** 
 - Pasti pronti: carne cotta, zuppe, stufati, pietanze miste — utili per nutrire, rigenerare energia o sopravvivere.  
 - Cibo da conservare: carni stagionate, pesce essiccato, conserve, scorte a lunga conservazione.  
 - Ingredienti trasformati: farine, impasti, pani, paste, conserve di frutta/verdura, cibi pronti da vendere o scambiare.  
 - Piatti elaborati, per vendita o scambio, a seconda delle regole e disponibilità di gioco.  
 
-## Note / Considerazioni  
+**Note / Considerazioni** 
 - La riuscita della cucinatura può dipendere da attrezzi, ingredienti e abilità del cuoco.  
 - Alcuni ingredienti possono essere rari o difficili da reperire.  
 - Il cibo prodotto può essere utile per il personaggio, per venderlo, barattarlo o usarlo come risorsa in gioco.  
@@ -82,22 +83,22 @@ Il cuoco trasforma ingredienti e materie prime in cibo pronto da consumare. Serv
 
 ---
 
-# Erborista
+## Erborista
 
-## Descrizione  
+**Descrizione**
 Gli alchimisti hanno sempre bisogno di reagenti per le proprie pozioni, e la maggior parte di questi si possono trovare tra le erbe dei verdi prati di Faerûn: solo un attento erborista sarà in grado di riconoscerli e raccoglierli senza danneggiarli, e solo con lo strumento giusto. Grazie all’apposito sradicatore, l’esperto raccoglitore di erbe può selezionare i reagenti migliori e raccoglierli per uso futuro. Anche se il lavoro è lento e ripetitivo, il rendimento è assicurato.
 
-## Meccaniche / Procedura  
+**Meccaniche / Procedura**  
 - Equipaggia lo **sradicatore** → due click sullo sradicatore → un click sul terreno verdeggiante.  
 - Finché il personaggio resta fermo, continua a cercare fino all’esaurimento della zona. I reagenti raccolti finiscono nello zaino o nella borsa selezionata.  
 
-## Attrezzi necessari  
+**Attrezzi necessari** 
 
 | Attrezzo    | Funzione / Utilizzo |
 |-------------|----------------------|
 | Sradicatore | Usato per cercare e raccogliere erbe/reagenti sul terreno. |
 
-## Materie prime / Reagenti & Risultati possibili  
+**Materie prime / Reagenti & Risultati possibili** 
 
 | Categoria / Nome | Note / Descrizione |
 |------------------|--------------------|
@@ -107,10 +108,48 @@ Gli alchimisti hanno sempre bisogno di reagenti per le proprie pozioni, e la mag
 | Reagenti Comuni  | Erbe e reagenti facilmente reperibili: ad esempio Aglio, Bacche, Bozzoli, Cenere Sulfurea, Cenere Vulcanica, Foglie di Vischio, Funghi Bianchi, Funghi Rossi, Funghi Viola, Ginseng, Gusci d'Uova, Muschio Sanguigno, Scarafaggi, Terreni Fertili. |
 | Reagenti Rari    | Erbe e ingredienti rari e ricercati: tra questi si trovano Belladonna, Radice di Mandragola, Perla Nera (o altri reagenti speciali) — raccolti solo dagli erboristi più esperti. |
 
-## Note  
+**Note**
 - La raccolta può dare risultati variabili: da semplici reagenti comuni a materiali rari.  
 - L’uso dello sradicatore è necessario: senza di esso non si può raccogliere in modo efficace.  
 - I materiali raccolti da un erborista sono fondamentali per alchimisti, studiosi e altri mestieri che richiedono reagenti.  
+
+---
+
+## Metallurgia
+
+**Descrizione**  
+Il minatore estrae minerali, metalli e pietre da cave e montagne. Le risorse ottenute alimentano il lavoro di fabbri, inventori e altri artigiani.
+
+**Meccaniche**
+- Estrarre: impugnare la piccozza → doppio click → click su terreno roccioso.  
+- Continuando a restare fermi si mina fino all’esaurimento.  
+- Fusioni e leghe avvengono in forgia usando le pinze da fusione.
+
+**Attrezzi**
+
+| Attrezzo | Funzione |
+|----------|----------|
+| Pala | Scavare terreni sabbiosi o paludosi. |
+| Piccozza | Estrazione da terreno roccioso. |
+| Pinze da Fusione | Fondono metalli in forgia e creano leghe. |
+| Forgia | Per fondere minerali grezzi in lingotti. |
+
+---
+
+## Boscaiolo
+
+**Descrizione**  
+Abbattendo gli alberi, il boscaiolo ricava tronchi e legno utile a molti altri mestieri. Esistono varie tipologie di legno, ognuna con proprietà specifiche.
+
+**Meccaniche**
+- Abbattimento: impugnare l’accetta → doppio click → click sull’albero.  
+- Se si resta fermi si continua fino all’esaurimento della risorsa.
+
+**Attrezzi**
+
+| Attrezzo | Funzione |
+|----------|----------|
+| Accetta | Abbattere gli alberi e ricavare tronchi. |
 
 ---
 
@@ -129,23 +168,6 @@ L’alchimista combina reagenti per creare pozioni con vari effetti. Servono sol
 |----------|----------|
 | Mortaio | Strumento base per combinare i reagenti. |
 | Bottiglie Vuote | Contenitori per le pozioni create. |
-
----
-
-## Boscaiolo
-
-**Descrizione**  
-Abbattendo gli alberi, il boscaiolo ricava tronchi e legno utile a molti altri mestieri. Esistono varie tipologie di legno, ognuna con proprietà specifiche.
-
-**Meccaniche**
-- Abbattimento: impugnare l’accetta → doppio click → click sull’albero.  
-- Se si resta fermi si continua fino all’esaurimento della risorsa.
-
-**Attrezzi**
-
-| Attrezzo | Funzione |
-|----------|----------|
-| Accetta | Abbattere gli alberi e ricavare tronchi. |
 
 ---
 
@@ -189,27 +211,6 @@ L’inventore è un artigiano versatile che unisce materiali diversi (metalli, l
 | Stampo per Chiavi | Copia di chiavi esistenti. |
 | Forgia | Ammorbidire e lavorare metalli. |
 | Forno | Cuocere argilla per ceramiche e vasellame. |
-
----
-
-## Minatore
-
-**Descrizione**  
-Il minatore estrae minerali, metalli e pietre da cave e montagne. Le risorse ottenute alimentano il lavoro di fabbri, inventori e altri artigiani.
-
-**Meccaniche**
-- Estrarre: impugnare la piccozza → doppio click → click su terreno roccioso.  
-- Continuando a restare fermi si mina fino all’esaurimento.  
-- Fusioni e leghe avvengono in forgia usando le pinze da fusione.
-
-**Attrezzi**
-
-| Attrezzo | Funzione |
-|----------|----------|
-| Pala | Scavare terreni sabbiosi o paludosi. |
-| Piccozza | Estrazione da terreno roccioso. |
-| Pinze da Fusione | Fondono metalli in forgia e creano leghe. |
-| Forgia | Per fondere minerali grezzi in lingotti. |
 
 ---
 
