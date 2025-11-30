@@ -42,45 +42,26 @@ L’agricoltore é una figura fondamentale per la produzione di piante, frutti e
 Il cuoco trasforma ingredienti e materie prime in cibo pronto da consumare. Serve a garantire pasti, viveri e preparazioni alimentari utili per la sopravvivenza quotidiana, viaggi, avventure o commercio.
 
 **Meccaniche / Procedura**
-- Il cuoco deve avere gli ingredienti necessari (materie prime e utensili da cucina).  
-- In base alla ricetta o tipo di cibo, seleziona gli ingredienti → usa gli utensili per combinare, cucinare, impastare, bollire, friggere, cuocere, ecc.  
-- Il risultato appare nello zaino o nella borsa del personaggio.  
 
-> **Nota:** la disponibilità di ricette, ingredienti e risultati può dipendere da regole interne, equipaggiamenti e variabili di gioco.  
+**Libro delle ricette** :Viene utilizzato per salvare le varie ricette. Il numero di ricette scrivibili in un libro è limitato (max 20). È possibile copiare una ricetta da un libro ad un altro libro o ad una pergamena vuota cliccando sull’apposito pulsante. Se invece si clicca sul pulsante “prepara”, viene chiesto di selezionare gli ingredienti e gli strumenti necessari alla preparazione. Gli ingredienti vengono selezionati nella giusta quantita’ (anche se lo stack contiene un amount maggiore). Se un ingrediente fa parte di un gruppo (per esempio “aromi”, di cui fanno parte aglio e cipolla), si possono selezionare diversi item che si trovano nel gruppo.
+**Ricetta**:Consiste in una pergamena in cui è memorizzata una ricetta (come per il libro delle ricette).
 
-**Attrezzi necessari**
+**Comandi**
 
-| Attrezzo / Oggetto          | Funzione / Utilizzo                              |
-|----------------------------|-------------------------------------------------|
-| Utensili da Cucina / Kit da Cuoco | Pentole, padelle, coltelli, mestoli ecc.           |
-| Fornelli / Fuoco / Stufa / Camino / Forgia‑Cucina | Per cuocere, bollire, friggere o elaborare con calore |
-| Contenitori / Pentole / Padelle / Recipienti | Mescolare, cuocere, conservare gli alimenti          |
-| Tagliere / Coltelli / Strumenti da preparazione | Pulire, tagliare, sminuzzare ingredienti crudi       |
+**.cucina**
+Il comando permette di preparare un cibo senza avere a disposizione la ricetta che si intende preparare. Quando si digita il comando .cucina, compare il seguente gump che permette di selezionare gli ingredienti, gli strumenti e il fuoco da utilizzare per cuocere il cibo (nel caso in cui sia necessario).
 
-**Materie prime / Ingredienti**
+Nota: gli ingredienti devono essere selezionati nella giusta quantità, quindi, per esempio, se nello zaino si hanno 20 uova e per la ricetta ne servono solo 2, allora bisogna separare prima le due uova dal mucchio e poi selezionarle. Questa è la principale differenza tra l’utilizzo del comando .cucina e l’utilizzo del pulsante “prepara” che si trova nelle ricette o nel libro delle ricette. Nel caso in cui si voglia deselezionare qualcosa, è possibile utilizzare il pulsante X vicino all’Item selezionato. Quando si è sicuri degli elementi selezionati, si può provare a cucinare il cibo premendo sul pulsante OK.
+Se la preparazione è andata a buon fine, si può decidere di trascrivere la ricetta su una pergamena o sul libro delle ricette.
 
-| Categoria                | Esempi / Note                                     |
-|-------------------------|--------------------------------------------------|
-| Carne / Carne fresca o secca | Carne di bestie, selvaggina, pescato, stagionata, conservata |
-| Pesce / Prodotti ittici | Pesci pescati, frutti di mare, filetti, pesce conservato |
-| Verdure, Erbe, Funghi, Piante | Verdure, erbe, funghi, piante commestibili, radici, bacche, erbe aromatiche |
-| Cereali / Pane / Farine / Impasti | Farina, pane, pane secco, impasti vari                   |
-| Latticini / Uova / Derivati animali | Uova, latte, formaggi, burro, derivati                     |
-| Spezie / Condimenti / Reagenti alimentari | Spezie, sale, erbe aromatiche, condimenti                  |
-| Acqua / Liquidi / Bevande | Acqua, brodi, bevande base, liquidi per cottura               |
-| Prodotti conservati / Essiccati / Salati | Carne secca, salumi, pesce secco, frutti secchi, scorte durevoli |
+**.esamina**
+La qualità del cibo creato dipende dalla qualità di tutti gli ingredienti utilizzati nella ricetta. Nel caso in cui degli ingredienti non abbiano una qualità settata, essa viene stabilita in modo “random”. Per ovviare al problema di non sapere la qualità degli ingredienti utilizzati è possibile utilizzare il comando esamina che assegna una qualità random agli item selezionati (applicabile solo sugli item contenuti nel file ingredienti.cfg).
+Quando viene selezionato uno stack di ingredienti, essi vengono separati e raggruppati per qualità (come mostrato in figura).
 
-**Possibili Prodotti / Risultati** 
-- Pasti pronti: carne cotta, zuppe, stufati, pietanze miste — utili per nutrire, rigenerare energia o sopravvivere.  
-- Cibo da conservare: carni stagionate, pesce essiccato, conserve, scorte a lunga conservazione.  
-- Ingredienti trasformati: farine, impasti, pani, paste, conserve di frutta/verdura, cibi pronti da vendere o scambiare.  
-- Piatti elaborati, per vendita o scambio, a seconda delle regole e disponibilità di gioco.  
+**.arrostire** 
+Permette di arrostire alla bell'e meglio costolette di carne o tranci di pesce su un fuoco preparato. Comando utilizzabile senza cd. 
 
-**Note / Considerazioni** 
-- La riuscita della cucinatura può dipendere da attrezzi, ingredienti e abilità del cuoco.  
-- Alcuni ingredienti possono essere rari o difficili da reperire.  
-- Il cibo prodotto può essere utile per il personaggio, per venderlo, barattarlo o usarlo come risorsa in gioco.  
-- Fa parte delle lavorative dello shard, con funzioni di sopravvivenza, commercio e utilità in viaggio/avventura.  
+
 
 ---
 
@@ -104,8 +85,8 @@ Gli alchimisti hanno sempre bisogno di reagenti per le proprie pozioni, e la mag
 
 | Categoria / Nome | Note / Descrizione |
 |------------------|--------------------|
-| Fango            | Possibile fallimento della raccolta — risultato comune per erboristi inesperti. |
-| Letame           | Spesso raccolto se la zona è contaminata da passaggio di animali; materia prima più “bassa”. |
+| Fango            | É ovuunque! |
+| Letame           | Praticamente oro per gli agricoltori. |
 | Vermi            | Creature che si trovano scavando il terreno — usati anche come esche dai pescatori. |
 | Reagenti Comuni  | Erbe e reagenti facilmente reperibili: ad esempio Aglio, Bacche, Bozzoli, Cenere Sulfurea, Cenere Vulcanica, Foglie di Vischio, Funghi Bianchi, Funghi Rossi, Funghi Viola, Ginseng, Gusci d'Uova, Muschio Sanguigno, Scarafaggi, Terreni Fertili. |
 | Reagenti Rari    | Erbe e ingredienti rari e ricercati: tra questi si trovano Belladonna, Radice di Mandragola, Perla Nera (o altri reagenti speciali) — raccolti solo dagli erboristi più esperti. |
@@ -126,14 +107,14 @@ Il minatore estrae minerali, metalli e pietre da cave e montagne. Le risorse ott
 **Meccaniche**
 - Estrarre: impugnare la piccozza → doppio click → click su terreno roccioso.  
 - Continuando a restare fermi si mina fino all’esaurimento.  
-- Fusioni e leghe avvengono in forgia usando le pinze da fusione.
+- Fusioni e leghe avvengono in forgia usando le pinze da fusione. Basta un doppio click sul lingotto vicino ad una forgia, ma la pinza migliora le possibilitá
 
 **Attrezzi**
 
 | Attrezzo | Funzione |
 |----------|----------|
-| Pala | Scavare terreni sabbiosi o paludosi. |
-| Piccozza | Estrazione da terreno roccioso. |
+| Pala | Scavare terreni sabbiosi o paludosi. (Utile per alcune risorse come la sabbia o l'argilla) |
+| Piccozza | Estrazione da terreno roccioso, cave. Utile per metalli e altro |
 | Pinze da Fusione | Fondono metalli in forgia e creano leghe. |
 | Forgia | Per fondere minerali grezzi in lingotti. |
 
@@ -160,7 +141,8 @@ Abbattendo gli alberi, il boscaiolo ricava tronchi e legno utile a molti altri m
 ## Alchimia
 
 **Descrizione**  
-L’alchimista combina reagenti per creare pozioni con vari effetti. Servono solo un mortaio (con pestello) e un’ampolla per contenere il risultato.
+L’alchimista combina reagenti per creare pozioni con vari effetti. Servono solo un mortaio (con pestello) e un’ampolla per contenere il risultato. Generalmente bastano due reagenti, tranne che per i coloranti per cuoio.
+Indizi su come combinarli sono nella descrizione in gioco di alcuni reagenti.
 
 **Meccaniche**
 - Creare pozione: doppio click sul mortaio → click sul primo reagente → click sul secondo → premere “Esc” per ottenere la pozione.  
@@ -175,11 +157,11 @@ L’alchimista combina reagenti per creare pozioni con vari effetti. Servono sol
 
 ---
 
-# Fabbro
+# Fabbricare armi e armature
 
 ## Descrizione  
 Il fabbro è l’artigiano che, una volta che i metalli sono stati estratti e fusi in lingotti, li lavora per creare armi, armature, utensili e altri oggetti metallici necessari.  
-Con incudine, martello da fabbro e lingotti, il fabbro plasma metalli secondo le proprie esigenze, dando vita a spade, corazze, chiodi, strumenti e molto altro.
+Con incudine, martello da fabbro e lingotti, il fabbro plasma metalli secondo le proprie esigenze, dando vita a spade, corazze, e molto altro.
 
 ## Meccaniche / Procedura  
 - Equipaggiare il martello da fabbro → due click sul martello → click su un’incudine vicina → click sui lingotti da usare → nel menu scegliere il tipo di oggetto (es. “Armi” → “Spade” → “Spada lunga”) → dopo il tempo necessario l’oggetto viene creato e finisce nello zaino o nella borsa.  
@@ -211,9 +193,7 @@ Un fabbro qualificato può produrre:
 
 - Armi: spade, pugnali, lance, mazze, asce, ecc.  
 - Armature e protezioni: corazze, elmi, scudi, gambali, corazze leggere o pesanti a seconda del metallo.  
-- Utensili e oggetti metallici di uso quotidiano: chiodi, strumenti, portoni, serrature, elementi utili a altri artigiani.  
-- Oggetti personalizzati o decorati, grazie all’incisore — ad esempio con incisioni, fregi, decorazioni su armi, armature o monili.  
-
+- Oggetti personalizzati o decorati, grazie all’incisore — ad esempio con incisioni, fregi, decorazioni su armi e armature
 ## Note  
 
 - La qualità del metallo usato influisce molto su resistenza, durata ed efficacia dell’oggetto finale.  
@@ -229,7 +209,7 @@ Lavora il legno per creare mobili, contenitori, armi (archi, balestre, bastoni),
 
 **Meccaniche**
 - Con il coltello intagliatore: doppio click → click sul tronco → scegliere oggetto.  
-- Oggetti complessi richiedono sega, martello, pialla, scalpelli e altri strumenti.
+- Oggetti complessi richiedono sega, martello, pialla, scalpelli e altri strumenti. Possono essere sostituiti con una semplice borsa da falegname
 
 **Attrezzi**
 
@@ -248,6 +228,8 @@ Lavora il legno per creare mobili, contenitori, armi (archi, balestre, bastoni),
 
 **Descrizione**  
 L’inventore è un artigiano versatile che unisce materiali diversi (metalli, legni, gemme, argilla, ossa, vetro, scaglie) per creare oggetti complessi, strumenti, monili e armature particolari.
+Generalmente parlando intagliare gemme e ferramenta utilizzano lo stesso oggetto, il kit da inventore, ma per scopi diversi. Con ferramenta si fanno utensili da lavoro, e utensili perfetti rendono piú semplice lavorare (-2 sulla cd), mentre con intagliare gemme si possono creare gioielli.
+Con intagliare gemme si puó anche usare l'incisore per perfezionare gemme, per esempio creando una gemma perfetta da una grezza, o per romperle e ricavarne frammenti o polveri.
 
 **Meccaniche**
 - Usa vari strumenti per tagliare, fondere, assemblare o modellare materiali differenti.  
@@ -259,7 +241,7 @@ L’inventore è un artigiano versatile che unisce materiali diversi (metalli, l
 |----------|----------|
 | Kit da Inventore | Set base per creazioni e lavorazioni multiple. |
 | Punteruolo | Taglio e lavorazione di gemme. |
-| Stampo per Chiavi | Copia di chiavi esistenti. |
+| Stampo per Chiavi | Copia di chiavi esistenti. (richiede un minimo di ferramenta) |
 | Forgia | Ammorbidire e lavorare metalli. |
 | Forno | Cuocere argilla per ceramiche e vasellame. |
 
@@ -271,7 +253,7 @@ L’inventore è un artigiano versatile che unisce materiali diversi (metalli, l
 Con canna ed esche pesca pesci e a volte oggetti rari o utili come reagenti.
 
 **Meccaniche**
-- Selezionare l’esca → usare la canna → click sull’acqua. Non é necessaria ma migliora le possibilitá
+- Selezionare l’esca → usare la canna → click sull’acqua. L'esca non é necessaria ma migliora le possibilitá
 - Si consiglia di non lanciare troppo lontano per aumentare la riuscita.
 
 **Attrezzi**
@@ -290,6 +272,9 @@ Crea vestiti, bende, armature leggere e abiti decorati usando stoffe, pelli o cu
 **Meccaniche**
 - Doppio click su ago e filo → click su stoffa/pelle → selezionare l’oggetto.  
 - Per lavori avanzati: usare forbici, arcolaio, filatoio, kit ricamo, colori, tinozza, incisore per cuoio.
+- Per creare rotoli di stoffa in genere serve creare del filo con l'arcolaio (da lana, cotone o seta), e poi tesserlo con il filatoio ( per ottenere i rotoli). I rotoli vanno poi tagliati per ottenere stoffe.
+- Per sgrezzare le pelli grezze e poterle lavorare invece dovrete avvicinarvi alla stenditore che trovate in genere nei negozi, usare la forbice sulla pelle che volete stendere, ed aspettare sia pronta.
+- Per ottenere pelli il modo piú semplice é scuoiare gli animali con un coltellino.
 
 **Attrezzi**
 
