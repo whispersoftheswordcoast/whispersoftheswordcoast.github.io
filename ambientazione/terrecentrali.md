@@ -38,7 +38,19 @@ Diversamente da alcune popolazioni “civilizzate” delle nazioni orientali, la
 
 ---
 
-## Principali caratteristiche geografiche
+## Storia regionale e dinamiche di potere
+
+La storia antica della Terre Centrali Occidentali emerge da tombe sparse, statue rotte e rovine di decine di potenti regni. Zone come il Campo dei morti o la Battaglia delle ossa testimoniano che pochi di questi regni terminarono pacificamente.
+
+Nei secoli precedenti l’ascesa di Waterdeep, il regno più grande fu probabilmente Illefarn — un regno elfico che rivaleggiava con Myth Drannor. Dopo la caduta di Illefarn, altri regni come Phalorm (il “Regno delle Tre Corone”) e vari regni umani si succedettero al potere, ma nessuno riuscì mai a controllare l’intera regione.
+
+Da allora, la cultura mercantile di città come Waterdeep, Amn e le città sparse dell'Allenza dei Lord rappresenta la civiltà più duratura a imporsi nella regione dopo la caduta di Illefarn.
+
+Un fattore fondamentale nella vita della regione è l’influenza della fortezza Darkhold, sede occidentale degli Zhentarim: i suoi alti e bassi — potere, guerre, vacanze del controllo — restano la variabile più instabile per gli abitanti delle terre centrali occidentali.
+
+---
+
+# Principali caratteristiche geografiche
 
 Il termine “Terre Centrali Occidentali” è un po’ generico: include una vasta fascia di terra tra Amn e il Nord, che si estende dalla Costa della spada fino alla Costa del drago. I suoi confini precisi sono oggetto di dibattito.
 
@@ -162,7 +174,7 @@ Per il momento, il Passo del Serpente Giallo è libero.
 
 ---
 
-## Alcuni insediamenti e città notevoli
+# Alcuni insediamenti e città notevoli
 
 ### Asbravn
 
@@ -283,16 +295,3 @@ In tutta Faerûn circola la leggenda che i grandi draghi abbiano un cimitero, un
 Il Culto del Drago venne a sapere del Pozzo dei Draghi, fece un patto con il Drago Terribile, e riuscì a sciogliere la magia che teneva il guardiano legato a Faerûn.
 
 Invece di godersi un accesso facile al tesoro, il Culto del Drago ha incontrato una resistenza seria da parte di membri di varie fazioni. Tra i soggetti interessati vi sono draghi e dragonidi che si rifiutano di saccheggiare il luogo di riposo dei grandi draghi, yuan-ti, draghi minori di recente arrivo e vari gruppi di avventurieri e studiosi intenzionati a depredare i resti. Nonostante le difficoltà, il Culto sta segretamente innalzando una fortezza oscura per sorvegliare il luogo e pianifica grandi magie e riti.
-
-
----
-
-## Storia regionale e dinamiche di potere
-
-La storia antica della Terre Centrali Occidentali emerge da tombe sparse, statue rotte e rovine di decine di potenti regni. Zone come il Campo dei morti o la Battaglia delle ossa testimoniano che pochi di questi regni terminarono pacificamente.
-
-Nei secoli precedenti l’ascesa di Waterdeep, il regno più grande fu probabilmente Illefarn — un regno elfico che rivaleggiava con Myth Drannor. Dopo la caduta di Illefarn, altri regni come Phalorm (il “Regno delle Tre Corone”) e vari regni umani si succedettero al potere, ma nessuno riuscì mai a controllare l’intera regione.
-
-Da allora, la cultura mercantile di città come Waterdeep, Amn e le città sparse dell'Allenza dei Lord rappresenta la civiltà più duratura a imporsi nella regione dopo la caduta di Illefarn.
-
-Un fattore fondamentale nella vita della regione è l’influenza della fortezza Darkhold, sede occidentale degli Zhentarim: i suoi alti e bassi — potere, guerre, vacanze del controllo — restano la variabile più instabile per gli abitanti della Heartlands.
