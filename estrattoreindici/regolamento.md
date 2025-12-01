@@ -3,25 +3,6 @@ layout: default
 title: Regolamento
 permalink: /regolamento/
 ---
-# Indice
-
-- [Regolamento Generale della Community](#regolamento-generale-della-community)
-  - [Regole Generali](#regole-generali)
-  - [Regole sull’Interpretazione](#regole-sullinterpretazione)
-  - [Morte](#morte)
-  - [Abilità e Incantesimi Non Implementati](#abilità-e-incantesimi-non-implementati)
-- [Regolamento background](#regolamento-background)
-  - [1. Classe](#1-classe)
-  - [2. Allineamento](#2-allineamento)
-  - [3. Divinità patrona](#3-divinità-patrona)
-  - [4. Razza](#4-razza)
-  - [5. Aspetto fisico](#5-aspetto-fisico)
-  - [6. Aspetto caratteriale](#6-aspetto-caratteriale)
-  - [7. Storia e Origini](#7-storia-e-origini)
-  - [8. Limiti e Restrizioni](#8-limiti-e-restrizioni)
-  - [📜 Format per il Background](#📜-format-per-il-background)
-- [Regole Personaggio Primario e Secondario](#regole-personaggio-primario-e-secondario)
-
 
 # Regolamento Generale della Community
 
@@ -104,7 +85,7 @@ La morte prevede tre scenari diversi:
 
 ---
 
-# Regolamento Background
+# Creazione del Personaggio
 
 **[PENSATE MOLTO BENE AL PERSONAGGIO CHE VOLETE CREARE DAL MOMENTO CHE IL LIMITE È DI UN PG PRIMARIO ED UNO SECONDARIO PER ACCOUNT, CON UN ATTESA DI 2 MESI PER BACKGROUND INVIATO]**
 

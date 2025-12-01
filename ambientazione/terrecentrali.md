@@ -208,7 +208,7 @@ Sotto il Ponte di Boareskyr, luogo della morte di Bhaal, oscuro dio dell’omici
 
 ### Bosco dei Denti Aguzzi
 <img src="{{ '/assets/images/terrecentrali6.jpg' | relative_url }}" alt="westernheartlands" style="display: block; margin: 0 auto;" />
-La reputazione di questo bosco come territorio di caccia per bestie immani, idre e draghi lo ha preservato dai taglialegna e dai coloni di Baldur’s Gate – o di qualsiasi altro luogo, del resto.
+La reputazione di questo bosco come territorio di caccia per bestie immani, idre e draghi ne ha preservato le parti interne dai taglialegna e dai coloni di Baldur’s Gate – o di qualsiasi altro luogo, del resto.
 
 ### Praterie Verdi (Green Fields)
 <img src="{{ '/assets/images/terrecentrali7.jpg' | relative_url }}" alt="westernheartlands" style="display: block; margin: 0 auto;" />
