@@ -212,7 +212,7 @@ Il castello è fortemente controllato: niente fiamme, carta che prende fuoco, te
 
 Villaggio (~810 abitanti) sulla Via del Tramonto, fra Hluthvar e Hill’s Edge. Predominano halfling e gnomi, con qualche umano. Il signore del villaggio è simpatizzante degli arpisti e tende a chiedere aiuto a quelli di Berdusk. Alcuni halfling abitanti sono avventurieri, alcuni legati agli Arpisti.
 
-# Daggerford (Villaggio, 891 abitanti)  
+### Daggerford (Villaggio, 891 abitanti)  
 Quattro secoli fa, il figlio di un mercante, armato soltanto di un pugnale, si pose in un punto poco profondo del fiume Delimbiyr e respinse da solo un’incursione di lucertoloidi, uccidendone sei prima che la sua famiglia e il resto della carovana arrivassero a scacciare gli assalitori e a riprendere il guado.  
 Oggi la fiera comunità di Daggerford, un insediamento fortificato composto da una quarantina di piccoli edifici in pietra e da un castello, sorge sulla sponda sud del guado, garantendone la sicurezza per carovane e viaggiatori lungo la *Via del commercio* o diretti a est verso Secomber e Loudwater.
 
@@ -220,7 +220,7 @@ Pwyll Greatshout (umano maschio, LG, Guerriero 5) si fregia attualmente del tito
 
 Daggerford vive nell’ombra di Waterdeep. A Waterdeep, l’espressione "andare a Daggerford" significa "nascondersi fuori dalla città". Daggerford talvolta coltiva progetti per espandere il suo porto e conquistare una parte del commercio di Waterdeep per sé. Questo piano è popolare presso il Consiglio delle Gilde della città, un’organizzazione i cui membri indossano maschere simili a quelle dei Signori di Waterdeep, ma prive delle protezioni magiche che mantengono segreta l’identità dai maghi determinati. Privatamente, Pwyll Greatshout crede che il consiglio sovrastimi le capacità della sua città.
 
-# Darkhold  
+### Darkhold  
 Dal 1312 DR, le mura nere e le torri imponenti di Darkhold sono la base occidentale degli Zhentarim. Le lotte intestine causate dalla morte e successiva resurrezione di Bane hanno indebolito l’influenza di Darkhold nella regione circostante, ma non hanno scalfito il controllo Zhent sulla fortezza stessa.
 
 La rocca è una fortezza a torre alta che sorge da un sperone roccioso chiamato il Guardiano Grigio. La pietra nera utilizzata per costruire Darkhold proviene da molto lontano dalle Terre del Cuore Occidentali. Le porte, i corridoi e i soffitti di Darkhold sono stati progettati per giganti. Le leggende attribuiscono la costruzione della fortezza ai tempi in cui i giganti dominavano Faerûn o ad elementali antichi al servizio del regno di Netheril come schiavi. Prima della resurrezione di Bane, il mago Sememmon era il signore indiscusso di Darkhold. Nonostante fosse un genio malvagio, Sememmon era un uomo paziente, osservatore e saggio. In gioventù entrò in conflitto con Fzoul Chembryl e mai volle o cercò di sanare completamente la frattura tra loro. Quando Bane morì nel 1358 DR, Sememmon resistette alle macchinazioni sponsorizzate da Fzoul Xvim, gestendo saggiamente i suoi sottoposti, consolidando il suo potere a Darkhold ed evitando scontri diretti con Fzoul. Quando Bane tornò e Fzoul stabilì il controllo esclusivo sugli Zhent orientali, Sememmon valutò la situazione, scelse la via più saggia e scomparve.
@@ -231,7 +231,7 @@ Attualmente la cittadella ospita una forza Zhent permanente di ottocento guerrie
 
 Le lotte politiche e gli attentati che dominano l’interno di Darkhold non sono tollerati apertamente nelle tenute orientali degli Zhent, ma per ora queste faide servono a selezionare i più forti. Se non emergerà presto un leader forte, Fzoul nominerà un comandante suo, qualcuno abbastanza potente da risolvere definitivamente le lotte interne.
 
-# Torre di Durlag’s  
+### Torre di Durlag’s  
 La Torre di Durlag si erge come una gigantesca zanna sopra una parete di roccia vulcanica che si eleva dalle pianure lisce a sud del Bosco dei Denti Aguzzi. La torre fu costruita dall’eroe nano Durlag Trollkiller, afflitto da un’ossessione che i nani chiamano “occhio d’oro”, un bramosia irresistibile per il tesoro.
 
 Durante la sua carriera avventurosa, Durlag si comportò con onore, ma negli ultimi anni si ritirò nella sua tana, dedicandosi a creare un “dono” per le future generazioni di avventurieri. La sua torre è così piena di tesori magici da far girare la testa a chi lancia incantesimi di rilevamento magico. Protezioni magiche, trappole meccaniche e automi ostili assicurano che chiunque voglia lasciare la torre vivo, o portare via anche solo una parte del tesoro, debba lottare con la stessa determinazione che Durlag impiegò per accumulare il suo bottino.
@@ -240,45 +240,45 @@ Nuove voci sempre circolano di qualche demone che avrebbe sconfitto le difese e 
 
 Informazioni sugli attuali abitanti della torre sono disponibili per una piccola somma nel minuscolo insediamento umano e gnomo chiamato Gullykin, a poche miglia da Durlag’s Tower.
 
-# Elturel (Città grande, 22.671 abitanti)  
+### Elturel (Città grande, 22.671 abitanti)  
 Se il sovrano di Elturel, l’Alto Cavaliere Lord Dhelt (umano maschio, LG, Paladino 17 di Helm), fosse un uomo malvagio, la posizione della sua città in cima a una scogliera che domina il fiume Chionthar causerebbe enormi problemi alle altre città commerciali della regione. Fortunatamente per la pace e la prosperità della valle del Chionthar, Dhelt limita il suo istinto competitivo a governare la comunità agricola e commerciale più sicura, meglio controllata e più efficiente delle Terre del Cuore Occidentali. In queste terre dure, la civiltà dipende dal potere militare, e Elturel conferma questa regola con un esercito d’élite di duecento cavalieri montati, i Coscritti dell’Inferno (Hellriders). Carovane e convogli fluviali percorrono le rotte nel territorio di Elturel proprio per poter rilassare la guardia, affidandosi per uno o due giorni ai soldati di Lord Dhelt.
 
-# Evereska (Città grande, 21.051 abitanti)  
+### Evereska (Città grande, 21.051 abitanti)  
 Nella lingua elfica, Evereska significa “casa-fortezza”. Questa grande valle e la città al suo interno, unico insediamento importante di elfi della luna e del sole rimasto in Faerûn dopo la Ritirata, è incastonata tra dodici alte colline che fungono da mura naturali. L’accesso al rifugio è possibile solo per via aerea o attraverso passi montani sorvegliati da sentinelle élite elfiche. L’avvicinamento alla città attraversa una valle a forma di mezzaluna di vigneti terrazzati e frutteti. La città stessa è un capolavoro di pietra scolpita e alberi coltivati, costruita per l’impatto architettonico e la difesa potente.
 
 I governanti di Evereska sono i Saggi della Collina (Hill Elders), elfi di immensa età, sapere e potere. Grazie alla cura e alla lungimiranza dei Saggi, gli abitanti di Evereska possono vivere immersi nei misteri elfi. Alcuni elfi non lasciano mai Evereska, mentre altri la difendono con vigilanza incessante.
 
 La maggior parte degli umani conosce Evereska solo tramite voci o vedendo dipinti o piccole sculture regalate agli amici più fedeli degli elfi. Le storie narrano della potenza della magia elfica nella città, come la capacità degli abitanti di camminare su pareti verticali come se avessero sempre beneficiato di incantesimi di *arrampicata aracnide*. Questi effetti (e altri) derivano da un potente mythal. I poteri maggiori del mythal, difese di alta magia elfica al culmine del loro potere, vengono raramente invocati.
 
-# Hill’s Edge (Città piccola, 9.716 abitanti)  
+### Hill’s Edge (Città piccola, 9.716 abitanti)  
 Hill’s Edge serve sia le carovane Zhent che i viaggiatori onesti. Piccola ma prospera, la città ha una fama meritata di affari sporchi e alleanze strane. Banditi, briganti, assassini e tagliagole si conoscono bene nelle taverne di Hill’s Edge, e non è facile uccidere chi ti ha pagato un giro la sera prima.
 
 Ufficialmente, Hill’s Edge elegge ogni anno un sindaco, ma è difficile trovare candidati idonei. Nel 1371 DR, i Maghi Rossi hanno portato un piccolo enclave a Hill’s Edge. Questo enclave prospera, così come Hill’s Edge, grazie alle spese aumentate di chi si ferma a comprare le mercanzie di Thay.
 
 Le carovane Zhent continuano a passare volentieri per Hill’s Edge, ma avventurieri attenti possono sfruttare le tensioni tra Thay e Zhent. Gli Zhent non gradiscono il ruolo dei Thayan nella recente liberazione del Passo del Serpente Giallo. Da parte loro, gli Arpisti di Berdusk odiano i Thayan, nemici con un sorriso amichevole, più dei pesantemente autoritari Zhent.
 
-# Hluthvar (Città piccola, 6.669 abitanti)  
+### Hluthvar (Città piccola, 6.669 abitanti)  
 Dalla più alta vedetta del tempio-fortezza di Helm al centro di Hluthvar, un osservatore attento può scorgere le torri nere di Darkhold in una giornata limpida, a più di sessanta miglia a est. Vigilanza ferrea, una solida muraglia alta tre metri e mezzo, e la devozione al culto di Helm sono tutto ciò che impedisce a Hluthvar di cadere sotto gli Zhent. Il sommo sacerdote di Helm, Maurandyr (umano maschio LN, Chierico 14/Discepolo 4 di Helm), che combatte con una spada magica danzante, rinforza la risolutezza della città a resistere agli Zhent.
 
-# Iriaebor (Città grande, 16.193 abitanti)  
+### Iriaebor (Città grande, 16.193 abitanti)  
 La Città delle Mille Guglia si estende su una lunga cresta sopra il ramo nord del fiume Chionthar. Lo spazio per costruire è limitato sulla cresta, quindi mercanti e cittadini di Iriaebor hanno imparato a costruire in altezza invece che in larghezza — torri a più piani sorgono in ogni quartiere. Le grandi case mercantili competono per costruire le torri più alte, ricche e bizzarre, sperando di attirare affari come un pavone attrae la compagna. Come i pavoni, che combattono quando l’aspetto da solo non basta a risolvere le dispute, le grandi case di Iriaebor a volte complottano per abbattere le torri rivali, usando magia o mercenari assoldati per confondere le tracce.
 
 Uno di questi mercenari divenne famoso nel mezzo di una guerra tra mercanti e prese su di sé la guida della città. Bron (umano maschio LG, Guerriero 5/Paladino 4 di Eldath) crede che la sua città potrebbe diventare una grande potenza nelle Terre del Cuore Occidentali, se solo smettesse di sprecare energie in lotte interne.
 
-# Laughing Hollow  
+### Laughing Hollow  
 A pochi chilometri a nord di Daggerford, un punto stretto del fiume Delimbiyr attraversa una vecchia cava nanica dove i nani usavano il fiume per portare via i residui delle miniere. I minatori se ne sono andati da secoli e la miniera giace nascosta sotto una fitta vegetazione che ricopre le pareti delle scogliere ai lati del fiume. Pixie, hybsil e elfi selvaggi trovano rifugio nella fitta boscaglia, scacciando gli avventurieri che cercano la miniera e i suoi tesori supposti.
 
-# Scornubel (Città grande, 14.574 abitanti)  
+### Scornubel (Città grande, 14.574 abitanti)  
 Scornubel, la Città Carovana, è un vortice di attività mercantile lungo la riva nord dove il fiume Chionthar incontra il fiume Reaching. È governata da un gruppo di anziani o di mezza età, avventurieri e maestri di carovane, alcuni dei quali preferiscono assumere avventurieri per risolvere i problemi della città, altri preferiscono che gli avventurieri si allontanino in fretta. In ogni cosa, il consiglio governante sceglie l’efficienza e il profitto anziché gli ideali.
 
 Carovane di tutte le nazioni, organizzazioni e costruttori commerciali sono benvenute a Scornubel. Allo stesso modo, santuari dedicati a quasi tutte le divinità faerûniane si trovano da qualche parte negli edifici bassi della città. La compagnia mercantile Scudo Rosso gestisce sia le sue operazioni militari sia le carovane commerciali da Scornubel. Gli scudi rossi sono anche l’esercito e la polizia ufficiale della città. Come esercito sono efficienti. Come polizia, si concentrano a rilassarsi, divertirsi e tutelare gli interessi della compagnia Scudo Rosso.
 
-# Secomber (Città piccola, 1.417 abitanti)  
+### Secomber (Città piccola, 1.417 abitanti)  
 Situata lungo il corso del sentiero dell'Unicorno appena a nord dell'Alta Brughiera, Secomber è considerata o il più settentrionale insediamento delle Terre del Cuore Occidentali o il primo villaggio del Nord, a seconda di chi traccia la mappa. Chi sostiene che sia parte delle Terre del Cuore Occidentali punta sulla pace della città, le famiglie prosperose di pescatori e agricoltori, i suoi giardini colorati e la sua ospitalità verso le carovane in transito. Chi invece la considera parte del Nord cita la consistente comunità di avventurieri e guide con conoscenze almeno parziali della Grande Foresta a nord.
 
 La città accoglie viaggiatori, soprattutto avventurieri che la usano come base per spedizioni nell'Alta brughiera o nella Grande foresta. Non a caso, tali avventurieri sono chiamati ad aiutare quando gargoyle e creature peggiori vengono dissotterrati dall’antico regno dimenticato di Athlantar, il Regno del Cervo.
 
-# Pozzo dei dragoni  
+### Pozzo dei dragoni  
 In tutta Faerûn circola la leggenda che i grandi draghi abbiano un cimitero, un luogo dove vanno a morire. Il Pozzo dei Draghi, l’interno vuoto di un antico vulcano a nord delle Montagne del Tramonto e a sud della Battaglia delle Ossa, è quel cimitero. Fino a poco tempo fa, migliaia di scheletri di draghi erano nascosti alla vista da potenti incantesimi e sorvegliati da un drago ombra non morto chiamato il Drago Terribile (Dire Dragon).  
 Il Culto del Drago venne a sapere del Pozzo dei Draghi, fece un patto con il Drago Terribile, e riuscì a sciogliere la magia che teneva il guardiano legato a Faerûn.
 
