@@ -152,3 +152,17 @@
     margin-top: 1rem; /* margine per separare dal bottone */
   }
 }
+
+.citazione {
+  border-left: 4px solid #e7c818;
+  padding: 0.8em 1.2em;
+  margin: 1.5em 0;
+  font-style: italic;
+  color: #f5aa0a;
+  background: #3f3f3f;
+}
+.citazione footer {
+  margin-top: 0.5em;
+  text-align: right;
+  font-weight: bold;
+}

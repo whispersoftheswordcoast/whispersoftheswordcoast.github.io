@@ -1,7 +1,7 @@
 ---
 title: Lavorative
 layout: sistemi
-order: 2
+order: 6
 ---
 <img src="{{ '/assets/images/lavorative.png' | relative_url }}" alt="lavorative" style="display: block; margin: 0 auto;" />
 
@@ -19,17 +19,9 @@ order: 2
 - [Artigianato](#artigianato)
   - [Alchimia](#alchimia)
   - [Fabbricare armi e armature](#fabbricare-armi-e-armature)
-    - [Descrizione](#descrizione)
-    - [Meccaniche--procedura](#meccaniche--procedura)
-    - [Attrezzi necessari](#attrezzi-necessari)
-    - [Materie prime--materiali-lavorabili](#materie-prime--materiali-lavorabili)
-    - [Prodotti tipici](#prodotti-tipici)
-    - [Note](#note)
   - [Falegname](#falegname)
-  - [Ferramenta](#ferramenta)
-  - [Intagliare pietre / gemme](#intagliare-pietre--gemme)
-  - [Tessitura](#tessitura)
-  - [Lavorare pellami](#lavorare-pellami)
+  - [Intagliare pietre / Ferramenta](#ferramenta-e-intagliare-gemme)
+  - [Tessitura / Lavorare pellami](#tessitura-e-lavorare-pellami)
 
 # Lavorative
 
@@ -191,12 +183,31 @@ Abbattendo gli alberi, il boscaiolo ricava tronchi e legno utile a molti altri m
 
 ---
 
+## Pescatore
+<img src="{{ '/assets/images/pescare.jpg' | relative_url }}" alt="Sartoria" style="display: block; margin: 0 auto;" />
+
+**Descrizione**  
+Con canna ed esche pesca pesci e a volte oggetti rari o utili come reagenti.
+
+**Meccaniche**
+- Selezionare l’esca → usare la canna → click sull’acqua. L'esca non é necessaria ma migliora le possibilitá
+- Si consiglia di non lanciare troppo lontano per aumentare la riuscita.
+
+**Attrezzi**
+
+| Attrezzo | Funzione |
+|----------|----------|
+| Canna da Pesca | Strumento principale per pescare. |
+
+---
+
 # Artigianato
 
 ---
 
 
 ## Alchimia
+<img src="{{ '/assets/images/alchimia.jpg' | relative_url }}" alt="Alchimia" style="display: block; margin: 0 auto;" />
 
 **Descrizione**  
 L’alchimista combina reagenti per creare pozioni con vari effetti. Servono solo un mortaio (con pestello) e un’ampolla per contenere il risultato. Generalmente bastano due reagenti, tranne che per i coloranti per cuoio.
@@ -216,16 +227,17 @@ Indizi su come combinarli sono nella descrizione in gioco di alcuni reagenti.
 ---
 
 # Fabbricare armi e armature
+<img src="{{ '/assets/images/armi.jpg' | relative_url }}" alt="armi" style="display: block; margin: 0 auto;" />
 
-## Descrizione  
+**Descrizione**
 Il fabbro è l’artigiano che, una volta che i metalli sono stati estratti e fusi in lingotti, li lavora per creare armi, armature, utensili e altri oggetti metallici necessari.  
 Con incudine, martello da fabbro e lingotti, il fabbro plasma metalli secondo le proprie esigenze, dando vita a spade, corazze, e molto altro.
 
-## Meccaniche / Procedura  
+**Meccaniche / Procedura**  
 - Equipaggiare il martello da fabbro → due click sul martello → click su un’incudine vicina → click sui lingotti da usare → nel menu scegliere il tipo di oggetto (es. “Armi” → “Spade” → “Spada lunga”) → dopo il tempo necessario l’oggetto viene creato e finisce nello zaino o nella borsa.  
 - Se si vuole, con le pinze per fusione e una forgia è possibile fondere o rifondere oggetti metallici: usare pinze → click sulla forgia → click su un oggetto metallico → si ottengono parte dei lingotti impiegati.
 
-## Attrezzi necessari  
+**Attrezzi necessari**  
 
 | Attrezzo / Oggetto        | Funzione / Utilizzo |
 |---------------------------|----------------------|
@@ -235,7 +247,7 @@ Con incudine, martello da fabbro e lingotti, il fabbro plasma metalli secondo le
 | Pinze per Fusione         | Usate insieme alla forgia per fondere o smantellare oggetti in metallo. |
 | Incisore                  | Permette di incidere decorazioni o testi su oggetti metallici già creati. |
 
-## Materie prime / Materiali lavorabili  
+**Materie prime / Materiali lavorabili** 
 
 I metalli e materiali che un fabbro può utilizzare sono numerosi, da quelli comuni a quelli molto rari. Ecco alcuni esempi tipici:
 
@@ -245,14 +257,14 @@ I metalli e materiali che un fabbro può utilizzare sono numerosi, da quelli com
 - Metalli pregiati o speciali come Argento, Oro, Platino — utilizzati per monili, decorazioni o armi/armature da cerimonia o magiche.  
 - Metalli rari o esotici (ad es. Dlarun, Ferro Febbrile, Metallo Vivente, leghe leggendarie come Arandur, Mithral, Adamantio/Adamantite) — materiali rari e difficili da reperire, usati per manufatti di alto livello, con proprietà particolari.  
 
-## Prodotti tipici  
+**Prodotti tipici** 
 
 Un fabbro qualificato può produrre:
 
 - Armi: spade, pugnali, lance, mazze, asce, ecc.  
 - Armature e protezioni: corazze, elmi, scudi, gambali, corazze leggere o pesanti a seconda del metallo.  
 - Oggetti personalizzati o decorati, grazie all’incisore — ad esempio con incisioni, fregi, decorazioni su armi e armature
-## Note  
+**Note**
 
 - La qualità del metallo usato influisce molto su resistenza, durata ed efficacia dell’oggetto finale.  
 - La lavorazione richiede attenzione: una forgia, materiali adeguati e strumenti specifici.  
@@ -261,6 +273,7 @@ Un fabbro qualificato può produrre:
 ---
 
 ## Falegname
+<img src="{{ '/assets/images/falegname.jpg' | relative_url }}" alt="armi" style="display: block; margin: 0 auto;" />
 
 **Descrizione**  
 Lavora il legno per creare mobili, contenitori, armi (archi, balestre, bastoni), strumenti e molti altri oggetti. Legni rari permettono creazioni più pregiate.
@@ -282,7 +295,7 @@ Lavora il legno per creare mobili, contenitori, armi (archi, balestre, bastoni),
 
 ---
 
-## Ferramenta/Intagliare gemmem
+## Ferramenta e Intagliare gemme
 
 **Descrizione**  
 L’inventore è un artigiano versatile che unisce materiali diversi (metalli, legni, gemme, argilla, ossa, vetro, scaglie) per creare oggetti complessi, strumenti, monili e armature particolari.
@@ -305,24 +318,8 @@ Con intagliare gemme si puó anche usare l'incisore per perfezionare gemme, per 
 
 ---
 
-## Pescatore
-
-**Descrizione**  
-Con canna ed esche pesca pesci e a volte oggetti rari o utili come reagenti.
-
-**Meccaniche**
-- Selezionare l’esca → usare la canna → click sull’acqua. L'esca non é necessaria ma migliora le possibilitá
-- Si consiglia di non lanciare troppo lontano per aumentare la riuscita.
-
-**Attrezzi**
-
-| Attrezzo | Funzione |
-|----------|----------|
-| Canna da Pesca | Strumento principale per pescare. |
-
----
-
-## Tessitura/Lavorare pellami
+## Tessitura e Lavorare pellami
+<img src="{{ '/assets/images/sartoria.jpg' | relative_url }}" alt="Sartoria" style="display: block; margin: 0 auto;" />
 
 **Descrizione**  
 Crea vestiti, bende, armature leggere e abiti decorati usando stoffe, pelli o cuoio. Può tingere, incidere o ricamare i capi.
