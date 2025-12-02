@@ -3,6 +3,7 @@ layout: default
 title: Download
 permalink: /download/
 ---
+<img src="{{ '/assets/images/shop.png' | relative_url }}" alt="download" style="display: block; margin: 0 auto;" />
 
 # Download
 

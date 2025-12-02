@@ -3,7 +3,11 @@ layout: default
 title: Regolamento
 permalink: /regolamento/
 ---
-# Indice
+<img src="{{ '/assets/images/asmodeus.png' | relative_url }}" alt="legge" style="display: block; margin: 0 auto;" />
+<blockquote class="citazione">
+  <p>The gods eventually agreed, signing what become known as the Pact Primeval. When the gods realized that Asmodeus was actively tempting mortals into sin to harvest their souls, they confronted him.  His response? "Read the fine print "</p>
+  <footer>— <cite>Tyrants of nine hells, p.5</cite></footer>
+</blockquote>
 
 - [Regolamento Generale della Community](#regolamento-generale-della-community)
   - [Regole Generali](#regole-generali)
@@ -21,7 +25,6 @@ permalink: /regolamento/
   - [8. Limiti e Restrizioni](#8-limiti-e-restrizioni)
   - [📜 Format per il Background](#📜-format-per-il-background)
 - [Regole Personaggio Primario e Secondario](#regole-personaggio-primario-e-secondario)
-
 
 # Regolamento Generale della Community
 
