@@ -33,19 +33,69 @@
     </header>
 
     <main class="container-sistemi">
-      <aside class="sistemi-sidebar">
-        <h3>Sezioni Sistemi</h3>
-        <ul>
-          {% assign sistemi_pages = site.pages | where_exp: "page", "page.path contains 'sistemi/'" %}
-          {% assign sistemi_pages = sistemi_pages | where_exp: "page", "page.title" %}
-          {% assign sistemi_pages_sorted = sistemi_pages | sort: "order" %}
-          {% for p in sistemi_pages_sorted %}
-            <li {% if page.url == p.url %}class="active"{% endif %}>
-              <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
-            </li>
-          {% endfor %}
-        </ul>
-      </aside>
+    <aside class="sistemi-sidebar">
+  <h3>Sezioni Sistemi</h3>
+
+  <!-- Prefazione -->
+  <div class="sidebar-section">
+    <h4>Prefazione</h4>
+    <ul>
+      {% for p in site.pages %}
+        {% if p.path contains 'sistemi/' and p.order == 1 %}
+          <li {% if page.url == p.url %}class="active"{% endif %}>
+            <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+
+  <!-- Meccaniche -->
+  <div class="sidebar-section">
+    <h4>Meccaniche</h4>
+    <ul>
+      {% for p in site.pages %}
+        {% if p.path contains 'sistemi/' and p.order >= 2 and p.order <= 99 %}
+          <li {% if page.url == p.url %}class="active"{% endif %}>
+            <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+
+  <!-- Sistemi di ruolo -->
+  <div class="sidebar-section">
+    <h4>Sistemi di ruolo</h4>
+    <ul>
+      {% for p in site.pages %}
+        {% if p.path contains 'sistemi/' and p.order >= 100 and p.order <= 199 %}
+          <li {% if page.url == p.url %}class="active"{% endif %}>
+            <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+
+  <!-- Guide varie -->
+  <div class="sidebar-section">
+    <h4>Guide varie</h4>
+    <ul>
+      {% for p in site.pages %}
+        {% if p.path contains 'sistemi/' and p.order >= 200 %}
+          <li {% if page.url == p.url %}class="active"{% endif %}>
+            <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+</aside>
+
+
+
+
 
       <section class="sistemi-content">
         {{ content }}

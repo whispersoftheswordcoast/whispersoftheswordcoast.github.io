@@ -157,3 +157,13 @@
   text-align: right;
   font-weight: bold;
 }
+
+.sistemi-sidebar .sidebar-section h4 {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #f6e7c1;
+}
+
+.sistemi-sidebar .sidebar-section ul li {
+  padding-left: 1rem;
+}
