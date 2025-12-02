@@ -16,6 +16,8 @@ Here, in these early moments, legends are born.”</p>
   <footer>— <cite>Dungeon Master’s Guide, Chapter 1: A World of Your Own Making</cite></footer>
 </blockquote>
 
+Questa sezione é una sorta di corso accelerato per i primissimi momenti di gioco. Altri articoli potrebbero trattare piú a fondo gli argomenti qui descritti
+
 ## Indice
 - [Riposare](#riposare)
 - [Curare](#curare)
@@ -23,6 +25,7 @@ Here, in these early moments, legends are born.”</p>
 - [Come salire di livello](#come-salire-di-livello)
 - [Macro per gli incantesimi](#macro-per-gli-incantesimi)
 - [Morte](#morte)
+- [Messaggistica Interna](#messaggistica-interna)
 - [Page](#page)
 
 ---
@@ -169,6 +172,19 @@ Se non pregate:
 Non è un bug: basta pregare.
 
 Esistono anche pietre del perdono sparse nel Faerûn, utilizzabili da PG di qualunque religione.
+
+---
+
+## Messaggistica interna
+
+Potete comunicare in ogni momento con i personaggi online attraverso la messaggistica interna, scrivendo i seguenti comandi
+**.msg:**
+
+Utilizza il sistema di messaggistica interna per comunicare con gli altri giocatori in off. Si può disattivare la ricezione dei messaggi con ".msg off" e riattivarla con ".msg on". scrivendolo vi apparirá una lista dei personaggi, e potrete selezionarne uno per poi scrivere un messaggio. Se vi rispondessero o voleste rispondere, potrete farlo anche usando la forma .reply -messaggio-
+
+**.msgt:**
+ Permette di inviare un messaggio privato ad un personaggio (sconosciuto) in vista del proprio pg. É simile a .msg ma questa volta vi lascerá selezionare un personaggio visibile a coi mandare direttamente il messaggio.
+ potete rispondere a questi messaggi anche con la forma .replyt -messaggio-
 
 ---
 

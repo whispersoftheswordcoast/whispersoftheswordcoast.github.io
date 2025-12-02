@@ -4,6 +4,7 @@ layout: sistemi
 permalink: /sistemi/
 order: 1
 ---
+<img src="{{ '/assets/images/cogs.png' | relative_url }}" alt="riposo" style="display: block; margin: 0 auto;" />
 
 # Indice generale
 
