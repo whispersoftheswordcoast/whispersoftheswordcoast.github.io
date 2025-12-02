@@ -1,0 +1,23 @@
+Indice intestazioni per il file: Lavorative.md
+
+# Lavorative
+## Caratteristiche generali
+# Professioni
+## Agricoltore
+## Cuoco
+## Erborista
+## Metallurgia
+## Taglialegna
+# Artigianato
+## Alchimia
+# Fabbricare armi e armature
+## Descrizione
+## Meccaniche / Procedura
+## Attrezzi necessari
+## Materie prime / Materiali lavorabili
+## Prodotti tipici
+## Note
+## Falegname
+## Ferramenta/Intagliare gemmem
+## Pescatore
+## Tessitura/Lavorare pellami

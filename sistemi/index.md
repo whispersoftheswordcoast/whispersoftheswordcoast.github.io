@@ -1,12 +1,37 @@
 ---
-title: Sistemi
+title: Indice generale
 layout: sistemi
 permalink: /sistemi/
 order: 1
 ---
 
-Benvenuto nella sezione Sistemi! Qui trovi tutte le risorse disponibili.
+# Indice generale
 
+{% assign pages_sistemi = site.pages | where_exp: "p", "p.path contains 'sistemi/'" %}
+{% assign pages_ordered = pages_sistemi | sort: "order" %}
 
+{% assign last_group = "" %}
 
+{% for p in pages_ordered %}
+  {% assign idx = p.order | default: 9999 %}
 
+  {% if idx == 1 %}
+    {% assign group = "Prefazione" %}
+  {% elsif idx >= 2 and idx <= 99 %}
+    {% assign group = "Meccaniche" %}
+  {% elsif idx >= 100 and idx <= 199 %}
+    {% assign group = "Sistemi di ruolo" %}
+  {% else %}
+    {% assign group = "Guide varie" %}
+  {% endif %}
+
+  {% if group != last_group %}
+  
+## {{ group }}
+
+{% assign last_group = group %}
+  {% endif %}
+
+- [{{ p.title | default: p.name }}]({{ p.url }})
+
+{% endfor %}

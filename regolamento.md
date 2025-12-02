@@ -99,7 +99,7 @@ La morte prevede tre scenari diversi:
 
 ## Abilità e Incantesimi Non Implementati
 
-- Di base, qualunque abilità o incantesimo che dia vantaggi non è giocabile tra giocatori o in quest.  
+- Di base, qualunque abilità o incantesimo non implementato che dia vantaggi tangibili non è giocabile tra giocatori.  Per tangibili si intende vantaggi che giustifichino cattivo ruolo verso npc, che diano un vantaggio chiaro verso altri personaggi (ad esempio, charme). Situazioni banali come pulire i vestiti con prestidigitazione, o "staccare" usando trucco della corda sono tollerabili ad esempio, poiché non vanno oltre la nota di colore.
 - I quester possono permettere l’uso di abilità o incantesimi non implementati a loro discrezione, ma le regole varranno sia per i PNG che per i PG.
 
 - Nessun quester può usare abilità che costringano un personaggio a rivelare informazioni che vuole tenere segrete ad altri personaggi.  

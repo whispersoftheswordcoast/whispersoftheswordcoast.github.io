@@ -4,26 +4,6 @@ layout: ambientazione
 order: 2
 ---
 
-# Indice
-
-- [Amn](#amn)
-  - [Panorama generale](#panorama-generale)
-  - [Geografia](#geografia)
-    - [Picchi delle nuvole](#picchi-delle-nuvole)
-    - [Lago Esmel](#lago-esmel)
-    - [Foresta di Shilmista](#foresta-di-shilmista)
-    - [Piccoli denti](#piccoli-denti)
-    - [Foresta sel serpente](#foresta-sel-serpente)
-    - [Montagne dei Troll](#montagne-dei-troll)
-  - [Città principali](#città-principali)
-    - [Athkatla (118.304 abitanti)](#athkatla-118304-abitanti)
-    - [Crimmor (35.491 abitanti)](#crimmor-35491-abitanti)
-    - [Eshpurta (24.252 abitanti)](#eshpurta-24252-abitanti)
-    - [Keczulla (47.322 abitanti)](#keczulla-47322-abitanti)
-    - [Murann (43.773 abitanti)](#murann-43773-abitanti)
-    - [Purskul (27.210 abitanti)](#purskul-27210-abitanti)
-  - [Storia recente](#storia-recente)
-
 # Amn
 
 **Capitale:** Athkatla  

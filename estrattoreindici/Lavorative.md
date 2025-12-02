@@ -3,33 +3,6 @@ title: Lavorative
 layout: sistemi
 order: 2
 ---
-<img src="{{ '/assets/images/lavorative.png' | relative_url }}" alt="lavorative" style="display: block; margin: 0 auto;" />
-
-- [Lavorative](#lavorative)
-  - [Caratteristiche generali](#caratteristiche-generali)
-
-- [Professioni](#professioni)
-  - [Agricoltore](#agricoltore)
-  - [Cuoco](#cuoco)
-  - [Erborista](#erborista)
-  - [Metallurgia](#metallurgia)
-  - [Taglialegna](#taglialegna)
-  - [Pescatore](#pescatore)
-
-- [Artigianato](#artigianato)
-  - [Alchimia](#alchimia)
-  - [Fabbricare armi e armature](#fabbricare-armi-e-armature)
-    - [Descrizione](#descrizione)
-    - [Meccaniche--procedura](#meccaniche--procedura)
-    - [Attrezzi necessari](#attrezzi-necessari)
-    - [Materie prime--materiali-lavorabili](#materie-prime--materiali-lavorabili)
-    - [Prodotti tipici](#prodotti-tipici)
-    - [Note](#note)
-  - [Falegname](#falegname)
-  - [Ferramenta](#ferramenta)
-  - [Intagliare pietre / gemme](#intagliare-pietre--gemme)
-  - [Tessitura](#tessitura)
-  - [Lavorare pellami](#lavorare-pellami)
 
 # Lavorative
 

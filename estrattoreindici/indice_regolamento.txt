@@ -5,7 +5,7 @@ Indice intestazioni per il file: regolamento.md
 ## Regole sull’Interpretazione
 ## Morte
 ## Abilità e Incantesimi Non Implementati
-# Regolamento background
+# Creazione del Personaggio
 ## 1. Classe
 ## 2. Allineamento
 ## 3. Divinità patrona

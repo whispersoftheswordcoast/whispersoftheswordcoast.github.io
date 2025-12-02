@@ -1,0 +1,19 @@
+Indice intestazioni per il file: amn.md
+
+# Amn
+## Panorama generale
+## Geografia
+### Picchi delle nuvole
+### Lago Esmel
+### Foresta di Shilmista
+### Piccoli denti
+### Foresta sel serpente
+### Montagne dei Troll
+## Città principali
+### Athkatla (118.304 abitanti)
+### Crimmor (35.491 abitanti)
+### Eshpurta (24.252 abitanti)
+### Keczulla (47.322 abitanti)
+### Murann (43.773 abitanti)
+### Purskul (27.210 abitanti)
+## Storia recente
