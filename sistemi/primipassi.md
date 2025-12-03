@@ -7,7 +7,7 @@ excerpt: Tutto il necessario per mettere piede lungo la Costa della Spada in sic
 
 # Primi Passi
 
-<img src="{{ '/assets/images/rookie.png' | relative_url }}" alt="a rookie warrior" style="display: block; margin: 0 auto;" />
+<img src="{{ '/assets/images/rookie.webp' | relative_url }}" alt="a rookie warrior" style="display: block; margin: 0 auto;" />
 
 <blockquote class="citazione">
   <p>“The game begins with a single step into the unknown.
@@ -32,7 +32,7 @@ Questa sezione é una sorta di corso accelerato per i primissimi momenti di gioc
 ---
 
 ## Riposare
-<img src="{{ '/assets/images/riposo.jpg' | relative_url }}" alt="riposo" style="display: block; margin: 0 auto;" />
+<img src="{{ '/assets/images/riposo.webpg' | relative_url }}" alt="riposo" style="display: block; margin: 0 auto;" />
 
 È possibile riposare nelle Locande negli appositi letti o anche all'aperto.  
 Nel secondo caso occorre avere nel proprio equipaggiamento alcuni oggetti:
@@ -55,7 +55,7 @@ Una volta acceso il fuoco bisogna:
 ---
 
 ## Curare
-<img src="{{ '/assets/images/bende.jpg' | relative_url }}" alt="medicarsi" style="display: block; margin: 0 auto;" />
+<img src="{{ '/assets/images/bende.webpg' | relative_url }}" alt="medicarsi" style="display: block; margin: 0 auto;" />
 
 Per quanto riguarda le cure si utilizzano delle **bende**.
 
@@ -73,7 +73,7 @@ Maggiore è il grado in **Guarire**, più velocemente riuscirete a curare:
 ---
 
 ## Riconoscere i PG con il comando `.assegnanome`
-<img src="{{ '/assets/images/assegnanome.jpg' | relative_url }}" alt="assegnare nome" style="display: block; margin: 0 auto;" />
+<img src="{{ '/assets/images/assegnanome.webpg' | relative_url }}" alt="assegnare nome" style="display: block; margin: 0 auto;" />
 
 Quando incontrate un PG, per riconoscerlo la volta successiva, potete utilizzare il comando:
 
@@ -122,10 +122,10 @@ Non esistono scorciatoie: occorre ruolare di più.
 ---
 
 ## Macro per gli incantesimi
-<img src="{{ '/assets/images/macro.jpg' | relative_url }}" alt="le macro" style="display: block; margin: 0 auto;" />
+<img src="{{ '/assets/images/macro.webpg' | relative_url }}" alt="le macro" style="display: block; margin: 0 auto;" />
 
 Andate nel **Pannello Macro**. Per farlo basta schiacciare la freccia in alto a sinistra nello schermo, andare su character, ed infine, nel paperdoll che si aprirá, su opzioni
-<img src="{{ '/assets/images/opzioni.jpg' | relative_url }}" alt="le opzioni" style="display: block; margin: 0 auto;" />
+<img src="{{ '/assets/images/opzioni.webpg' | relative_url }}" alt="le opzioni" style="display: block; margin: 0 auto;" />
 
 Per creare macro di incantesimi usate:
 
@@ -144,7 +144,7 @@ Per trovare quel numero:
 
  .spells o .elencospells
 
-<img src="{{ '/assets/images/elencospells.jpg' | relative_url }}" alt="gli incantesimi" style="display: block; margin: 0 auto;" />
+<img src="{{ '/assets/images/elencospells.webpg' | relative_url }}" alt="gli incantesimi" style="display: block; margin: 0 auto;" />
 
 2. accanto all’incantesimo vedrete qualcosa come:
 

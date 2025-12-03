@@ -14,7 +14,7 @@ Segui questi passi per entrare nel mondo:
 3. Attendi l'approvazione del background, controlla spesso, un DM ti avviserá se il background é valido o ti chiederá correzioni, dopodiché approverá un background valido per te
 4. Scarica il launcher dalla pagina [Download](/download/).
     <p align="center">
-    <img src="/assets/images/launcher.JPG" alt="launcher di Whisper's of the Sword Coast" width="70%">
+    <img src="/assets/images/launcher.webpG" alt="launcher di Whisper's of the Sword Coast" width="70%">
     </p>
 Dovrai semplicemente inserire una cartella valida (consigliamo una cartella vuota prparata apposta), e cliccare "controlla e aggiorna". Attendi che tutto sia pronto e... complimenti, sei pronto per iniziare!
 5. Inserisci ora le credenziali che ti sono state comunicate, dopo di che nella schermata che si aprirá, clicca "new". Customizza il personaggio e dagli un nome per ora qualsiasi. Ti verrá chiesta una classe, scegli "Necromancer" e non preoccuparti, non é una scelta influente, dopo di che clicca uno dei pulsanti "sala della creazione" che appariranno, non importa quale.

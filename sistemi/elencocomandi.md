@@ -4,7 +4,7 @@ layout: sistemi
 order: 5
 excerpt: Le parole di potere che aprono le porte alla fantasia
 ---
-<img src="{{ '/assets/images/library.png' | relative_url }}" alt="riposo" style="display: block; margin: 0 auto;" />
+<img src="{{ '/assets/images/library.webp' | relative_url }}" alt="riposo" style="display: block; margin: 0 auto;" />
 <blockquote class="citazione">
   <p>"The words you speak can shape the world around you. Whether you wield magic through verbal incantations, rally your allies with inspiring speeches, or intimidate your foes with threats, language is a powerful tool in every adventurer’s arsenal."</p>
   <footer>— <cite>Player’s Handbook 5a</cite></footer>

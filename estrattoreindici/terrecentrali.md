@@ -31,7 +31,7 @@ La Terre Centrali Occidentali attrae avventurieri ambiziosi: dozzine di imperi o
 ---
 
 ## Vita e società
-<img src="{{ '/assets/images/terrecentrali1.jpg' | relative_url }}" alt="westernheartlands" style="display: block; margin: 0 auto;" />
+<img src="{{ '/assets/images/terrecentrali1.webp' | relative_url }}" alt="westernheartlands" style="display: block; margin: 0 auto;" />
 
 Gli abitanti delle Terre Centrali Occidentali vivono sparsi in insediamenti nella natura selvaggia. Le persone dell’ovest tendono a essere ostinate, indipendenti e fiere della propria capacità di sopravvivere in un ambiente difficile. Il loro spirito da frontiera si accompagna a una mentalità da mercanti: spesso accolgono gli stranieri come potenziali amici, non come nemici.
 
@@ -60,7 +60,7 @@ Il termine “Terre Centrali Occidentali” è un po’ generico: include una va
 Antica zona di battaglia dove, nel 1090 DR, una horda di goblin e orchi fu sconfitta da umani, elfi e nani. Sebbene la vittoria fosse schiacciante, migliaia di difensori morirono ugualmente. Trecento anni dopo, il luogo è ancora maledetto e infestato da non-morti: zombie, scheletri, ghoul, wight, wraith, spettri, perfino lich. Molti giovani chierici intraprendono pellegrinaggi per combattere i non-morti.
 
 ### Bosco ammantato
-<img src="{{ '/assets/images/terrecentrali2.jpg' | relative_url }}" alt="westernheartlands" style="display: block; margin: 0 auto;" />
+<img src="{{ '/assets/images/terrecentrali2.webp' | relative_url }}" alt="westernheartlands" style="display: block; margin: 0 auto;" />
 Foresta antica e fitta, a sud di Baldur’s Gate e a nord di Candlekeep, lungo la costa. In teoria le sue coste permetterebbero l’attracco di piccole imbarcazioni, ma di fatto solo marinai disperati si avventurano: la foresta è popolata da bestie feroci, mostri e creature fatate ostili. Si dice che vi esistano portali verso altre parti di Faerûn.
 
 ### Colline Lontane
@@ -68,7 +68,7 @@ Foresta antica e fitta, a sud di Baldur’s Gate e a nord di Candlekeep, lungo l
 Se non fossero oscurate dalle vette dei rami nord e sud delle Sunset Mountains, le Colline Lontane potrebbero essere considerate esse stesse montagne. Non sono le creste rocciose della regione, le valli nascoste o i fitti boschetti di alberi contorti a tenere lontani i viaggiatori, bensì le imponenti guglie della fortezza occidentale di Zhentil Keep: Darkhold. Fino a poco tempo fa, il controllo di Darkhold sulla regione era assoluto, ma la partenza del mago Sememmon ha portato confusione, conflitti e lassismo tra i difensori di Darkhold.
 
 ### Campi dei Morti
-<img src="{{ '/assets/images/terrecentrali3.jpg' | relative_url }}" alt="westernheartlands" style="display: block; margin: 0 auto;" />
+<img src="{{ '/assets/images/terrecentrali3.webp' | relative_url }}" alt="westernheartlands" style="display: block; margin: 0 auto;" />
 Un’altra zona di antiche battaglie fra imperi umani, città-stato della Sword Coast e Amn per il controllo delle fertili terre agricole. Sebbene siano passati secoli, vecchie armature, scheletri, pergameni e oggetti magici continuano a riaffiorare sotto l’aratro.
 
 ### Foresta dei dragoni
@@ -101,7 +101,7 @@ L’attenzione degli elfi alla furtività e alla cautela significa che il loro c
 Lago immerso nell’alta brughiera, descritto come di una bellezza quasi irreale. Alcuni credono che sotto le sue acque si trovino templi sommersi, antichi relitti di astronavi netheresi o civiltà perdute.
 
 ### Palude dei Lucertoloidi
-<img src="{{ '/assets/images/terrecentrali4.jpg' | relative_url }}" alt="westernheartlands" style="display: block; margin: 0 auto;" />
+<img src="{{ '/assets/images/terrecentrali4.webp' | relative_url }}" alt="westernheartlands" style="display: block; margin: 0 auto;" />
 Invece di sfociare liberamente nel Mare delle Spade, il fiume Delimbiyr si disperde in una palude di corsi d’acqua che si intrecciano sotto cipressi delle regioni fredde, ricoperti di muschio pendente. Gli umani evitano le oltre cinquecento miglia quadrate di questa palude, a meno che non intendano scontrarsi con i lucertoloidi, i dinosauri e i draghi neri che si nascondono nelle sue acque basse. Pochi dinosauri raggiungono dimensioni imponenti, poiché sono intensamente cacciati dai lucertoloidi che hanno dato il nome alla palude.
 
 Sotto il comando dell’attuale capo, un guerriero chiamato Occhio Rosso (lucertoloide malvagio caotico, Bbn11/Chm5 di Talos), i lucertoloidi sono riusciti a scacciare tutti gli altri abitanti intelligenti dalla palude. Considerano le acque del fiume a sud di Daggerford come loro terreno di caccia. Gli scontri con le carovane e le pattuglie di Daggerford solitamente si concludono a sfavore dei lucertoloidi, ma non tanto da farli evitare il combattimento.
@@ -136,7 +136,7 @@ Profonda gola dalle rocce affilate, considerata luogo di passaggio obbligato per
 Il Fiume Chionthar collega Baldur’s Gate e la Costa della Spada con le città interne di Elturel, Seornubel, Berdu e Inaebor. Le chiatte possono risalire il fiume fino a Inaebor, punto oltre il quale devono scaricare e trasportare le merci via terra.
 
 ### Guado delle Zanne di Troll
-<img src="{{ '/assets/images/terrecentrali5.jpg' | relative_url }}" alt="westernheartlands" style="display: block; margin: 0 auto;" />
+<img src="{{ '/assets/images/terrecentrali5.webp' | relative_url }}" alt="westernheartlands" style="display: block; margin: 0 auto;" />
 La via commerciale nota come la Coast Way in realtà non corre lungo la Costa della Spada. Svolta verso l’interno a Baldur’s Gate per tenersi lontana dalle Troll Hills e per attraversare il Winding Water al Guado delle Zanne di Troll, al margine dei Trollclaws. Il guado è poco profondo e funzionale, ma l’acqua è nera e nauseabonda, ancora avvelenata dalla morte della divinità Bhaal a nord, presso il Ponte di Boareskyr. L’attraversamento è colmo di pericoli, poiché i troll infestano la regione, soprattutto nelle ore di buio.
 
 ### Zanne di Troll
@@ -159,11 +159,11 @@ Il Winding Water serpeggia e ronza attraverso il centro delle Terre Centrali Occ
 Sotto il Ponte di Boareskyr, luogo della morte di Bhaal, oscuro dio dell’omicidio, le acque del fiume sono fetide e ripugnanti, scorrendo nere fino a molte miglia a ovest del Guado delle Zanne di Troll; lì si schiariscono leggermente, diventano marrone fangoso ma per il resto tornano normali. Gli abitanti delle Terre Centrali Occidentali parlano dell’acqua nera come di “acqua di Bhaal” e si rifiutano di berla, dicendo che porta sfortuna. Sebbene l’acqua di Bhaal non sia velenosa e possa sostenere la vita, gli esseri intelligenti che la bevono soffrono spiacevoli effetti magici collaterali, equivalenti a subire un incantesimo di maledizione per un giorno.
 
 ### Bosco dei Denti Aguzzi
-<img src="{{ '/assets/images/terrecentrali6.jpg' | relative_url }}" alt="westernheartlands" style="display: block; margin: 0 auto;" />
+<img src="{{ '/assets/images/terrecentrali6.webp' | relative_url }}" alt="westernheartlands" style="display: block; margin: 0 auto;" />
 La reputazione di questo bosco come territorio di caccia per bestie immani, idre e draghi lo ha preservato dai taglialegna e dai coloni di Baldur’s Gate – o di qualsiasi altro luogo, del resto.
 
 ### Praterie Verdi (Green Fields)
-<img src="{{ '/assets/images/terrecentrali7.jpg' | relative_url }}" alt="westernheartlands" style="display: block; margin: 0 auto;" />
+<img src="{{ '/assets/images/terrecentrali7.webp' | relative_url }}" alt="westernheartlands" style="display: block; margin: 0 auto;" />
 Nel corso dei secoli, innumerevoli signorotti e mercanti ambiziosi hanno stabilito feudi ai margini settentrionali delle praterie a nord della Snakewood e a sud-est del Bosco dei Denti Aguzzi. L’attuale mezzelfa che ambisce al titolo di regina è Dharva Scatterheart (halfling piedelesto neutrale, Exp1/Rog2/Sor6). Dharva apprezza lo spazio aperto, l’acqua corrente, l’assenza di tasse (eccetto quelle da lei imposte) e il continuo passaggio di carovane che tentano la scorciatoia dalla via attraverso i Picchi delle nuvole verso Berdusk.
 Con l’aiuto di un socio silenzioso, che si è rivelato essere un Ladro d’Ombra di Amn, Dharva ha costruito una cittadina fortificata chiamata Greenest lungo il sentiero per Berdusk. Non è del tutto soddisfatta di avere come partner i Ladri d’Ombra, ma finora si sono comportati e si sono limitati agli affari. Naturalmente, la situazione potrebbe cambiare. Non sarebbe la prima volta che un’impresa nelle Praterie Verdi fallisce a causa di soci incompatibili.
 
@@ -182,7 +182,7 @@ Per il momento, il Passo del Serpente Giallo è libero.
 Piccola città (~5.668 abitanti), mercato centrale per i contadini della Sunset Vale, fertile regione fra la foresta di Reaching e Sunset Mountains. Resiste a razzie grazie a una milizia volontaria ("Riders in Red Cloaks"), spesso integrata da avventurieri. È tappa comune per carovane — salvo quelle dei Zhent, che non possono pernottare. Sotto la città si trovano catacombe di antica civiltà di nomadi a cavallo: talvolta si scoprono tesori… o risorgono non-morti.
 
 ### Baldur’s Gate (Metropoli, 42.103 ab.)
-<img src="{{ '/assets/images/terrecentrali8.jpg' | relative_url }}" alt="westernheartlands" style="display: block; margin: 0 auto;" />
+<img src="{{ '/assets/images/terrecentrali8.webp' | relative_url }}" alt="westernheartlands" style="display: block; margin: 0 auto;" />
 Una delle due grandi città della Costa della Spada, Baldur’s Gate sorge sulla riva nord del fiume Chionthar, a una ventina di miglia dallo sbocco nel Mare Senza Tracce. Posta a metà strada tra Amn e Waterdeep, prospera grazie al commercio.
 
 Il commercio non conosce allineamento, e così la tolleranza è una virtù molto apprezzata a Baldur’s Gate — anche se non al punto da permettere ai visitatori di comportarsi in modo dannoso per persone o proprietà. Le guardie, riconoscibili dai caratteristici elmi neri con strisce rosse ai lati, sorvegliano la città prestando molta più attenzione alla parte alta, racchiusa nelle mura originarie, che alla parte bassa lungo il fiume, protetta da mura più modeste.
@@ -198,7 +198,7 @@ La Gemma della Valle occupa una posizione estremamente favorevole lungo il Senti
 La Dama Cylyria mantiene salda la posizione della città all’interno dell’Alleanza dei Lord e sfrutta la sua influenza per moderare le politiche rigidamente profittevoli dei rivali di Iriaebor e Seornubel. Gli Arpisti non hanno perso tempo a sfruttare l’indebolimento del controllo della Fortezza di Darkhold sulle Terre delle Colline Lontane, ma sono al contempo preoccupati per la crescente — e subdola — influenza dei Maghi Rossi negli affari dell’Ovest.
 
 ### Beregost (Grande Borgo, 2.915 ab.)
-<img src="{{ '/assets/images/terrecentrali9.jpg' | relative_url }}" alt="westernheartlands" style="display: block; margin: 0 auto;" />
+<img src="{{ '/assets/images/terrecentrali9.webp' | relative_url }}" alt="westernheartlands" style="display: block; margin: 0 auto;" />
 Una quarantina di edifici in pietra e legno compongono Beregost, località che vive del traffico commerciale tra Amn e Baldur’s Gate. La cittadina non ha un governo formale: viene amministrata dal sommo sacerdote del grande tempio di Lathander. Gli accoliti del Morninglord, vestiti di giallo, sono armati e mantengono l’ordine.
 
 Curiosamente, anche il fondatore del luogo non fu un politico ma un incantatore: il mago Ulcaster fondò qui una scuola di magia, attorno alla quale si sviluppò un villaggio agricolo di supporto. Tre secoli fa, maghi calishiti mossi da gelosia incendiarono la scuola. Le rovine dominano ancora il lato orientale della strada, dove i chierici di Lathander fanno pascolare il loro bestiame per tenere d’occhio il luogo ed evitare che personaggi poco raccomandabili vi entrino (o ne escano).
@@ -212,7 +212,7 @@ Nessun insediamento permanente sorge presso il ponte, ma una fitta raccolta di t
 A causa della battaglia tra Cyric e Bhaal — che terminò con la morte di quest’ultimo — le acque a valle del ponte sono nere, maleodoranti e considerate di cattivo auspicio da bere. “Va’ a bere a ovest del ponte!” è una comune maledizione della zona.
 
 ### Candlekeep
-<img src="{{ '/assets/images/terrecentrali10.jpg' | relative_url }}" alt="westernheartlands" style="display: block; margin: 0 auto;" />
+<img src="{{ '/assets/images/terrecentrali10.webp' | relative_url }}" alt="westernheartlands" style="display: block; margin: 0 auto;" />
 Celebre cittadella di sapere, arroccata su un promontorio vulcanico sopra il mare, all’estremità del Strada del Leone (strada che la collega alla Strada della Costa). Custodisce una enorme libreria con scritti su tutta Faerûn — la sua porta d’ingresso richiede in dono un libro. Consultare testi o prendere in prestito libri dall’archivio richiede doni sostanziosi (libri nuovi o preziosi).
 
 Il governo del luogo è complesso: c’è un Custode dei Tomi, un Primo Lettore, fino a otto Grandi Lettori; fanno da supporto un Cantore (che canta le profezie), una Guida (insegnante per acòliti) e un Guardiano del Cancello (che gestisce visitatori, sicurezza, approvvigionamenti).
@@ -245,7 +245,7 @@ Attualmente la cittadella ospita una forza Zhent permanente di ottocento guerrie
 Le lotte politiche e gli attentati che dominano l’interno di Darkhold non sono tollerati apertamente nelle tenute orientali degli Zhent, ma per ora queste faide servono a selezionare i più forti. Se non emergerà presto un leader forte, Fzoul nominerà un comandante suo, qualcuno abbastanza potente da risolvere definitivamente le lotte interne.
 
 ### Torre di Durlag’s 
-<img src="{{ '/assets/images/terrecentrali11.jpg' | relative_url }}" alt="westernheartlands" style="display: block; margin: 0 auto;" />
+<img src="{{ '/assets/images/terrecentrali11.webp' | relative_url }}" alt="westernheartlands" style="display: block; margin: 0 auto;" />
 La Torre di Durlag si erge come una gigantesca zanna sopra una parete di roccia vulcanica che si eleva dalle pianure lisce a sud del Bosco dei Denti Aguzzi. La torre fu costruita dall’eroe nano Durlag Trollkiller, afflitto da un’ossessione che i nani chiamano “occhio d’oro”, un bramosia irresistibile per il tesoro.
 
 Durante la sua carriera avventurosa, Durlag si comportò con onore, ma negli ultimi anni si ritirò nella sua tana, dedicandosi a creare un “dono” per le future generazioni di avventurieri. La sua torre è così piena di tesori magici da far girare la testa a chi lancia incantesimi di rilevamento magico. Protezioni magiche, trappole meccaniche e automi ostili assicurano che chiunque voglia lasciare la torre vivo, o portare via anche solo una parte del tesoro, debba lottare con la stessa determinazione che Durlag impiegò per accumulare il suo bottino.

@@ -11,7 +11,7 @@ Questa é una rapida panoramica delle classi, per informzioni piú precise su me
 
 # Classi disponibili
 
-<img src="{{ '/assets/images/classes.png' | relative_url }}" alt="razze" style="display: block; margin: 0 auto;" />
+<img src="{{ '/assets/images/classes.webp' | relative_url }}" alt="razze" style="display: block; margin: 0 auto;" />
 
 ## Barbaro
 Guerriero selvaggio che canalizza forza primordiale e ferocia. Sopravvive in ambienti ostili e combatte con potenza brutale.
@@ -48,7 +48,7 @@ Guerriero sacro votato alla giustizia. Combina abilità marziali e poteri divini
 
 # Razze disponibili
 
-<img src="{{ '/assets/images/races-image.png' | relative_url }}" alt="classi" style="display: block; margin: 0 auto;" />
+<img src="{{ '/assets/images/races-image.webp' | relative_url }}" alt="classi" style="display: block; margin: 0 auto;" />
 
 ## Umano  
 La razza più comune e variegata, presente in ogni angolo di Faerûn. Versatile in cultura e aspetto, permette ampia libertà di background e adattabilità.

@@ -4,7 +4,7 @@ layout: sistemi
 order: 6
 excerpt: Tutto quel che c'é da sapere sul sistema di crafting
 ---
-<img src="{{ '/assets/images/lavorative.png' | relative_url }}" alt="lavorative" style="display: block; margin: 0 auto;" />
+<img src="{{ '/assets/images/lavorative.webp' | relative_url }}" alt="lavorative" style="display: block; margin: 0 auto;" />
 
 - [Lavorative](#lavorative)
   - [Caratteristiche generali](#caratteristiche-generali)
@@ -55,7 +55,7 @@ Le lavorative sono divise nel seguente modo
 ---
 
 ## Agricoltore
-<img src="{{ '/assets/images/agricoltura.jpg' | relative_url }}" alt="agricoltura" style="display: block; margin: 0 auto;" />
+<img src="{{ '/assets/images/agricoltura.webp' | relative_url }}" alt="agricoltura" style="display: block; margin: 0 auto;" />
 
 **Descrizione**  
 L’agricoltore é una figura fondamentale per la produzione di piante, frutti e semi necessari a molti altri mestieri come alchimisti, cuochi e sarti.
@@ -82,7 +82,7 @@ L’agricoltore é una figura fondamentale per la produzione di piante, frutti e
 
 ---
 ## Cuoco
-<img src="{{ '/assets/images/cuoco.jpg' | relative_url }}" alt="cuoco" style="display: block; margin: 0 auto;" />
+<img src="{{ '/assets/images/cuoco.webp' | relative_url }}" alt="cuoco" style="display: block; margin: 0 auto;" />
 
 **Descrizione**
 Il cuoco trasforma ingredienti e materie prime in cibo pronto da consumare. Serve a garantire pasti, viveri e preparazioni alimentari utili per la sopravvivenza quotidiana, viaggi, avventure o commercio.
@@ -112,7 +112,7 @@ Permette di arrostire alla bell'e meglio costolette di carne o tranci di pesce s
 ---
 
 ## Erborista
-<img src="{{ '/assets/images/erborista.jpg' | relative_url }}" alt="erborista" style="display: block; margin: 0 auto;" />
+<img src="{{ '/assets/images/erborista.webp' | relative_url }}" alt="erborista" style="display: block; margin: 0 auto;" />
 
 **Descrizione**
 Gli alchimisti hanno sempre bisogno di reagenti per le proprie pozioni, e la maggior parte di questi si possono trovare tra le erbe dei verdi prati di Faerûn: solo un attento erborista sarà in grado di riconoscerli e raccoglierli senza danneggiarli, e solo con lo strumento giusto. Grazie all’apposito sradicatore, l’esperto raccoglitore di erbe può selezionare i reagenti migliori e raccoglierli per uso futuro. Anche se il lavoro è lento e ripetitivo, il rendimento è assicurato.
@@ -145,7 +145,7 @@ Gli alchimisti hanno sempre bisogno di reagenti per le proprie pozioni, e la mag
 ---
 
 ## Metallurgia
-<img src="{{ '/assets/images/metallurgia.jpg' | relative_url }}" alt="metallurgia" style="display: block; margin: 0 auto;" />
+<img src="{{ '/assets/images/metallurgia.webp' | relative_url }}" alt="metallurgia" style="display: block; margin: 0 auto;" />
 
 **Descrizione**  
 Il minatore estrae minerali, metalli e pietre da cave e montagne. Le risorse ottenute alimentano il lavoro di fabbri, inventori e altri artigiani.
@@ -167,7 +167,7 @@ Il minatore estrae minerali, metalli e pietre da cave e montagne. Le risorse ott
 ---
 
 ## Taglialegna
-<img src="{{ '/assets/images/boscaiolo.jpg' | relative_url }}" alt="boscaiolo" style="display: block; margin: 0 auto;" />
+<img src="{{ '/assets/images/boscaiolo.webp' | relative_url }}" alt="boscaiolo" style="display: block; margin: 0 auto;" />
 
 **Descrizione**  
 Abbattendo gli alberi, il boscaiolo ricava tronchi e legno utile a molti altri mestieri. Esistono varie tipologie di legno, ognuna con proprietà specifiche.
@@ -185,7 +185,7 @@ Abbattendo gli alberi, il boscaiolo ricava tronchi e legno utile a molti altri m
 ---
 
 ## Pescatore
-<img src="{{ '/assets/images/pescare.jpg' | relative_url }}" alt="Sartoria" style="display: block; margin: 0 auto;" />
+<img src="{{ '/assets/images/pescare.webp' | relative_url }}" alt="Sartoria" style="display: block; margin: 0 auto;" />
 
 **Descrizione**  
 Con canna ed esche pesca pesci e a volte oggetti rari o utili come reagenti.
@@ -208,7 +208,7 @@ Con canna ed esche pesca pesci e a volte oggetti rari o utili come reagenti.
 
 
 ## Alchimia
-<img src="{{ '/assets/images/alchimia.jpg' | relative_url }}" alt="Alchimia" style="display: block; margin: 0 auto;" />
+<img src="{{ '/assets/images/alchimia.webp' | relative_url }}" alt="Alchimia" style="display: block; margin: 0 auto;" />
 
 **Descrizione**  
 L’alchimista combina reagenti per creare pozioni con vari effetti. Servono solo un mortaio (con pestello) e un’ampolla per contenere il risultato. Generalmente bastano due reagenti, tranne che per i coloranti per cuoio.
@@ -228,7 +228,7 @@ Indizi su come combinarli sono nella descrizione in gioco di alcuni reagenti.
 ---
 
 # Fabbricare armi e armature
-<img src="{{ '/assets/images/armi.jpg' | relative_url }}" alt="armi" style="display: block; margin: 0 auto;" />
+<img src="{{ '/assets/images/armi.webp' | relative_url }}" alt="armi" style="display: block; margin: 0 auto;" />
 
 **Descrizione**
 Il fabbro è l’artigiano che, una volta che i metalli sono stati estratti e fusi in lingotti, li lavora per creare armi, armature, utensili e altri oggetti metallici necessari.  
@@ -274,7 +274,7 @@ Un fabbro qualificato può produrre:
 ---
 
 ## Falegname
-<img src="{{ '/assets/images/falegname.jpg' | relative_url }}" alt="armi" style="display: block; margin: 0 auto;" />
+<img src="{{ '/assets/images/falegname.webp' | relative_url }}" alt="armi" style="display: block; margin: 0 auto;" />
 
 **Descrizione**  
 Lavora il legno per creare mobili, contenitori, armi (archi, balestre, bastoni), strumenti e molti altri oggetti. Legni rari permettono creazioni più pregiate.
@@ -320,7 +320,7 @@ Con intagliare gemme si puó anche usare l'incisore per perfezionare gemme, per 
 ---
 
 ## Tessitura e Lavorare pellami
-<img src="{{ '/assets/images/sartoria.jpg' | relative_url }}" alt="Sartoria" style="display: block; margin: 0 auto;" />
+<img src="{{ '/assets/images/sartoria.webp' | relative_url }}" alt="Sartoria" style="display: block; margin: 0 auto;" />
 
 **Descrizione**  
 Crea vestiti, bende, armature leggere e abiti decorati usando stoffe, pelli o cuoio. Può tingere, incidere o ricamare i capi.

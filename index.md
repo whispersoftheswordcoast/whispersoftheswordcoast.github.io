@@ -5,7 +5,7 @@ title: Benvenuto
 
 ## Benvenuto, Avventuriero, su *Whispers of the Swords Coast*!
 
-<img src="{{ '/assets/images/legge.jpg' | relative_url }}" alt="Rispetta le leggi" style="display: block; margin: 0 auto;" />
+<img src="{{ '/assets/images/legge.webpg' | relative_url }}" alt="Rispetta le leggi" style="display: block; margin: 0 auto;" />
 
 Questo server offre un'esperienza unica che unisce gioco di ruolo profondo e una presentazione indie estremamente curata.  
 Il sistema di gioco si colloca a metà strada tra **Dungeons & Dragons 3.0/3.5** e **Pathfinder 1e**, completo di talenti, abilità e meccaniche scriptate con attenzione per ricreare il feeling del gioco da tavolo… in una forma **in tempo reale**.

@@ -4,7 +4,7 @@ title: Download
 permalink: /download/
 excerpt: Tutto il necessario per un esperienza moderna anche su server basato su Ultima Online
 ---
-<img src="{{ '/assets/images/shop.png' | relative_url }}" alt="download" style="display: block; margin: 0 auto;" />
+<img src="{{ '/assets/images/shop.webp' | relative_url }}" alt="download" style="display: block; margin: 0 auto;" />
 
 # Download
 

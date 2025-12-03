@@ -4,7 +4,7 @@ title: Regolamento
 permalink: /regolamento/
 excerpt: La raccolta dei regolamenti del server, a tutela del buon gioco di ruolo. 
 ---
-<img src="{{ '/assets/images/asmodeus.png' | relative_url }}" alt="legge dello shard" style="display: block; margin: 0 auto;" />
+<img src="{{ '/assets/images/asmodeus.webp' | relative_url }}" alt="legge dello shard" style="display: block; margin: 0 auto;" />
 <blockquote class="citazione">
   <p>The gods eventually agreed, signing what become known as the Pact Primeval. When the gods realized that Asmodeus was actively tempting mortals into sin to harvest their souls, they confronted him.  His response? "Read the fine print "</p>
   <footer>— <cite>Tyrants of nine hells, p.5</cite></footer>
