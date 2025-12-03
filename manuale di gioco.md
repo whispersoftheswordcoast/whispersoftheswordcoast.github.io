@@ -2,6 +2,7 @@
 layout: default
 title: Manuale
 permalink: /manuale/
+excerpt: Whispers of the Sword coast gdr, prima edizione
 ---
 
 <div class="pdf-wrapper">

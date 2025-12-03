@@ -2,6 +2,7 @@
 title: Terre Centrali Occidentali
 layout: ambientazione
 order: 1
+excerpt: La lore delle terre centrali occidentali per giocare di ruolo si WOTSC
 ---
 - [Terre Centrali Occidentali](#terre-centrali-occidentali)
   - [Panoramica geografica e descrizione generale](#panoramica-geografica-e-descrizione-generale)

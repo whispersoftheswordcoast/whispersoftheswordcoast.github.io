@@ -3,8 +3,9 @@ title: Voto ruolo
 layout: sistemi
 permalink: /mediaruolo/
 order: 101
+excerpt: la valutazione del ruolo, un sistema per incentivare la buona interpretazione di tutti
 ---
-<img src="{{ '/assets/images/teacher.png' | relative_url }}" alt="riposo" style="display: block; margin: 0 auto;" />
+<img src="{{ '/assets/images/teacher.png' | relative_url }}" alt="gli insegnamenti" style="display: block; margin: 0 auto;" />
 
 # Valutazione Ruolo
 

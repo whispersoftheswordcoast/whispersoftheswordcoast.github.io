@@ -2,6 +2,7 @@
 layout: default
 title: Classi e Razze
 permalink: /classi-e-razze/
+excerpt: Una breve panoramica delle razze e delle classi interpretabili nel nostro roleplay
 ---
 
 # Classi e Razze
@@ -47,7 +48,7 @@ Guerriero sacro votato alla giustizia. Combina abilità marziali e poteri divini
 
 # Razze disponibili
 
-<img src="{{ '/assets/images/races-image.png' | relative_url }}" alt="razze" style="display: block; margin: 0 auto;" />
+<img src="{{ '/assets/images/races-image.png' | relative_url }}" alt="classi" style="display: block; margin: 0 auto;" />
 
 ## Umano  
 La razza più comune e variegata, presente in ogni angolo di Faerûn. Versatile in cultura e aspetto, permette ampia libertà di background e adattabilità.

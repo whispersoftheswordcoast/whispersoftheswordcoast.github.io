@@ -2,6 +2,7 @@
 layout: default
 title: Contatti
 permalink: /contatti/
+excerpt: come contattare i lo staff
 ---
 
 # Contatti

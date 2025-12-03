@@ -2,6 +2,7 @@
 title: Elenco dei comandi
 layout: sistemi
 order: 5
+excerpt: Le parole di potere che aprono le porte alla fantasia
 ---
 <img src="{{ '/assets/images/library.png' | relative_url }}" alt="riposo" style="display: block; margin: 0 auto;" />
 <blockquote class="citazione">

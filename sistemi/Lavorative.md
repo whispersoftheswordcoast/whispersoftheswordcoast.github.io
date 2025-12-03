@@ -2,6 +2,7 @@
 title: Lavorative
 layout: sistemi
 order: 6
+excerpt: Tutto quel che c'é da sapere sul sistema di crafting
 ---
 <img src="{{ '/assets/images/lavorative.png' | relative_url }}" alt="lavorative" style="display: block; margin: 0 auto;" />
 

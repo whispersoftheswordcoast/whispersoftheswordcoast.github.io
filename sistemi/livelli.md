@@ -2,6 +2,7 @@
 title: Livelli
 layout: sistemi
 order: 4
+excerpt: Panoramica del sistema a livelli basato su pathfinder e D&D
 ---
 <img src="{{ '/assets/images/victor.png' | relative_url }}" alt="riposo" style="display: block; margin: 0 auto;" />
 

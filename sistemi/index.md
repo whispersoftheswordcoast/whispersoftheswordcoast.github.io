@@ -3,8 +3,9 @@ title: Indice generale
 layout: sistemi
 permalink: /sistemi/
 order: 1
+excerpt: Guide, spiegazione e presentazione su come giocare e sfruttare i nostri sistemi per il gioco di ruolo
 ---
-<img src="{{ '/assets/images/cogs.png' | relative_url }}" alt="riposo" style="display: block; margin: 0 auto;" />
+<img src="{{ '/assets/images/cogs.png' | relative_url }}" alt="Ingranaggi" style="display: block; margin: 0 auto;" />
 
 # Indice generale
 
