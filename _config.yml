@@ -5,7 +5,6 @@ description: >- # this means to fold newlines to spaces
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://whispersoftheswordcoast.github.io" # the base hostname & protocol for your site
 theme: minima
-plugins: []
 markdown: kramdown
 paginate: 5
 exclude: ["node_modules", "vendor"]
