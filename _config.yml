@@ -8,5 +8,4 @@ theme: minima
 markdown: kramdown
 paginate: 5
 exclude: ["node_modules", "vendor"]
-plugins:
-  - jekyll-sitemap
+plugins: [jekyll-sitemap]
