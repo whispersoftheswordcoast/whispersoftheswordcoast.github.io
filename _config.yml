@@ -1,7 +1,7 @@
 title: Whispers of the Sword Coast
 email: info@example.com
 description: >- # this means to fold newlines to spaces
-  Uno shard di Ultima Online ispirato a Dungeons & Dragons. Lore, regole, guide e download.
+ Un full gdr basato sui Forgotten Realms. Un server in salsa indie con un adattamento delle regole DND e Pathfinder in tempo reale, utilizzando il motore di Ultima Online. Lore, regole, guide e download. Lascia volare la fantasia!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://whispersoftheswordcoast.github.io" # the base hostname & protocol for your site
 theme: minima
