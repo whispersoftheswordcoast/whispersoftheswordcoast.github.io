@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Whispers of the Sword Coast roleplay
-excerpt: WOTSC é un server roleplay italiano basato sulle Terre Centrali Occidentali dei Forgotten Realms, implementato su una versione moderna e riscriptata di Ultima Online. Avventura, profonditá, interpretazione e senso di community, ti aspettiamo!
+excerpt: WOTSC é un server roleplay basato sulle Terre Centrali Occidentali dei Forgotten Realms, implementato su una versione moderna e riscriptata di Ultima Online. 
 ---
 
-## Benvenuto, Avventuriero, su *Whispers of the Sword Coast*!
+# Benvenuto su *Whispers of the Sword Coast* avventuriero!
 
 <img src="{{ '/assets/images/legge.webp' | relative_url }}" alt="Rispetta le leggi" style="display: block; margin: 0 auto;" />
 
