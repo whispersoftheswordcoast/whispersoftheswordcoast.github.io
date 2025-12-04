@@ -4,7 +4,7 @@ layout: sistemi
 order: 5
 excerpt: Le parole di potere che aprono le porte alla fantasia
 ---
-<img src="{{ '/assets/images/library.webp' | relative_url }}" alt="riposo" style="display: block; margin: 0 auto;" />
+<img src="{{ '/assets/images/library.webp' | relative_url }}" alt="libreria fatata" style="display: block; margin: 0 auto;" />
 <blockquote class="citazione">
   <p>"The words you speak can shape the world around you. Whether you wield magic through verbal incantations, rally your allies with inspiring speeches, or intimidate your foes with threats, language is a powerful tool in every adventurer’s arsenal."</p>
   <footer>— <cite>Player’s Handbook 5a</cite></footer>
@@ -55,6 +55,7 @@ I comandi si invocano con la sintassi .comando, e possono essere per facilitá s
 - `.indica`: Indica un bersaglio (utile per mostrare dove sta una trappola, un oggetto o una persona).
 - `.insegne`: Attiva/disattiva la visualizzazione delle insegne e titoli di gilda.
 - `.lingue`: Comando veloce per selezionare la lingua in cui parlare.
+- `.mapticket`: Comando per segnalare bug di mappa, vi fará puntare la posizione e descrivere il problema, senza teletrasportarvi via (vedi SOS)
 - `.memloc`: Permette di memorizzare una location su cui potersi teletrasportare in seguito tramite relativa spell.
 - `.memloc cancella`: Permette di cancellare una location precedentemente memorizzata.
 - `.motd`: Visualizza il "Message of the Day" attuale.
@@ -67,6 +68,7 @@ I comandi si invocano con la sintassi .comando, e possono essere per facilitá s
 - `.provadestrezza`: Sfida un altro personaggio ad una prova di Destrezza.
 - `.provaforza`: Sfida un altro personaggio ad una prova di Forza o permette di sfondare porte/contenitori tramite check di forza e costituzione.
 - `.provaintelligenza`: Sfida un altro personaggio ad una prova di Intelligenza.
+- `.provatiro [abilitá/ts/statistica]`: Lascia partire un tiro di dado che restituisce un risultato basato sulla statistica o abilitá scelta. Senza scrivere altro rende un menú
 - `.puntilavoro`: Visualizza in percentuale quanti punti lavoro sono rimasti al pg.
 - `.reply [testo]`: Risponde tramite messaggistica all’ultimo giocatore da cui si è ricevuto un messaggio.
 - `.replyt [testo]`: Risponde all’ultimo giocatore da cui si è ricevuto un `.msgt`.
@@ -74,6 +76,7 @@ I comandi si invocano con la sintassi .comando, e possono essere per facilitá s
 - `.scheda`: Visualizza la scheda del personaggio (alternativa a `.char`).
 - `.spaccarearma`: Prova a spaccare l’arma dell’avversario al prossimo attacco in mischia.
 - `.spinta`: Permette di spingere violentemente un’altra creatura (con adeguata prova di forza).
+- `.sos`: Teletrasporta il pg al Gate e lascia la locazione del teletrasporto. Serve se siete bloccati, e segnala la locazione buggata a noi. Usato come teletrasporto libero viene punito.
 - `.suicidio`: Permette di togliersi la vita con un’arma o lasciarsi morire al prossimo attacco che dovrebbe far svenire il pg.
 - `.svuota`: Svuota un contenitore dentro un altro o a terra, oppure svuota a terra il contenuto di una pozione.
 - `.talenti`: Restituisce la lista dei talenti completa, con le descrizioni per scegliere con calma.
