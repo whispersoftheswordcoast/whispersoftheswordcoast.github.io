@@ -9,7 +9,7 @@ excerpt: la valutazione del ruolo, un sistema per incentivare la buona interpret
 
 # Valutazione Ruolo
 
-Il meccanismo di valutazione del ruolo serve a garantire un minimo di qualitá a livello ruolistico nel server, ponendo dei paletti alla progressione di fronte a mancanze ruolistiche del giocatore, ma non ha un ottica punitiva (salvo il voto relativo alla community spiegato dopo), ma educativa. Quello che desideriamo é che neofiti possano migliorare velocemente grazie alle indicazioni di staff e giocatori esperti.
+Il meccanismo di valutazione del ruolo serve a garantire un minimo di qualitá a livello ruolistico nel server, ponendo dei paletti alla progressione di fronte a mancanze ruolistiche del giocatore, e non ha un'ottica punitiva (salvo il voto relativo alla community spiegato dopo), ma educativa. Quello che desideriamo é che neofiti possano migliorare velocemente grazie alle indicazioni di staff e giocatori esperti.
 Idealmente non dovrebbe frenarvi troppo, se non per gli ultimissimi livelli.
 Il **voto ruolo** si suddividerà in diverse sezioni che, insieme, comporranno la vostra valutazione complessiva.  
 Valutazioni negative verranno date solo dopo un secondo richiamo, a più di due settimane dal primo.

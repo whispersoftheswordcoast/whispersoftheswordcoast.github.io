@@ -7,7 +7,7 @@ excerpt: La lore delle terre centrali occidentalim dell'Amn e altro, per immerge
 
 # Ambientazione
 <img src="{{ '/assets/images/ulcaster.webp' | relative_url }}" alt="Ulcaster" style="display: block; margin: 0 auto;" />
-Le avventure dello shard si svolgono tra le **Terre Centrali Occidentali**,comprendenti Baldur's Gate, e **l'Amn**, territori esplorati in diversi giochi e campagne classiche e non, ma con una particolaritá: tutto é reso coerentemente per essere ambientato nel 1368, e coincide grossomodo con la timeline dei manuali D&D di seconda edizione.
+Le avventure dello shard si svolgono tra le **Terre Centrali Occidentali**, comprendenti Baldur's Gate, e **l'Amn**, territori esplorati in diversi giochi e campagne classiche e non, ma con una particolaritá: tutto é reso coerentemente per essere ambientato nel 1368, e coincide grossomodo con la timeline dei manuali D&D di seconda edizione.
 
 # Fonti maggiormente usate
 <img src="{{ '/assets/images/candlekeep.webp' | relative_url }}" alt="Candlekeep" style="display: block; margin: 0 auto;" />

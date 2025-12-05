@@ -41,14 +41,17 @@ excerpt: La raccolta dei regolamenti del server, a tutela del buon gioco di ruol
 - Le giocate di natura sessuale richiedono il **consenso esplicito di entrambe le parti** e devono essere tenute private, con solo accenni e senza particolari espliciti. Se questo tipo di gioco vi interessa, usate i canali privati.
 
 - Le giocate lesive tra personaggi devono essere sempre descritte nel forum di comunicazioni con lo staff e devono avere forti motivazioni.  
+
 - Non possono essere programmate e devono chiudersi entro un mese.  
 - L’obiettivo dello shard non è lo scontro diretto tra giocatori, quindi queste giocate devono avere riscontro solo ruolistico e dove necessario.
 
-- È vietato prendere qualunque oggetto da altri giocatori senza il loro consenso esplicito.  
+- È vietato prendere qualunque oggetto da altri giocatori senza il loro consenso esplicito. 
+
 - Una volta conclusa la giocata, la parte "sconfitta" dovrà evitare qualunque tipo di rivalsa, mostrando rispetto e timore se necessario, e la parte "vincente" considererà la situazione chiusa e soddisfacente senza ulteriori motivi di scontro.  
 - Se non si raggiunge una soluzione entro il tempo previsto, entrambe le parti considereranno la situazione chiusa e non sarà vantaggioso proseguire lo scontro.
 
 - È sempre possibile per una delle parti dichiararsi sconfitta e interrompere la giocata se questa non diverte o non interessa.  
+
 - In caso di lamentele riguardo a giocatori che non vogliono farsi "derubare" o proseguire scontri, ci sarà un abbassamento della valutazione sul voto di community.
 
 ---
@@ -73,6 +76,7 @@ excerpt: La raccolta dei regolamenti del server, a tutela del buon gioco di ruol
 - È vietato accendere fuochi o accamparsi in luoghi illogici (es. città o strade trafficate).
 
 - È vietato ignorare i PNG o considerare solo reazioni favorevoli ai giocatori.  
+
 - In assenza di un quester o elementi narrativi, considerate sempre la situazione peggiore nelle reazioni dei PNG cittadini.
 
 ---
