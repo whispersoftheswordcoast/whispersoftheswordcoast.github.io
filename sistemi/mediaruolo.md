@@ -1,5 +1,5 @@
 ---
-title: Voto ruolo
+title: Whispers of the Sword Coast - Voto ruolistico
 layout: sistemi
 permalink: /mediaruolo/
 order: 101

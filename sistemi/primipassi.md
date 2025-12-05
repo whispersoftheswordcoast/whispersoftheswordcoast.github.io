@@ -1,5 +1,5 @@
 ---
-title: Primi Passi
+title: Primi Passi su Whispers of the Sword Coast
 layout: sistemi
 order: 3
 excerpt: Tutto il necessario per mettere piede lungo la Costa della Spada in sicurezza

@@ -1,5 +1,5 @@
 ---
-title: Indice generale
+title: Whispers of the Sword Coast - Guide e sistemi
 layout: sistemi
 permalink: /sistemi/
 order: 1
