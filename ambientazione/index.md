@@ -1,5 +1,5 @@
 ---
-title: Whispers of the Sword Coast - Ambientazione
+title: Ambientazione
 layout: ambientazione
 order: 0
 excerpt: La lore delle terre centrali occidentali, dell'Amn e altro, per immergersi in Whispers of the Sword Coast
