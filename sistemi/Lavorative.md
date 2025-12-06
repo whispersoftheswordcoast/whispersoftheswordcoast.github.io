@@ -1,5 +1,5 @@
 ---
-title: Whispers of the Sword Coast - Lavorative
+title: Lavorative
 layout: sistemi
 order: 6
 excerpt: Tutto quel che c'é da sapere sul sistema di crafting, le abilitá lavorative ed altro
