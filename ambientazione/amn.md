@@ -1,5 +1,5 @@
 ---
-title: Amn
+title: Whispers of the Sword Coast - Ambientazione Amn
 layout: ambientazione
 order: 2
 excerpt: Una breve descrizione dell'Amn per il gioco di ruolo

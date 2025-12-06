@@ -75,7 +75,7 @@ Nonostante le difficoltà, agricoltori, abitanti di frontiera, cittadini delle c
 
 La regione ospita decine di città murate, enclave razziali, villaggi agricoli, monasteri, fortezze fortificate e domini armati.
 
-La Terre Centrali Occidentali attrae avventurieri ambiziosi: dozzine di imperi ormai in rovina hanno cercato di conquistarla, lasciando dietro di sé fortezze, tesori, magia pericolosa, o entrambi. A differenza delle regioni densamente popolate delle terre centrali o del Nord, nella terre centrali occidentali i viaggi per terra tra le destinazioni sono lunghi — ma almeno, qualcuno che muore di freddo per strada non rischia.
+Le Terre Centrali Occidentali attrae avventurieri ambiziosi: dozzine di imperi ormai in rovina hanno cercato di conquistarla, lasciando dietro di sé fortezze, tesori, magia pericolosa, o entrambi. A differenza delle regioni densamente popolate delle terre centrali o del Nord, nelle terre centrali occidentali i viaggi per terra tra le destinazioni sono lunghi — ma almeno nessuno rischia di congelar per strada.
 
 ---
 
@@ -96,7 +96,7 @@ Nei secoli precedenti l’ascesa di Waterdeep, il regno più grande fu probabilm
 
 Da allora, la cultura mercantile di città come Waterdeep, Amn e le città sparse dell'Allenza dei Lord rappresenta la civiltà più duratura a imporsi nella regione dopo la caduta di Illefarn.
 
-Un fattore fondamentale nella vita della regione è l’influenza della fortezza Darkhold, sede occidentale degli Zhentarim: i suoi alti e bassi — potere, guerre, vacanze del controllo — restano la variabile più instabile per gli abitanti delle terre centrali occidentali.
+Un fattore fondamentale nella vita della regione è l’influenza della fortezza Darkhold, sede occidentale degli Zhentarim: i suoi alti e bassi — potere, guerre, vuoti di potere — restano la variabile più instabile per gli abitanti delle terre centrali occidentali.
 
 ---
 
@@ -118,7 +118,7 @@ Se non fossero oscurate dalle vette dei rami nord e sud delle Sunset Mountains, 
 
 ### Campi dei Morti
 <img src="{{ '/assets/images/terrecentrali3.webp' | relative_url }}" alt="westernheartlands" style="display: block; margin: 0 auto;" />
-Un’altra zona di antiche battaglie fra imperi umani, città-stato della Sword Coast e Amn per il controllo delle fertili terre agricole. Sebbene siano passati secoli, vecchie armature, scheletri, pergameni e oggetti magici continuano a riaffiorare sotto l’aratro.
+Un’altra zona di antiche battaglie fra imperi umani, città-stato della Sword Coast e Amn per il controllo delle fertili terre agricole. Sebbene siano passati secoli, vecchie armature, scheletri, pergamene e oggetti magici continuano a riaffiorare sotto l’aratro.
 
 ### Foresta dei dragoni
 
@@ -131,11 +131,11 @@ Un tempo, gli Arpisti e altri eroi si avventuravano nella foresta per affrontare
 
 L'alta brughiera è la più vasta delle lande aperte dell’ovest di Faerûn, celebre come rifugio di mostri che emergono dalle fredde nebbie per divorare i viandanti. Si tratta di una landa selvaggia, immensa e disabitata, ad eccezione solo delle sue temibili creature — notoriamente troll, anche se i viaggiatori che l’hanno effettivamente attraversata parlano più spesso di orchi e hobgoblin.
 
-A ovest la Brughiera Alta confina con la Foresta Nebbiosa, i cui oscuri radure blu e i suoi profondi boschi vantano da sempre una reputazione fatata e mortale; a est con le Colline dei Serpenti, dove si nascondono serpenti e yuan-ti. Queste terre ondulate e punteggiate di speroni rocciosi si dice celino le rovine di antichi regni ormai scomparsi — ma quali esattamente è materia di acceso dibattito tra i sapienti. I menestrelli narrano ballate vivide ma contrastanti su queste terre perdute (“Le ossa e i troni delle terre scomparse” è un verso molto amato, unico frammento di una canzone dimenticata da tempo). Quel che è certo è che la brughiera custodisce numerosi castelli in rovina, tombe di pietra e caverne, quasi tutti ricchi di tesori per i coraggiosi e i fortunati.
+A ovest l'Alta Brughiera confina con la Foresta Nebbiosa, le cupe radure nebbiose e i suoi profondi boschi vantano da sempre una reputazione fatata e mortale; a est con le Colline dei Serpenti, dove si nascondono serpenti e yuan-ti. Queste terre ondulate e punteggiate di speroni rocciosi si dice celino le rovine di antichi regni ormai scomparsi — ma quali esattamente è materia di acceso dibattito tra i sapienti. I menestrelli narrano ballate vivide ma contrastanti su queste terre perdute (“Le ossa e i troni delle terre scomparse” è un verso molto amato, unico frammento di una canzone dimenticata da tempo). Quel che è certo è che la brughiera custodisce numerosi castelli in rovina, tombe di pietra e caverne, quasi tutti ricchi di tesori per i coraggiosi e i fortunati.
 
 Lupi e leucrotte sono rari in questa zona, poiché troll, bugbear e hobgoblin hanno sterminato le altre grandi bestie predatrici. La scarsità relativa di predatori naturali favorisce la proliferazione di animali da pascolo di ogni genere, dai piccoli pony delle rocce alle pecore dal pelo folto. Durante i mesi più caldi, grandi e ben armati gruppi di agricoltori costieri e mercanti in difficoltà si avventurano nella brughiera, alla ricerca di cavalli da radunare e addestrare altrove, o di bestiame da portare via. Tuttavia, gli avidi sono avvertiti: hobgoblin e creature ben peggiori tendono sempre imboscate agli intrusi in massa, e le piccole compagnie umane pagano queste incursioni con la vita.
 
-Come le Evermoors a nord del Dessarin, la Brughiera Alta è punteggiata da affioramenti rocciosi ricoperti di muschio e licheni, gole scoscese e limpidi rivoli d’acqua che sgorgano dalle rocce, scorrono per un tratto attraverso la brughiera e poi scompaiono nel terreno. La zona è inoltre avvolta da nebbie frequenti, poiché i venti dominanti sono più miti rispetto ai freddi e nebbia-scaccianti venti del Nord.
+Come le Evermoors a nord del Dessarin, la Brughiera Alta è punteggiata da affioramenti rocciosi ricoperti di muschio e licheni, gole scoscese e limpidi rivoli d’acqua che sgorgano dalle rocce, scorrono per un tratto attraverso la brughiera e poi scompaiono nel terreno. La zona è inoltre avvolta da nebbie frequenti, poiché i venti dominanti sono più miti rispetto ai venti freddi e spazza nebbia del Nord.
 
 ### Colline del Mantogrigio (Graycloak Hills)
 
@@ -147,7 +147,7 @@ L’attenzione degli elfi alla furtività e alla cautela significa che il loro c
 
 ### Lato Stella Alta
 
-Lago immerso nell’alta brughiera, descritto come di una bellezza quasi irreale. Alcuni credono che sotto le sue acque si trovino templi sommersi, antichi relitti di astronavi netheresi o civiltà perdute.
+Lago immerso nell’alta brughiera, descritto come di una bellezza quasi irreale. Alcuni credono che sotto le sue acque si trovino templi sommersi, antichi relitti di cittá volanti netheresi o civiltà perdute.
 
 ### Palude dei Lucertoloidi
 <img src="{{ '/assets/images/terrecentrali4.webp' | relative_url }}" alt="westernheartlands" style="display: block; margin: 0 auto;" />
