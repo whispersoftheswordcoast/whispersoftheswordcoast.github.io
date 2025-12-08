@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url><loc>https://whispersoftheswordcoast.github.io/</loc><priority>1.0</priority></url>
+  <url><loc>https://whispersoftheswordcoast.github.io/come-giocare/</loc><priority>0.8</priority></url>
+  <url><loc>https://whispersoftheswordcoast.github.io/ambientazione/</loc><priority>0.8</priority></url>
+  <url><loc>https://whispersoftheswordcoast.github.io/classi-e-razze/</loc><priority>0.8</priority></url>
+  <url><loc>https://whispersoftheswordcoast.github.io/sistemi/</loc><priority>0.9</priority></url>
+
+  <!-- sotto-pagine di “Sistemi” -->
+  <url><loc>https://whispersoftheswordcoast.github.io/sistemi/primi-passi/</loc><priority>0.7</priority></url>
+  <url><loc>https://whispersoftheswordcoast.github.io/sistemi/livelli/</loc><priority>0.7</priority></url>
+  <url><loc>https://whispersoftheswordcoast.github.io/sistemi/comandi/</loc><priority>0.7</priority></url>
+  <url><loc>https://whispersoftheswordcoast.github.io/sistemi/lavorative/</loc><priority>0.7</priority></url>
+  <url><loc>https://whispersoftheswordcoast.github.io/sistemi/voto-ruolistico/</loc><priority>0.7</priority></url>
+  <url><loc>https://whispersoftheswordcoast.github.io/sistemi/pagellino/</loc><priority>0.7</priority></url>
+
+  <url><loc>https://whispersoftheswordcoast.github.io/download/</loc><priority>0.7</priority></url>
+  <url><loc>https://whispersoftheswordcoast.github.io/manuale-di-gioco/</loc><priority>0.7</priority></url>
+  <url><loc>https://whispersoftheswordcoast.github.io/regolamento/</loc><priority>0.7</priority></url>
+  <url><loc>https://whispersoftheswordcoast.github.io/contatti/</loc><priority>0.5</priority></url>
+
+</urlset>
