@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Whispers of the Sword Coast, MMO full GDR Italiano
+title: Whispers of the Sword Coast, Shard MMO full GDR D&D Italiano
 excerpt: WOTSC é un server roleplay basato sulle Terre Centrali Occidentali dei Forgotten Realms, implementato su una versione moderna e riscriptata di Ultima Online. 
 ---
 
