@@ -32,18 +32,38 @@
 
     <main class="container-ambientazione">
       <aside class="ambientazione-sidebar">
-        <h3>Sezioni Ambientazione</h3>
-        <ul>
-          {% assign ambientazione_pages = site.pages | where_exp: "page", "page.path contains 'ambientazione/'" %}
-          {% assign ambientazione_pages = ambientazione_pages | where_exp: "page", "page.title" %}
-          {% assign ambientazione_pages_sorted = ambientazione_pages | sort: "order" %}
-          {% for p in ambientazione_pages_sorted %}
+  <h3>Sezioni Ambientazione</h3>
+  <ul>
+    {% assign ambientazione_pages = site.pages 
+        | where_exp: "page", "page.path contains 'ambientazione/'"
+        | where_exp: "page", "page.title" 
+    %}
+
+    {%- comment -%}
+    Creiamo un hash di categorie → lista pagine
+    {%- endcomment -%}
+    {% assign grouped = ambientazione_pages | group_by:"category" %}
+
+    {%- comment -%}
+    Ordiniamo le categorie alfabeticamente (o cambia metodo)
+    {%- endcomment -%}
+    {% assign grouped_sorted = grouped | sort: "name" %}
+
+    {% for category in grouped_sorted %}
+      <li class="sidebar-category">
+        <strong>{{ category.name }}</strong>
+        <ul class="sidebar-sublist">
+          {% assign pages_sorted = category.items | sort: "order" %}
+          {% for p in pages_sorted %}
             <li {% if page.url == p.url %}class="active"{% endif %}>
               <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
             </li>
           {% endfor %}
         </ul>
-      </aside>
+      </li>
+    {% endfor %}
+  </ul>
+</aside>
 
       <!-- Pulsante toggle subito dopo la sidebar -->
       <button class="sidebar-toggle-button" aria-label="Apri/Chiudi menu">Menu</button>

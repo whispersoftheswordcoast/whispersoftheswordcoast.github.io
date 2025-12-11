@@ -166,3 +166,35 @@
   text-align: right;
   font-weight: bold;
 }
+
+.sidebar-category {
+  margin-bottom: 10px;
+}
+
+.sidebar-category > strong {
+  display: block;
+  font-size: 1.1em;
+  margin: 8px 0 4px;
+  color: #d9d9d9;
+}
+
+.sidebar-sublist {
+  padding-left: 15px;
+  list-style: none;
+}
+
+.sidebar-sublist li {
+  margin: 3px 0;
+}
+
+.sidebar-sublist li.active a {
+  font-weight: bold;
+  color: #fff;
+}
+
+/* Rende visibile l’indentazione delle sottosezioni */
+.ambientazione-sidebar ul ul {
+  padding-left: 20px !important;
+  margin-left: 10px !important;
+  border-left: 1px solid rgba(255,255,255,0.1); /* opzionale: linea guida */
+}

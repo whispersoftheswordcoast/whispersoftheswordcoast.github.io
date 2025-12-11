@@ -3,6 +3,7 @@ title: Terre Centrali Occidentali
 layout: ambientazione
 order: 1
 excerpt: Un trattato breve sui luoghi piú importanti delle Terre Centrali Occidentali, cuore dell'ambientazione di WOTSC e D&D. Baldur's Gate,e altro
+category: "Geografia"
 ---
 - [Terre Centrali Occidentali](#terre-centrali-occidentali)
   - [Panoramica geografica e descrizione generale](#panoramica-geografica-e-descrizione-generale)
