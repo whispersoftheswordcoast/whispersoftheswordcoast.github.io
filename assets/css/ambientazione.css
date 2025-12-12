@@ -15,7 +15,7 @@
 /* Sidebar */
 .ambientazione-sidebar {
   width: 260px;
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(0, 0, 0, 0.7);
   padding: 1rem;
   border-radius: 8px;
   position: sticky;
@@ -99,7 +99,7 @@
   display: none; /* nascosto di default */
   margin: 1rem auto;
   padding: 0.5rem 1.2rem;
-  background: rgba(246, 231, 193, 0.2);
+  background: rgba(0, 0, 0, 0.7);;
   border: 1.5px solid #f6e7c1;
   color: #f6e7c1;
   font-weight: bold;

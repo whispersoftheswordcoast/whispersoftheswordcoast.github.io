@@ -10,7 +10,7 @@ excerpt: Come muovere i primi passi nel server
 Segui questi passi per entrare nel mondo:
 
 1. Leggi il [Regolamento](/regolamento/) per conoscere le regole base, ti serviranno per creare un background adatto.
-2. Entra nel nostro [forum](https://whispersofswoardcoast.forumcommunity.net/) creando un account valido, poi manda il tuo background in questa [sezione](https://whispersofswoardcoast.forumcommunity.net/?f=9150141), solo tu e lo staff potrete vederlo, quindi non preoccuparti!
+2. Mandaci un [Background](/Background/) sul sito oppure entra nel nostro [forum](https://whispersofswoardcoast.forumcommunity.net/) creando un account valido, poi manda il tuo background in questa [sezione](https://whispersofswoardcoast.forumcommunity.net/?f=9150141), solo tu e lo staff potrete vederlo, quindi non preoccuparti!
 3. Attendi l'approvazione del background, controlla spesso, un DM ti avviserá se il background é valido o ti chiederá correzioni, dopodiché approverá un background valido per te
 4. Scarica il launcher dalla pagina [Download](/download/).
     <p align="center">
