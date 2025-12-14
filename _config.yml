@@ -6,6 +6,6 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://whispersoftheswordcoast.github.io" # the base hostname & protocol for your site
 theme: minima
 markdown: kramdown
-paginate: 5
+paginate: 40
 exclude: ["node_modules", "vendor"]
 plugins: [jekyll-sitemap]
