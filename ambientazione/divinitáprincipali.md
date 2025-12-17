@@ -6,10 +6,16 @@ excerpt: Descrizioni dettagliate delle divinità maggiori, intermedie e minori d
 category: "Divinità"
 ---
 
+<img src="{{ '/assets/images/deities.jpg' | relative_url }}" alt="divinitá" style="display: block; margin: 0 auto;" />
 
 # Pantheon Principale
 
 Queste divinitá sono quelle disponibili o comunque rilevanti per la narrazione del servee, e torneranno spesso nelle trame. Non sono tutte e potete sceglierne anche una non presente come vostra patrona, purché esistente da lore nel 1368 nel Faerun
+
+<blockquote class="citazione">
+  <p>“In the Forgotten Realms, the gods are ever-present, their influence woven into the fabric of the world. They are both patrons and adversaries, shaping the fates of mortals and the tides of history. Mortals may worship them, but the gods themselves engage in endless conflict and intrigue, their divine wills guiding—or twisting—the course of the realms.”</p>
+  <footer>— <cite>Forgotten Realms Campaign Setting, Edizione 3.5</cite></footer>
+</blockquote>
 
   - Divinità Maggiori
     - [Bane (Il Signore Oscuro)](#bane-il-signore-oscuro)
