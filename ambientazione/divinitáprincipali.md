@@ -111,8 +111,7 @@ Queste divinitá sono quelle disponibili o comunque rilevanti per la narrazione 
 - **Domini:** Bene Forza Nobilta Protezione Rinnovamento Sole
 
 ### Lolth (La Regina dei Ragni)
-- **Descrizione:** Lolth è la dea ragno, patrona degli drow (elfi oscuri), dea del caos, dell’inganno, della menzogna e della distruzione. È conosciuta per la sua natura crudele, manipolatrice e vendicativa. Lolth governa il pantheon oscuro degli drow e incarna la sopravvivenza attraverso l’inganno e la brutalità. I suoi seguaci sono spesso coinvolti in intrighi politici, tradimenti e lotte per il potere. È venerata attraverso sacrifici e rituali oscuri nelle profondità delle caverne sotterranee.
-
+- **Descrizione:** Lolth è la dea ragno, patrona dei drow (elfi oscuri), dea del caos, dell’inganno, della menzogna e della distruzione. È conosciuta per la sua natura crudele, manipolatrice e vendicativa. Lolth governa il pantheon oscuro dei drow e incarna la sopravvivenza attraverso l’inganno e la brutalità. I suoi seguaci sono spesso coinvolti in intrighi politici, tradimenti e lotte per il potere. È venerata attraverso sacrifici e rituali oscuri nelle profondità delle caverne sotterranee.
 - **Allineamento:** Caotico Malvagio
 - **Simbolo:** Un ragno nero su sfondo porpora
 - **Domini:** Distruzione Drow Inganno Male Oscurita Ragni
@@ -125,7 +124,7 @@ Queste divinitá sono quelle disponibili o comunque rilevanti per la narrazione 
 - **Domini:** Artigianato Bene Legge Nani Protezione Terra
 
 ### Myrkul (Il Signore delle Ossa) (attualmente morto)
-- **Descrizione:** Myrkul, rappresentato come una salma ammantata dalle mani scheletriche e dalle carni in avanzato stato di decomposizione, possiede un’intelligenza deviata. Si dice che prima di accompagnare qualcuno nell’Ade, sussurri la notte prima nelle orecchie del malcapitato.
+- **Descrizione:** Myrkul, rappresentato come una salma ammantata dalle mani scheletriche e dalle carni in avanzato stato di decomposizione, possiede un’intelligenza deviata. Si dice che la notte prima di accompagnare qualche malcapitato nell'Ade gli sussurri nelle orecchie.
 - **Allineamento:** Neutrale Malvagio
 - **Simbolo:** Un teschio circondato da ombre
 - **Domini:** Morte, Oscurità, Inganno
@@ -137,13 +136,13 @@ Queste divinitá sono quelle disponibili o comunque rilevanti per la narrazione 
 - **Domini:** Bene Conoscenza Illusioni Incantesimi Magia Rune
 
 ### Oghma (Il Preservatore)
-- **Descrizione:** Oghma è la divinità della conoscenza più potente di Faerûn. È un potere saggio e benevolo dotato della capacità di persuadere gli altri del proprio punto di vista, che tenta di mettere in pratica piani estremamente complessi che ha vagliato attentamente prima di metterli in pratica. Questa sua immobilismo a volte si contrappone alla natura rivoluzionaria di Gond che da lei dipende.
-- **Allineamento:** Neutrale
+- **Descrizione:** Oghma è la divinità della conoscenza più potente di Faerûn. È un potere saggio e benevolo dotato della capacità di persuadere gli altri del proprio punto di vista, che tenta di mettere in pratica piani estremamente complessi che ha precedentemente vagliato attentamente. Questa sua immobilismo a volte si contrappone alla natura rivoluzionaria di Gond che da lui dipende..
+- **Allineamento:** Neutral
 - **Simbolo:** Un occhio aperto con una penna incrociata
 - **Domini:** Charme Conoscenza Fortuna Inganno Viaggio
 
 ### Selûne (La Signora d’Argento)
-- **Descrizione:** Selûne, incarnazione del firmamento, è una dea sensibile, dal temperamento quieto e mistico. Le numerose battaglie che ha combattuto in cielo e su diversi piani contro la sua nemesi Shar contrastano con il suo carattere pacifico. Selûne assume molte forme, riflettendo la mutevole superficie della Luna stessa. È tollerante verso la maggior parte delle creature. Il suo credo è popolare in particolare tra i navigatori, le creature notturne e dai romantici sognatori.
+- **Descrizione:** Selûne, incarnazione del firmamento, è una dea sensibile, dal temperamento quieto e mistico. Le numerose battaglie che ha combattuto in cielo e su diversi piani contro la sua nemesi Shar contrastano con il suo carattere pacifico. Selûne assume molte forme, riflettendo la mutevole superficie della Luna stessa. È tollerante verso la maggior parte delle creature. Il suo credo è popolare in particolare tra i navigatori, le creature notturne ed i romantici sognatori.
 - **Allineamento:** Caotico Buono
 - **Simbolo:** Una luna argentata crescente
 - **Domini:** Bene Luna Protezione Viaggio
@@ -182,7 +181,8 @@ Queste divinitá sono quelle disponibili o comunque rilevanti per la narrazione 
 - **Descrizione:** Tyr è un nobile guerriero dallo spirito forte che ha deciso di dedicarsi alla giustizia. Ha perso la sua mano destra combattendo con Kezef, il Segugio del Caos, e a volte è raffigurato come cieco. Anche se si ritiene una figura paterna che vuole comunicare amore, coraggio e la forza dei legami familiari, viene visto dagli altri come un vero portatore di giustizia. È molto popolare nelle aree civilizzate dove, specie i giudici, gli affidano la risoluzione delle dispute e l’interpretazione dei codici.
 - **Allineamento:** Legale Buono
 - **Simbolo:** Una bilancia con una spada
-- **Domini:** Bene Castigo Conoscenza Guerra Legge
+- **Domini:**  Bene Castigo Conoscenza Guerra Legge
+
 ---
 
 ## Divinità Intermedie
