@@ -10,7 +10,7 @@ category: "Divinità"
 
 # Pantheon Principale
 
-Queste divinitá sono quelle disponibili o comunque rilevanti per la narrazione del servee, e torneranno spesso nelle trame. Non sono tutte e potete sceglierne anche una non presente come vostra patrona, purché esistente da lore nel 1368 nel Faerun
+Queste divinitá sono quelle disponibili o comunque rilevanti per la narrazione del servee, e torneranno spesso nelle trame. Non sono tutte e potete sceglierne anche una non presente come vostra patrona, purché esistente da lore nel 1368 nel Faerun. É una piccola panoramica riassuntiva, consigliamo di approfondire una volta trovata una divinitá che vi piaccia.
 
 <blockquote class="citazione">
   <p>“In the Forgotten Realms, the gods are ever-present, their influence woven into the fabric of the world. They are both patrons and adversaries, shaping the fates of mortals and the tides of history. Mortals may worship them, but the gods themselves engage in endless conflict and intrigue, their divine wills guiding—or twisting—the course of the realms.”</p>
