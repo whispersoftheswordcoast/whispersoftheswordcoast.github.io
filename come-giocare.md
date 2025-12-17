@@ -23,6 +23,7 @@ A questo punto dovresti essere nella sala della creazione. Scrivi semplicemente 
 7. Unisciti al nostro Discord per supporto e per trovare compagni d'avventura.
 
 ### Consigli per nuovi giocatori
+- Consulta questa pagina, ti aiuterá: [Primi Passi](/primipassi/)
 - Leggi l'ambientazione per capire il tono del mondo.
 - Se é la prima volta, prova un background un personaggio di semplice interpretazione
 - Non essere timido, il nostro discord é sempre attivo e c'é sempre qualcuno per aiutare ad ambientarti o per rispondere alle tue  domande
