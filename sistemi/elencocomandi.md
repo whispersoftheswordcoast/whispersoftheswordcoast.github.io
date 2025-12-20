@@ -149,6 +149,8 @@ I comandi si invocano con la sintassi .comando, e possono essere per facilitá s
 - `.casta [nome o numero]`: Lancia incantesimi.
 - `.casta difensivo`: Incantesimi difensivi.
 - `.duellomagico [dimensione]`: Inizia un Duello Magico con altro incantatore arcano.
+- `.evocafamiglio`: Richiama il vostro famiglio
+- `.sceglifamiglio`: Lancia il gump di scelta per il famiglio, scegliete con cura
 - `.spells`: Elenco incantesimi memorizzati.
 - `.ven [testo]`: Usa Ventriloquio per far apparire la voce come proveniente dal soggetto dell’incantesimo.
 
@@ -183,6 +185,8 @@ I comandi si invocano con la sintassi .comando, e possono essere per facilitá s
 - `.casta [nome o numero]`: Lancia incantesimi.
 - `.casta difensivo`: Incantesimi difensivi.
 - `.duellomagico [dimensione]`: Inizia Duello Magico con altro incantatore arcano.
+- `.evocafamiglio`: Richiama il vostro famiglio
+- `.sceglifamiglio`: Lancia il gump di scelta per il famiglio, scegliete con cura
 - `.memo`: Visualizza memorizzazioni incantesimi disponibili.
 - `.spells`: Elenco incantesimi conosciuti e possibilità di lanciarli.
 - `.ven [testo]`: Ventriloquio.
