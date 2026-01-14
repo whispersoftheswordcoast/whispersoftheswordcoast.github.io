@@ -43,9 +43,12 @@ I comandi si invocano con la sintassi .comando, e possono essere per facilitá s
 - `.char`: Visualizza la scheda del personaggio.
 - `.cogli`: Permette di cogliere frutti dagli alberi o cercare radici e bacche commestibili (tramite check di Conoscenza Terre Selvagge) nella zona circostante (utilizzabile solo fuori città).
 - `.controllati`: Permette di rilasciare creature domate, soggiogate o controllate a distanza.
+- `.debugatk`: Restituisce i valori in attacco in tempo reale. Ripetere per disattivare.
+- `.debugdef`: Restituisce i valori in difesa in tempo reale. Ripetere per disattivare.
 - `.difesa`: Senza parametri attiva/disattiva il Combattimento difensivo. Con parametro "totale", attiva/disattiva la Difesa totale.
 - `.disarma`: Prova a disarmare l'avversario al prossimo attacco in mischia.
-- `.lencospells [nomeclasse]`: Permette di avere una lista delle quest consultabili. Senza mettere un nome classe rende le spells della propria classe, altrimenti quelle della classe indicata.
+- `.dove`: Fa una prova su geografia o sopravvivenza per comprendere l'area geografica dove ci si trova.
+- `.elencospells [nomeclasse]`: Permette di avere una lista delle quest consultabili. Senza mettere un nome classe rende le spells della propria classe, altrimenti quelle della classe indicata.
 - `.emote [tipo]`: Permette di eseguire azioni sonore. Emote possibili: ah, ahha, applauso, bacio, fischio, gasp, grido, groan, hey, huh, no, oh, oooh, oops, peto, pianto, ringhio, risata, risatina, russa, rutto, sbadiglio, schiariscegola, shhht, sniff, soffianaso, sospiro, sputo, starnuto, tosse, tosse2, urlo, yahoo, yeah.
 - `.firma`: Attiva/disattiva la propria firma sugli oggetti creati.
 - `.gettaarma`: Getta immediatamente a terra l'arma impugnata.
@@ -102,6 +105,8 @@ I comandi si invocano con la sintassi .comando, e possono essere per facilitá s
 
 - `.irabarbarica`: Entra in ira barbarica.
 - `.velocitabarbaro 1`: Aumenta la velocità a piedi in ira.
+- `.abbandonoavventato`: Attiva il potere d'ira abbandono avventato
+- `.posizionedifensiva`: Attiva il potere d'ira posizione difensiva
 
 ### Bardo
 
@@ -125,6 +130,8 @@ I comandi si invocano con la sintassi .comando, e possono essere per facilitá s
 
 - `.spells`: Visualizza e lancia incantesimi memorizzati.
 - `.poteredominio <dominio>` (es. `.poteredominio acqua`): Attiva i poteri di dominio.
+- `.qualsiasiincantesimo [id]` comando per gestire Qualsiasi Incantesimo per il dominio incantesimi
+- `.qualsiasiincantesimosuperiore [id]` comando per gestire Qualsiasi Incantesimo Superiore per il dominio incantesimi
 
 ### Druido
 
