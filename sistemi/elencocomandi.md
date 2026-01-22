@@ -40,6 +40,7 @@ I comandi si invocano con la sintassi .comando, e possono essere per facilitá s
 - `.borsaloot`: Definisce un contenitore in cui finiranno automaticamente tutti gli oggetti raccolti e creati.
 - `.borsello`: Definisce un contenitore da usare come borsello per acquisti e vendite con i mercanti PNG.
 - `.cappuccio`: Alza/abbassa il cappuccio del mantello o della tunica indossati. Scrivendo il comando seguito da un qualsiasi carattere alfanumerico (es. `.cappuccio 5`) il cappuccio nasconderà l'identità del personaggio.
+- `.cercare`: Il personaggio si mette a cercare trappole (é un loop, ripetendo il comando smette).
 - `.char`: Visualizza la scheda del personaggio.
 - `.cogli`: Permette di cogliere frutti dagli alberi o cercare radici e bacche commestibili (tramite check di Conoscenza Terre Selvagge) nella zona circostante (utilizzabile solo fuori città).
 - `.controllati`: Permette di rilasciare creature domate, soggiogate o controllate a distanza.
@@ -56,6 +57,7 @@ I comandi si invocano con la sintassi .comando, e possono essere per facilitá s
 - `.guardacielo`: Guarda il cielo e stima condizioni metereologiche, momento della giornata e stagione in corso.
 - `.grazia`: Attiva/disattiva la modalità di combattimento che non somma il modificatore di forza ai danni (utile per allenamenti o per non uccidere l’avversario).
 - `.indica`: Indica un bersaglio (utile per mostrare dove sta una trappola, un oggetto o una persona).
+- `.inginocchiati`: Il personaggio si inginocchia.
 - `.insegne`: Attiva/disattiva la visualizzazione delle insegne e titoli di gilda.
 - `.lingue`: Comando veloce per selezionare la lingua in cui parlare.
 - `.mapticket`: Comando per segnalare bug di mappa, vi fará puntare la posizione e descrivere il problema, senza teletrasportarvi via (vedi SOS)
@@ -68,6 +70,7 @@ I comandi si invocano con la sintassi .comando, e possono essere per facilitá s
 - `.passalivello`: Una volta raggiunti i PX necessari, permette di passare al livello seguente.
 - `.password`: Permette di cambiare la password del proprio account di gioco.
 - `.poteremagico [indumento/oggetto]`: Attiva i poteri di un oggetto magico, bacchetta o pergamena già decifrata.
+- `.prostrati`: Il personaggio si prostra.
 - `.provadestrezza`: Sfida un altro personaggio ad una prova di Destrezza.
 - `.provaforza`: Sfida un altro personaggio ad una prova di Forza o permette di sfondare porte/contenitori tramite check di forza e costituzione.
 - `.provaintelligenza`: Sfida un altro personaggio ad una prova di Intelligenza.
@@ -77,7 +80,8 @@ I comandi si invocano con la sintassi .comando, e possono essere per facilitá s
 - `.replyt [testo]`: Risponde all’ultimo giocatore da cui si è ricevuto un `.msgt`.
 - `.riposa`: Permette un breve riposo che recupera punti ferita ma non permette di preparare nuovi incantesimi.
 - `.scheda`: Visualizza la scheda del personaggio (alternativa a `.char`).
-- `.spaccarearma`: Prova a spaccare l’arma dell’avversario al prossimo attacco in mischia.
+- `.sdraiati`: Il personaggio si sdraia.
+- `.spaccarearma`:  Prova a spaccare l’arma dell’avversario al prossimo attacco in mischia.
 - `.spinta`: Permette di spingere violentemente un’altra creatura (con adeguata prova di forza).
 - `.sos`: Teletrasporta il pg al Gate e lascia la locazione del teletrasporto. Serve se siete bloccati, e segnala la locazione buggata a noi. Usato come teletrasporto libero viene punito.
 - `.suicidio`: Permette di togliersi la vita con un’arma o lasciarsi morire al prossimo attacco che dovrebbe far svenire il pg.
