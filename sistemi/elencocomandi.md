@@ -79,6 +79,7 @@ I comandi si invocano con la sintassi .comando, e possono essere per facilitá s
 - `.reply [testo]`: Risponde tramite messaggistica all’ultimo giocatore da cui si è ricevuto un messaggio.
 - `.replyt [testo]`: Risponde all’ultimo giocatore da cui si è ricevuto un `.msgt`.
 - `.riposa`: Permette un breve riposo che recupera punti ferita ma non permette di preparare nuovi incantesimi.
+- `.sbilanciare`: Permette di sbilanciare l'avversario a mani nude o con le armi adatte.
 - `.scheda`: Visualizza la scheda del personaggio (alternativa a `.char`).
 - `.sdraiati`: Il personaggio si sdraia.
 - `.spaccarearma`:  Prova a spaccare l’arma dell’avversario al prossimo attacco in mischia.
