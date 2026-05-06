@@ -115,9 +115,9 @@ In aggiunta ai requisiti di px e valutazione, ci sono alcuni blocchi temporali t
     </tr>
     <tr style="background-color: #484b69ff;">
       <td style="padding: 8px; border: 1px solid #ddd;">12</td>
-      <td style="padding: 8px; border: 1px solid #ddd;">13</td>
-      <td style="padding: 8px; border: 1px solid #ddd;">4</td>
-      <td style="padding: 8px; border: 1px solid #ddd;">30</td>
+      <td style="padding: 8px; border: 1px solid #ddd;">Limite</td>
+      <td style="padding: 8px; border: 1px solid #ddd;">#</td>
+      <td style="padding: 8px; border: 1px solid #ddd;">#</td>
     </tr>
   </tbody>
 </table>

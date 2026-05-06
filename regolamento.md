@@ -114,12 +114,12 @@ La morte prevede tre scenari diversi:
 
 # Regolamento Background
 
-**[PENSATE MOLTO BENE AL PERSONAGGIO CHE VOLETE CREARE DAL MOMENTO CHE IL LIMITE È DI UN PG PRIMARIO ED UNO SECONDARIO PER ACCOUNT, CON UN ATTESA DI 2 MESI PER BACKGROUND INVIATO]**
+**[PENSATE MOLTO BENE AL PERSONAGGIO CHE VOLETE CREARE DAL MOMENTO CHE IL LIMITE È DI DUE PERSONAGGI, CON UN ATTESA DI 2 MESI PER BACKGROUND INVIATO]**
 
 Sappiamo che è una restrizione importante, ma non siamo così tanti da poter gestire un continuo ricambio di personaggi e soprattutto non possiamo tenere a mente personaggi che vanno e vengono e di cui non riusciamo a tracciare la storia (creandoci quindi enormi difficoltà nel votarvi, e qui la media role è importante).
 
-Il primo personaggio creato sarà di default **primario**. Per maggiori informazioni sul personaggio secondario visitate qui: *"Regole personaggio secondario"*.  
-Potrete sempre in autonomia ricreare personaggi passati, previa cancellazione di un personaggio e il rispetto della divisione "primario" e "secondario".
+Il **primo** personaggio ha alcuni **bonus** ,Per maggiori informazioni sul personaggio secondario visitate qui: *"Regole Primo Personaggio"*.  
+Potrete sempre in autonomia ricreare personaggi passati, previa cancellazione di un personaggio.
 
 ---
 
@@ -201,18 +201,16 @@ Una volta compilato, inviate il vostro background per la valutazione dello staff
 
 Buon divertimento in *Whispers of the Sword’s Coast*! 🏹✨
 
-# Regole Personaggio Primario e Secondario
+# Regole Primo Personaggio
 
 Avere un unico personaggio per account ha un problema abbastanza evidente: chi crea un personaggio accorgendosi in ritardo che non è quello "ideale" finisce per smettere di giocare o limitare di molto il suo tempo in gioco. Inoltre, spesso rende complesso per personaggi "anziani" giocare e interfacciarsi con nuovi giocatori, visto l'enorme squilibrio di livelli e capacità.
 
-Di contro, l'obiettivo rimane quello di focalizzare l'attenzione su un solo personaggio per account, visto che in un'ottica di pochi player questo permette di avere più gioco e meno dispersione.
+Per questo è stato deciso di dare la possibilità di avere un personaggio **secondario** oltre il primo personaggio.
 
-Per questo è stato deciso di dare la possibilità di avere un personaggio **secondario** e un personaggio **primario**:
-
-- Il personaggio **primario** di un account è quello seguito dallo staff e che ha accesso a case e mercanti NPC. Dopo due mesi dalla scelta del personaggio primario di un account, un giocatore potrà creare un secondo PG e decidere se vuole farlo diventare primario o mantenerlo secondario.
-- Il personaggio **secondario** non avrà alcun seguito o valutazione da ruolo, e resterà dunque fermo al livello della media base se nuovo, o all'ultimo livello fatto se si tratta di un ex personaggio primario. Potrà comprare una casa solo con altri giocatori.
-- Un personaggio primario che venga fatto diventare secondario **non potrà tornare a essere personaggio primario di un account prima di 12 mesi**.
+- Il **primo** personaggio **primo** di un account avrá un significativo bonus alla velocitá di progressione.
+- I personaggi **successivi** non avranno alcun bonus, ma nemmeno significative limitazioni a progressione o altro.
+- Se cancellate il primo personaggio non avrete comunque piú il bonus iniziale, salvo rari casi a discrezione dello staff (ad esempio, cambi repentini, forzati, o errori di invio.. Etc).
 - Dopo due mesi dalla creazione di un personaggio sarà possibile mandare un nuovo background, ma dovrà essere cancellato uno dei due personaggi.
 
-**Nota bene:** nel caso passaste un personaggio da primario a secondario, non saranno tolti livelli; tuttavia la media verrà azzerata per bloccare il personaggio al livello raggiunto. Allo stesso modo, anche se preferiremmo che il personaggio secondario fosse basso di livello, non ci saranno conseguenze nel caso venga bloccato un personaggio di livello alto. Tuttavia, varranno tutte le limitazioni discusse nei punti sopra.
+**Nota bene:** Per abilitare il bonus di esperienza al primo personaggio mandate un page (tasto aiuto nel paperdoll) ed un dm abiliterá i privilegi il prima possibile.
 
