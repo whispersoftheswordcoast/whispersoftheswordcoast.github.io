@@ -57,67 +57,67 @@ In aggiunta ai requisiti di px e valutazione, ci sono alcuni blocchi temporali t
       <td style="padding: 8px; border: 1px solid #ddd;">2</td>
       <td style="padding: 8px; border: 1px solid #ddd;">3</td>
       <td style="padding: 8px; border: 1px solid #ddd;">0</td>
-      <td style="padding: 8px; border: 1px solid #ddd;">0</td>
-    </tr>
-    <tr>
-      <td style="padding: 8px; border: 1px solid #ddd;">3</td>
-      <td style="padding: 8px; border: 1px solid #ddd;">4</td>
       <td style="padding: 8px; border: 1px solid #ddd;">1</td>
-      <td style="padding: 8px; border: 1px solid #ddd;">7</td>
+    </tr>
+    <tr>
+      <td style="padding: 8px; border: 1px solid #ddd;">3</td>
+      <td style="padding: 8px; border: 1px solid #ddd;">4</td>
+      <td style="padding: 8px; border: 1px solid #ddd;">0</td>
+      <td style="padding: 8px; border: 1px solid #ddd;">1</td>
     </tr>
     <tr style="background-color: #484b69ff;">
       <td style="padding: 8px; border: 1px solid #ddd;">4</td>
       <td style="padding: 8px; border: 1px solid #ddd;">5</td>
-      <td style="padding: 8px; border: 1px solid #ddd;">2</td>
-      <td style="padding: 8px; border: 1px solid #ddd;">14</td>
+      <td style="padding: 8px; border: 1px solid #ddd;">0</td>
+      <td style="padding: 8px; border: 1px solid #ddd;">1</td>
     </tr>
     <tr>
       <td style="padding: 8px; border: 1px solid #ddd;">5</td>
       <td style="padding: 8px; border: 1px solid #ddd;">6</td>
-      <td style="padding: 8px; border: 1px solid #ddd;">3</td>
-      <td style="padding: 8px; border: 1px solid #ddd;">21</td>
+      <td style="padding: 8px; border: 1px solid #ddd;">0</td>
+      <td style="padding: 8px; border: 1px solid #ddd;">1</td>
     </tr>
     <tr style="background-color: #484b69ff;">
       <td style="padding: 8px; border: 1px solid #ddd;">6</td>
       <td style="padding: 8px; border: 1px solid #ddd;">7</td>
-      <td style="padding: 8px; border: 1px solid #ddd;">5</td>
-      <td style="padding: 8px; border: 1px solid #ddd;">35</td>
+      <td style="padding: 8px; border: 1px solid #ddd;">4</td>
+      <td style="padding: 8px; border: 1px solid #ddd;">30</td>
     </tr>
     <tr>
       <td style="padding: 8px; border: 1px solid #ddd;">7</td>
       <td style="padding: 8px; border: 1px solid #ddd;">8</td>
-      <td style="padding: 8px; border: 1px solid #ddd;">6</td>
-      <td style="padding: 8px; border: 1px solid #ddd;">42</td>
+      <td style="padding: 8px; border: 1px solid #ddd;">4</td>
+      <td style="padding: 8px; border: 1px solid #ddd;">30</td>
     </tr>
     <tr style="background-color: #484b69ff;">
       <td style="padding: 8px; border: 1px solid #ddd;">8</td>
       <td style="padding: 8px; border: 1px solid #ddd;">9</td>
-      <td style="padding: 8px; border: 1px solid #ddd;">7</td>
-      <td style="padding: 8px; border: 1px solid #ddd;">49</td>
+      <td style="padding: 8px; border: 1px solid #ddd;">4</td>
+      <td style="padding: 8px; border: 1px solid #ddd;">30</td>
     </tr>
     <tr>
       <td style="padding: 8px; border: 1px solid #ddd;">9</td>
       <td style="padding: 8px; border: 1px solid #ddd;">10</td>
-      <td style="padding: 8px; border: 1px solid #ddd;">8</td>
-      <td style="padding: 8px; border: 1px solid #ddd;">56</td>
+      <td style="padding: 8px; border: 1px solid #ddd;">4</td>
+      <td style="padding: 8px; border: 1px solid #ddd;">30</td>
     </tr>
     <tr style="background-color: #484b69ff;">
       <td style="padding: 8px; border: 1px solid #ddd;">10</td>
       <td style="padding: 8px; border: 1px solid #ddd;">11</td>
-      <td style="padding: 8px; border: 1px solid #ddd;">9</td>
-      <td style="padding: 8px; border: 1px solid #ddd;">63</td>
+      <td style="padding: 8px; border: 1px solid #ddd;">4</td>
+      <td style="padding: 8px; border: 1px solid #ddd;">30</td>
     </tr>
     <tr>
       <td style="padding: 8px; border: 1px solid #ddd;">11</td>
       <td style="padding: 8px; border: 1px solid #ddd;">12</td>
-      <td style="padding: 8px; border: 1px solid #ddd;">10</td>
-      <td style="padding: 8px; border: 1px solid #ddd;">70</td>
+      <td style="padding: 8px; border: 1px solid #ddd;">4</td>
+      <td style="padding: 8px; border: 1px solid #ddd;">30</td>
     </tr>
     <tr style="background-color: #484b69ff;">
       <td style="padding: 8px; border: 1px solid #ddd;">12</td>
       <td style="padding: 8px; border: 1px solid #ddd;">13</td>
-      <td style="padding: 8px; border: 1px solid #ddd;">11</td>
-      <td style="padding: 8px; border: 1px solid #ddd;">77</td>
+      <td style="padding: 8px; border: 1px solid #ddd;">4</td>
+      <td style="padding: 8px; border: 1px solid #ddd;">30</td>
     </tr>
   </tbody>
 </table>
