@@ -39,7 +39,8 @@ I comandi si invocano con la sintassi .comando, e possono essere per facilitá s
 - `.azione [tipo]`: Permette di compiere azioni personali. Azioni possibili: attacco1, attacco2, attacco3, attacco4, attacco5, attacco6, attacco7, attacco8, cadiavanti, cadiindietro, castaarea, castadir, guardagiu, guardaintorno, inchinati, mangia, saluta.
 - `.borsaloot`: Definisce un contenitore in cui finiranno automaticamente tutti gli oggetti raccolti e creati.
 - `.borsello`: Definisce un contenitore da usare come borsello per acquisti e vendite con i mercanti PNG.
-- `.cambiapelle`: Permette customizzare colore di pelle e skin facciale del proprio personaggio,
+- `.cambiapelle`: Permette customizzare colore di pelle e skin facciale del proprio personaggio.
+- `.cercarisorse`: Permette di capire che tipo di risorsa (legno o metallo ) sia presente nelle immediate vicinanze. Consuma puntilavoro.
 - `.cappuccio`: Alza/abbassa il cappuccio del mantello o della tunica indossati. Scrivendo il comando seguito da un qualsiasi carattere alfanumerico (es. `.cappuccio 5`) il cappuccio nasconderà l'identità del personaggio.
 - `.cercare`: Il personaggio si mette a cercare trappole (é un loop, ripetendo il comando smette).
 - `.char`: Visualizza la scheda del personaggio.
@@ -67,7 +68,7 @@ I comandi si invocano con la sintassi .comando, e possono essere per facilitá s
 - `.motd`: Visualizza il "Message of the Day" attuale.
 - `.msg`: Usa la messaggistica interna per comunicare in off con altri giocatori. Si può disattivare con `.msg off` e riattivare con `.msg on`.
 - `.msgt`: Permette di inviare un messaggio privato a un personaggio in vista del proprio pg.
-- `.osservacreatura`: Permette di osservare, se presente, il profilo o descrizione aggiuntiva del personaggio o creatura indicata.
+- `.osservacreatura`: Permette di osservare, se presente, il profilo o descrizione aggiuntiva del personaggio o creatura indicata, funziona anche sui cadaveri dei mob configurati.
 - `.party`: Apre il gump di gestione del party.
 - `.passalivello`: Una volta raggiunti i PX necessari, permette di passare al livello seguente.
 - `.password`: Permette di cambiare la password del proprio account di gioco.
