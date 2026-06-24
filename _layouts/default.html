@@ -41,7 +41,7 @@
         <aside class="sidebar">
           <h2>News & Aggiornamenti</h2>
           <ul class="news-list">
-            {% for post in site.posts limit:30 %}
+            {% for post in site.posts limit:200 %}
             <li>
               <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
               <small>{{ post.date | date: '%d/%m/%Y' }}</small>
