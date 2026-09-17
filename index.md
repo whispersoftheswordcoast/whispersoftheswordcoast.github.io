@@ -88,6 +88,8 @@ Ogni luogo, pianura, fiume, lago e montagna ha un nome. Poco o nulla è lasciato
 
 ## Client moderno e customizzato
 
+<img src="{{ '/assets/images/client.JPG' | relative_url }}" alt="eroi nuovi" style="display: block; margin: 0 auto;" />
+
 **Ultima Online è soltanto la base.**
 
 Attraverso una profonda personalizzazione di **ClassicUO**, possiamo modellare l'esperienza visiva e funzionale del client per avvicinarla sempre di più alla nostra idea di mondo.
