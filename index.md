@@ -117,45 +117,198 @@ Se quello che cerchi è un mondo in cui il personaggio non sia soltanto un avata
 
 <!-- DI SEGUITO IL SUPPORTO ALLE ANTEPRIME, COPIABILE -->
 
-<div id="wotsc-lightbox" class="wotsc-lightbox">
+<<div id="wotsc-lightbox" class="wotsc-lightbox">
+
     <span class="wotsc-lightbox-close">&times;</span>
+
+    <button class="wotsc-lightbox-prev">
+        &#10094;
+    </button>
+
     <img id="wotsc-lightbox-image" src="" alt="">
+
+    <button class="wotsc-lightbox-next">
+        &#10095;
+    </button>
+
 </div>
 
-<script>
+<<script>
+
 document.addEventListener('DOMContentLoaded', function () {
 
     const lightbox = document.getElementById('wotsc-lightbox');
     const lightboxImage = document.getElementById('wotsc-lightbox-image');
+
     const closeButton = document.querySelector('.wotsc-lightbox-close');
+    const prevButton = document.querySelector('.wotsc-lightbox-prev');
+    const nextButton = document.querySelector('.wotsc-lightbox-next');
+
+    let currentImages = [];
+    let currentIndex = 0;
+
+
+    /* ==========================================
+       APERTURA LIGHTBOX
+       ========================================== */
 
     document.querySelectorAll('.wotsc-gallery-item img').forEach(function (image) {
 
         image.addEventListener('click', function () {
-            lightboxImage.src = this.src;
-            lightboxImage.alt = this.alt;
+
+            const gallery = this.closest('.wotsc-simple-gallery');
+
+            currentImages = Array.from(
+                gallery.querySelectorAll('.wotsc-gallery-item img')
+            );
+
+            currentIndex = currentImages.indexOf(this);
+
+            showImage();
 
             lightbox.classList.add('active');
+
         });
 
     });
 
-    closeButton.addEventListener('click', function () {
-        lightbox.classList.remove('active');
+
+    /* ==========================================
+       MOSTRA IMMAGINE
+       ========================================== */
+
+    function showImage() {
+
+        const image = currentImages[currentIndex];
+
+        if (!image) {
+            return;
+        }
+
+        lightboxImage.src = image.src;
+        lightboxImage.alt = image.alt;
+
+    }
+
+
+    /* ==========================================
+       IMMAGINE SUCCESSIVA
+       ========================================== */
+
+    function nextImage() {
+
+        if (currentImages.length === 0) {
+            return;
+        }
+
+        currentIndex++;
+
+        if (currentIndex >= currentImages.length) {
+            currentIndex = 0;
+        }
+
+        showImage();
+
+    }
+
+
+    /* ==========================================
+       IMMAGINE PRECEDENTE
+       ========================================== */
+
+    function previousImage() {
+
+        if (currentImages.length === 0) {
+            return;
+        }
+
+        currentIndex--;
+
+        if (currentIndex < 0) {
+            currentIndex = currentImages.length - 1;
+        }
+
+        showImage();
+
+    }
+
+
+    /* ==========================================
+       FRECCE LIGHTBOX
+       ========================================== */
+
+    nextButton.addEventListener('click', function (event) {
+
+        event.stopPropagation();
+
+        nextImage();
+
     });
+
+
+    prevButton.addEventListener('click', function (event) {
+
+        event.stopPropagation();
+
+        previousImage();
+
+    });
+
+
+    /* ==========================================
+       CHIUSURA
+       ========================================== */
+
+    closeButton.addEventListener('click', function () {
+
+        lightbox.classList.remove('active');
+
+    });
+
+
+    /* Clic sullo sfondo */
 
     lightbox.addEventListener('click', function (event) {
+
         if (event.target === lightbox) {
+
             lightbox.classList.remove('active');
+
         }
+
     });
 
+
+    /* ==========================================
+       TASTIERA
+       ========================================== */
+
     document.addEventListener('keydown', function (event) {
-        if (event.key === 'Escape') {
-            lightbox.classList.remove('active');
+
+        if (!lightbox.classList.contains('active')) {
+            return;
         }
+
+        if (event.key === 'Escape') {
+
+            lightbox.classList.remove('active');
+
+        }
+
+        else if (event.key === 'ArrowRight') {
+
+            nextImage();
+
+        }
+
+        else if (event.key === 'ArrowLeft') {
+
+            previousImage();
+
+        }
+
     });
 
 });
-</script>
 
+</script>
