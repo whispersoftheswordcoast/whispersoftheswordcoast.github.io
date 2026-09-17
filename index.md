@@ -96,6 +96,58 @@ Rispetto all'esperienza tipica di Ultima Online, proponiamo numerose migliorie: 
 
 ## I sistemi personalizzati
 
+<div class="wotsc-simple-gallery">
+
+    <button onclick="this.parentElement.querySelector('.wotsc-gallery-scroll').scrollBy({left: -615, behavior: 'smooth'})">
+        &#10094;
+    </button>
+
+    <div class="wotsc-gallery-scroll">
+
+        <div class="wotsc-gallery-item">
+            <img src="{{ '/assets/images/profilopersonale.webp' | relative_url }}" alt="Baldur's Gate">
+
+            <div class="wotsc-gallery-caption">
+                <strong>Il profilo</strong>
+                Con immagine e descrizione custom.
+            </div>
+        </div>
+
+        <div class="wotsc-gallery-item">
+            <img src="{{ '/assets/images/bullywug.jpg' | relative_url }}" alt="Athkatla">
+
+            <div class="wotsc-gallery-caption">
+                <strong>Bestiario</strong>
+                Un menu consultabile i mostri scoperti.
+            </div>
+        </div>
+
+        <div class="wotsc-gallery-item">
+            <img src="{{ '/assets/images/craftbook01.jpg' | relative_url }}" alt="Picchi delle Nuvole">
+
+            <div class="wotsc-gallery-caption">
+                <strong>Craftbook</strong>
+                Un catalogo personale, con le tue creazioni.
+            </div>
+        </div>
+
+        <div class="wotsc-gallery-item">
+            <img src="{{ '/assets/images/facce01.jpg' | relative_url }}" alt="Colline dei Troll">
+
+            <div class="wotsc-gallery-caption">
+                <strong>Facce</strong>
+                Belle, brutte ma mai banali.
+            </div>
+        </div>
+
+    </div>
+
+    <button onclick="this.parentElement.querySelector('.wotsc-gallery-scroll').scrollBy({left: 615, behavior: 'smooth'})">
+        &#10095;
+    </button>
+
+</div>
+
 La nostra attenzione verso l'esperienza di gioco ci porta a creare e proporre **sistemi nuovi e fuori dagli schemi**, lontani dalle logiche più consuete degli MMORPG.
 
 Ci piace osare, sperimentare e costruire nel tempo un universo di gioco sempre più stimolante, coerente e pulito.
