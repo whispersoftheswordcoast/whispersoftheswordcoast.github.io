@@ -114,3 +114,48 @@ Se quello che cerchi è un mondo in cui il personaggio non sia soltanto un avata
 - [Classi e Razze](/classi-e-razze/)
 - [Download client](/download/)
 - [Manuale di gioco](/manuale/)
+
+<!-- DI SEGUITO IL SUPPORTO ALLE ANTEPRIME, COPIABILE -->
+
+<div id="wotsc-lightbox" class="wotsc-lightbox">
+    <span class="wotsc-lightbox-close">&times;</span>
+    <img id="wotsc-lightbox-image" src="" alt="">
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+
+    const lightbox = document.getElementById('wotsc-lightbox');
+    const lightboxImage = document.getElementById('wotsc-lightbox-image');
+    const closeButton = document.querySelector('.wotsc-lightbox-close');
+
+    document.querySelectorAll('.wotsc-gallery-item img').forEach(function (image) {
+
+        image.addEventListener('click', function () {
+            lightboxImage.src = this.src;
+            lightboxImage.alt = this.alt;
+
+            lightbox.classList.add('active');
+        });
+
+    });
+
+    closeButton.addEventListener('click', function () {
+        lightbox.classList.remove('active');
+    });
+
+    lightbox.addEventListener('click', function (event) {
+        if (event.target === lightbox) {
+            lightbox.classList.remove('active');
+        }
+    });
+
+    document.addEventListener('keydown', function (event) {
+        if (event.key === 'Escape') {
+            lightbox.classList.remove('active');
+        }
+    });
+
+});
+</script>
+
