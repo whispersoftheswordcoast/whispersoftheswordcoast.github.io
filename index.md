@@ -117,7 +117,7 @@ Se quello che cerchi è un mondo in cui il personaggio non sia soltanto un avata
 
 <!-- DI SEGUITO IL SUPPORTO ALLE ANTEPRIME, COPIABILE -->
 
-<<div id="wotsc-lightbox" class="wotsc-lightbox">
+<div id="wotsc-lightbox" class="wotsc-lightbox">
 
     <span class="wotsc-lightbox-close">&times;</span>
 
@@ -133,7 +133,7 @@ Se quello che cerchi è un mondo in cui il personaggio non sia soltanto un avata
 
 </div>
 
-<<script>
+<script>
 
 document.addEventListener('DOMContentLoaded', function () {
 
