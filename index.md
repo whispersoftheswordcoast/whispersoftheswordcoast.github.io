@@ -30,7 +30,7 @@ Molte classi base e di prestigio, sistemi di multiclasse, centinaia di talenti, 
 
 <div class="wotsc-simple-gallery">
 
-    <button onclick="this.parentElement.querySelector('.wotsc-gallery-scroll').scrollBy({left: -600, behavior: 'smooth'})">
+    <button onclick="this.parentElement.querySelector('.wotsc-gallery-scroll').scrollBy({left: -615, behavior: 'smooth'})">
         &#10094;
     </button>
 
@@ -74,7 +74,7 @@ Molte classi base e di prestigio, sistemi di multiclasse, centinaia di talenti, 
 
     </div>
 
-    <button onclick="this.parentElement.querySelector('.wotsc-gallery-scroll').scrollBy({left: 600, behavior: 'smooth'})">
+    <button onclick="this.parentElement.querySelector('.wotsc-gallery-scroll').scrollBy({left: 615, behavior: 'smooth'})">
         &#10095;
     </button>
 
