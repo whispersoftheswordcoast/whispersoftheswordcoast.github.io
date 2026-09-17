@@ -105,7 +105,7 @@ Rispetto all'esperienza tipica di Ultima Online, proponiamo numerose migliorie: 
     <div class="wotsc-gallery-scroll">
 
         <div class="wotsc-gallery-item">
-            <img src="{{ '/assets/images/profilopersonale.webp' | relative_url }}" alt="Baldur's Gate">
+            <img src="{{ '/assets/images/profilopersonale.jpg' | relative_url }}" alt="Baldur's Gate">
 
             <div class="wotsc-gallery-caption">
                 <strong>Il profilo</strong>
