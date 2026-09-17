@@ -37,7 +37,7 @@ Molte classi base e di prestigio, sistemi di multiclasse, centinaia di talenti, 
     <div class="wotsc-gallery-scroll">
 
         <div class="wotsc-gallery-item">
-            <img src="{{ '/assets/images/galleria/terrecentrali8.webp' | relative_url }}" alt="Baldur's Gate">
+            <img src="{{ '/assets/images/terrecentrali8.webp' | relative_url }}" alt="Baldur's Gate">
 
             <div class="wotsc-gallery-caption">
                 <strong>Baldur's Gate</strong>
@@ -46,7 +46,7 @@ Molte classi base e di prestigio, sistemi di multiclasse, centinaia di talenti, 
         </div>
 
         <div class="wotsc-gallery-item">
-            <img src="{{ '/assets/images/galleria/athkatlapromenade.jpg' | relative_url }}" alt="Athkatla">
+            <img src="{{ '/assets/images/athkatlapromenade.jpg' | relative_url }}" alt="Athkatla">
 
             <div class="wotsc-gallery-caption">
                 <strong>Athkatla</strong>
@@ -55,7 +55,7 @@ Molte classi base e di prestigio, sistemi di multiclasse, centinaia di talenti, 
         </div>
 
         <div class="wotsc-gallery-item">
-            <img src="{{ '/assets/images/galleria/picchi1.jpg' | relative_url }}" alt="Picchi delle Nuvole">
+            <img src="{{ '/assets/images/picchi1.jpg' | relative_url }}" alt="Picchi delle Nuvole">
 
             <div class="wotsc-gallery-caption">
                 <strong>Picchi delle Nuvole</strong>
@@ -64,7 +64,7 @@ Molte classi base e di prestigio, sistemi di multiclasse, centinaia di talenti, 
         </div>
 
         <div class="wotsc-gallery-item">
-            <img src="{{ '/assets/images/galleria/darkhold.jpg' | relative_url }}" alt="Colline dei Troll">
+            <img src="{{ '/assets/images/darkhold.jpg' | relative_url }}" alt="Colline dei Troll">
 
             <div class="wotsc-gallery-caption">
                 <strong>Darkhold</strong>
