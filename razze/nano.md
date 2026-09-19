@@ -13,9 +13,11 @@ Il popolo delle cittadelle e dei clan. Onore, tradizione e parola data prima di 
 
 ## Società
 
-* **Scudi:** fieri nani del nord, temprati da guerre per le antiche fortezze.
-* **Dorato:** nani della Grande Faglia, mercanti scaltri e nemici del Buio.
+* **Scudi:** fieri nani del nord, temprati da guerre per le antiche fortezze. Cittadella Adbar, Mithral Hall, Gauntlgrym: roccheforti contro orchi, goblin e giganti.
+* **Dorato:** nani della Grande Faglia, mercanti scaltri e nemici del Buio. Si dicono i veri custodi della cultura nanica.
 * **Selvaggio:** cacciatori di Chult senza clan, devoti a Thard Harr.
+
+Un vecchio detto li divide: i dorati resistono, gli scudi si adattano. Tutti venerano il Morndinsamman di Moradin, tengono il Libro dei Rancori contro orchi, goblin e duergar, e misurano un nano dal clan e dalle opere: ogni capolavoro firmato è un pezzo di immortalità.
 
 ## In gioco
 

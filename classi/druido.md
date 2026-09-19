@@ -76,7 +76,7 @@ Tutta la lista preparabile con SAG 10 + livello incantesimo. Bonus da SAG alta: 
 
 * **Compagno:** `.compagnoanimale` per convincerlo, `.ricompagno` per richiamarlo
 * **Forme:** `.formaselvaggia` per cambiare pelle, `.formaumana` per tornare indietro, `.traslazione` per viaggiare tra alberi gemelli
-* **Magia:** `.castadruido` per lanciare, `.memo` e `.preparaspells` per preparare, `.metamagia` per armare le metamagie
+* **Magia:** `.castadruido` per lanciare, `.memo` e `.preparaspells` per preparare, `.spells` per la lista, `.metamagia` per armare le metamagie
 
 ## Vai oltre
 

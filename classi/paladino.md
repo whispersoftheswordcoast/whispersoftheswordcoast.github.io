@@ -110,8 +110,8 @@ Divini dal 4°, livello incantatore pari a metà livello. B = slot solo con CAR 
 
 * **Punire:** `.distruggimale` sul malvagio, `.indivmale` per fiutarlo, `.crociata` dall'11° per condividerlo
 * **Curare:** `.imposizione` (e `rimasti` per gli usi), `.indulgenze` per sceglierle, `.rimuovimalattia` (e `rimasti` per le cariche), `.incanala` per l'energia ad area
-* **Legame:** `.cavalcatura` per chiamarla, `.legamedivino` per gestirlo, `.legamearma` per potenziare l'arma
-* **Magia:** `.castapaladino` dal 4°, `.metamagia` per armare le metamagie
+* **Legame:** `.cavalcatura` per chiamarla, `.cavalcaturaspeciale` per sceglierla dal 5°, `.evocacavalcaturaspeciale` per evocarla, `.legamedivino` per gestirlo, `.legamearma` per potenziare l'arma
+* **Magia:** `.castapaladino` dal 4°, `.memo` e `.preparaspells` per preparare, `.spells` per la lista, `.metamagia` per armare le metamagie
 
 ## Vai oltre
 

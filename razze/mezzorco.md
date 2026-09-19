@@ -13,7 +13,7 @@ Forza orchesca e versatilità umana. Spesso guardato con diffidenza, risponde co
 
 ## Società
 
-Nessuna patria, solo margini da conquistare. Cicatrici e avversità come segni di ciò che ha superato. Chi giudica l'aspetto scopre coraggio e generosità fuori dal comune.
+Nessuna patria, solo margini da conquistare. Cicatrici e avversità come segni di ciò che ha superato. Chi giudica l'aspetto scopre coraggio e generosità fuori dal comune. Il nord ricorda il Regno delle Molte Frecce di Obould, orchi civilizzati per un secolo: per molti è la prova che si può essere altro, per altri solo una tregua. Chi cresce nelle tribù prega Gruumsh, l'Occhio che non dorme; chi cresce tra umani spesso lo nasconde o cerca altri dei, stanco di spiegarsi.
 
 ## In gioco
 

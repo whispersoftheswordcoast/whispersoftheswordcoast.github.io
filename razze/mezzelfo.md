@@ -13,7 +13,7 @@ Figlio di umani ed elfi, vive tra due mondi senza appartenere del tutto a nessun
 
 ## Società
 
-I più diffusi discendono dagli elfi della luna, ma ogni stirpe porta il suo segno: sole fiero, boschi pratico, selvaggio indomito, marino nato per navi e coste. Spesso diplomatici, esploratori e ranger di frontiera.
+I più diffusi discendono dagli elfi della luna, ma ogni stirpe porta il suo segno: sole fiero, boschi pratico, selvaggio indomito, marino nato per navi e coste. Spesso diplomatici, esploratori e ranger di frontiera. Ad Aglarond, nella foresta Yuir, sono maggioranza con storia e orgoglio propri; altrove restano outsider che si adattano in fretta. Molti venerano Sehanine o Hanali dal lato elfico, o gli dei umani di casa.
 
 ## In gioco
 

@@ -13,10 +13,12 @@ Il popolo antico di Faerûn. Grazia, magia e memoria lunga in quattro volti dive
 
 ## Società
 
-* **Luna:** aperti e curiosi, amano viaggi, arte e altre razze.
-* **Sole:** fieri eredi dorati degli antichi imperi, gelosi del sapere.
-* **Boschi:** guardiani delle foreste, fieri ma compassionevoli.
-* **Selvaggio:** schivi elfi verdi delle giungle del sud.
+* **Luna:** aperti e curiosi, amano viaggi, arte e altre razze. I più diffusi nel Faerûn: li trovi dal Cormanthor a Silverymoon alle Terre Centrali.
+* **Sole:** fieri eredi dorati degli antichi imperi, gelosi del sapere. Molti vivono a Evermeet, dove i non elfi non entrano, o nella ritirata Evereska.
+* **Boschi:** guardiani delle foreste, fieri ma compassionevoli. Difendono i boschi abbandonati dopo le Guerre della Corona.
+* **Selvaggio:** schivi elfi verdi delle giungle del sud, Chondalwood e Chult.
+
+Tutti venerano il Seldarine guidato da Corellon, con Sehanine per la luna e Hanali per l'amore. Molti giovani lasciano tutto per l'avventura: la Ritirata chiama i vecchi, la strada chiama i giovani.
 
 ## In gioco
 

@@ -13,7 +13,7 @@ Il popolo più diffuso di Faerûn. Vita breve, ambizione lunga: fondano città e
 
 ## Società
 
-Non hanno una patria unica perché sono di casa ovunque. Pratici e adattabili, ben accetti quasi ovunque ma guardati con sospetto da chi ha memoria lunga.
+Non hanno una patria unica perché sono di casa ovunque. Pratici e adattabili, ben accetti quasi ovunque ma guardati con sospetto da chi ha memoria lunga. Nei nostri territori — Costa della Spada e Terre Centrali — dominano Chondathan, Illuskan e Tethyrian, con Calishiti a sud: scegli l'etnia e hai già accento, nomi e pregiudizi pronti. Vivono poco e lo sanno: per questo costruiscono, osano e lasciano il segno in una sola generazione.
 
 ## In gioco
 

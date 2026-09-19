@@ -30,5 +30,3 @@ excerpt: Le 7 famiglie e 18 sottorazze giocabili, a confronto
 | Gnomo | Rocce, Foreste | vedi scheda | Piccola | [apri](/razze/gnomo/) |
 | Mezzelfo | Luna, Sole, Boschi, Selvaggio, Marino | +2 a scelta | Media | [apri](/razze/mezzelfo/) |
 | Mezzorco | Comune | +2 a scelta | Media | [apri](/razze/mezzorco/) |
-
-Note: Mezzelfo unico con 2 classi favorite. Razze extra (Drow, Tiefling, Genasi…) riservate allo staff.

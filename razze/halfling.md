@@ -13,7 +13,7 @@ Piccoli e allegri, compensano la statura con fortuna, spavalderia e curiosità. 
 
 ## Società
 
-Nessun impero, solo famiglie e comunità accanto agli umani o in carovane nomadi. I Piedilesti sono socievoli e cosmopoliti, i Cuoreforte marziali, disciplinati e stimati vicini.
+Nessun impero, solo famiglie e comunità accanto agli umani o in carovane nomadi. I Piedilesti sono socievoli e cosmopoliti, presenti anche lungo la Costa della Spada e nelle Terre Centrali; i Cuoreforte marziali e stanziali, con tradizione guerriera e gare atletiche. Tutti si dicono hin e venerano Yondalla e i suoi figli. Il detto recita: piedilesti cuore leggero, cuoreforti passo saldo.
 
 ## In gioco
 

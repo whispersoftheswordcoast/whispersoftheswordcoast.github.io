@@ -89,7 +89,7 @@ Divini dal 4° livello. B = slot solo con SAG alta.
 
 * **Compagno:** `.compagnoanimaleranger` dal 4°, `.ricompagno` per richiamarlo
 * **Caccia:** `.preda` dall'11° (`.preda stato`, `.preda abbandona`)
-* **Magia:** `.castaranger` dal 4°.
+* **Magia:** `.castaranger` dal 4°, `.memo` e `.preparaspells` per preparare, `.spells` per la lista.
 
 ## Vai oltre
 
