@@ -24,23 +24,35 @@ Anni di allenamento per arrivare a non aver bisogno di niente: né spada, né sc
 ### Colpo senz'armi
 Il corpo del monaco è un'arma a tutti gli effetti, e i danni crescono con lui: d6 al 1° livello, 1d8 al 4°, 1d10 all'8°, 2d6 al 12°.
 
+### Colpo Ki
+Dal 4° livello i pugni superano le riduzioni del danno come armi magiche, dal 7° anche argento e ferro freddo, dal 10° anche la legge, dal 16° anche l'adamantio.
+
 ### Raffica di colpi
-Il monaco sferra un attacco extra con il miglior bonus di attacco, ma tutti gli attacchi del round subiscono −2 (−1 al 5° livello, nessun malus dal 9°). Dall'11° livello arriva un secondo attacco extra.
+Con `.raffica` e un'arma da monaco, senza armatura: attacchi extra +1 fino al 5°, +2 dal 6°, +3 dall'11°. I primi due attacchi viaggiano sempre al pieno, il 3°-4° a −5, il 5°-6° a −10. Malus di raffica: −1 fino al 4°, zero dal 5°, +1 dal 9°.
 
 ### Bonus alla CA
-Senza armature né scudi il monaco aggiunge il bonus di Saggezza alla CA, con un ulteriore +1 dal 5° livello e ogni 5 livelli.
+Senza armature né scudi il monaco aggiunge Saggezza + livello/4 alla CA: +1 dal 4°, +2 dall'8°, +3 dal 12°.
 
 ### Eludere
 Se supera un tiro salvezza sui Riflessi contro un attacco ad area, il monaco non subisce danni. Dal 9° livello l'eludere è migliorato: anche col tiro fallito subisce solo metà danni.
 
 ### Talenti bonus
-Il monaco riceve Pugno Stordente in automatico, poi sceglie da tre scaglioni: base con Deviare Frecce, Riflessi in Combattimento e Schivare; oltre il 5° livello con Disarmare Migliorato, Mobilità, Sbilanciare Migliorato e Spinta Migliorata; oltre il 9° con Afferrare Frecce, Attacco Rapido e Critico Migliorato. Niente stili di combattimento: solo scelte a scaglioni.
+Il monaco riceve Pugno Stordente in automatico, poi sceglie da tre scaglioni. Niente stili di combattimento: solo scelte a scaglioni.
+
+| Scaglione | Talenti |
+|---|---|
+| Base | Deviare Frecce, Riflessi in Combattimento, Schivare |
+| Oltre il 5° | Disarmare Migliorato, Mobilità, Sbilanciare Migliorato, Spinta Migliorata |
+| Oltre il 9° | Afferrare Frecce, Attacco Rapido, Critico Migliorato |
+
+### Pugno Stordente (1°)
+Dal 1° livello il monaco arma il prossimo attacco senz'armi con `.attaccostordente`: se colpisce, il bersaglio tira Tempra con CD 10 + metà livello + SAG o resta stordito 1 round e gli cadono arma e scudo. Usi al giorno pari al livello da monaco + un quarto degli altri (+3 per talento). Uno solo per round; immuni i critici-immuni, incorporei, non morti, costrutti, melme e vegetali.
 
 ### Palmo Vibrante (15°)
-Dal 15° livello il monaco può caricare il prossimo attacco per uccidere. Si usa una volta a settimana.
+Dal 15° livello il monaco carica il prossimo attacco per uccidere con `.palmovibrante`: la vittima designata tira Tempra con CD 10 + metà livello + SAG o muore, da scatenare entro un numero di ore pari al livello. Si usa una volta a settimana; `.cancellapalmo` cambia vittima.
 
 ### Corpo e Ki
-Dal 2° livello il monaco si muove al doppio della velocità e può usare Porta Dimensionale una volta al giorno. Dal 3° resiste agli ammaliamenti con mente lucida (+2), dal 4° cade senza farsi male vicino alle pareti e i suoi pugni contano come magici (come armi assiomatiche dal 10°). Dal 5° è immune alle malattie non magiche, dal 7° guarisce 2 × livello PF al giorno con l'integrità del corpo, dall'11° è immune a tutti i veleni.
+Dal 2° livello il monaco si muove al doppio della velocità e può usare Porta Dimensionale una volta al giorno. Dal 3° resiste agli ammaliamenti con mente lucida (+2), dal 4° cade senza farsi male vicino alle pareti, dal 5° è immune alle malattie non magiche, dal 7° guarisce 2 × livello PF al giorno con l'integrità del corpo, dall'11° è immune a tutti i veleni.
 
 ## Competenze
 
@@ -48,20 +60,20 @@ Dal 2° livello il monaco si muove al doppio della velocità e può usare Porta 
 
 ## Progressione 1-12
 
-| Liv | BAB | T / R / V | Privilegi |
-|---|---|---|---|
-| 1° | +0 | +2 / +2 / +2 | Colpo senz'armi d6, talenti bonus |
-| 2° | +1 | +3 / +3 / +3 | Raffica, eludere, movimento veloce, passo abbondante |
-| 3° | +2 | +3 / +3 / +3 | Mente lucida |
-| 4° | +3 | +4 / +4 / +4 | Caduta lenta, colpo Ki, danni 1d8 |
-| 5° | +3 | +4 / +4 / +4 | Purezza del corpo, CA +1, raffica -1 |
-| 6° | +4 | +5 / +5 / +5 | Talenti bonus |
-| 7° | +5 | +5 / +5 / +5 | Integrità del corpo |
-| 8° | +6/+1 | +6 / +6 / +6 | Danni 1d10 |
-| 9° | +6/+1 | +6 / +6 / +6 | Eludere migliorato, raffica senza malus |
-| 10° | +7/+2 | +7 / +7 / +7 | Ki assiomatico, CA +2 |
-| 11° | +8/+3 | +7 / +7 / +7 | Corpo adamantino, secondo extra in raffica |
-| 12° | +9/+4 | +8 / +8 / +8 | Danni 2d6 |
+| Liv | BAB | T / R / V | Privilegi | Raffica |
+|---|---|---|---|---|
+| 1° | +0 | +2 / +2 / +2 | Colpo senz'armi d6, talenti bonus | −1/−1 |
+| 2° | +1 | +3 / +3 / +3 | Raffica, eludere, movimento veloce, passo abbondante | +0/+0 |
+| 3° | +2 | +3 / +3 / +3 | Mente lucida | +1/+1 |
+| 4° | +3 | +4 / +4 / +4 | Caduta lenta, colpo Ki (Magico), danni 1d8, CA +1 | +2/+2 |
+| 5° | +3 | +4 / +4 / +4 | Purezza del corpo | +3/+3 |
+| 6° | +4 | +5 / +5 / +5 | Talenti bonus | +4/+4/−1 |
+| 7° | +5 | +5 / +5 / +5 | Integrità del corpo, Ki Argento e Ferro Freddo | +5/+5/+0 |
+| 8° | +6/+1 | +6 / +6 / +6 | Danni 1d10, CA +2 | +6/+6/+1/+1 |
+| 9° | +6/+1 | +6 / +6 / +6 | Eludere migliorato, raffica a +1 | +7/+7/+2/+2 |
+| 10° | +7/+2 | +7 / +7 / +7 | Ki Legge, CA +2 | +8/+8/+3/+3 |
+| 11° | +8/+3 | +7 / +7 / +7 | Corpo adamantino, secondo extra in raffica | +9/+9/+4/+4/−1 |
+| 12° | +9/+4 | +8 / +8 / +8 | Danni 2d6, CA +3 | +10/+10/+5/+5/+0 |
 
 ## Comandi di classe
 
