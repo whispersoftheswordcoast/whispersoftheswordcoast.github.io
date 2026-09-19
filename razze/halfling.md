@@ -1,4 +1,4 @@
----
+﻿---
 layout: default
 title: Halfling
 permalink: /razze/halfling/
@@ -7,7 +7,7 @@ excerpt: Piccolo, fortunato e furtivo in due sottorazze
 
 # Halfling
 
-> Torna a [Classi e Razze](/classi-e-razze/) · [Indice razze](/razze/)
+> Torna a [Indice razze](/razze/)
 
 Piccoli e allegri, compensano la statura con fortuna, spavalderia e curiosità. Mantengono il sangue freddo anche nel disastro.
 
@@ -23,3 +23,4 @@ Nessun impero, solo famiglie e comunità accanto agli umani o in carovane nomadi
 * **Cuoreforte:** talento bonus al posto della fortuna piena
 * **Bonus comuni:** Acrobazia, Furtività, Percezione e Scalare +2, fionda gratuita
 * **Lingue:** Comune + Halfling
+

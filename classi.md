@@ -7,9 +7,23 @@ excerpt: Le 11 classi base giocabili, a confronto
 
 # Classi
 
-> Torna a [Classi e Razze](/classi-e-razze/)
+<img src="{{ '/assets/images/bannerclassi.webp' | relative_url }}" alt="classi" style="display: block; margin: 0 auto; max-width: 720px;" />
 
-Scegli la classe dopo la razza, in approvazione col GM. Tutte partono dal 1° livello con `.pgstart` e salgono con `.passalivello` al giaciglio.
+<div class="wotsc-cards">
+<a class="wotsc-card" href="{{ '/classi/guerriero/' | relative_url }}"><strong>Guerriero</strong><span>Prima linea, tutte armi e armature. Il più semplice per iniziare.</span></a>
+<a class="wotsc-card" href="{{ '/classi/barbaro/' | relative_url }}"><strong>Barbaro</strong><span>Furia primordiale, d12, ira devastante.</span></a>
+<a class="wotsc-card" href="{{ '/classi/ranger/' | relative_url }}"><strong>Ranger</strong><span>Caccia, tracce e nemico prescelto nelle terre selvagge.</span></a>
+<a class="wotsc-card" href="{{ '/classi/ladro/' | relative_url }}"><strong>Ladro</strong><span>Ombre, scasso e colpi decisivi. Più abilità di tutti.</span></a>
+<a class="wotsc-card" href="{{ '/classi/monaco/' | relative_url }}"><strong>Monaco</strong><span>Arti marziali, velocità e Ki. Senza armatura.</span></a>
+<a class="wotsc-card" href="{{ '/classi/paladino/' | relative_url }}"><strong>Paladino</strong><span>Guerriero sacro Legale Buono, punisce il male.</span></a>
+<a class="wotsc-card" href="{{ '/classi/chierico/' | relative_url }}"><strong>Chierico</strong><span>Magia divina, cure e domini del suo dio.</span></a>
+<a class="wotsc-card" href="{{ '/classi/druido/' | relative_url }}"><strong>Druido</strong><span>Natura, animali ed elementi. Cambia forma.</span></a>
+<a class="wotsc-card" href="{{ '/classi/mago/' | relative_url }}"><strong>Mago</strong><span>Studio arcano, libro e scuole di magia.</span></a>
+<a class="wotsc-card" href="{{ '/classi/stregone/' | relative_url }}"><strong>Stregone</strong><span>Magia innata e spontanea da Carisma.</span></a>
+<a class="wotsc-card" href="{{ '/classi/bardo/' | relative_url }}"><strong>Bardo</strong><span>Musica, parole e magia per sostenere gli alleati.</span></a>
+</div>
+
+## Tabella comparativa
 
 | Classe | Dado | Attacco | Tiri buoni | Abilità/livello | Scheda |
 |---|---|---|---|---|---|

@@ -530,3 +530,37 @@ img {
     font-weight: bold;
     color: #f6e7c1;
 }
+
+/* Card menu Classi e Razze */
+
+.wotsc-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 0.9rem;
+    margin: 1rem 0 2rem 0;
+}
+
+.wotsc-card {
+    display: block;
+    padding: 0.9rem 1rem;
+    border: 1px solid rgba(246, 231, 193, 0.25);
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.03);
+    text-decoration: none !important;
+}
+
+.wotsc-card:hover {
+    background: rgba(246, 231, 193, 0.08);
+}
+
+.wotsc-card strong {
+    display: block;
+    font-size: 1.1rem;
+    color: #f6e7c1;
+    margin-bottom: 0.3rem;
+}
+
+.wotsc-card span {
+    color: #e6e1d9;
+    font-size: 0.95rem;
+}

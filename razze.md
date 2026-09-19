@@ -7,9 +7,19 @@ excerpt: Le 7 famiglie e 18 sottorazze giocabili, a confronto
 
 # Razze
 
-> Torna a [Classi e Razze](/classi-e-razze/)
+<img src="{{ '/assets/images/bannerrazze.webp' | relative_url }}" alt="razze" style="display: block; margin: 0 auto; max-width: 720px;" />
 
-Scegli razza e sottorazza in approvazione col GM, poi `.pgstart`. Ordine modificatori: FOR DES COS INT SAG CAR.
+<div class="wotsc-cards">
+<a class="wotsc-card" href="{{ '/razze/umano/' | relative_url }}"><strong>Umano</strong><span>Versatile e ambizioso. Talento extra, ideale per tutto.</span></a>
+<a class="wotsc-card" href="{{ '/razze/elfo/' | relative_url }}"><strong>Elfo</strong><span>Longevo e magico. Luna, Sole, Boschi, Selvaggio.</span></a>
+<a class="wotsc-card" href="{{ '/razze/nano/' | relative_url }}"><strong>Nano</strong><span>Robusto e tenace. Scudi, Dorato, Selvaggio.</span></a>
+<a class="wotsc-card" href="{{ '/razze/halfling/' | relative_url }}"><strong>Halfling</strong><span>Piccolo, fortunato e furtivo. Piedilesti, Cuoreforte.</span></a>
+<a class="wotsc-card" href="{{ '/razze/gnomo/' | relative_url }}"><strong>Gnomo</strong><span>Ingegnoso e curioso. Rocce, Foreste.</span></a>
+<a class="wotsc-card" href="{{ '/razze/mezzelfo/' | relative_url }}"><strong>Mezzelfo</strong><span>Tra due mondi. Doppia classe favorita, unico.</span></a>
+<a class="wotsc-card" href="{{ '/razze/mezzorco/' | relative_url }}"><strong>Mezzorco</strong><span>Forza e ferocia. Resta in piedi quando dovrebbe cadere.</span></a>
+</div>
+
+## Tabella comparativa
 
 | Famiglia | Sottorazze | Modifiche | Taglia | Scheda |
 |---|---|---|---|---|

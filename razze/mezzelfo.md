@@ -1,4 +1,4 @@
----
+﻿---
 layout: default
 title: Mezzelfo
 permalink: /razze/mezzelfo/
@@ -7,7 +7,7 @@ excerpt: Tra due mondi, con doppia classe favorita
 
 # Mezzelfo
 
-> Torna a [Classi e Razze](/classi-e-razze/) · [Indice razze](/razze/)
+> Torna a [Indice razze](/razze/)
 
 Figlio di umani ed elfi, vive tra due mondi senza appartenere del tutto a nessuno. Mediatore e viaggiatore naturale, unisce curiosità umana a grazia elfica.
 
@@ -24,3 +24,4 @@ I più diffusi discendono dagli elfi della luna, ma ogni stirpe porta il suo seg
 * **Unico:** 2 classi favorite invece di 1, perfetto per multiclasse
 * **Lingue:** Comune + Elfico
 * **Stirpi:** Luna, Sole, Boschi, Selvaggio, Marino
+

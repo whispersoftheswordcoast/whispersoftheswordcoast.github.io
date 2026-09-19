@@ -1,4 +1,4 @@
----
+﻿---
 layout: default
 title: Monaco
 permalink: /classi/monaco/
@@ -7,7 +7,7 @@ excerpt: Arti marziali, velocità e Ki senza armatura
 
 # Monaco
 
-> Torna a [Classi e Razze](/classi-e-razze/) · [Indice classi](/classi/)
+> Torna a [Indice classi](/classi/)
 
 <img src="{{ '/assets/images/monaco.webp' | relative_url }}" alt="monaco" style="float: right; width: 45%; max-width: 320px; height: auto; margin: 0 0 1rem 1.5rem; border-radius: 10px;" />
 
@@ -33,8 +33,11 @@ Senza armature né scudi: SAG alla CA · **Crescita:** +1 al 5°, +1 ogni 5 live
 ### Eludere
 Riflessi superato contro aree = zero danni · **Migliorato (9°):** metà danni anche se fallito.
 
-### Talenti bonus (1°, 2°, 6°)
-Stordente, Lottare, Deviare Frecce, Riflessi da Combattimento, Disarmare e Sbilanciare migliorati.
+### Talenti bonus
+Pugno Stordente automatico · **Pool base:** Deviare Frecce, Riflessi in Combattimento, Schivare · **Oltre il 5°:** Disarmare Migliorato, Mobilità, Sbilanciare Migliorato, Spinta Migliorata · **Oltre il 9°:** Afferrare Frecce, Attacco Rapido, Critico Migliorato. Niente stili di combattimento: solo scelte a scaglioni.
+
+### Palmo Vibrante (15°)
+**Requisito:** Monaco 15° · **Effetto:** il prossimo attacco può uccidere · **Usi:** 1 a settimana.
 
 ### Corpo e Ki
 **Movimento veloce (2°):** doppia velocità · **Mente lucida (3°):** +2 contro ammaliamenti · **Caduta lenta (4°):** vicino alle pareti · **Purezza (5°):** immune alle malattie non magiche · **Colpo Ki (4°):** pugni magici, assiomatici al 10° · **Integrità (7°):** curi 2 × livello PF al giorno · **Corpo adamantino (11°):** immune a tutti i veleni · **Passo abbondante:** Porta Dimensionale 1/giorno.
@@ -62,8 +65,9 @@ Stordente, Lottare, Deviare Frecce, Riflessi da Combattimento, Disarmare e Sbila
 
 ## Comandi di classe
 
-`.attaccostordente` per stordire in mischia, `.integrita` per curarti, `.raffica` e `.velocitamonaco` on/off.
+`.attaccostordente` per stordire in mischia, `.integrita` per curarti, `.raffica` e `.velocitamonaco` on/off, `.palmovibrante` dal 15° (1 a settimana), `.cancellapalmo` per cambiare vittima designata.
 
 ## Vai oltre
 
-[Creazione](/manuale/#creazione) · [Classi e Razze](/classi-e-razze/) · Razze adatte: [Umano](/razze/umano/), [Halfling](/razze/halfling/)
+[Creazione](/manuale/#creazione) · Razze adatte: [Umano](/razze/umano/), [Halfling](/razze/halfling/)
+

@@ -1,4 +1,4 @@
----
+﻿---
 layout: default
 title: Druido
 permalink: /classi/druido/
@@ -7,7 +7,7 @@ excerpt: Natura, animali ed elementi con forme mutevoli
 
 # Druido
 
-> Torna a [Classi e Razze](/classi-e-razze/) · [Indice classi](/classi/)
+> Torna a [Indice classi](/classi/)
 
 La civiltà è un'eccezione, la natura la regola. Il druido lo sa e ci vive dentro: parla con gli animali, piega gli elementi, e quando serve smette di avere forma umana. Custode dell'Equilibrio tra vita e morte, crescita e distruzione.
 
@@ -74,8 +74,9 @@ Tutta la lista preparabile con SAG 10 + livello incantesimo. Bonus da SAG alta: 
 
 ## Comandi di classe
 
-`.formaselvaggia` per cambiare pelle, `.formaumana` per tornare indietro, `.traslazione` per viaggiare tra alberi gemelli, `.casta` per gli incantesimi.
+`.compagnoanimaledruido` per convincere un animale, `.ricompagno` per richiamarlo, `.formaselvaggia` per cambiare pelle, `.formaumana` per tornare indietro, `.traslazione` per viaggiare tra alberi gemelli, `.castadruido` per lanciare (`.casta` generico), `.memo` e `.preparaspells` per preparare, `.metamagia` per armare le metamagie.
 
 ## Vai oltre
 
-[Creazione](/manuale/#creazione) · [Classi e Razze](/classi-e-razze/) · Razze adatte: [Elfo](/razze/elfo/), [Gnomo](/razze/gnomo/), [Mezzelfo](/razze/mezzelfo/)
+[Creazione](/manuale/#creazione) · Razze adatte: [Elfo](/razze/elfo/), [Gnomo](/razze/gnomo/), [Mezzelfo](/razze/mezzelfo/)
+

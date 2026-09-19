@@ -1,4 +1,4 @@
----
+﻿---
 layout: default
 title: Mago
 permalink: /classi/mago/
@@ -7,7 +7,7 @@ excerpt: Studio arcano con libro e scuole di magia
 
 # Mago
 
-> Torna a [Classi e Razze](/classi-e-razze/) · [Indice classi](/classi/)
+> Torna a [Indice classi](/classi/)
 
 <img src="{{ '/assets/images/mago.webp' | relative_url }}" alt="mago" style="float: right; width: 45%; max-width: 320px; height: auto; margin: 0 0 1rem 1.5rem; border-radius: 10px;" />
 
@@ -32,6 +32,9 @@ Uno ogni 5 livelli, tra metamagia e padronanza.
 
 ### Specializzazione (1°)
 Una scuola tra Abiurazione, Ammaliamento, Evocazione, Illusione, Divinazione, Invocazione, Necromanzia, Trasmutazione · **Costo:** 2 scuole proibite per sempre (1 per il Divinatore) · **Mai proibita:** Universale · **Gratis al `.pgstart`:** 3 + INT di 1° nel Libro.
+
+### Famiglio
+Il tuo animale addestrato · `.portafamiglio` lo mette nel trasportino con ricevuta, `.recuperafamiglio` lo richiama.
 
 ## Competenze
 
@@ -75,8 +78,9 @@ Prepari dal Libro con `.memo` dopo il riposo. Specialista: +1 slot per livello. 
 
 ## Comandi di classe
 
-`.casta` e `.memo`, `.spells` per la lista, `.duellomagico` contro altri incantatori, `.ven`, `.visibile`, `.fermaritirata`.
+`.castamago` per lanciare (`.casta` generico), `.memo` e `.preparaspells` per preparare, `.spells` per la lista, `.metamagia` per armare le metamagie possedute (anche `intensificati N`), `.controincantesimo`, `.duellomagico` contro altri incantatori, `.ven`, `.visibile`, `.fermaritirata`. Famiglio: `.famigliomago`, `.evocafamigliomago`, `.famigliomiglioratomago`, `.famigliononmortomago`, `.portafamiglio` e `.recuperafamiglio`.
 
 ## Vai oltre
 
-[Creazione](/manuale/#creazione) · [Classi e Razze](/classi-e-razze/) · Nota: scuola e 3 + INT incantesimi gratuiti si scelgono al `.pgstart`. Razze adatte: [Elfo](/razze/elfo/), [Gnomo](/razze/gnomo/)
+[Creazione](/manuale/#creazione) · Nota: scuola e 3 + INT incantesimi gratuiti si scelgono al `.pgstart`. Razze adatte: [Elfo](/razze/elfo/), [Gnomo](/razze/gnomo/)
+

@@ -1,4 +1,4 @@
----
+﻿---
 layout: default
 title: Guerriero
 permalink: /classi/guerriero/
@@ -7,7 +7,7 @@ excerpt: Prima linea, talenti bonus e padronanza totale di armi e armature
 
 # Guerriero
 
-> Torna a [Classi e Razze](/classi-e-razze/) · [Indice classi](/classi/)
+> Torna a [Indice classi](/classi/)
 
 <img src="{{ '/assets/images/guerriero.webp' | relative_url }}" alt="guerriero" style="float: right; width: 45%; max-width: 320px; height: auto; margin: 0 0 1rem 1.5rem; border-radius: 10px;" />
 
@@ -61,4 +61,5 @@ Quando gli altri arretrano, il guerriero avanza. Niente trucchi, niente scorciat
 
 ## Vai oltre
 
-[Creazione](/manuale/#creazione) · [Classi e Razze](/classi-e-razze/) · Razze adatte: [Nano](/razze/nano/), [Umano](/razze/umano/), [Mezzorco](/razze/mezzorco/)
+[Creazione](/manuale/#creazione) · Razze adatte: [Nano](/razze/nano/), [Umano](/razze/umano/), [Mezzorco](/razze/mezzorco/)
+

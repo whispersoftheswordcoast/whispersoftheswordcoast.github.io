@@ -1,4 +1,4 @@
----
+﻿---
 layout: default
 title: Barbaro
 permalink: /classi/barbaro/
@@ -7,7 +7,7 @@ excerpt: Furia primordiale, dado d12 e ira devastante
 
 # Barbaro
 
-> Torna a [Classi e Razze](/classi-e-razze/) · [Indice classi](/classi/)
+> Torna a [Indice classi](/classi/)
 
 <img src="{{ '/assets/images/barbaro.webp' | relative_url }}" alt="barbaro" style="float: right; width: 45%; max-width: 320px; height: auto; margin: 0 0 1rem 1.5rem; border-radius: 10px;" />
 
@@ -22,7 +22,7 @@ C'è un momento, in ogni battaglia dura, in cui la disciplina non basta più. È
 ## Privilegi di classe
 
 ### Ira barbarica
-**Effetto:** +4 FOR, +4 COS, +2 Volontà, −2 CA · **Riserva giornaliera:** 4 + mod COS + 2 per livello da Barbaro (+6 per ogni Ira Extra), si consuma a round · **Dopo:** affaticato (−2 FOR, −2 DES).
+Entri in ira e finché dura sei un'altra cosa: +4 a Forza e Costituzione, +2 ai TS su Volontà, −2 alla CA. L'ira si paga a round, non a cariche: hai una riserva giornaliera di 4 + modificatore COS + 2 per livello da Barbaro (+6 per ogni talento Ira Extra), e ogni round in ira ne brucia uno. Quando esci, resti affaticato (−2 FOR, −2 DES) fino allo scontro dopo: chiudi in fretta o fatti coprire.
 
 ### Ira superiore (11°)
 **Effetto:** +6 FOR, +6 COS, +3 Volontà, −2 CA.
@@ -30,36 +30,54 @@ C'è un momento, in ogni battaglia dura, in cui la disciplina non basta più. È
 ### Poteri d'ira
 **Quanti:** livello ÷ 2, dal 2° livello · **Come:** si scelgono con `.poteriira` fuori dall'ira, si rivedono con `.mieipoteriira` · **Catene:** alcuni vogliono altri poteri o livelli minimi.
 
-#### Attacco
-* **Abbandono avventato (2°):** +1 colpire ogni 4 livelli, stesso malus alla CA.
-* **Colpo possente (2°):** 1/ira danni extra in mischia. Sanguinante (8°): aggiunge sanguinamento pari al bonus.
-* **Accuratezza sorprendente (2°):** 1/ira bonus al prossimo attacco. Acuta (8°): ignora occultamento. Mortale (4°): raddoppia sul critico.
-* **Attacco devastante (12°):** 1/ira conferma automatica del critico.
-* **Attacco improvviso (8°):** 1/ira AdO gratis contro chi si muove restando a portata.
-* **Furia animale (2°):** morso secondario a BAB −5, 1d4 + metà FOR.
-* **Vieni a prendermi (12°):** +4 agli attaccanti per 1 round, ma contrattacco prima del loro attacco.
-* **Catena elementale (2°→12°):** 1d6 a un attacco per ira, poi a ogni attacco, poi 1d10 sui critici, infine assorbimento del primo colpo.
-
-#### Difesa
-* **Posizione difensiva e Balzo difensivo (2°):** schivare in mischia e a distanza, +1 ogni 6 livelli.
-* **RD aumentata (8°):** +1 riduzione danno, fino a 3 volte.
-* **Ferita superficiale (10°):** 1/ira dimezza il primo danno con un Tempra.
-* **Vita protetta (2°):** se cadi privo di sensi in ira, risveglio automatico dopo 1 round.
-* **Vigore rinnovato (4°):** 1/giorno cura 1d8 + COS (+1d8 ogni 4 oltre il 4°). Rigenerato (6°): guarigione rapida 1-3/round.
-* **Collera inarrestabile (2°):** ira anche da affaticato, sopprime fatica e sfinimento.
-* **Vitalità rinnovata (4°):** sospende le penalità alle caratteristiche durante l'ira.
-
-#### Utilità
-* **Sguardo intimidatorio (2°):** scosso all'avversario adiacente. Urlo di guerra (6°): +1d6 sonori se riesce.
-* **Ostentare provocazione (6°):** −2 contro chiunque non sia te, entro 6 m.
-* **Ispirare ferocia (2°):** passa Abbandono a un alleato per mod CAR round.
-* **Scagliare arma (2°→12°):** 3, poi 6, poi 9 caselle durante l'ira.
-* **Superstizione (2°):** +2 TS contro magia, +1 ogni 4. Apre Cacciatore di streghe e Fantasma (incorporei).
-* **Tempra impetuosa (2°):** +4 contro veleno e malattia.
-* **Mente lucida (8°):** ritira il primo Volontà fallito della giornata.
-* **Resistenze energia (2°):** metà livello da Barbaro, una per tipo.
-* **Visione crepuscolare e notturna (2°):** vedere al buio durante l'ira.
-* **Attaccabrighe (2°):** senz'armi senza AdO. Superiore: attacco extra a −2.
+| Potere | Liv | Effetto | Prerequisito |
+|---|---|---|---|
+| Abbandono avventato | 2° | +1 colpire ogni 4 livelli, stesso malus CA | — |
+| Posizione difensiva | 2° | Schivare in mischia +1 ogni 6 livelli | — |
+| Balzo difensivo | 2° | Schivare a distanza +1 ogni 6 livelli | — |
+| Attaccabrighe | 2° | Senz'armi senza AdO | — |
+| Attaccabrighe superiore | 2° | Extra senz'armi a −2, 1d3 + metà FOR | Attaccabrighe |
+| Barcollare ubriaco | 2° | +1 CA contro AdO per bevanda in ira | — |
+| Cacciatore di streghe | 2° | Danni crescenti contro incantatori | Superstizione |
+| Collera inarrestabile | 2° | Ira anche da affaticato | — |
+| Colpo possente | 2° | 1/ira danni extra in mischia | — |
+| Ebbrezza ruggente | 2° | +1 Intimidire per bevanda in ira | — |
+| Furia animale | 2° | Morso secondario a BAB −5, 1d4 + metà FOR | — |
+| Ispirare ferocia | 2° | Passa Abbandono a un alleato per mod CAR round | Abbandono |
+| Lanciare inferiore | 2° | Scagliare arma a 3 caselle in ira | — |
+| Lancio selvaggio | 2° | Da +1 a +4 al lancio in base alla FOR | — |
+| Nuotatore indomabile | 2° | Livello aggiunto a Nuotare in ira | — |
+| Riflessi rapidi | 2° | Secondo AdO per round | — |
+| Saltatore indomabile | 2° | Livello aggiunto ad Acrobazia in ira | — |
+| Scalatore indomabile | 2° | Livello aggiunto a Scalare in ira | — |
+| Sguardo intimidatorio | 2° | Scosso all'avversario adiacente | — |
+| Superstizione | 2° | +2 TS contro magia, +1 ogni 4 | — |
+| Tempra impetuosa | 2° | +4 contro veleno e malattia | — |
+| Vita protetta | 2° | Risveglio automatico dopo 1 round se cadi in ira | — |
+| Visione crepuscolare | 2° | Vedere al buio in ira | — |
+| Visione notturna | 2° | Scurovisione in ira | Crepuscolare |
+| Resistenze energia | 2° | Metà livello, un tipo a scelta | — |
+| Ira elementale inferiore | 2° | 1/ira +1d6 a un attacco, un tipo a scelta | — |
+| Accuratezza mortale | 4° | Raddoppia il bonus sul critico | Sorprendente |
+| Vigore rinnovato | 4° | 1/giorno cura 1d8 + COS, +1d8 ogni 4 oltre il 4° | — |
+| Vitalità rinnovata | 4° | Sospende le penalità alle caratteristiche | Rinnovato |
+| Ostentare provocazione | 6° | −2 contro gli altri entro 6 m | — |
+| Urlo di guerra | 6° | +1d6 sonori se lo Sguardo riesce | Sguardo |
+| Fantasma iracondo | 6° | Colpisce gli incorporei | Superstizione |
+| Vigore rigenerato | 6° | Guarigione rapida 1-3/round dopo Rinnovato | Rinnovato |
+| RD aumentata | 8° | +1 riduzione danno, fino a 3 volte | — |
+| Attacco improvviso | 8° | 1/ira AdO gratis contro chi si muove | — |
+| Colpo sanguinante | 8° | Sanguinamento pari al bonus | Possente |
+| Mente lucida | 8° | Ritira il primo Volontà fallito | — |
+| Vigore innato | 8° | Rimuove infermo e nauseato in ira | — |
+| Ira elementale | 8° | 1d6 a ogni attacco in mischia | Inf. corrispondente |
+| Accuratezza acuta | 8° | Ignora occultamento normale | Sorprendente |
+| Ferita superficiale | 10° | 1/ira dimezza il primo danno con Tempra | — |
+| Attacco devastante | 12° | 1/ira conferma automatica del critico | — |
+| Lanciare superiore | 12° | Scagliare a 9 caselle in ira | Lanciare |
+| Ira elementale superiore | 12° | 1d10 sui critici | Elem. corrispondente |
+| Vieni a prendermi | 12° | +4 agli attaccanti 1 round, ma contrattacco prima | — |
+| Assorbire energia | 12° | Annulla il primo colpo e dà temporanei pari a un terzo | Resistenza |
 
 ### Schivare prodigioso (2°)
 DES alla CA anche sorpreso o contro invisibili (non da immobilizzato) · **Migliorato (5°):** niente fianchi, salvo ladri con 4+ livelli oltre i tuoi da Barbaro.
@@ -100,4 +118,5 @@ Parti senza leggere né scrivere · **Per imparare:** 2 punti abilità.
 
 ## Vai oltre
 
-[Creazione](/manuale/#creazione) · [Classi e Razze](/classi-e-razze/) · Razze adatte: [Mezzorco](/razze/mezzorco/), [Nano](/razze/nano/), [Umano](/razze/umano/)
+[Creazione](/manuale/#creazione) · Razze adatte: [Mezzorco](/razze/mezzorco/), [Nano](/razze/nano/), [Umano](/razze/umano/)
+

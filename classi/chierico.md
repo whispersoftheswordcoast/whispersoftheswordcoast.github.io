@@ -1,4 +1,4 @@
----
+﻿---
 layout: default
 title: Chierico
 permalink: /classi/chierico/
@@ -7,7 +7,7 @@ excerpt: Magia divina, cure e domini del suo dio
 
 # Chierico
 
-> Torna a [Classi e Razze](/classi-e-razze/) · [Indice classi](/classi/)
+> Torna a [Indice classi](/classi/)
 
 <img src="{{ '/assets/images/chierico.webp' | relative_url }}" alt="chierico" style="float: right; width: 45%; max-width: 320px; height: auto; margin: 0 0 1rem 1.5rem; border-radius: 10px;" />
 
@@ -25,7 +25,7 @@ Quando il gruppo è in ginocchio, è al chierico che tutti guardano. Ponte tra g
 Concessi dalla divinità, niente libro: simbolo sacro e fede · **Chiave:** SAG per potenza e slot giornalieri.
 
 ### Scacciare / Intimidire non morti
-Buoni: scacciano o distruggono · Malvagi: intimoriscono o controllano · **Chiave:** CAR.
+Buoni: scacciano o distruggono · Malvagi: intimoriscono o controllano · **Chiave:** CAR · **Usi al giorno:** 3 + CAR · **Serve:** simbolo sacro impugnato a mani libere · **Forza:** 2d6 + CAR + livello in DV · **Scudo sacro:** +2 DV massimi.
 
 ### Domini
 Scelti al `.pgstart`: poteri della divinità invocabili in gioco.
@@ -74,8 +74,9 @@ Domini, incantesimi e scacciare attivi dal 1°. Dettagli nel manuale.
 
 ## Comandi di classe
 
-`.converti` per mutare un preparato in cura o ferita, `.scacciare` contro i non morti, `.poteredominio` per il potere del dominio, `.incanala` sull'area, `.casta` e `.memo` per gli incantesimi.
+`.converti` per mutare un preparato in cura o ferita, `.scacciare` contro i non morti, `.poteredominio` per il potere del dominio, `.incanala` sull'area, `.castachierico` per lanciare (`.casta` generico), `.memo` e `.preparaspells` per preparare, `.spells` per la lista, `.metamagia` per armare le metamagie.
 
 ## Vai oltre
 
-[Creazione](/manuale/#creazione) · [Classi e Razze](/classi-e-razze/) · Nota: divinità e domini si scelgono al `.pgstart`. Razze adatte: [Nano](/razze/nano/), [Umano](/razze/umano/)
+[Creazione](/manuale/#creazione) · Nota: divinità e domini si scelgono al `.pgstart`. Razze adatte: [Nano](/razze/nano/), [Umano](/razze/umano/)
+

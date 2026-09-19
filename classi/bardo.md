@@ -1,4 +1,4 @@
----
+﻿---
 layout: default
 title: Bardo
 permalink: /classi/bardo/
@@ -7,7 +7,7 @@ excerpt: Musica, parole e magia per sostenere gli alleati
 
 # Bardo
 
-> Torna a [Classi e Razze](/classi-e-razze/) · [Indice classi](/classi/)
+> Torna a [Indice classi](/classi/)
 
 Canta nelle taverne, spia nelle corti, ricorda quello che gli altri hanno dimenticato. Il bardo ha capito prima di tutti che parole e musica muovono più eserciti delle spade, e le usa entrambe, condite con un po' di magia.
 
@@ -21,7 +21,7 @@ Canta nelle taverne, spia nelle corti, ricorda quello che gli altri hanno diment
 Bonus pari a livello + INT · **CD:** 10 comuni, 20 rare, 25 specialistiche, 30 leggende perdute.
 
 ### Incantesimi (CAR)
-Arcani senza libro · **Limite:** niente Silenziosi o Rapidi, la voce è parte della magia.
+Arcani senza libro · **Limite:** niente Silenziosi o Rapidi, la voce è parte della magia · **Cambio:** al 5°, 8°, 11°, 14°, 17° e 20° puoi sostituire un conosciuto.
 
 ### Musica bardica
 **Usi:** pari al livello, al giorno · **Limite:** mentre suoni non combatti né lanci.
@@ -72,8 +72,9 @@ Musica, incantesimi e conoscenze dal 1°, nuove esibizioni salendo. Dettagli nel
 
 ## Comandi di classe
 
-`.canzonebardo` per la performance magica, `.suona` con lo strumento, `.casta` per gli incantesimi.
+`.canzonebardo` per la performance magica, `.suona` con lo strumento, `.oratore` per la performance oratoria, `.casta` e `.castabardo` per lanciare, `.spells` e `.spellsbardo` per le liste, `.metamagia` per armare le metamagie.
 
 ## Vai oltre
 
-[Creazione](/manuale/#creazione) · [Classi e Razze](/classi-e-razze/) · Razze adatte: [Mezzelfo](/razze/mezzelfo/), [Gnomo](/razze/gnomo/), [Halfling](/razze/halfling/)
+[Creazione](/manuale/#creazione) · Razze adatte: [Mezzelfo](/razze/mezzelfo/), [Gnomo](/razze/gnomo/), [Halfling](/razze/halfling/)
+

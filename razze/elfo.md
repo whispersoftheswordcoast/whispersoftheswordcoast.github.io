@@ -1,4 +1,4 @@
----
+﻿---
 layout: default
 title: Elfo
 permalink: /razze/elfo/
@@ -7,7 +7,7 @@ excerpt: Longevo e magico in quattro sottorazze
 
 # Elfo
 
-> Torna a [Classi e Razze](/classi-e-razze/) · [Indice razze](/razze/)
+> Torna a [Indice razze](/razze/)
 
 Il popolo antico di Faerûn. Grazia, magia e memoria lunga in quattro volti diversi.
 
@@ -26,3 +26,4 @@ Il popolo antico di Faerûn. Grazia, magia e memoria lunga in quattro volti dive
 * **Taglia:** Media per tutti
 * **Capacità:** visione crepuscolare, immunità al sonno, sensi acuti, magia elfica, Percezione+2, armi elfiche
 * **Lingue:** Comune + Elfico
+

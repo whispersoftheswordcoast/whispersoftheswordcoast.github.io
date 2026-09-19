@@ -1,4 +1,4 @@
----
+﻿---
 layout: default
 title: Ranger
 permalink: /classi/ranger/
@@ -7,7 +7,7 @@ excerpt: Caccia, tracce e nemico prescelto nelle terre selvagge
 
 # Ranger
 
-> Torna a [Classi e Razze](/classi-e-razze/) · [Indice classi](/classi/)
+> Torna a [Indice classi](/classi/)
 
 <img src="{{ '/assets/images/ranger.webp' | relative_url }}" alt="ranger" style="float: right; width: 45%; max-width: 320px; height: auto; margin: 0 0 1rem 1.5rem; border-radius: 10px;" />
 
@@ -87,8 +87,9 @@ Divini dal 4° livello. B = slot solo con SAG alta.
 
 ## Comandi di classe
 
-`.compagnoanimaleranger` dal 4° per il compagno, `.preda` dall'11° per designarlo (`.preda stato`, `.preda abbandona`).
+`.compagnoanimaleranger` dal 4° per il compagno, `.ricompagno` per richiamarlo, `.preda` dall'11° per designarlo (`.preda stato`, `.preda abbandona`), `.castaranger` per lanciare dal 4°.
 
 ## Vai oltre
 
-[Creazione](/manuale/#creazione) · [Classi e Razze](/classi-e-razze/) · Nota: il Nemico Prescelto va scelto al `.pgstart`, senza non si prosegue. Razze adatte: [Elfo](/razze/elfo/), [Mezzelfo](/razze/mezzelfo/), [Halfling](/razze/halfling/)
+[Creazione](/manuale/#creazione) · Nota: il Nemico Prescelto va scelto al `.pgstart`, senza non si prosegue. Razze adatte: [Elfo](/razze/elfo/), [Mezzelfo](/razze/mezzelfo/), [Halfling](/razze/halfling/)
+

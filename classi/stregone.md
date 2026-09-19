@@ -1,4 +1,4 @@
----
+﻿---
 layout: default
 title: Stregone
 permalink: /classi/stregone/
@@ -7,7 +7,7 @@ excerpt: Magia innata e spontanea da Carisma
 
 # Stregone
 
-> Torna a [Classi e Razze](/classi-e-razze/) · [Indice classi](/classi/)
+> Torna a [Indice classi](/classi/)
 
 <img src="{{ '/assets/images/stregone.webp' | relative_url }}" alt="stregone" style="float: right; width: 45%; max-width: 320px; height: auto; margin: 0 0 1rem 1.5rem; border-radius: 10px;" />
 
@@ -32,6 +32,9 @@ Almeno uno a ogni livello: ogni scelta pesa.
 
 ### Escludere Materiali
 Talento gratis alla creazione.
+
+### Famiglio
+Anche lo stregone ha il suo: `.famigliostregone`, `.evocafamigliostregone`, `.famigliomiglioratostregone`, `.famigliononmortostregone`.
 
 ## Competenze
 
@@ -77,8 +80,9 @@ Nuovi conosciuti a ogni livello. Dettagli nel manuale.
 
 ## Comandi di classe
 
-`.casta`, `.spells` per i conosciuti.
+`.castastregone` per lanciare (`.casta` generico), `.spells` per i conosciuti, `.metamagia` per armare le metamagie possedute. Famiglio: `.famigliostregone`, `.evocafamigliostregone`, `.famigliomiglioratostregone`, `.famigliononmortostregone`.
 
 ## Vai oltre
 
-[Creazione](/manuale/#creazione) · [Classi e Razze](/classi-e-razze/) · Razze adatte: [Mezzelfo](/razze/mezzelfo/), [Umano](/razze/umano/), [Elfo](/razze/elfo/)
+[Creazione](/manuale/#creazione) · Razze adatte: [Mezzelfo](/razze/mezzelfo/), [Umano](/razze/umano/), [Elfo](/razze/elfo/)
+

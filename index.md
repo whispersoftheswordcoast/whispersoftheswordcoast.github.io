@@ -165,7 +165,8 @@ Se quello che cerchi è un mondo in cui il personaggio non sia soltanto un avata
 - [Come giocare](/come-giocare/)
 - [Regolamento](/regolamento/)
 - [Ambientazione](/ambientazione/)
-- [Classi e Razze](/classi-e-razze/)
+- [Classi](/classi/)
+- [Razze](/razze/)
 - [Download client](/download/)
 - [Manuale di gioco](/manuale/)
 

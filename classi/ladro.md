@@ -1,4 +1,4 @@
----
+﻿---
 layout: default
 title: Ladro
 permalink: /classi/ladro/
@@ -7,7 +7,7 @@ excerpt: Ombre, scasso e colpi decisivi con più abilità di tutti
 
 # Ladro
 
-> Torna a [Classi e Razze](/classi-e-razze/) · [Indice classi](/classi/)
+> Torna a [Indice classi](/classi/)
 
 <img src="{{ '/assets/images/ladro.webp' | relative_url }}" alt="ladro" style="float: right; width: 45%; max-width: 320px; height: auto; margin: 0 0 1rem 1.5rem; border-radius: 10px;" />
 
@@ -139,4 +139,5 @@ Le doti avanzate qui sopra, oppure un talento al posto della dote.
 
 ## Vai oltre
 
-[Creazione](/manuale/#creazione) · [Classi e Razze](/classi-e-razze/) · Razze adatte: [Halfling](/razze/halfling/), [Elfo](/razze/elfo/), [Gnomo](/razze/gnomo/)
+[Creazione](/manuale/#creazione) · Razze adatte: [Halfling](/razze/halfling/), [Elfo](/razze/elfo/), [Gnomo](/razze/gnomo/)
+
