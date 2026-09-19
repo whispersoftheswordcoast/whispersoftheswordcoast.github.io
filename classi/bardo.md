@@ -9,24 +9,31 @@ excerpt: Musica, parole e magia per sostenere gli alleati
 
 > Torna a [Indice classi](/classi/)
 
+<img src="{{ '/assets/images/bardo.webp' | relative_url }}" alt="bardo" style="float: right; width: 45%; max-width: 320px; height: auto; margin: 0 0 1rem 1.5rem; border-radius: 10px;" />
+
 Canta nelle taverne, spia nelle corti, ricorda quello che gli altri hanno dimenticato. Il bardo ha capito prima di tutti che parole e musica muovono più eserciti delle spade, e le usa entrambe, condite con un po' di magia.
 
 **Ruolo:** moltiplica il gruppo, sostiene e controlla. **Allineamento:** qualsiasi. **Dado Vita:** d8.
 **Abilità di classe:** Acrobazia, Artigianato, Artista della Fuga, Camuffare, tutte le Conoscenze, Diplomazia, Furtività, Intimidire, Intrattenere, Intuizione, Parlare linguaggi, Percezione, Professione, Raggirare, Rapidità di Mano, Sapienza Magica, Scalare, Utilizzare Congegni Magici, Valutare.
 **Competenze:** armi semplici più arco corto, frusta, manganello, spade corta e lunga, stocco; armature leggere e scudi.
 
+<div style="clear: both;"></div>
+
 ## Privilegi di classe
 
 ### Conoscenze bardiche
-Bonus pari a livello + INT · **CD:** 10 comuni, 20 rare, 25 specialistiche, 30 leggende perdute.
+Il bardo tira con bonus pari a livello + Intelligenza per ricordare di tutto: voci comuni a CD 10, notizie rare a CD 20, nozioni specialistiche a CD 25, leggende quasi perdute a CD 30.
 
 ### Incantesimi (CAR)
-Arcani senza libro · **Limite:** niente Silenziosi o Rapidi, la voce è parte della magia · **Cambio:** al 5°, 8°, 11°, 14°, 17° e 20° puoi sostituire un conosciuto.
+Il bardo lancia incantesimi arcani basati sul Carisma, senza libro: ne conosce pochi e li tira fuori al bisogno. Non può usare talenti come Incantesimi Silenziosi o Rapidi, perché la voce è parte della sua magia. Al 5°, 8°, 11°, 14°, 17° e 20° livello può sostituire un conosciuto.
 
 ### Musica bardica
-**Usi:** pari al livello, al giorno · **Limite:** mentre suoni non combatti né lanci.
+Gli usi al giorno sono pari al livello da bardo. Mentre la esegue non può combattere né lanciare incantesimi.
 
-**Repertorio:** Coraggio (+1 colpire, danni e TS contro paura e charme entro 9 m) · Affascinare (Volontà CD 10 + metà livello + CAR) · Competenza (+2 a una prova di un alleato) · Grandezza (2d10 + COS temporanei, +2 colpire, +1 Tempra) · Suggestione sugli affascinati.
+**Repertorio.** Infondere Coraggio: gli alleati entro 9 metri ricevono +1 a colpire, +1 ai TS contro paura e charme e +1 ai danni. Affascinare: una o più creature che falliscono un Volontà (CD 10 + metà livello + CAR) restano affascinate. Ispirare Competenza: +2 alle prove di una singola abilità per un alleato. Ispirare Grandezza: 2d10 + COS temporanei, +2 a colpire e +1 ai TS su Tempra. Suggestionare un affascinato: influenza chi è già affascinato.
+
+### Esecuzione versatile (Canto)
+Il bardo può usare il bonus totale di Intrattenere al posto di Intuizione e Raggirare.
 
 ## Competenze
 
@@ -72,9 +79,11 @@ Musica, incantesimi e conoscenze dal 1°, nuove esibizioni salendo. Dettagli nel
 
 ## Comandi di classe
 
-`.canzonebardo` per la performance magica, `.suona` con lo strumento, `.oratore` per la performance oratoria, `.casta` e `.castabardo` per lanciare, `.spells` e `.spellsbardo` per le liste, `.metamagia` per armare le metamagie.
+* **Musica:** `.canzonebardo` per la performance magica, `.suona` con lo strumento selezionato, `.oratore` per la performance oratoria
+* **Magia:** `.casta` e `.castabardo` per lanciare, `.spells` e `.spellsbardo` per le liste, `.metamagia` per armare le metamagie
 
 ## Vai oltre
 
-[Creazione](/manuale/#creazione) · Razze adatte: [Mezzelfo](/razze/mezzelfo/), [Gnomo](/razze/gnomo/), [Halfling](/razze/halfling/)
+[Creazione](/manuale/#creazione)
+
 

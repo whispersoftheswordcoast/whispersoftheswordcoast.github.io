@@ -22,10 +22,10 @@ Il ranger sa leggere il terreno come gli altri leggono i libri. Boschi, colline,
 ## Privilegi di classe
 
 ### Seguire Tracce
-Talento gratuito dal 1°: tracce anche in condizioni difficili.
+Dal 1° livello il ranger segue le tracce di creature e individui anche in condizioni difficili: è un talento gratuito di classe, non va scelto.
 
 ### Nemico Prescelto (1°)
-**Effetto:** +2 a colpire, ai danni e alle prove contro la categoria scelta (Ascoltare, Osservare, seguire tracce…) · **Crescita:** +2 ogni 5 livelli, su un nemico nuovo o uno esistente · **Nota:** scelta obbligatoria al `.pgstart`, senza non si prosegue · **Extra:** il compagno animale usa la tua stessa lista.
+Al 1° livello il ranger sceglie una categoria di creature e da lì la conosce meglio di chiunque: +2 a colpire, ai danni e alle prove contro di essa (Ascoltare, Osservare, seguire tracce e simili). Ogni 5 livelli aggiunge +2 su un nemico nuovo o su uno esistente. Il compagno animale usa la stessa lista del padrone.
 
 ### Stile di combattimento (2°)
 **Quando:** 2°, 6° e 10° · **Come:** scegli uno stile, per sempre · **Effetto:** a ogni tappa un talento dello stile gratis, senza prerequisiti.
@@ -40,13 +40,13 @@ Talento gratuito dal 1°: tracce anche in condizioni difficili.
 * **Sella** — 2°: Attacco, Combattere e Tirare in Sella, Cavallerizzo · 6°: + Carica Devastante · 10°: + Cavallerizzo da Guerra.
 
 ### Compagno animale (4°)
-**Livello effettivo:** ranger − 3 · **Come:** `.compagnoanimaleranger` su aquila, cane, lupo, cavallo e simili, che ti deve accettare.
+Dal 4° livello il ranger può convincere un animale tra aquila, cane, lupo, cavallo e simili, che deve accettarlo. Il livello effettivo del compagno è pari al livello da ranger −3.
 
 ### Preda (11°)
-Designi una preda viva a vista con `.preda`, solo del tipo di un tuo Nemico Prescelto · **In mischia:** +2 per colpire la preda designata · **Se muore:** nuova tra 1 ora · **Se l'abbandoni:** 24 ore di attesa · `.preda stato` per controllare.
+Dall'11° livello il ranger designa una preda viva a vista con `.preda`, solo del tipo di un suo Nemico Prescelto. In mischia riceve +2 per colpirla. Se la preda muore ne sceglie un'altra tra 1 ora; se l'abbandona deve attendere 24 ore. Con `.preda stato` controlla quella attiva.
 
 ### Incantesimi (4°)
-Divini dal legame con la natura.
+Dal 4° livello il ranger lancia un esiguo numero di incantesimi divini dal legame con la natura.
 
 ## Competenze
 
@@ -91,5 +91,6 @@ Divini dal 4° livello. B = slot solo con SAG alta.
 
 ## Vai oltre
 
-[Creazione](/manuale/#creazione) · Nota: il Nemico Prescelto va scelto al `.pgstart`, senza non si prosegue. Razze adatte: [Elfo](/razze/elfo/), [Mezzelfo](/razze/mezzelfo/), [Halfling](/razze/halfling/)
+[Creazione](/manuale/#creazione)
+
 

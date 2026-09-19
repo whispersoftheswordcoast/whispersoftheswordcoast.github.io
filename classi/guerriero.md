@@ -22,16 +22,16 @@ Quando gli altri arretrano, il guerriero avanza. Niente trucchi, niente scorciat
 ## Privilegi di classe
 
 ### Talento bonus
-**Quando:** 1° livello e ogni livello pari · **Sostituzione:** dal 4°, una ogni 4 livelli (mai i prerequisiti di altri talenti).
+Al 1° livello e a ogni livello pari il guerriero riceve un talento bonus da combattimento. Dal 4° livello, e poi ogni quattro livelli, può sostituirne uno con un altro: non si possono sostituire i talenti che servono da prerequisito ad altri talenti posseduti.
 
 ### Audacia
-**Quando:** 2° livello · **Effetto:** +1 ai TS contro paura · **Crescita:** +1 ogni 4 livelli (6°, 10°…).
+Dal 2° livello il guerriero riceve +1 ai tiri salvezza contro gli effetti di paura. Il bonus sale a +2 al 6° livello e a +3 al 10°.
 
 ### Addestramento nelle armature
-**Quando:** 3° livello · **Effetto:** −1 penalità di armatura, +1 al massimo DES consentito · **Crescita:** +1 ogni 4 livelli (7°, 11°…) · **Al 7°:** velocità normale anche in pesante.
+Dal 3° livello la penalità dell'armatura alle prove scende di 1 e il bonus massimo di Destrezza consentito sale di 1; entrambi migliorano di 1 ogni quattro livelli. Dal 7° livello il guerriero si muove a velocità normale anche con l'armatura pesante.
 
 ### Addestramento nelle armi
-**Quando:** 5° livello · **Effetto:** un gruppo di armi a scelta, +1 colpire e +1 danni · **Crescita:** ogni 4 livelli, gruppo nuovo o potenzi quelli scelti.
+Dal 5° livello il guerriero sceglie un gruppo di armi e riceve +1 ai tiri per colpire e ai danni con quel gruppo. Ogni quattro livelli può scegliere un gruppo nuovo oppure aumentare il bonus di quelli già scelti.
 
 ## Competenze
 
@@ -56,10 +56,11 @@ Quando gli altri arretrano, il guerriero avanza. Niente trucchi, niente scorciat
 
 ## Comandi di classe
 
-**Solo guerriero:** `.riaddestraguerriero` — sostituisce un talento bonus da combattimento con un altro (mai se è prerequisito di altri talenti).
-**Manovre melee, dal talento corrispondente:** `.attaccopoderoso` — scambia precisione per danni, valore dal TxC · `.incalzare` on/off — catena sui nemici adiacenti a −2 CA · `.disarma`, `.sbilanciare`, `.spaccarearma` — armano la manovra al prossimo attacco (sbilanciare solo con armi adatte come falci e fruste, niente arco per disarmare e spaccare).
+* **Talenti:** `.riaddestraguerriero` per sostituire un talento bonus (mai i prerequisiti di altri)
+* **Mischia:** `.attaccopoderoso` per scambiare precisione e danni · `.incalzare` on/off per la catena a −2 CA · `.disarma`, `.sbilanciare` e `.spaccarearma` armano la manovra al prossimo attacco
 
 ## Vai oltre
 
-[Creazione](/manuale/#creazione) · Razze adatte: [Nano](/razze/nano/), [Umano](/razze/umano/), [Mezzorco](/razze/mezzorco/)
+[Creazione](/manuale/#creazione)
+
 

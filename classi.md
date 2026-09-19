@@ -39,11 +39,4 @@ excerpt: Le 11 classi base giocabili, a confronto
 | Mago | d6 | scarso | Volontà | 2 | [apri](/classi/mago/) |
 | Stregone | d6 | scarso | Volontà | 2 | [apri](/classi/stregone/) |
 
-Legenda attacco: pieno = +1 a livello, medio = +3 ogni 4 livelli, scarso = +1 ogni 2 livelli.
-Dal BAB +6 scatta un secondo attacco a −5, dal +11 un terzo a −10: nelle tabelle vedi la catena completa.
-Tiro buono = 2 + metà livello, scarso = un terzo del livello.
-Nelle tabelle delle schede trovi BAB e TS base da single-classe (in multiclasse si sommano per classe);
-dove vedi «—» non ci sono privilegi nuovi documentati e il manuale ha il dettaglio completo.
-Comandi generali come `.char` e `.passalivello` sono nel manuale: nelle schede trovi solo quelli di classe.
-
-Classi extra e di prestigio (Oracolo, Alchimista, Warlock, Pistolero, Assassino, Mago Rosso…) si sbloccano in gioco: chiedi allo staff.
+**Come leggere la tabella.** L'attacco base cresce di +1 a livello per le classi marziali, di +3 ogni 4 per le intermedie, di +1 ogni 2 per gli incantatori puri. Dal bonus +6 entra in gioco un secondo attacco a −5, dal +11 un terzo a −10: nelle schede trovi la catena completa. I tiri salvezza buoni valgono 2 + metà livello, gli altri un terzo del livello. Nelle schede i valori sono da single-classe e in multiclasse si sommano; dove leggi «—» il manuale ha il dettaglio. I comandi generali come `.char` e `.passalivello` stanno nel manuale: nelle schede trovi solo quelli di classe.

@@ -115,5 +115,6 @@ Divini dal 4°, livello incantatore pari a metà livello. B = slot solo con CAR 
 
 ## Vai oltre
 
-[Creazione](/manuale/#creazione) · Razze adatte: [Mezzelfo](/razze/mezzelfo/), [Nano](/razze/nano/), [Umano](/razze/umano/)
+[Creazione](/manuale/#creazione)
+
 

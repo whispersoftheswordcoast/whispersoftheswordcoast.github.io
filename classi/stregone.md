@@ -22,19 +22,19 @@ Il mago ha studiato, lo stregone c'era già. Il potere gli scorre nel sangue per
 ## Privilegi di classe
 
 ### Incantesimi spontanei
-Come il mago, senza preparazione · **Limite:** pochi conosciuti · **Risorsa:** slot giornalieri.
+Lo stregone lancia come il mago, ma senza preparare nulla: conosce un numero limitato di incantesimi e li tira fuori spontaneamente finché ha slot giornalieri.
 
 ### Caratteristica chiave
-Carisma per potenza, slot e CD.
+Il Carisma determina potenza, slot e CD di tutto ciò che lancia.
 
 ### Nuovi conosciuti
-Almeno uno a ogni livello: ogni scelta pesa.
+A ogni livello lo stregone aggiunge nuovi incantesimi alla lista dei conosciuti: ogni scelta pesa, perché sono pochi.
 
 ### Escludere Materiali
-Talento gratis alla creazione.
+Alla creazione lo stregone riceve gratis il talento Escludere Materiali.
 
 ### Famiglio
-Anche lo stregone ha il suo: `.famigliostregone`, `.evocafamigliostregone`, `.famigliomiglioratostregone`, `.famigliononmortostregone`.
+Anche lo stregone ha il suo animale: `.famigliostregone`, `.evocafamigliostregone`, `.famigliomiglioratostregone`, `.famigliononmortostregone`.
 
 ## Competenze
 
@@ -80,9 +80,11 @@ Nuovi conosciuti a ogni livello. Dettagli nel manuale.
 
 ## Comandi di classe
 
-`.castastregone` per lanciare (`.casta` generico), `.spells` per i conosciuti, `.metamagia` per armare le metamagie possedute. Famiglio: `.famigliostregone`, `.evocafamigliostregone`, `.famigliomiglioratostregone`, `.famigliononmortostregone`.
+* **Magia:** `.castastregone` per lanciare (`.casta` generico), `.spells` per i conosciuti, `.metamagia` per armare le metamagie
+* **Famiglio:** `.famigliostregone`, `.evocafamigliostregone`, `.famigliomiglioratostregone`, `.famigliononmortostregone`
 
 ## Vai oltre
 
-[Creazione](/manuale/#creazione) · Razze adatte: [Mezzelfo](/razze/mezzelfo/), [Umano](/razze/umano/), [Elfo](/razze/elfo/)
+[Creazione](/manuale/#creazione)
+
 

@@ -22,22 +22,22 @@ Dove il guerriero sfonda la porta, il ladro era già dentro da un'ora. Astuzia, 
 ## Privilegi di classe
 
 ### Attacco furtivo
-Danni extra a chi è colto alla sprovvista o indifeso · **Non funziona su:** non morti, costrutti, melme (niente punti vitali).
+Quando l'avversario è colto alla sprovvista, perde la Destrezza, viene fiancheggiato o preso alle spalle, il ladro aggiunge (livello+1)/2 d6: 1d6 al 1°-2° livello, 2d6 al 3°-4°, fino a 10d6. Limiti: mai oltre 9 caselle, in mischia solo adiacenti e contro bersagli non più piccoli di due taglie, niente occultamento che lo impedisce, niente creature immuni ai critici come non morti, costrutti e melme.
 
 ### Trappole
-Individua e disattiva ogni tipo, anche magiche · **Solo tu oltre CD 20.**
+Il ladro individua e disattiva trappole di ogni tipo, incluse quelle magiche. È l'unica classe capace di trovare trappole con CD superiore a 20.
 
 ### Percepire trappole
-**3°:** +1 ai Riflessi contro trappole e alla CA · **6°:** +2 · **9°:** +3 · **12°:** +4.
+Dal 3° livello il ladro riceve +1 ai tiri salvezza sui Riflessi contro le trappole e alla CA contro le trappole, con un ulteriore +1 al 6°, 9° e 12° livello (livello diviso 3, massimo +6). Fuori dalle trappole il bonus non vale.
 
 ### Eludere (2°)
-Automatico al passaggio di livello: con Riflessi superato contro aree, zero danni · **Migliorato:** via dote dal 10°.
+Dal 2° livello il ladro evita con agilità anche gli attacchi magici: se supera un Riflessi contro un attacco che dimezzerebbe i danni, non subisce niente. La dote Eludere migliorato dimezza anche col tiro fallito.
 
 ### Schivare prodigioso (4°)
-DES alla CA anche se colto alla sprovvista · **Migliorato (8°):** versione superiore automatica.
+Dal 4° livello il ladro mantiene il bonus di Destrezza alla CA anche quando è colto alla sprovvista. Dall'8° livello lo schivare è migliorato: non può più essere attaccato ai fianchi, salvo da ladri con almeno 4 livelli oltre i suoi.
 
 ### Doti da ladro
-**Quante:** 1 ogni 2 livelli da Ladro (livello ÷ 2), dal 2° al 20° · **Come:** al `.passalivello` il gioco ti apre da solo il gump di scelta · **Vedi le tue:** con `.dotiladro` · **Dal 10°:** al posto della dote puoi prendere un talento · **Extra:** col talento Dote da ladro extra (`.abilitaladro` è comando staff).
+Dal 2° livello il ladro riceve una dote ogni 2 livelli, fino al 20°. Al `.passalivello` il gioco apre da solo il gump di scelta; con `.dotiladro` rivedi quelle possedute. Dal 10° livello al posto della dote si può prendere un talento, e col talento Dote da ladro extra se ne ottiene una in più (`.abilitaladro` è comando staff).
 **Alcune hanno prerequisiti:** Magia Minore vuole INT 10, Magia Maggiore INT 11 più la Minore, le avanzate (42-59) vogliono il 10° livello, altre si concatenano (Furtivo mortale vuole Furtivo potenziato, Attacco dissolvente vuole Magia Maggiore, Famiglio vuole entrambe le Magie).
 
 #### Doti base (dal 2° livello)
@@ -135,9 +135,11 @@ Le doti avanzate qui sopra, oppure un talento al posto della dote.
 
 ## Comandi di classe
 
-`.dotiladro` per vedere le tue doti; le scelte arrivano da sole al `.passalivello` nei livelli pari (`.abilitaladro` è comando staff). `.dotaladro dita` e `.dotaladro manovra` attivano Dita Rapide e Manovra Senza Pari (usi 1 + livello/5 al giorno). Dalle doti: `.subdolo`, `.settafurtivo`, `.alleatoinvolontario`, `.bersagliatorefurtivo`, `.maestrotravestimento`, `.ridirezionare`, `.riesame`, `.schivataestrema`, `.sorpresacacciatore`, `.disarma`.
+* **Doti:** `.dotiladro` per vederle; arrivano da sole al `.passalivello` nei livelli pari. `.dotaladro dita` e `.dotaladro manovra` attivano Dita Rapide e Manovra Senza Pari (usi 1 + livello/5 al giorno)
+* **Dalle doti:** `.subdolo`, `.settafurtivo`, `.alleatoinvolontario`, `.bersagliatorefurtivo`, `.maestrotravestimento`, `.ridirezionare`, `.riesame`, `.schivataestrema`, `.sorpresacacciatore`, `.disarma`
 
 ## Vai oltre
 
-[Creazione](/manuale/#creazione) · Razze adatte: [Halfling](/razze/halfling/), [Elfo](/razze/elfo/), [Gnomo](/razze/gnomo/)
+[Creazione](/manuale/#creazione)
+
 

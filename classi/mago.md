@@ -22,19 +22,19 @@ Nessuno gli ha regalato niente. Ogni incantesimo che conosce se l'è guadagnato 
 ## Privilegi di classe
 
 ### Libro degli incantesimi
-Tutto il potere passa da qui · **Senza:** solo memorizzati e pergamene.
+Tutto il potere del mago passa dal Libro: senza, può lanciare solo gli incantesimi già memorizzati o conservati nelle pergamene.
 
 ### Scrivere Pergamene (1°)
-Talento automatico.
+Al 1° livello il mago ottiene in automatico il talento Scrivere Pergamene.
 
 ### Talenti bonus (5°, 10°…)
-Uno ogni 5 livelli, tra metamagia e padronanza.
+Ogni cinque livelli il mago riceve un talento bonus, da scegliere tra metamagia e padronanza degli incantesimi.
 
 ### Specializzazione (1°)
-Una scuola tra Abiurazione, Ammaliamento, Evocazione, Illusione, Divinazione, Invocazione, Necromanzia, Trasmutazione · **Costo:** 2 scuole proibite per sempre (1 per il Divinatore) · **Mai proibita:** Universale · **Gratis al `.pgstart`:** 3 + INT di 1° nel Libro.
+Al 1° livello il mago può specializzarsi in una scuola tra Abiurazione, Ammaliamento, Evocazione, Illusione, Divinazione, Invocazione, Necromanzia e Trasmutazione, con maggiore affinità per i suoi incantesimi. In cambio rinuncia per sempre a due scuole proibite (una sola per il Divinatore); l'Universale non si può né proibire né specializzare. Al `.pgstart` riceve gratis 3 + INT incantesimi di 1° nel Libro.
 
 ### Famiglio
-Il tuo animale addestrato · `.portafamiglio` lo mette nel trasportino con ricevuta, `.recuperafamiglio` lo richiama.
+Il mago ha un animale addestrato al suo servizio: `.portafamiglio` lo mette nel trasportino con ricevuta, `.recuperafamiglio` lo richiama.
 
 ## Competenze
 
@@ -78,9 +78,12 @@ Prepari dal Libro con `.memo` dopo il riposo. Specialista: +1 slot per livello. 
 
 ## Comandi di classe
 
-`.castamago` per lanciare (`.casta` generico), `.memo` e `.preparaspells` per preparare, `.spells` per la lista, `.metamagia` per armare le metamagie possedute (anche `intensificati N`), `.controincantesimo`, `.duellomagico` contro altri incantatori, `.ven`, `.visibile`, `.fermaritirata`. Famiglio: `.famigliomago`, `.evocafamigliomago`, `.famigliomiglioratomago`, `.famigliononmortomago`, `.portafamiglio` e `.recuperafamiglio`.
+* **Libro e magia:** `.castamago` per lanciare (`.casta` generico), `.memo` e `.preparaspells` per preparare, `.spells` per la lista, `.metamagia` per armare le metamagie possedute (anche `intensificati N`), `.controincantesimo`
+* **Duelli e trucchi:** `.duellomagico` contro altri incantatori, `.ven`, `.visibile`, `.fermaritirata`
+* **Famiglio:** `.famigliomago`, `.evocafamigliomago`, `.famigliomiglioratomago`, `.famigliononmortomago`, `.portafamiglio` e `.recuperafamiglio`
 
 ## Vai oltre
 
-[Creazione](/manuale/#creazione) · Nota: scuola e 3 + INT incantesimi gratuiti si scelgono al `.pgstart`. Razze adatte: [Elfo](/razze/elfo/), [Gnomo](/razze/gnomo/)
+[Creazione](/manuale/#creazione) · Nota: scuola e 3 + INT incantesimi gratuiti si scelgono al `.pgstart`.
+
 

@@ -22,13 +22,13 @@ Quando il gruppo è in ginocchio, è al chierico che tutti guardano. Ponte tra g
 ## Privilegi di classe
 
 ### Incantesimi divini
-Concessi dalla divinità, niente libro: simbolo sacro e fede · **Chiave:** SAG per potenza e slot giornalieri.
+Gli incantesimi arrivano diretti dalla divinità: niente libri né formule, solo simbolo sacro e fede incrollabile. La Saggezza determina potenza e slot giornalieri.
 
 ### Scacciare / Intimidire non morti
-Buoni: scacciano o distruggono · Malvagi: intimoriscono o controllano · **Chiave:** CAR · **Usi al giorno:** 3 + CAR · **Serve:** simbolo sacro impugnato a mani libere · **Forza:** 2d6 + CAR + livello in DV · **Scudo sacro:** +2 DV massimi.
+Il chierico buono scaccia o distrugge i non morti, quello malvagio li intimorisce o li controlla, e in entrambi i casi comanda il Carisma. Usi al giorno: 3 + CAR. Serve il simbolo sacro impugnato a mani libere. La forza è di 2d6 + CAR + livello in dadi vita, con +2 ai DV massimi se impugni uno scudo sacro.
 
 ### Domini
-Scelti al `.pgstart`: poteri della divinità invocabili in gioco.
+Si scelgono al `.pgstart`: sono i poteri della divinità, invocabili in gioco con `.poteredominio`.
 
 ## Competenze
 
@@ -74,9 +74,11 @@ Domini, incantesimi e scacciare attivi dal 1°. Dettagli nel manuale.
 
 ## Comandi di classe
 
-`.converti` per mutare un preparato in cura o ferita, `.scacciare` contro i non morti, `.poteredominio` per il potere del dominio, `.incanala` sull'area, `.castachierico` per lanciare (`.casta` generico), `.memo` e `.preparaspells` per preparare, `.spells` per la lista, `.metamagia` per armare le metamagie.
+* **Divini:** `.scacciare` contro i non morti, `.poteredominio` per il potere del dominio, `.converti` per mutare un preparato in cura o ferita, `.incanala` sull'area
+* **Magia:** `.castachierico` per lanciare (`.casta` generico), `.memo` e `.preparaspells` per preparare, `.spells` per la lista, `.metamagia` per armare le metamagie
 
 ## Vai oltre
 
-[Creazione](/manuale/#creazione) · Nota: divinità e domini si scelgono al `.pgstart`. Razze adatte: [Nano](/razze/nano/), [Umano](/razze/umano/)
+[Creazione](/manuale/#creazione) · Nota: divinità e domini si scelgono al `.pgstart`.
+
 

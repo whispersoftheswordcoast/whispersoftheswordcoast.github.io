@@ -22,25 +22,25 @@ Anni di allenamento per arrivare a non aver bisogno di niente: né spada, né sc
 ## Privilegi di classe
 
 ### Colpo senz'armi
-Il corpo è un'arma · **Danni:** d6 al 1°, 1d8 al 4°, 1d10 all'8°, 2d6 al 12°.
+Il corpo del monaco è un'arma a tutti gli effetti, e i danni crescono con lui: d6 al 1° livello, 1d8 al 4°, 1d10 all'8°, 2d6 al 12°.
 
 ### Raffica di colpi
-Attacco extra al miglior bonus · **Malus:** −2 a tutti (−1 al 5°, zero al 9°) · **11°:** secondo attacco extra.
+Il monaco sferra un attacco extra con il miglior bonus di attacco, ma tutti gli attacchi del round subiscono −2 (−1 al 5° livello, nessun malus dal 9°). Dall'11° livello arriva un secondo attacco extra.
 
 ### Bonus alla CA
-Senza armature né scudi: SAG alla CA · **Crescita:** +1 al 5°, +1 ogni 5 livelli.
+Senza armature né scudi il monaco aggiunge il bonus di Saggezza alla CA, con un ulteriore +1 dal 5° livello e ogni 5 livelli.
 
 ### Eludere
-Riflessi superato contro aree = zero danni · **Migliorato (9°):** metà danni anche se fallito.
+Se supera un tiro salvezza sui Riflessi contro un attacco ad area, il monaco non subisce danni. Dal 9° livello l'eludere è migliorato: anche col tiro fallito subisce solo metà danni.
 
 ### Talenti bonus
-Pugno Stordente automatico · **Pool base:** Deviare Frecce, Riflessi in Combattimento, Schivare · **Oltre il 5°:** Disarmare Migliorato, Mobilità, Sbilanciare Migliorato, Spinta Migliorata · **Oltre il 9°:** Afferrare Frecce, Attacco Rapido, Critico Migliorato. Niente stili di combattimento: solo scelte a scaglioni.
+Il monaco riceve Pugno Stordente in automatico, poi sceglie da tre scaglioni: base con Deviare Frecce, Riflessi in Combattimento e Schivare; oltre il 5° livello con Disarmare Migliorato, Mobilità, Sbilanciare Migliorato e Spinta Migliorata; oltre il 9° con Afferrare Frecce, Attacco Rapido e Critico Migliorato. Niente stili di combattimento: solo scelte a scaglioni.
 
 ### Palmo Vibrante (15°)
-**Requisito:** Monaco 15° · **Effetto:** il prossimo attacco può uccidere · **Usi:** 1 a settimana.
+Dal 15° livello il monaco può caricare il prossimo attacco per uccidere. Si usa una volta a settimana.
 
 ### Corpo e Ki
-**Movimento veloce (2°):** doppia velocità · **Mente lucida (3°):** +2 contro ammaliamenti · **Caduta lenta (4°):** vicino alle pareti · **Purezza (5°):** immune alle malattie non magiche · **Colpo Ki (4°):** pugni magici, assiomatici al 10° · **Integrità (7°):** curi 2 × livello PF al giorno · **Corpo adamantino (11°):** immune a tutti i veleni · **Passo abbondante:** Porta Dimensionale 1/giorno.
+Dal 2° livello il monaco si muove al doppio della velocità e può usare Porta Dimensionale una volta al giorno. Dal 3° resiste agli ammaliamenti con mente lucida (+2), dal 4° cade senza farsi male vicino alle pareti e i suoi pugni contano come magici (come armi assiomatiche dal 10°). Dal 5° è immune alle malattie non magiche, dal 7° guarisce 2 × livello PF al giorno con l'integrità del corpo, dall'11° è immune a tutti i veleni.
 
 ## Competenze
 
@@ -65,9 +65,11 @@ Pugno Stordente automatico · **Pool base:** Deviare Frecce, Riflessi in Combatt
 
 ## Comandi di classe
 
-`.attaccostordente` per stordire in mischia, `.integrita` per curarti, `.raffica` e `.velocitamonaco` on/off, `.palmovibrante` dal 15° (1 a settimana), `.cancellapalmo` per cambiare vittima designata.
+* **Tecniche:** `.attaccostordente` per stordire in mischia, `.raffica` on/off, `.velocitamonaco` on/off
+* **Corpo e Ki:** `.integrita` per curarti, `.palmovibrante` dal 15° (1 a settimana), `.cancellapalmo` per cambiare vittima designata
 
 ## Vai oltre
 
-[Creazione](/manuale/#creazione) · Razze adatte: [Umano](/razze/umano/), [Halfling](/razze/halfling/)
+[Creazione](/manuale/#creazione)
+
 

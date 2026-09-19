@@ -18,19 +18,19 @@ La civiltà è un'eccezione, la natura la regola. Il druido lo sa e ci vive dent
 ## Privilegi di classe
 
 ### Incantesimi naturali
-Tutta la lista preparabile · **Requisito:** SAG pari a 10 + livello incantesimo.
+Il druido prepara ogni incantesimo della sua lista, purché abbia Saggezza pari a 10 + il livello dell'incantesimo.
 
 ### Compagno animale (1°)
-Ti accompagna e cresce con te · **Legame:** empatico.
+Dal 1° livello un compagno animale lo accompagna e cresce con lui, legato da empatia. Si convince con `.compagnoanimale` e si richiama con `.ricompagno`.
 
 ### Passo senza tracce (3°)
-Tu e gli alleati entro 3 m non lasciate tracce.
+Dal 3° livello il druido e gli alleati entro 3 metri non lasciano tracce.
 
 ### Forma selvatica
-**5°:** animali piccoli o medi, 1/giorno · **6°:** 2/giorno · **7°:** 3/giorno · **8°:** grandi · **11°:** minuscole · **12°:** crudeli.
+Dal 5° livello il druido assume forma di animali piccoli o medi una volta al giorno, due volte al 6° e tre al 7°. All'8° arrivano le forme grandi, all'11° le minuscole, al 12° le crudeli. Si cambia con `.formaselvaggia`, si torna indietro con `.formaumana`.
 
 ### Immunità ai veleni (9°)
-Naturali e magici.
+Dal 9° livello il druido è immune a tutti i veleni, naturali e magici.
 
 ## Competenze
 
@@ -74,9 +74,12 @@ Tutta la lista preparabile con SAG 10 + livello incantesimo. Bonus da SAG alta: 
 
 ## Comandi di classe
 
-`.compagnoanimaledruido` per convincere un animale, `.ricompagno` per richiamarlo, `.formaselvaggia` per cambiare pelle, `.formaumana` per tornare indietro, `.traslazione` per viaggiare tra alberi gemelli, `.castadruido` per lanciare (`.casta` generico), `.memo` e `.preparaspells` per preparare, `.metamagia` per armare le metamagie.
+* **Compagno:** `.compagnoanimale` per convincerlo, `.ricompagno` per richiamarlo
+* **Forme:** `.formaselvaggia` per cambiare pelle, `.formaumana` per tornare indietro, `.traslazione` per viaggiare tra alberi gemelli
+* **Magia:** `.castadruido` per lanciare, `.memo` e `.preparaspells` per preparare, `.metamagia` per armare le metamagie
 
 ## Vai oltre
 
-[Creazione](/manuale/#creazione) · Razze adatte: [Elfo](/razze/elfo/), [Gnomo](/razze/gnomo/), [Mezzelfo](/razze/mezzelfo/)
+[Creazione](/manuale/#creazione)
+
 

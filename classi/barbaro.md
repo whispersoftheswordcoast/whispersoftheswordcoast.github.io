@@ -22,13 +22,13 @@ C'è un momento, in ogni battaglia dura, in cui la disciplina non basta più. È
 ## Privilegi di classe
 
 ### Ira barbarica
-Entri in ira e finché dura sei un'altra cosa: +4 a Forza e Costituzione, +2 ai TS su Volontà, −2 alla CA. L'ira si paga a round, non a cariche: hai una riserva giornaliera di 4 + modificatore COS + 2 per livello da Barbaro (+6 per ogni talento Ira Extra), e ogni round in ira ne brucia uno. Quando esci, resti affaticato (−2 FOR, −2 DES) fino allo scontro dopo: chiudi in fretta o fatti coprire.
+Con `.irabarbarica` entri in ira: ricevi +4 a Forza e Costituzione e +2 ai tiri salvezza su Volontà, ma la CA scende di 2. L'ira si paga a round, non a cariche: la riserva giornaliera è di 4 + modificatore COS + 2 per livello da Barbaro (+6 per ogni talento Ira Extra), e ogni round in ira ne consuma uno. Quando l'ira finisce resti affaticato (−2 FOR, −2 DES) fino allo scontro successivo.
 
 ### Ira superiore (11°)
-**Effetto:** +6 FOR, +6 COS, +3 Volontà, −2 CA.
+Dall'11° livello l'ira migliora: +6 a Forza e Costituzione, +3 ai tiri salvezza su Volontà, −2 alla CA.
 
 ### Poteri d'ira
-**Quanti:** livello ÷ 2, dal 2° livello · **Come:** si scelgono con `.poteriira` fuori dall'ira, si rivedono con `.mieipoteriira` · **Catene:** alcuni vogliono altri poteri o livelli minimi.
+Dal 2° livello ricevi un potere d'ira ogni 2 livelli da Barbaro. Si scelgono con `.poteriira` fuori dall'ira e si rivedono con `.mieipoteriira`. Alcuni poteri richiedono altri poteri o livelli minimi, come indicato in tabella.
 
 | Potere | Liv | Effetto | Prerequisito |
 |---|---|---|---|
@@ -80,16 +80,16 @@ Entri in ira e finché dura sei un'altra cosa: +4 a Forza e Costituzione, +2 ai 
 | Assorbire energia | 12° | Annulla il primo colpo e dà temporanei pari a un terzo | Resistenza |
 
 ### Schivare prodigioso (2°)
-DES alla CA anche sorpreso o contro invisibili (non da immobilizzato) · **Migliorato (5°):** niente fianchi, salvo ladri con 4+ livelli oltre i tuoi da Barbaro.
+Dal 2° livello mantieni il bonus di Destrezza alla CA anche se colto alla sprovvista o contro avversari invisibili (non da immobilizzato). Dal 5° livello non puoi più essere attaccato ai fianchi, salvo da ladri con almeno 4 livelli oltre i tuoi da Barbaro.
 
 ### Percepire trappole (3°)
-+1 ai Riflessi contro trappole e alla CA · +1 ogni 3 livelli.
+Dal 3° livello ricevi +1 ai tiri salvezza sui Riflessi contro le trappole e alla CA, con un ulteriore +1 ogni tre livelli.
 
 ### Riduzione del danno (7°)
-1 danno fisico ignorato per attacco · +1 al 10°, 13°, 16° e 19°.
+Dal 7° livello ignori 1 danno fisico per ogni attacco subito, con un ulteriore +1 al 10°, 13°, 16° e 19° livello.
 
 ### Analfabetismo
-Parti senza leggere né scrivere · **Per imparare:** 2 punti abilità.
+Il barbaro parte senza saper leggere né scrivere. Per imparare spende 2 punti abilità.
 
 ## Competenze
 
@@ -114,9 +114,12 @@ Parti senza leggere né scrivere · **Per imparare:** 2 punti abilità.
 
 ## Comandi di classe
 
-`.irabarbarica` per entrare in ira, `.velocitabarbaro` per correre di più, `.poteriira` per scegliere i poteri (fuori ira, dal 2°), `.mieipoteriira` per rivederli. Dai poteri: `.abbandonoavventato`, `.posizionedifensiva`, `.balzodifensivo`, `.accuratezzasorprendente`, `.attaccodevastante`, `.colpopossente`, `.ispirareferocia`, `.scagliaarma`, `.ostentareprovocazione`, `.sguardointimidatorio`, `.vieniaprendermi`, `.vigorerinnovato`, `.iraelementaleinferiore`.
+* **Ira:** `.irabarbarica` per entrare in ira, `.velocitabarbaro` per correre di più
+* **Poteri:** `.poteriira` per sceglierli (fuori ira, dal 2°), `.mieipoteriira` per rivederli
+* **Dai poteri:** `.abbandonoavventato`, `.posizionedifensiva`, `.balzodifensivo`, `.accuratezzasorprendente`, `.attaccodevastante`, `.colpopossente`, `.ispirareferocia`, `.scagliaarma`, `.ostentareprovocazione`, `.sguardointimidatorio`, `.vieniaprendermi`, `.vigorerinnovato`, `.iraelementaleinferiore`
 
 ## Vai oltre
 
-[Creazione](/manuale/#creazione) · Razze adatte: [Mezzorco](/razze/mezzorco/), [Nano](/razze/nano/), [Umano](/razze/umano/)
+[Creazione](/manuale/#creazione)
+
 
