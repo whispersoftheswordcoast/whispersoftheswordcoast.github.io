@@ -28,7 +28,7 @@ Dal 1° livello il ranger segue le tracce di creature e individui anche in condi
 Al 1° livello il ranger sceglie una categoria di creature e da lì la conosce meglio di chiunque: +2 a colpire, ai danni e alle prove contro di essa (Ascoltare, Osservare, seguire tracce e simili). Ogni 5 livelli aggiunge +2 su un nemico nuovo o su uno esistente. Il compagno animale usa la stessa lista del padrone.
 
 ### Stile di combattimento (2°)
-**Quando:** 2°, 6° e 10° · **Come:** scegli uno stile, per sempre · **Effetto:** a ogni tappa un talento dello stile gratis, senza prerequisiti.
+Al 2° livello il ranger sceglie il suo stile di combattimento, e non lo cambia più. Al 2°, 6° e 10° livello riceve in regalo un talento dalla lista del suo stile, senza doverne soddisfare i prerequisiti. Gli stili tra cui scegliere sono:
 
 * **Due Armi** — 2°: Attacco con lo scudo migliorato, Combattere con Due Armi, Doppio taglio, Estrazione Rapida · 6°: + Due Armi migliorato, Difendere con Due Armi · 10°: + Attacco lacerante, Due Armi superiore.
 * **Arco** — 2°: Tiro Concentrato, Tiro Rapido, Tiro Preciso, Tiro Ravvicinato · 6°: + Padronanza delle balestre, Tiro Preciso migliorato, Tiro Multiplo, Maestro ravvicinato · 10°: + Tiro in Movimento.
@@ -40,7 +40,7 @@ Al 1° livello il ranger sceglie una categoria di creature e da lì la conosce m
 * **Sella** — 2°: Attacco, Combattere e Tirare in Sella, Cavallerizzo · 6°: + Carica Devastante · 10°: + Cavallerizzo da Guerra.
 
 ### Compagno animale (4°)
-Dal 4° livello il ranger può convincere un animale tra aquila, cane, lupo, cavallo e simili, che deve accettarlo. Il livello effettivo del compagno è pari al livello da ranger −3.
+Dal 4° livello il ranger può convincere un animale tra aquila, cane, lupo, cavallo e simili, che deve accettarlo. Il livello effettivo del compagno è pari al livello da ranger −3, e condivide la lista dei Nemici Prescelti del padrone.
 
 ### Preda (11°)
 Dall'11° livello il ranger designa una preda viva a vista con `.preda`, solo del tipo di un suo Nemico Prescelto. In mischia riceve +2 per colpirla. Se la preda muore ne sceglie un'altra tra 1 ora; se l'abbandona deve attendere 24 ore. Con `.preda stato` controlla quella attiva.
@@ -87,7 +87,9 @@ Divini dal 4° livello. B = slot solo con SAG alta.
 
 ## Comandi di classe
 
-`.compagnoanimaleranger` dal 4° per il compagno, `.ricompagno` per richiamarlo, `.preda` dall'11° per designarlo (`.preda stato`, `.preda abbandona`), `.castaranger` per lanciare dal 4°.
+* **Compagno:** `.compagnoanimaleranger` dal 4°, `.ricompagno` per richiamarlo
+* **Caccia:** `.preda` dall'11° (`.preda stato`, `.preda abbandona`)
+* **Magia:** `.castaranger` dal 4°.
 
 ## Vai oltre
 
