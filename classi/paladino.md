@@ -11,7 +11,9 @@ excerpt: Guerriero sacro Legale Buono che punisce il male
 
 <img src="{{ '/assets/images/paladino.webp' | relative_url }}" alt="paladino" style="float: right; width: 45%; max-width: 320px; height: auto; margin: 0 0 1rem 1.5rem; border-radius: 10px;" />
 
-Il paladino ha giurato, e il giuramento è tutto. Onore, verità, pietà: non slogan, ma regole di vita che gli dei ripagano con potere vero. In battaglia è un guerriero completo, fuori è il faro a cui i compagni guardano quando le cose si fanno scure.
+Sono pochi quelli degni di risplendere del potere divino. Chiamati paladini, queste anime nobili dedicano la vita a combattere il male: cavalieri, crociati e legislatori che abbracciano gli insegnamenti virtuosi della divinità che servono. Li guidano onore, verità e pietà, e in cambio gli dei li benedicono con il potere di punire i malvagi, guarire gli innocenti e ispirare i fedeli.
+
+In battaglia sono il punto di riferimento degli alleati nel caos: letali coi malvagi, scudo per chi vacilla. Fuori, la loro stessa presenza mette alla prova le tentazioni di tutti, comprese le proprie.
 
 **Ruolo:** campione sacro, scudo dei deboli. **Allineamento:** Legale Buono, senza eccezioni nel codice. **Dado Vita:** d10.
 **Abilità di classe:** Addestrare Animali, Artigianato, Cavalcare, Conoscenze (nobiltà, religione), Diplomazia, Guarire, Intuizione, Professione, Sapienza Magica.
@@ -22,43 +24,47 @@ Il paladino ha giurato, e il giuramento è tutto. Onore, verità, pietà: non sl
 ## Privilegi di classe
 
 ### Individuazione del male
-A volontà, come l'incantesimo.
+Concentri lo sguardo e il male attorno a te si svela: creature e oggetti malvagi tradiscono la loro aura. Si riusa dopo il riposo.
 
 ### Grazia divina (2°)
-Mod CAR, se positivo, a tutti i TS.
+Il paladino guadagna un bonus ai Tiri Salvezza pari al modificatore di Carisma, su tutti e tre (solo se positivo: col CAR negativo non prende niente).
 
 ### Punire il male
 **Usi al giorno:** 1 + (livello−1)/3 (+2 per talento Punire Extra) · **Effetto:** CAR al colpire e alla CA contro di lui, livello ai danni (doppio contro non morti, draghi ed esterni malvagi) · **Attenzione:** contro non malvagi l'uso è sprecato ma consumato.
 
 ### Imposizione delle mani (2°)
-**Usi al giorno:** livello/2 + CAR · cura o danni ai non morti a contatto.
+Appoggi le mani e la luce fa il resto: ogni uso cura (livello/2, minimo 1)d6, e contro i non morti li infligge come danni puri con un attacco di contatto. Ne hai livello/2 + CAR al giorno, serve una mano libera. Funziona anche sui corpi svenuti — se la cura supera lo svenimento, li rianima — e applica le tue indulgenze. `.imposizione rimasti` dice quanti usi restano.
 
 ### Aura di coraggio (3°)
-Immune alla paura · **Alleati entro 6 m:** +4 ai TS contro paura finché sei cosciente e non CADUTO.
+Rende te immune alla paura e gli alleati entro 6 m resistenti (+4 ai TS contro paura).
 
 ### Aura di fermezza (8°)
-Immune agli charme · **Alleati vicini:** +4 ai TS contro charme finché sei cosciente e non CADUTO.
+Rende te immune agli charme e gli alleati vicini resistenti (+4 ai TS contro charme).
 
 ### Crociata (11°)
-**Costo:** 2 usi di Punire · **Effetto:** condivide il tuo punire con gli alleati non malvagi entro 3 m, coi tuoi bonus · **Durata:** 1 minuto · serve un nemico già punito da te.
+Mentre stai punendo un nemico, puoi spendere altri 2 usi di Punire per estendere la condanna agli alleati non malvagi entro 3 m: anche loro colpiscono quel nemico coi tuoi bonus, per 1 minuto.
 
 ### Legame divino (5°)
-**Usi:** 1 + (livello−5)/4 · **Scelta esclusiva:** cavalcatura speciale (si chiama con `.cavalcatura`, si congeda e richiama con `.legamedivino`) oppure arma legata (`.legamearma`, bonus +1 +(livello−5)/3).
+Al quinto livello stringi un legame con la tua divinità, in una delle due forme — e una volta scelto non si cambia. Usi al giorno: 1 + (livello−5)/4.
+
+**Cavalcatura speciale:** un destriero insolitamente intelligente e leale, che cresce e combatte con te. I piccoli scelgono tra pony e cani da galoppo, gli altri tra cavalli di mezzo Faerûn: cormyreani, calishiti, dambraii e via dicendo. La chiami con `.cavalcatura`, la congedi e richiami con `.legamedivino`.
+
+**Arma legata:** uno spirito celestiale scende nella tua arma per 1 minuto a uso, rendendola più precisa e letale: bonus +1, poi +1 ogni 3 livelli. Si attiva con `.legamearma`.
 
 ### Scacciare non morti
-Come un chierico di due livelli inferiori.
+Alzi il simbolo sacro e l'energia divina investe i non morti: quelli deboli fuggono o vengono distrutti. Funziona come un chierico di due livelli sotto di te, con 2d6 + CAR + livello in dadi vita spazzati. Con `.scacciare`, simbolo alla mano.
 
 ### Incantesimi (4°)
-Divini, livello incantatore pari a metà livello.
+Dal quarto livello preghi anche qualche incantesimo divino, con potenza pari a metà livello.
 
 ### Incanalare energia
-**Costo:** 2 usi di imposizione · cura o ferisce ad area secondo la polarità scelta con `.converti`.
+Apri le mani e l'energia divina investe l'area: cura i vivi o brucia i non morti, secondo la polarità scelta con `.converti`. Costa 2 usi di imposizione, quindi dosala.
 
 ### Indulgenze
-**Quante:** livello/3 · **3°:** affaticato, infermo, scosso · **6°:** ammalato, barcollante, frastornato · **9°:** avvelenato, esausto, maledetto, nauseato, spaventato (gli ultimi tre vogliono i minori) · **12°:** accecato, assordato, paralizzato, stordito. Si applicano con l'imposizione.
+Ne impari una ogni 3 livelli, e ognuna insegna alle tue mani a guarire un male in più quando imponi: al 3° fatica, malanni leggeri e paura; al 6° malattie, barcollamenti e stordimenti lievi; al 9° veleni, maledizioni e paure profonde (alcune vogliono prima le minori); al 12° anche cecità, sordità, paralisi e stordimento totale.
 
 ### Rimuovi malattia
-Cariche settimanali · `.rimuovimalattia rimasti` per contarle.
+Un dono a parte, a cariche settimanali: con `.rimuovimalattia` purghi un malato, con `rimasti` conti quante cariche restano.
 
 ### Codice di condotta
 Da CADUTO perdi tutto: niente aura, punire, imposizione né incantesimi.
@@ -102,7 +108,10 @@ Divini dal 4°, livello incantatore pari a metà livello. B = slot solo con CAR 
 
 ## Comandi di classe
 
-`.distruggimale` per punire, `.imposizione` per curare, `.indivmale` per fiutare, `.cavalcatura` per chiamarla, `.legamedivino` e `.legamearma` per il legame, `.incanala` per l'energia divina, `.crociata` dall'11°, `.indulgenze` per sceglierle, `.rimuovimalattia` (e `rimasti` per le cariche), `.castapaladino` per lanciare dal 4°, `.metamagia` per armare le metamagie.
+* **Punire:** `.distruggimale` sul malvagio, `.indivmale` per fiutarlo, `.crociata` dall'11° per condividerlo
+* **Curare:** `.imposizione` (e `rimasti` per gli usi), `.indulgenze` per sceglierle, `.rimuovimalattia` (e `rimasti` per le cariche), `.incanala` per l'energia ad area
+* **Legame:** `.cavalcatura` per chiamarla, `.legamedivino` per gestirlo, `.legamearma` per potenziare l'arma
+* **Magia:** `.castapaladino` dal 4°, `.metamagia` per armare le metamagie
 
 ## Vai oltre
 
