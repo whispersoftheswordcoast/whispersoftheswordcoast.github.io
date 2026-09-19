@@ -34,7 +34,7 @@ Ogni cinque livelli il mago riceve un talento bonus, da scegliere tra metamagia 
 Al 1° livello il mago può specializzarsi in una scuola tra Abiurazione, Ammaliamento, Evocazione, Illusione, Divinazione, Invocazione, Necromanzia e Trasmutazione, con maggiore affinità per i suoi incantesimi. In cambio rinuncia per sempre a due scuole proibite (una sola per il Divinatore); l'Universale non si può né proibire né specializzare. Al `.pgstart` riceve gratis 3 + INT incantesimi di 1° nel Libro.
 
 ### Famiglio
-Il mago ha un animale addestrato al suo servizio: `.portafamiglio` lo mette nel trasportino con ricevuta, `.recuperafamiglio` lo richiama.
+Il mago ha un animale addestrato al suo servizio, gestito con i comandi dedicati.
 
 ## Competenze
 
@@ -80,7 +80,7 @@ Prepari dal Libro con `.memo` dopo il riposo. Specialista: +1 slot per livello. 
 
 * **Libro e magia:** `.castamago` per lanciare (`.casta` generico), `.memo` e `.preparaspells` per preparare, `.spells` per la lista, `.metamagia` per armare le metamagie possedute (anche `intensificati N`), `.controincantesimo`
 * **Duelli e trucchi:** `.duellomagico` contro altri incantatori, `.ven`, `.visibile`, `.fermaritirata`
-* **Famiglio:** `.famigliomago`, `.evocafamigliomago`, `.famigliomiglioratomago`, `.famigliononmortomago`, `.portafamiglio` e `.recuperafamiglio`
+* **Famiglio:** `.famigliomago`, `.evocafamigliomago`, `.famigliomiglioratomago`, `.famigliononmortomago`
 
 ## Vai oltre
 
