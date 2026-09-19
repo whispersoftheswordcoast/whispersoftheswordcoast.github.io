@@ -1,0 +1,82 @@
+---
+layout: default
+title: Mago
+permalink: /classi/mago/
+excerpt: Studio arcano con libro e scuole di magia
+---
+
+# Mago
+
+> Torna a [Classi e Razze](/classi-e-razze/) · [Indice classi](/classi/)
+
+<img src="{{ '/assets/images/mago.webp' | relative_url }}" alt="mago" style="float: right; width: 45%; max-width: 320px; height: auto; margin: 0 0 1rem 1.5rem; border-radius: 10px;" />
+
+Nessuno gli ha regalato niente. Ogni incantesimo che conosce se l'è guadagnato tra libri, pratica e notti insonni, perché per il mago la magia è scienza e linguaggio, non dono. Fragile all'inizio, devastante quando ingrana.
+
+**Ruolo:** la mente, prepara e risolve. **Allineamento:** qualsiasi. **Dado Vita:** d6.
+**Abilità di classe:** Artigianato, tutte le Conoscenze, Parlare linguaggi, Professione, Sapienza Magica, Valutare, Volare.
+**Competenze:** balestre, bastone ferrato, pugnali, randello. Armature: nessuna.
+
+<div style="clear: both;"></div>
+
+## Privilegi di classe
+
+### Libro degli incantesimi
+Tutto il potere passa da qui · **Senza:** solo memorizzati e pergamene.
+
+### Scrivere Pergamene (1°)
+Talento automatico.
+
+### Talenti bonus (5°, 10°…)
+Uno ogni 5 livelli, tra metamagia e padronanza.
+
+### Specializzazione (1°)
+Una scuola tra Abiurazione, Ammaliamento, Evocazione, Illusione, Divinazione, Invocazione, Necromanzia, Trasmutazione · **Costo:** 2 scuole proibite per sempre (1 per il Divinatore) · **Mai proibita:** Universale · **Gratis al `.pgstart`:** 3 + INT di 1° nel Libro.
+
+## Competenze
+
+**Armi:** balestra pesante e leggera, bastone ferrato, pugnale, pugnale da lancio, randello · **Armature:** mai.
+
+## Incantesimi al giorno
+
+Prepari dal Libro con `.memo` dopo il riposo. Specialista: +1 slot per livello. Bonus da INT alta: +1 al 1° con 12, +1 al 1°-2° con 14, +1 al 1°-3° con 16, +1 al 1°-4° con 18, +2 al 1° e +1 al 2°-5° con 20.
+
+| Liv | 0° | 1° | 2° | 3° | 4° | 5° | 6° |
+|---|---|---|---|---|---|---|---|
+| 1° | 3 | 1 | — | — | — | — | — |
+| 2° | 4 | 2 | — | — | — | — | — |
+| 3° | 4 | 2 | 1 | — | — | — | — |
+| 4° | 4 | 3 | 2 | — | — | — | — |
+| 5° | 4 | 3 | 2 | 1 | — | — | — |
+| 6° | 4 | 3 | 3 | 2 | — | — | — |
+| 7° | 4 | 4 | 3 | 2 | 1 | — | — |
+| 8° | 4 | 4 | 3 | 3 | 2 | — | — |
+| 9° | 4 | 4 | 4 | 3 | 2 | 1 | — |
+| 10° | 4 | 4 | 4 | 3 | 3 | 2 | — |
+| 11° | 4 | 4 | 4 | 4 | 3 | 2 | 1 |
+| 12° | 4 | 4 | 4 | 4 | 3 | 3 | 2 |
+
+## Progressione 1-12
+
+| Liv | BAB | T / R / V | Privilegi |
+|---|---|---|---|
+| 1° | +0 | +0 / +0 / +2 | Scrivere Pergamene, specializzazione, libro |
+| 2° | +1 | +0 / +0 / +3 | — |
+| 3° | +1 | +1 / +1 / +3 | — |
+| 4° | +2 | +1 / +1 / +4 | — |
+| 5° | +2 | +1 / +1 / +4 | Talento bonus |
+| 6° | +3 | +2 / +2 / +5 | — |
+| 7° | +3 | +2 / +2 / +5 | — |
+| 8° | +4 | +2 / +2 / +6 | — |
+| 9° | +4 | +3 / +3 / +6 | — |
+| 10° | +5 | +3 / +3 / +7 | Talento bonus |
+| 11° | +5 | +3 / +3 / +7 | — |
+| 12° | +6/+1 | +4 / +4 / +8 | — |
+
+## Comandi di classe
+
+`.casta` e `.memo`, `.spells` per la lista, `.duellomagico` contro altri incantatori, `.ven`, `.visibile`, `.fermaritirata`.
+
+## Vai oltre
+
+[Creazione](/manuale/#creazione) · [Classi e Razze](/classi-e-razze/) · Nota: scuola e 3 + INT incantesimi gratuiti si scelgono al `.pgstart`. Razze adatte: [Elfo](/razze/elfo/), [Gnomo](/razze/gnomo/)

@@ -476,3 +476,57 @@ img {
 .wotsc-gallery-item img {
     cursor: zoom-in;
 }
+
+/* Tabelle schede classi/razze */
+
+.page-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0 1.5rem 0;
+    font-size: 0.95rem;
+    line-height: 1.45;
+    display: block;
+    overflow-x: auto;
+}
+
+.page-content thead {
+    display: table-header-group;
+}
+
+.page-content tbody {
+    display: table-row-group;
+}
+
+.page-content tr {
+    display: table-row;
+}
+
+.page-content th,
+.page-content td {
+    display: table-cell;
+    border: 1px solid rgba(246, 231, 193, 0.28);
+    padding: 0.45rem 0.6rem;
+    text-align: left;
+    vertical-align: top;
+}
+
+.page-content thead th {
+    background: rgba(246, 231, 193, 0.14);
+    color: #f6e7c1;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.page-content tbody tr:nth-child(even) {
+    background: rgba(255, 255, 255, 0.03);
+}
+
+.page-content tbody tr:hover {
+    background: rgba(246, 231, 193, 0.07);
+}
+
+.page-content td:first-child {
+    white-space: nowrap;
+    font-weight: bold;
+    color: #f6e7c1;
+}

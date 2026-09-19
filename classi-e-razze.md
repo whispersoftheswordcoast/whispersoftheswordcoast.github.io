@@ -7,66 +7,50 @@ excerpt: Una breve panoramica delle razze e delle classi interpretabili nel nost
 
 # Classi e Razze
 
-Questa é una rapida panoramica delle classi, per informzioni piú precise su meccaniche e non, consultate il nostro [manuale del giocatore](/manuale/)
+Scegli chi vuoi essere: prima la **razza**, poi la **classe**.
+Ogni scheda spiega come si gioca davvero, con i numeri del nostro server.
+Per regole complete consulta il nostro [manuale del giocatore](/manuale/).
 
-# Classi disponibili
+<style>
+.wotsc-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 0.9rem; margin: 1rem 0 2rem 0; }
+.wotsc-card { display: block; padding: 0.9rem 1rem; border: 1px solid rgba(246,231,193,0.25); border-radius: 10px; background: rgba(255,255,255,0.03); text-decoration: none !important; }
+.wotsc-card:hover { background: rgba(246,231,193,0.08); }
+.wotsc-card strong { display: block; font-size: 1.1rem; color: #f6e7c1; margin-bottom: 0.3rem; }
+.wotsc-card span { color: #e6e1d9; font-size: 0.95rem; }
+</style>
 
-<img src="{{ '/assets/images/classes.webp' | relative_url }}" alt="razze" style="display: block; margin: 0 auto;" />
+## Classi disponibili
 
-## Barbaro
-Guerriero selvaggio che canalizza forza primordiale e ferocia. Sopravvive in ambienti ostili e combatte con potenza brutale.
+<img src="{{ '/assets/images/classes.webp' | relative_url }}" alt="classi" style="display: block; margin: 0 auto; max-width: 720px;" />
 
-## Stregone
-Incantatore innato che usa la magia in modo istintivo. I suoi poteri derivano da un talento naturale o da un retaggio magico.
+<div class="wotsc-cards">
+<a class="wotsc-card" href="{{ '/classi/guerriero/' | relative_url }}"><strong>Guerriero</strong><span>Prima linea, tutte armi e armature. Il più semplice per iniziare.</span></a>
+<a class="wotsc-card" href="{{ '/classi/barbaro/' | relative_url }}"><strong>Barbaro</strong><span>Furia primordiale, d12, ira devastante.</span></a>
+<a class="wotsc-card" href="{{ '/classi/ranger/' | relative_url }}"><strong>Ranger</strong><span>Caccia, tracce e nemico prescelto nelle terre selvagge.</span></a>
+<a class="wotsc-card" href="{{ '/classi/ladro/' | relative_url }}"><strong>Ladro</strong><span>Ombre, scasso e colpi decisivi. Più abilità di tutti.</span></a>
+<a class="wotsc-card" href="{{ '/classi/monaco/' | relative_url }}"><strong>Monaco</strong><span>Arti marziali, velocità e Ki. Senza armatura.</span></a>
+<a class="wotsc-card" href="{{ '/classi/paladino/' | relative_url }}"><strong>Paladino</strong><span>Guerriero sacro Legale Buono, punisce il male.</span></a>
+<a class="wotsc-card" href="{{ '/classi/chierico/' | relative_url }}"><strong>Chierico</strong><span>Magia divina, cure e domini del suo dio.</span></a>
+<a class="wotsc-card" href="{{ '/classi/druido/' | relative_url }}"><strong>Druido</strong><span>Natura, animali ed elementi. Cambia forma.</span></a>
+<a class="wotsc-card" href="{{ '/classi/mago/' | relative_url }}"><strong>Mago</strong><span>Studio arcano, libro e scuole di magia.</span></a>
+<a class="wotsc-card" href="{{ '/classi/stregone/' | relative_url }}"><strong>Stregone</strong><span>Magia innata e spontanea da Carisma.</span></a>
+<a class="wotsc-card" href="{{ '/classi/bardo/' | relative_url }}"><strong>Bardo</strong><span>Musica, parole e magia per sostenere gli alleati.</span></a>
+</div>
 
-## Ranger
-Esploratore esperto nella sopravvivenza, nella caccia e nel combattimento a distanza e non solo. Abituato a muoversi nella natura selvaggia.
+Vedi anche l'[indice delle classi](/classi/) con tabella comparativa.
 
-## Monaco
-Artista marziale disciplinato, che combina agilità, autodisciplina e tecniche speciali. Predilige la velocità rispetto all’armatura.
+## Razze disponibili
 
-## Mago
-Studioso delle arti arcane. Usa magia tramite intensa preparazione e conoscenza, controllando energie e incantesimi complessi.
+<img src="{{ '/assets/images/races-image.webp' | relative_url }}" alt="razze" style="display: block; margin: 0 auto; max-width: 720px;" />
 
-## Ladro
-Furtivo, scaltro e versatile. Specializzato in inganni, scasso, infiltrazione e attacchi improvvisi dalle ombre.
+<div class="wotsc-cards">
+<a class="wotsc-card" href="{{ '/razze/umano/' | relative_url }}"><strong>Umano</strong><span>Versatile e ambizioso. Talento extra, ideale per tutto.</span></a>
+<a class="wotsc-card" href="{{ '/razze/elfo/' | relative_url }}"><strong>Elfo</strong><span>Longevo e magico. Luna, Sole, Boschi, Selvaggio.</span></a>
+<a class="wotsc-card" href="{{ '/razze/nano/' | relative_url }}"><strong>Nano</strong><span>Robusto e tenace. Scudi, Dorato, Selvaggio.</span></a>
+<a class="wotsc-card" href="{{ '/razze/halfling/' | relative_url }}"><strong>Halfling</strong><span>Piccolo, fortunato e furtivo. Piedilesti, Cuoreforte.</span></a>
+<a class="wotsc-card" href="{{ '/razze/gnomo/' | relative_url }}"><strong>Gnomo</strong><span>Ingegnoso e curioso. Rocce, Foreste.</span></a>
+<a class="wotsc-card" href="{{ '/razze/mezzelfo/' | relative_url }}"><strong>Mezzelfo</strong><span>Tra due mondi. Doppia classe favorita, unico.</span></a>
+<a class="wotsc-card" href="{{ '/razze/mezzorco/' | relative_url }}"><strong>Mezzorco</strong><span>Forza e ferocia. Resta in piedi quando dovrebbe cadere.</span></a>
+</div>
 
-## Guerriero
-Combattente esperto nell’uso di armi e armature. Affronta il nemico in prima linea con forza, tecnica e disciplina.
-
-## Druido
-Custode della natura e delle sue forze. Usa magia naturale, controlla animali ed elementi e può cambiare forma.
-
-## Chierico
-Incantatore divino al servizio di una divinità. Guarisce, protegge e combatte il male tramite poteri sacri.
-
-## Bardo
-Viandante carismatico che combina musica, parole e magia. Versatile e creativo, sostiene gli alleati e influenza gli avversari.
-
-## Paladino
-Guerriero sacro votato alla giustizia. Combina abilità marziali e poteri divini per proteggere i deboli e punire il male.
-
-# Razze disponibili
-
-<img src="{{ '/assets/images/races-image.webp' | relative_url }}" alt="classi" style="display: block; margin: 0 auto;" />
-
-## Umano  
-La razza più comune e variegata, presente in ogni angolo di Faerûn. Versatile in cultura e aspetto, permette ampia libertà di background e adattabilità.
-
-## Elfo della luna  
-Razza longeva e raffinata, con forte legame alla magia e alla natura. Spesso abili in incantesimi o armi leggere, rappresentano l’eleganza e l’antica sapienza.
-
-## Nano degli scudi
-Robusto e tenace, noto per la grande resilienza, l’abilità nelle arti dell’artigianato e la resistenza fisica. Ideale per chi cerca forza, stabilità e durezza.
-
-## Halfling piedilesti
-Piccoli e agili, con un carattere pacifico e uno spirito scaltro. Spesso valorizzano astuzia, furtività e buona fortuna, preferendo la discrezione alla forza bruta.
-
-## Gnomo  
-Creatura minuta e curiosa, dotata di ingegno e spesso incline alla magia, all’artigianato o all’ingegneria. Ideale per chi ama creatività e versatilità.
-
-## Mezzelfo  
-Figlio di un’unione tra umano ed elfo. Combina tratti umani ed elfi, unendo adattabilità e longevità, risultando ibrido e spesso mediato‑tra‑due‑mondi.
-
-## Mezzorco  
-Frutto dell’unione tra umano e orco, con forte corporatura e resistenza. Spesso soggetto a pregiudizi, rappresenta il conflitto e la forza, ma anche la possibilità di redenzione o integrazione.
+Vedi anche l'[indice delle razze](/razze/) con tabella comparativa.
