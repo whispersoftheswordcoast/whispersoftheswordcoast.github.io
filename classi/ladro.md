@@ -40,11 +40,74 @@ DES alla CA anche se colto alla sprovvista · **Migliorato (8°):** versione sup
 **Quante:** 1 ogni 2 livelli da Ladro (livello ÷ 2), dal 2° al 20° · **Come:** al `.passalivello` il gioco ti apre da solo il gump di scelta · **Vedi le tue:** con `.dotiladro` · **Dal 10°:** al posto della dote puoi prendere un talento · **Extra:** col talento Dote da ladro extra (`.abilitaladro` è comando staff).
 **Alcune hanno prerequisiti:** Magia Minore vuole INT 10, Magia Maggiore INT 11 più la Minore, le avanzate (42-59) vogliono il 10° livello, altre si concatenano (Furtivo mortale vuole Furtivo potenziato, Attacco dissolvente vuole Magia Maggiore, Famiglio vuole entrambe le Magie).
 
-**Magia:** Minore (trucchetto 3/giorno, LI = livelli da Ladro, CD da INT), Maggiore (1° livello 2/giorno), Famiglio (livello effettivo −4).
-**Furtivo:** Sanguinante (1 danno + 1 round per dado), Potenziato (gli 1 valgono 2), Mortale (1 e 2 valgono 3), Menomante (2 danni FOR con `.settafurtivo`), Dissolvente (dissolve l'incantesimo più basso, con `.settafurtivo`), Difesa offensiva (+1 CA per dado contro il colpito), Lame confondenti (niente AdO per 1d4+1 round), Tramortire (−2 attacchi per 1d4 round), Silenziante (muto 1 round, Volontà nega, usi = metà livello), Subdolo (furtivo massimizzato in sorpresa, usi = CAR).
-**Difesa:** Eludere migliorato, Attutire il colpo (1/giorno, Riflessi CD = danni per dimezzare il letale), Recupero (1/giorno, PF temporanei = livello per 1 minuto se scendi sotto 0), Schivata estrema (1/giorno, passo da 1,5 m che evita il letale), Ridirezionare (1/giorno, devia il colpo su un adiacente), Mente nascosta (anti-divinazione con LI = livello), Rialzarsi (gratis, ma provoca AdO).
-**Colpi di scena:** Opportunismo (1/round contro chi l'alleato ha ferito), Sorpresa del cacciatore (1/giorno, tutto furtivo per 1 round), Alleato involontario (fiancheggi col nemico ingannato), Bersagliatore furtivo (cecchino a −10 invece di −20), Tiro immediato (iniziativa 20 in sorpresa a distanza), Occhio del cecchino (furtivo a 9 m anche con occultamento), Attacco improvviso (sorpresi restano impreparati).
-**Abilità:** Acuto osservatore (+4 Percezione per segreti e trappole), Furtività rapida (piena velocità senza penalità), Scassinare rapido (azione standard), Disattivare rapido (tempo dimezzato, minimo 1 round), Camuffamento rapido, Maestro del travestimento (1/giorno +10 Camuffare), Dita rapide e Manovra senza pari (doppio tiro, usi 1 + livello/5 al giorno, si attivano con `.dotaladro dita` e `.dotaladro manovra`), Arrampicamuri, Forte bracciata, Seguire indizi (Percezione per tracce), Scaltro poliglotta (2 lingue, 4 con Linguistica), Espediente (talento da combattimento), Addestramento e Accuratezza (Arma focalizzata e accurata), Armi da fuoco (competenza piena).
+#### Doti base (dal 2° livello)
+
+| Dote | Effetto |
+|---|---|
+| Magia Minore | Trucchetto 3/giorno, LI = livelli da Ladro, CD da INT · vuole INT 10 |
+| Magia Maggiore | Incantesimo di 1° 2/giorno · vuole INT 11 e Magia Minore |
+| Accuratezza | Talento Arma Accurata gratis |
+| Addestramento | Arma Focalizzata a scelta gratis |
+| Armi da fuoco | Competenza piena |
+| Acuto Osservatore | +4 Percezione per conversazioni, segreti e trappole |
+| Arrampicamuri | Doppio tiro a Scalare, prendi il migliore |
+| Attacco improvviso | Nel round di sorpresa i bersagli restano impreparati |
+| Attacco silenziante | Il furtivo ammutolisce 1 round (Volontà nega) · usi = metà livello |
+| Camuffamento rapido | Tempi ridotti: azione completa o 1 minuto |
+| Disattivare rapido | Tempo dimezzato, minimo 1 round |
+| Distogliere | Cedi i danni furtivi: bersaglio impreparato contro un alleato fino al tuo prossimo turno |
+| Dita rapide | Doppio tiro a Rapidità di mano · 1/giorno +1 ogni 5 livelli, via `.dotaladro dita` |
+| Esperto di sopravvivenza | Guarire e Sopravvivenza diventano di classe |
+| Falso amico | +4 Raggirare per fingersi conoscenti · solo Kitsune |
+| Forte bracciata | Doppio tiro a Nuotare |
+| Furtività rapida | Piena velocità in furtività senza penalità |
+| Genio della fuga | Addestrare, Cavalcare e Volare di classe · +2 alle prove di guida |
+| Maestro delle corde | Movimento normale sulle corde, prendi 10 in equilibrio |
+| Manovra senza pari | Doppio tiro ad Acrobazia · 1/giorno +1 ogni 5 livelli, via `.dotaladro manovra` |
+| Occhio del cecchino | Furtivo a 9 m anche con occultamento non totale |
+| Parvenza impressionante | Prodezza Intimidatrice come talento bonus |
+| Recupero | 1/giorno: sotto 0 PF, temporanei pari al livello per 1 minuto |
+| Rialzarsi | Da prono gratis, ma provoca AdO |
+| Scassinare rapido | Serratura come azione standard |
+| Subdolo | +4 a occultare armi · furtivo massimizzato in sorpresa, usi = CAR |
+| Tiro immediato | In sorpresa, iniziativa 20 per un attacco a distanza |
+| Tramortire | Il bersaglio del furtivo prende −2 contro di te per 1d4 round |
+| Trucco della forcina | Niente penalità con improvvisati, bonus doppi con perfetti |
+| Ammaliatore | Doppio dado a Diplomazia (ruolo) |
+| Bugie convincenti | Chi ci crede le ripete come vere (ruolo) |
+| Equilibrista | Acrobazie su strettoie (ruolo) |
+| Attacco Sanguinante | 1 danno + 1 round per ogni dado furtivo |
+| Furtivo potenziato | Nel furtivo gli 1 valgono 2 |
+| Difesa Offensiva | +1 CA per dado furtivo contro il colpito |
+| Espediente | Un talento da combattimento di cui hai i prerequisiti |
+| Difficile da ingannare | Doppio dado a Intuizione (ruolo) |
+| Estorcere informazioni | Usa il migliore tra Intimidire, Diplomazia e Raggirare |
+| Parole Melliflue | Doppio dado a Raggirare (ruolo) |
+| Scaltro Poliglotta | 2 lingue, 4 con Linguistica |
+| Seguire Indizi | Percezione per seguire tracce |
+
+#### Doti avanzate (dal 10° livello)
+
+| Dote | Effetto |
+|---|---|
+| Alleato involontario | `.alleatoinvolontario`: fiancheggi usando la posizione del nemico ingannato |
+| Attacco dissolvente | `.settafurtivo`: dissolve l'incantesimo più basso · vuole Magia Maggiore |
+| Furtivo mortale | Nel potenziato, 1 e 2 valgono 3 · vuole Furtivo potenziato |
+| Attutire il colpo | 1/giorno: Riflessi con CD = danni per dimezzare il letale |
+| Bersagliatore furtivo | `.bersagliatorefurtivo`: cecchino a −10 invece di −20 |
+| Borseggia armi | Con `.disarma`, Rapidità al posto della manovra |
+| Colpo menomante | `.settafurtivo`: anche 2 danni a FOR |
+| Eludere migliorato | Zero danni col superato, metà col fallito · vuole Eludere |
+| Famiglio | Livello effettivo −4 · vuole Minore e Maggiore |
+| Lame confondenti | `.settafurtivo`: niente AdO al bersaglio per 1d4+1 round |
+| Maestro del travestimento | 1/giorno: `.maestrotravestimento` dà +10 Camuffare |
+| Mente nascosta | Anti-divinazione con LI = livello |
+| Mente sfuggente | Ritenta l'ammaliamento fallito dopo 1 round |
+| Opportunismo | 1/round contro chi l'alleato ha appena ferito |
+| Ridirezionare | 1/giorno: devia il colpo su una creatura adiacente |
+| Riesame oculato | 1/giorno: ripete l'ultima Conoscenze, Intuizione o Percezione |
+| Schivata estrema | 1/giorno: passo da 1,5 m che evita il letale se esce di portata |
+| Sorpresa del cacciatore | 1/giorno: tutto furtivo per 1 round contro un adiacente |
 
 ### Capacità speciali (10°)
 Le doti avanzate qui sopra, oppure un talento al posto della dote.

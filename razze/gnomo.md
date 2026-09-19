@@ -22,7 +22,3 @@ Gli gnomi delle Rocce vivono tra laboratori e invenzioni, quelli delle Foreste n
 * **Capacità comuni:** visione crepuscolare, magia gnomesca (`.capacitarazziale lucidanzanti`), resistenza alle illusioni, Percezione +2, Alchimia +2
 * **Foreste in più:** `.capacitarazziale parlaconanimali` e `passosenzatracce`
 * **Lingue:** Comune + Gnomesco + Silvano
-
-## Ideale per
-
-Mago e Bardo con le Rocce, Ranger e Ladro silenziosi con le Foreste. Una classe favorita.

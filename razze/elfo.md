@@ -26,7 +26,3 @@ Il popolo antico di Faerûn. Grazia, magia e memoria lunga in quattro volti dive
 * **Taglia:** Media per tutti
 * **Capacità:** visione crepuscolare, immunità al sonno, sensi acuti, magia elfica, Percezione+2, armi elfiche
 * **Lingue:** Comune + Elfico
-
-## Ideale per
-
-Mago e Stregone con Luna o Sole (+2 INT), Ranger e Ladro con Boschi o Selvaggio. Una classe favorita.

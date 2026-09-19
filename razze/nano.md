@@ -23,7 +23,3 @@ Il popolo delle cittadelle e dei clan. Onore, tradizione e parola data prima di 
 * **Dorato:** COS+2 SAG+2 DES-2, taglia Media · come sopra ma odio per le aberrazioni del Buio al posto di fiuto e avidità · stessi +2 artigianali
 * **Selvaggio:** COS+2 CAR-2, taglia Piccola · scurovisione, stabilità, resistenza a caldo, fuoco, veleni e malattie · nessun bonus artigianale · solo ascia · lingue ridotte (Draconico, Goblin)
 * **Lingue:** Comune + Nanico
-
-## Ideale per
-
-Guerriero, Chierico e Paladino con Scudi o Dorato. Il Selvaggio piccolo e resistente per Ranger o Barbaro atipici. Una classe favorita.

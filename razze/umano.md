@@ -22,7 +22,3 @@ Non hanno una patria unica perché sono di casa ovunque. Pratici e adattabili, b
 * **Capacità:** talento bonus al 1° livello, +1 punto abilità extra a ogni livello
 * **Lingue:** Comune più tutte a scelta
 * **Sottorazze:** Comune
-
-## Ideale per
-
-Qualsiasi classe. Perfetto se sei indeciso o se vuoi una build che parte subito forte grazie al talento extra. Una classe favorita.

@@ -23,7 +23,3 @@ Nessun impero, solo famiglie e comunità accanto agli umani o in carovane nomadi
 * **Cuoreforte:** talento bonus al posto della fortuna piena
 * **Bonus comuni:** Acrobazia, Furtività, Percezione e Scalare +2, fionda gratuita
 * **Lingue:** Comune + Halfling
-
-## Ideale per
-
-Ladro, Bardo e Ranger. Il Cuoreforte con talento extra per build marziali piccole e toste. Una classe favorita.

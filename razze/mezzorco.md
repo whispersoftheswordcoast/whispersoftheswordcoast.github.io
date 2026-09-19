@@ -22,7 +22,3 @@ Nessuna patria, solo margini da conquistare. Cicatrici e avversità come segni d
 * **Capacità:** scurovisione, sangue orchesco (conta come umano e orco), ferocia (1 volta al giorno resta cosciente a 1 PF invece di cadere), Intimidire +2
 * **Armi gratuite:** ascia grande e falchion
 * **Lingue:** Comune + Orchesco
-
-## Ideale per
-
-Barbaro e Guerriero: la ferocia regala il round in più che chiude lo scontro. Una classe favorita.

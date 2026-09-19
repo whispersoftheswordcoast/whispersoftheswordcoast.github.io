@@ -24,7 +24,3 @@ I più diffusi discendono dagli elfi della luna, ma ogni stirpe porta il suo seg
 * **Unico:** 2 classi favorite invece di 1, perfetto per multiclasse
 * **Lingue:** Comune + Elfico
 * **Stirpi:** Luna, Sole, Boschi, Selvaggio, Marino
-
-## Ideale per
-
-Bardo, Ranger, Paladino e Stregone. La doppia favorita lo rende la miglior razza per qualsiasi multiclasse.
