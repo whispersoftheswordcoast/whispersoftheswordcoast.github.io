@@ -27,18 +27,24 @@ Danni extra a chi è colto alla sprovvista o indifeso · **Non funziona su:** no
 ### Trappole
 Individua e disattiva ogni tipo, anche magiche · **Solo tu oltre CD 20.**
 
-### Schivare prodigioso
-**3°:** DES alla CA anche sorpreso · **6°:** niente fianchi · **11°:** +1 Riflessi contro trappole.
+### Percepire trappole
+**3°:** +1 ai Riflessi contro trappole e alla CA · **6°:** +2 · **9°:** +3 · **12°:** +4.
+
+### Eludere (2°)
+Automatico al passaggio di livello: con Riflessi superato contro aree, zero danni · **Migliorato:** via dote dal 10°.
+
+### Schivare prodigioso (4°)
+DES alla CA anche se colto alla sprovvista · **Migliorato (8°):** versione superiore automatica.
 
 ### Doti da ladro
-**Quante:** 1 ogni 2 livelli da Ladro (livello ÷ 2), dal 2° · **Come:** gump di scelta con `.abilitaladro`, le possedute con `.dotiladro` · **Dal 10°:** al posto della dote puoi prendere un talento · **Extra:** col talento Dote da ladro extra.
+**Quante:** 1 ogni 2 livelli da Ladro (livello ÷ 2), dal 2° al 20° · **Come:** al `.passalivello` il gioco ti apre da solo il gump di scelta · **Vedi le tue:** con `.dotiladro` · **Dal 10°:** al posto della dote puoi prendere un talento · **Extra:** col talento Dote da ladro extra (`.abilitaladro` è comando staff).
 **Alcune hanno prerequisiti:** Magia Minore vuole INT 10, Magia Maggiore INT 11 più la Minore, le avanzate (42-59) vogliono il 10° livello, altre si concatenano (Furtivo mortale vuole Furtivo potenziato, Attacco dissolvente vuole Magia Maggiore, Famiglio vuole entrambe le Magie).
 
 **Magia:** Minore (trucchetto 3/giorno, LI = livelli da Ladro, CD da INT), Maggiore (1° livello 2/giorno), Famiglio (livello effettivo −4).
 **Furtivo:** Sanguinante (1 danno + 1 round per dado), Potenziato (gli 1 valgono 2), Mortale (1 e 2 valgono 3), Menomante (2 danni FOR con `.settafurtivo`), Dissolvente (dissolve l'incantesimo più basso, con `.settafurtivo`), Difesa offensiva (+1 CA per dado contro il colpito), Lame confondenti (niente AdO per 1d4+1 round), Tramortire (−2 attacchi per 1d4 round), Silenziante (muto 1 round, Volontà nega, usi = metà livello), Subdolo (furtivo massimizzato in sorpresa, usi = CAR).
 **Difesa:** Eludere migliorato, Attutire il colpo (1/giorno, Riflessi CD = danni per dimezzare il letale), Recupero (1/giorno, PF temporanei = livello per 1 minuto se scendi sotto 0), Schivata estrema (1/giorno, passo da 1,5 m che evita il letale), Ridirezionare (1/giorno, devia il colpo su un adiacente), Mente nascosta (anti-divinazione con LI = livello), Rialzarsi (gratis, ma provoca AdO).
 **Colpi di scena:** Opportunismo (1/round contro chi l'alleato ha ferito), Sorpresa del cacciatore (1/giorno, tutto furtivo per 1 round), Alleato involontario (fiancheggi col nemico ingannato), Bersagliatore furtivo (cecchino a −10 invece di −20), Tiro immediato (iniziativa 20 in sorpresa a distanza), Occhio del cecchino (furtivo a 9 m anche con occultamento), Attacco improvviso (sorpresi restano impreparati).
-**Abilità:** Acuto osservatore (+4 Percezione per segreti e trappole), Furtività rapida (piena velocità senza penalità), Scassinare rapido (azione standard), Disattivare rapido (tempo dimezzato), Camuffamento rapido, Maestro del travestimento (1/giorno +10 Camuffare), Dita rapide e Manovra senza pari (doppio tiro 1/giorno +1 ogni 5), Arrampicamuri, Forte bracciata, Seguire indizi (Percezione per tracce), Scaltro poliglotta (2 lingue, 4 con Linguistica), Espediente (talento da combattimento), Addestramento e Accuratezza (Arma focalizzata e accurata), Armi da fuoco (competenza piena).
+**Abilità:** Acuto osservatore (+4 Percezione per segreti e trappole), Furtività rapida (piena velocità senza penalità), Scassinare rapido (azione standard), Disattivare rapido (tempo dimezzato, minimo 1 round), Camuffamento rapido, Maestro del travestimento (1/giorno +10 Camuffare), Dita rapide e Manovra senza pari (doppio tiro, usi 1 + livello/5 al giorno, si attivano con `.dotaladro dita` e `.dotaladro manovra`), Arrampicamuri, Forte bracciata, Seguire indizi (Percezione per tracce), Scaltro poliglotta (2 lingue, 4 con Linguistica), Espediente (talento da combattimento), Addestramento e Accuratezza (Arma focalizzata e accurata), Armi da fuoco (competenza piena).
 
 ### Capacità speciali (10°)
 Le doti avanzate qui sopra, oppure un talento al posto della dote.
@@ -52,21 +58,21 @@ Le doti avanzate qui sopra, oppure un talento al posto della dote.
 | Liv | BAB | T / R / V | Privilegi |
 |---|---|---|---|
 | 1° | +0 | +0 / +2 / +0 | Attacco furtivo |
-| 2° | +1 | +0 / +3 / +0 | Dote da ladro |
-| 3° | +2 | +1 / +3 / +1 | Schivare prodigioso |
-| 4° | +3 | +1 / +4 / +1 | Dote da ladro |
+| 2° | +1 | +0 / +3 / +0 | Eludere, dote da ladro |
+| 3° | +2 | +1 / +3 / +1 | Percepire trappole +1 |
+| 4° | +3 | +1 / +4 / +1 | Schivare prodigioso, dote |
 | 5° | +3 | +1 / +4 / +1 | — |
-| 6° | +4 | +2 / +5 / +2 | Dote da ladro, niente fianchi |
+| 6° | +4 | +2 / +5 / +2 | Percepire +2, dote |
 | 7° | +5 | +2 / +5 / +2 | — |
-| 8° | +6/+1 | +2 / +6 / +2 | Dote da ladro |
-| 9° | +6/+1 | +3 / +6 / +3 | — |
+| 8° | +6/+1 | +2 / +6 / +2 | Schivare migliorato, dote |
+| 9° | +6/+1 | +3 / +6 / +3 | Percepire +3 |
 | 10° | +7/+2 | +3 / +7 / +3 | Dote o talento, doti avanzate |
-| 11° | +8/+3 | +3 / +7 / +3 | +1 Riflessi contro trappole |
-| 12° | +9/+4 | +4 / +8 / +4 | Dote da ladro |
+| 11° | +8/+3 | +3 / +7 / +3 | — |
+| 12° | +9/+4 | +4 / +8 / +4 | Percepire +4, dote |
 
 ## Comandi di classe
 
-`.dotiladro` per vedere le tue doti, `.abilitaladro` per sceglierle (anche extra). Dalle doti: `.subdolo`, `.settafurtivo`, `.alleatoinvolontario`, `.bersagliatorefurtivo`, `.maestrotravestimento`, `.ridirezionare`, `.riesame`, `.schivataestrema`, `.sorpresacacciatore`, `.disarma`.
+`.dotiladro` per vedere le tue doti; le scelte arrivano da sole al `.passalivello` nei livelli pari (`.abilitaladro` è comando staff). `.dotaladro dita` e `.dotaladro manovra` attivano Dita Rapide e Manovra Senza Pari (usi 1 + livello/5 al giorno). Dalle doti: `.subdolo`, `.settafurtivo`, `.alleatoinvolontario`, `.bersagliatorefurtivo`, `.maestrotravestimento`, `.ridirezionare`, `.riesame`, `.schivataestrema`, `.sorpresacacciatore`, `.disarma`.
 
 ## Vai oltre
 

@@ -2,7 +2,7 @@
 layout: default
 title: Umano
 permalink: /razze/umano/
-excerpt: Versatile e ambizioso, con talento extra e +1 a scelta
+excerpt: Versatile e ambizioso, con talento extra e +2 a scelta
 ---
 
 # Umano
@@ -17,9 +17,9 @@ Non hanno una patria unica perché sono di casa ovunque. Pratici e adattabili, b
 
 ## In gioco
 
-* **Modifiche:** +1 a una caratteristica a scelta
+* **Modifiche:** +2 a una caratteristica a scelta
 * **Taglia:** Media
-* **Capacità:** talento bonus al 1° livello, abilità extra
+* **Capacità:** talento bonus al 1° livello, +1 punto abilità extra a ogni livello
 * **Lingue:** Comune più tutte a scelta
 * **Sottorazze:** Comune
 

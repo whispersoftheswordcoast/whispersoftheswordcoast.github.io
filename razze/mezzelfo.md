@@ -17,9 +17,9 @@ I più diffusi discendono dagli elfi della luna, ma ogni stirpe porta il suo seg
 
 ## In gioco
 
-* **Modifiche:** +1 a una caratteristica a scelta per tutte le stirpi
+* **Modifiche:** +2 a una caratteristica a scelta per tutte le stirpi
 * **Taglia:** Media
-* **Capacità:** sangue elfico, visione crepuscolare, immunità al sonno, Percezione+2
+* **Capacità:** sangue elfico (conta come umano ed elfo), visione crepuscolare, immunità al sonno, Percezione+2
 * **Marino in più:** Nuotare +8
 * **Unico:** 2 classi favorite invece di 1, perfetto per multiclasse
 * **Lingue:** Comune + Elfico

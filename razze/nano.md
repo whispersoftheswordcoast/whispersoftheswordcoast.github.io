@@ -19,10 +19,9 @@ Il popolo delle cittadelle e dei clan. Onore, tradizione e parola data prima di 
 
 ## In gioco
 
-* **Scudi:** COS+2 SAG+2 CAR-2, taglia Media
-* **Dorato:** COS+2 SAG+2 DES-2, taglia Media, odio per le aberrazioni
-* **Selvaggio:** COS+2 CAR-2, taglia Piccola, resistenze a caldo, fuoco, veleni e malattie
-* **Capacità comuni:** scurovisione, stabilità, resistenza nanica, Valutare, Fabbricare armi, Intagliare pietre e Metallurgia +2
+* **Scudi:** COS+2 SAG+2 CAR-2, taglia Media · scurovisione, stabilità, resistenza nanica, fiuto per la pietra, avidità · Valutare, Fabbricare armi, Intagliare pietre e Metallurgia +2 · ascia da battaglia, piccone pesante e martello da guerra
+* **Dorato:** COS+2 SAG+2 DES-2, taglia Media · come sopra ma odio per le aberrazioni del Buio al posto di fiuto e avidità · stessi +2 artigianali
+* **Selvaggio:** COS+2 CAR-2, taglia Piccola · scurovisione, stabilità, resistenza a caldo, fuoco, veleni e malattie · nessun bonus artigianale · solo ascia · lingue ridotte (Draconico, Goblin)
 * **Lingue:** Comune + Nanico
 
 ## Ideale per

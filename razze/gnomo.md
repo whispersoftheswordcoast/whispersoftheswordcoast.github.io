@@ -17,7 +17,7 @@ Gli gnomi delle Rocce vivono tra laboratori e invenzioni, quelli delle Foreste n
 
 ## In gioco
 
-* **Rocce:** FOR-2 COS+2 CAR+2, taglia Piccola
+* **Rocce:** FOR-2 COS+2 CAR+2, taglia Piccola · odio per orchi e goblin, ossessione artigianale, martello-picca gnomesco
 * **Foreste:** FOR-2 COS+2, taglia Piccola, Furtività +4
 * **Capacità comuni:** visione crepuscolare, magia gnomesca (`.capacitarazziale lucidanzanti`), resistenza alle illusioni, Percezione +2, Alchimia +2
 * **Foreste in più:** `.capacitarazziale parlaconanimali` e `passosenzatracce`

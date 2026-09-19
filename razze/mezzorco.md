@@ -17,9 +17,9 @@ Nessuna patria, solo margini da conquistare. Cicatrici e avversità come segni d
 
 ## In gioco
 
-* **Modifiche:** +1 a una caratteristica a scelta
+* **Modifiche:** +2 a una caratteristica a scelta
 * **Taglia:** Media
-* **Capacità:** scurovisione, sangue orchesco, ferocia (1 volta al giorno resta cosciente a 1 PF invece di cadere), Intimidire +2
+* **Capacità:** scurovisione, sangue orchesco (conta come umano e orco), ferocia (1 volta al giorno resta cosciente a 1 PF invece di cadere), Intimidire +2
 * **Armi gratuite:** ascia grande e falchion
 * **Lingue:** Comune + Orchesco
 
