@@ -46,7 +46,7 @@ Il monaco riceve Pugno Stordente in automatico, poi sceglie da tre scaglioni. Ni
 | Oltre il 9° | Afferrare Frecce, Attacco Rapido, Critico Migliorato |
 
 ### Pugno Stordente (1°)
-Dal 1° livello il monaco arma il prossimo attacco senz'armi con `.attaccostordente`: se colpisce, il bersaglio tira Tempra con CD 10 + metà livello + SAG o resta stordito 1 round e gli cadono arma e scudo. Usi al giorno pari al livello da monaco + un quarto degli altri (+3 per talento). Uno solo per round; immuni i critici-immuni, incorporei, non morti, costrutti, melme e vegetali.
+Dal 1° livello il monaco arma il prossimo attacco senz'armi con `.attaccostordente`: se colpisce, il bersaglio tira Tempra con CD 10 + metà livello + SAG o resta stordito 1 round e gli cadono arma e scudo. Usi al giorno pari ai livelli da monaco più un quarto dei livelli nelle altre classi (+3 per talento). Uno solo per round; immuni i critici-immuni, incorporei, non morti, costrutti, melme e vegetali.
 
 ### Corpo e Ki
 Dal 2° livello il monaco si muove al doppio della velocità e può usare Porta Dimensionale una volta al giorno. Dal 3° resiste agli ammaliamenti con mente lucida (+2), dal 4° cade senza farsi male vicino alle pareti, dal 5° è immune alle malattie non magiche, dal 7° guarisce 2 × livello PF al giorno con l'integrità del corpo, dall'11° è immune a tutti i veleni.
