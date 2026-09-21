@@ -7,6 +7,9 @@ excerpt: Tutto quel che serve sapere sulla magia prima del primo giorno di gioco
 
 # Magia
 
+> "Il mondo è fatto di regole. Io ho solo speso abbastanza tempo sui libri per imparare a riscriverle."
+> — <cite>anonimo</cite>
+
 La magia funziona a slot giornalieri divisi per livello di incantesimo: ogni lancio consuma uno slot del suo livello, e gli slot si ricaricano solo con riposo e memorizzazione. Le classi si dividono in preparate (scelgono in anticipo cosa tenere pronto) e spontanee (lanciano dai conosciuti fino a esaurimento slot).
 
 Non spaventarti per la quantità di comandi in questa pagina: molti sono già nei menu contestuali cliccando sul personaggio, e in genere si gioca legandoli a macro da tastiera e pulsanti a schermo su ClassicUO. Leggi per capire, poi assegna i tasti.
