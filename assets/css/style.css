@@ -564,3 +564,36 @@ img {
     color: #e6e1d9;
     font-size: 0.95rem;
 }
+
+/* Riquadri esempio nelle guide */
+
+.wotsc-esempio {
+    border-left: 3px solid rgba(246, 231, 193, 0.55);
+    background: rgba(246, 231, 193, 0.06);
+    border-radius: 0 8px 8px 0;
+    padding: 0.7rem 1rem;
+    margin: 0.9rem 0;
+    font-size: 0.95rem;
+}
+
+.wotsc-esempio::before {
+    content: "Esempio";
+    display: block;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #f6e7c1;
+    margin-bottom: 0.3rem;
+}
+
+.wotsc-esempio p {
+    margin: 0.3rem 0;
+}
+
+.wotsc-esempio p:first-child {
+    margin-top: 0;
+}
+
+.wotsc-esempio p:last-child {
+    margin-bottom: 0;
+}

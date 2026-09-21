@@ -9,27 +9,55 @@ excerpt: Tutto quel che serve sapere sulla magia prima del primo giorno di gioco
 
 La magia funziona a slot giornalieri divisi per livello di incantesimo: ogni lancio consuma uno slot del suo livello, e gli slot si ricaricano solo con riposo e memorizzazione. Le classi si dividono in preparate (scelgono in anticipo cosa tenere pronto) e spontanee (lanciano dai conosciuti fino a esaurimento slot).
 
-## Il tuo primo incantesimo
-
-Si lancia scrivendo `.casta` seguito dal nome o dal numero dell'incantesimo. Esempio: `.casta armatura magica` ti mette addosso la protezione prima di entrare in un dungeon; `.casta 8` lancia l'ottavo della tua lista senza stare a scriverlo. Se sei incollato a un nemico, `.casta difensivo` ti fa lanciare proteggendoti dagli attacchi di opportunità. Esempio multiclasse: un mago/chierico usa `.castamago` per pescare dalla lista arcana e `.castachierico` per quella divina; con `.sceglicast mago` fissa l'arcana come predefinita e da lì `.casta` usa sempre quella (con `nessuna` si torna al selettore).
-
 ## Preparati e spontanei: le due famiglie
 
-Le classi si dividono in due famiglie, e conviene capirlo subito. Mago, Chierico, Druido, Paladino e Ranger **preparano**: al mattino (si fa per dire) scelgono con `.preparaspells` quali incantesimi tenere pronti, li controllano con `.memo` e li sfogliano con `.spells`. Ogni slot lanciato è andato, e per averne di nuovi serve riposare e rimemorizzare.
+Le classi si dividono in due famiglie, e conviene capirlo subito. Mago, Chierico, Druido, Paladino e Ranger **preparano**: al mattino (si fa per dire) scelgono con `.preparaspells` quali incantesimi tenere pronti, li controllano con `.memo` e li sfogliano con `.spells`. Ogni slot lanciato è andato, e per averne di nuovi serve riposare e rimemorizzare. Al risveglio dopo il riposo il gioco chiede sempre se cambiare gli incantesimi o tenere i precedenti: non serve rifare tutto da zero ogni volta.
 
-Stregone e Bardo invece sono **spontanei**: conoscono pochi incantesimi, ma li tirano fuori al momento finché hanno slot. Esempio: uno stregone che conosce dardo incantato e mani brucianti può decidere sul momento quale dei due lanciare e quante volte, senza averlo deciso al mattino. Niente preparazione, più rapidità, meno scelta. Se ami improvvisare, sono la tua casa; se ami pianificare, prendi un preparato.
+Stregone e Bardo invece sono **spontanei**: conoscono pochi incantesimi, ma li tirano fuori al momento finché hanno slot. Niente preparazione, più rapidità, meno scelta. Se ami improvvisare, sono la tua casa; se ami pianificare, prendi un preparato.
+
+<div class="wotsc-esempio" markdown="1">
+Uno stregone che conosce dardo incantato e mani brucianti decide sul momento quale lanciare e quante volte, senza averlo deciso al mattino.
+</div>
 
 ## Il riposo: dove tutto ricomincia
 
-Niente riposo, niente magia. Per ricaricare serve un letto vicino, nessun nemico attorno e ferite chiuse: il gioco controlla tutto prima di farti sedere. Il Mago studia il Libro, i divini pregano col simbolo sacro in mano, gli spontanei recuperano gli slot dormendo. Esempio pratico di routine: torni in locanda, ti siedi al letto, `.memo` per vedere gli slot vuoti, `.preparaspells` per riempirli, e riparti carico. Regola d'oro del primo giorno: prima di uscire per una spedizione, controlla di aver memorizzato. Dopo, è tardi.
+Niente riposo, niente magia. Per ricaricare serve un letto vicino, nessun nemico attorno e ferite chiuse: il gioco controlla tutto prima di farti sedere. Il Mago studia il Libro, i divini pregano col simbolo sacro in mano, gli spontanei recuperano gli slot dormendo. Regola d'oro del primo giorno: prima di uscire per una spedizione, controlla di aver memorizzato. Dopo, è tardi.
+
+<div class="wotsc-esempio" markdown="1">
+Routine sicura: torni in locanda, ti siedi al letto, `.memo` per vedere gli slot vuoti, `.preparaspells` per riempirli, e riparti carico.
+</div>
+
+## Il tuo primo incantesimo
+
+Si lancia scrivendo `.casta` seguito dal nome o dal numero dell'incantesimo. Se sei incollato a un nemico, `.casta difensivo` ti fa lanciare senza provocare attacchi di opportunità, ma al prezzo di una prova di Concentrazione con CD 15 + 2 per livello dell'incantesimo (+4 col talento Incantesimo in Combattimento): se la fallisci, perdi lo slot. Chi ha più classi usa i comandi con nome (`casta` più il nome della classe) per scegliere da quale lista pescare; con `.sceglicast` ne fissa una come predefinita.
+
+<div class="wotsc-esempio" markdown="1">
+`.casta armatura magica` prima di entrare in un dungeon; `.casta 8` per l'ottavo della lista senza scriverlo. Un mago/chierico usa `.castamago` per l'arcana e `.castachierico` per la divina, oppure `.sceglicast mago` e da lì `.casta` usa sempre l'arcana (`nessuna` per tornare al selettore).
+</div>
 
 ## Slot, bonus e piccoli privilegi
 
 Ogni livello dà un certo numero di slot per livello di incantesimo, e li trovi nelle schede delle classi. Sopra ci piovono i bonus: caratteristica alta (Intelligenza per il Mago, Saggezza per divini e Ranger, Carisma per Stregone, Bardo e Paladino), uno slot di dominio per livello per il Chierico, uno slot di scuola per livello per il Mago specialista. Morale: la caratteristica da incantatore non è un optional, è il serbatoio.
 
+| Punteggio | 1° | 2° | 3° | 4° | 5° | 6° | 7° | 8° | 9° |
+|---|---|---|---|---|---|---|---|---|---|
+| 12-13 | +1 | — | — | — | — | — | — | — | — |
+| 14-15 | +1 | +1 | — | — | — | — | — | — | — |
+| 16-17 | +1 | +1 | +1 | — | — | — | — | — | — |
+| 18-19 | +1 | +1 | +1 | +1 | — | — | — | — | — |
+| 20-21 | +2 | +1 | +1 | +1 | +1 | — | — | — | — |
+| 22-23 | +2 | +2 | +1 | +1 | +1 | +1 | — | — | — |
+| 24-25 | +2 | +2 | +2 | +1 | +1 | +1 | +1 | — | — |
+| 26-27 | +2 | +2 | +2 | +2 | +1 | +1 | +1 | +1 | — |
+| 28-29 | +3 | +2 | +2 | +2 | +2 | +1 | +1 | +1 | +1 |
+
 ## Metamagia: i talenti si armano
 
-Avere un talento di metamagia non basta: va anche armato con `.metamagia`, dal gump o per nome, con `tutto` per attivarli tutti e `reset` per spegnerli. Gli intensificati si armano col livello (`intensificati N`) e costano slot extra alzando la CD: esempio, un dardo incantato intensificato a 2 occupa uno slot di 2° e picchia più forte. E attenzione: le metamagie armate valgono solo per gli incantesimi che le consentono, gli altri le ignorano.
+Avere un talento di metamagia non basta: va anche armato con `.metamagia`, dal gump o per nome, con `tutto` per attivarli tutti e `reset` per spegnerli. Chi prepara la impacchetta dentro lo slot maggiorato (un intensificato a 2 si prepara in uno slot di 2°); chi lancia spontaneo la applica al momento, ma il lancio rallenta di un round, salvo Incantesimi rapidi. E attenzione: le metamagie armate valgono solo per gli incantesimi che le consentono, gli altri le ignorano.
+
+<div class="wotsc-esempio" markdown="1">
+Un dardo incantato intensificato a 2 occupa uno slot di 2° livello e picchia più forte del normale.
+</div>
 
 ## Duelli, controincantesimi e pergamene
 
