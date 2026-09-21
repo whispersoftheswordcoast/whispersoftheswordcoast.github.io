@@ -73,11 +73,7 @@ Il giro è questo: se l'oggetto riesce ma non è perfetto, puoi accettarlo così
 L’agricoltore é una figura fondamentale per la produzione di piante, frutti e semi necessari a molti altri mestieri come alchimisti, cuochi e sarti.
 
 **Meccaniche**
-- Arare: doppio click sull’aratro → click sul terreno.  
-- Seminare: doppio click sul seme → click sul terreno arato.  
-- Annaffiare/Concimare: doppio click sul secchio/attrezzo → click sul terreno seminato.  
-- Cura piante: usare le varie pozioni di cura tramite il pannello fertilizzazione/concimazione.  
-- Camminare sul terreno arato o su piantine può danneggiarle o ucciderle.  
+Si ara il terreno con l'aratro e si semina; poi si annaffia e si concima col secchio, aiutandosi col forcone per spandere il concime. Le cure passano dal pannello di fertilizzazione, con la pozione giusta per ogni male. E mai camminare sull'arato o sulle piantine: si danneggiano o muoiono.  
 
 **Equilibri (l'acqua e il concime vanno dosati)**
 - Troppa acqua fa ammalare e toglie PF; il doppio del massimo annega i semi. Troppo poca rallenta fino a uccidere: a zero la pianta muore.
@@ -87,10 +83,11 @@ L’agricoltore é una figura fondamentale per la produzione di piante, frutti e
 
 **Attrezzi**
 
-| Attrezzo | Funzione |
-|----------|----------|
+| Attrezzo | A cosa serve |
+|---|---|
 | Aratro | Arare il terreno. |
 | Secchio | Annaffiare, riempire d’acqua, fertilizzare. |
+| Forcone | Spandere il concime sul terreno. |
 | Pozione Rinvigorente Vegetale | Ripristina la salute della pianta. |
 | Pozione Cura Malattie | Cura malattie delle piante. |
 | Pozione di Veleno | Elimina parassiti (come bruchi). |
@@ -141,7 +138,7 @@ Gli alchimisti hanno sempre bisogno di reagenti per le proprie pozioni, e la mag
 
 **Attrezzi necessari** 
 
-| Attrezzo    | Funzione / Utilizzo |
+| Attrezzo | A cosa serve |
 |-------------|----------------------|
 | Sradicatore | Usato per cercare e raccogliere erbe/reagenti sul terreno. |
 
@@ -175,7 +172,7 @@ Il minatore estrae minerali, metalli e pietre da cave e montagne. Le risorse ott
 
 **Attrezzi**
 
-| Attrezzo | Funzione |
+| Attrezzo | A cosa serve |
 |----------|----------|
 | Pala | Scavare terreni sabbiosi o paludosi. (Utile per alcune risorse come la sabbia o l'argilla) |
 | Piccozza | Estrazione da terreno roccioso, cave. Utile per metalli e altro |
@@ -196,7 +193,7 @@ Abbattendo gli alberi, il boscaiolo ricava tronchi e legno utile a molti altri m
 
 **Attrezzi**
 
-| Attrezzo | Funzione |
+| Attrezzo | A cosa serve |
 |----------|----------|
 | Accetta | Abbattere gli alberi e ricavare tronchi. |
 
@@ -214,7 +211,7 @@ Con canna ed esche pesca pesci e a volte oggetti rari o utili come reagenti.
 
 **Attrezzi**
 
-| Attrezzo | Funzione |
+| Attrezzo | A cosa serve |
 |----------|----------|
 | Canna da Pesca | Strumento principale per pescare. |
 
@@ -238,7 +235,7 @@ Indizi su come combinarli sono nella descrizione in gioco di alcuni reagenti.
 
 **Attrezzi**
 
-| Attrezzo | Funzione |
+| Attrezzo | A cosa serve |
 |----------|----------|
 | Mortaio | Strumento base per combinare i reagenti. |
 | Bottiglie Vuote | Contenitori per le pozioni create. |
@@ -258,7 +255,7 @@ Con incudine, martello da fabbro e lingotti, il fabbro plasma metalli secondo le
 
 **Attrezzi necessari**  
 
-| Attrezzo / Oggetto        | Funzione / Utilizzo |
+| Attrezzo | A cosa serve |
 |---------------------------|----------------------|
 | Incudine                  | Supporto per battere e modellare metalli con martello. |
 | Martello da Fabbro        | Strumento principale per forgiare armi/oggetti partendo da lingotti. |
@@ -303,7 +300,7 @@ Lavora il legno per creare mobili, contenitori, armi (archi, balestre, bastoni),
 
 **Attrezzi**
 
-| Attrezzo | Funzione |
+| Attrezzo | A cosa serve |
 |----------|----------|
 | Coltello Intagliatore | Crea oggetti base partendo dai tronchi. |
 | Sega | Trasforma tronchi in assi. |
@@ -327,7 +324,7 @@ Con intagliare gemme si puó anche usare l'incisore per perfezionare gemme, per 
 
 **Attrezzi**
 
-| Attrezzo | Funzione |
+| Attrezzo | A cosa serve |
 |----------|----------|
 | Kit da Inventore | Set base per creazioni e lavorazioni multiple. |
 | Punteruolo | Taglio e lavorazione di gemme. |
@@ -352,7 +349,7 @@ Crea vestiti, bende, armature leggere e abiti decorati usando stoffe, pelli o cu
 
 **Attrezzi**
 
-| Attrezzo | Funzione |
+| Attrezzo | A cosa serve |
 |----------|----------|
 | Ago e Filo | Creazione di indumenti e armature leggere. |
 | Ferri da Lavoro | Lavorazione gomitoli di lana. |
@@ -363,3 +360,4 @@ Crea vestiti, bende, armature leggere e abiti decorati usando stoffe, pelli o cu
 | Incisore per Cuoio | Decorazioni e incisioni su pelle. |
 | Kit Ricamo | Applicare ricami e decorazioni. |
 | Colori + Tinozza | Tingere vestiti e stoffe. |
+
