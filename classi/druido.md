@@ -84,6 +84,6 @@ Tutta la lista preparabile con SAG 10 + livello incantesimo. Bonus da SAG alta: 
 
 ## Vai oltre
 
-[Creazione](/manuale/#creazione)
+[Creazione](/manuale/#creazione) · [Magia](/sistemi/magia.html)
 
 

@@ -84,6 +84,6 @@ Musica, incantesimi e conoscenze dal 1°, nuove esibizioni salendo. Dettagli nel
 
 ## Vai oltre
 
-[Creazione](/manuale/#creazione)
+[Creazione](/manuale/#creazione) · [Magia](/sistemi/magia.html)
 
 

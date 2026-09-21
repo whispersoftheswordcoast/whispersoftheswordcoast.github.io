@@ -84,6 +84,6 @@ Prepari dal Libro con `.memo` dopo il riposo. Specialista: +1 slot per livello. 
 
 ## Vai oltre
 
-[Creazione](/manuale/#creazione) · Nota: scuola e 3 + INT incantesimi gratuiti si scelgono al `.pgstart`.
+[Creazione](/manuale/#creazione) · Nota: scuola e 3 + INT incantesimi gratuiti si scelgono al `.pgstart`. · [Magia](/sistemi/magia.html)
 
 

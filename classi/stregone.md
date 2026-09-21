@@ -85,6 +85,6 @@ Nuovi conosciuti a ogni livello. Dettagli nel manuale.
 
 ## Vai oltre
 
-[Creazione](/manuale/#creazione)
+[Creazione](/manuale/#creazione) · [Magia](/sistemi/magia.html)
 
 

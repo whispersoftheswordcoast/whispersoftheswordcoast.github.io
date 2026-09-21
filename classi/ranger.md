@@ -93,6 +93,6 @@ Divini dal 4° livello. B = slot solo con SAG alta.
 
 ## Vai oltre
 
-[Creazione](/manuale/#creazione)
+[Creazione](/manuale/#creazione) · [Magia](/sistemi/magia.html)
 
 

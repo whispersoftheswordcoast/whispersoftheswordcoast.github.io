@@ -79,6 +79,6 @@ Domini, incantesimi e scacciare attivi dal 1°. Dettagli nel manuale.
 
 ## Vai oltre
 
-[Creazione](/manuale/#creazione) · Nota: divinità e domini si scelgono al `.pgstart`.
+[Creazione](/manuale/#creazione) · Nota: divinità e domini si scelgono al `.pgstart`. · [Magia](/sistemi/magia.html)
 
 

@@ -115,6 +115,6 @@ Divini dal 4°, livello incantatore pari a metà livello. B = slot solo con CAR 
 
 ## Vai oltre
 
-[Creazione](/manuale/#creazione)
+[Creazione](/manuale/#creazione) · [Magia](/sistemi/magia.html)
 
 
