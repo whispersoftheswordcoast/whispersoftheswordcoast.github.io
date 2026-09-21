@@ -98,7 +98,7 @@
 .wotsc-viewer {
   display: grid;
   grid-template-columns: auto 1fr auto;
-  gap: 10px;
+  gap: 4px;
   align-items: center;
   margin: 1rem 0;
 }
@@ -108,7 +108,7 @@
   position: relative;
   background: #000;
   aspect-ratio: 16 / 10;
-  max-height: 600px;
+  max-height: 680px;
   overflow: hidden;
   border: 1px solid var(--wotsc-gold);
 }
@@ -136,7 +136,7 @@
 }
 .wotsc-viewer-prev,
 .wotsc-viewer-next {
-  width: 44px;
+  width: 36px;
   min-height: 60px;
   background: var(--wotsc-blue);
   color: var(--wotsc-gold-light);
@@ -162,6 +162,9 @@
   font-size: 1.15rem;
   color: var(--wotsc-gold-light);
   letter-spacing: 1px;
+}
+@media (max-width: 767px) {
+  .wotsc-viewer-item figcaption { display: none; }
 }
 
 /* ============================================================
