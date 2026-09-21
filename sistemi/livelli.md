@@ -125,11 +125,11 @@ In aggiunta ai requisiti di px e valutazione, ci sono alcuni blocchi temporali t
 
 ## Classe favorita
 
-Alla creazione scegli una classe favorita (due se sei Mezzelfo, diverse tra loro). Ogni livello preso nella favorita dà un credito da spendere al passaggio: +1 punto ferita oppure +1 punto abilità, a scelta dal gump. Con Apprendimento rapido prendi entrambi.
+Alla creazione scegli la classe in cui il tuo personaggio dà il meglio: la classe favorita. I Mezzelfi, divisi tra due mondi, ne scelgono due diverse. Da lì in poi, ogni livello preso nella favorita lascia un credito da spendere al passaggio: un punto ferita in più oppure un punto abilità in più, a scelta dal gump. Col talento Apprendimento rapido prendi entrambi senza scegliere.
 
 ## Multiclasse
 
-A ogni `.passalivello` scegli in quale classe salire: dadi vita, attacco base, tiri salvezza e punti abilità si sommano per classe (tiro buono 2 + metà livello, scarso un terzo; attacco pieno, medio o scarso secondo classe). La somma fa il livello del personaggio, fino al cap giocabile di 12. Prima di sparpagliare i livelli guarda i vincoli: allineamento (Monaco solo legale, Paladino solo Legale Buono), divinità del Chierico, armature vietate a Monaco e Druido, e livelli da incantatore che restano indietro se mescoli troppo.
+Non sei obbligato a restare su una sola classe: ad ogni passaggio di livello scegli in quale classe salire, e il personaggio cresce mescolando i percorsi. Dadi vita, attacco base, tiri salvezza e punti abilità si sommano classe per classe — un tiro buono vale 2 più metà livello, uno scarso un terzo del livello; l'attacco può essere pieno, medio o scarso secondo la classe. La somma di tutti i livelli fa il livello del personaggio, fino al tetto giocabile di 12. Mescolare è potente ma chiede testa: l'allineamento chiude alcune porte (il Monaco vuole la legge, il Paladino solo il Bene legale), il Chierico risponde al suo dio, Monaco e Druido rifiutano certe armature, e i livelli da incantatore presi altrove restano indietro.
 
 ## Classi di prestigio
 
