@@ -84,18 +84,23 @@ a { color: #e6c996; }
 .layout {
   display: flex;
   gap: 2rem;
-  align-items: flex-start;
+  align-items: stretch;
   flex-direction: row; /* sidebar a sinistra */
 }
 
 /* Sidebar-wrapper prende 30% */
 .sidebar-wrapper {
   width: 30%;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Sidebar dentro sidebar-wrapper */
 .sidebar {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 /* Contenuto: 70% */
@@ -108,6 +113,8 @@ a { color: #e6c996; }
   list-style: none;
   padding: 0;
   margin: 0;
+  flex: 1;
+  overflow-y: auto;
 }
 
 .news-list li {
