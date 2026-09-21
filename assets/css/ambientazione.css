@@ -79,7 +79,7 @@
 .ambientazione-content h1,
 .ambientazione-content h2,
 .ambientazione-content h3 {
-  font-family: "Palatino Linotype", "Book Antiqua", serif;
+  font-family: var(--wotsc-font-pixel);
   color: #f6e7c1;
   margin-top: 1.5rem;
 }
