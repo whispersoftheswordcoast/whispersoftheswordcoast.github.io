@@ -1,7 +1,7 @@
 ---
 title: Primi Passi su Whispers of the Sword Coast
 layout: sistemi
-order: 3
+order: 2
 permalink: /primipassi/
 excerpt: Tutto il necessario per mettere piede lungo la Costa della Spada in sicurezza
 ---
