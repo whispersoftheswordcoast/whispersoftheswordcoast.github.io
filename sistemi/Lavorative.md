@@ -104,7 +104,7 @@ Il cuoco trasforma ingredienti e materie prime in cibo pronto da consumare. Serv
 
 **Meccaniche / Procedura**
 
-**Libro delle ricette** :Viene utilizzato per salvare le varie ricette. Il numero di ricette scrivibili in un libro è limitato (max 20). È possibile copiare una ricetta da un libro ad un altro libro o ad una pergamena vuota cliccando sull’apposito pulsante. Se invece si clicca sul pulsante “prepara”, viene chiesto di selezionare gli ingredienti e gli strumenti necessari alla preparazione. Gli ingredienti vengono selezionati nella giusta quantita’ (anche se lo stack contiene un amount maggiore). Se un ingrediente fa parte di un gruppo (per esempio “aromi”, di cui fanno parte aglio e cipolla), si possono selezionare diversi item che si trovano nel gruppo.
+**Libro delle ricette** :Viene utilizzato per salvare le varie ricette. Il numero di ricette scrivibili in un libro è limitato (max 20). È possibile copiare una ricetta da un libro ad un altro libro o ad una pergamena vuota cliccando sull’apposito pulsante, ma la copia può rovinare la pergamena. Se invece si clicca sul pulsante “prepara”, viene chiesto di selezionare gli ingredienti e gli strumenti necessari alla preparazione. Gli ingredienti vengono selezionati nella giusta quantita’ (anche se lo stack contiene un amount maggiore). Se un ingrediente fa parte di un gruppo (per esempio “aromi”, di cui fanno parte aglio e cipolla), si possono selezionare diversi item che si trovano nel gruppo.
 **Ricetta**:Consiste in una pergamena in cui è memorizzata una ricetta (come per il libro delle ricette).
 
 **Comandi**
@@ -120,7 +120,7 @@ La qualità del cibo creato dipende dalla qualità di tutti gli ingredienti util
 Quando viene selezionato uno stack di ingredienti, essi vengono separati e raggruppati per qualità (come mostrato in figura).
 
 **.arrostire** 
-Permette di arrostire alla bell'e meglio costolette di carne o tranci di pesce su un fuoco preparato. Comando utilizzabile senza cd. 
+Permette di arrostire alla bell'e meglio costolette di carne o tranci di pesce su un fuoco preparato entro 2 caselle. Comando senza cooldown, ma con prova di Cuoco (o Terre Selvagge più difficile). 
 
 
 
