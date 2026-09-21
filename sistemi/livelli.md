@@ -129,7 +129,7 @@ Alla creazione scegli la classe in cui il tuo personaggio dà il meglio: la clas
 
 ## Multiclasse
 
-Non sei obbligato a restare su una sola classe: ad ogni passaggio di livello scegli in quale classe salire, e il personaggio cresce mescolando i percorsi. Dadi vita, attacco base, tiri salvezza e punti abilità si sommano classe per classe — un tiro buono vale 2 più metà livello, uno scarso un terzo del livello; l'attacco può essere pieno, medio o scarso secondo la classe. La somma di tutti i livelli fa il livello del personaggio, fino al tetto giocabile di 12. Mescolare è potente ma chiede testa: l'allineamento chiude alcune porte (il Monaco vuole la legge, il Paladino solo il Bene legale), il Chierico risponde al suo dio, Monaco e Druido rifiutano certe armature, e i livelli da incantatore presi altrove restano indietro.
+Non sei obbligato a restare su una sola classe: ad ogni passaggio di livello scegli in quale classe salire, e il personaggio cresce mescolando i percorsi. Dadi vita, attacco base, tiri salvezza e punti abilità si sommano classe per classe — un tiro buono vale 2 più metà livello, uno scarso un terzo del livello; l'attacco può essere pieno, medio o scarso secondo la classe. La somma di tutti i livelli fa il livello del personaggio, fino al tetto giocabile di 12. Mescolare è potente ma chiede testa: l'allineamento chiude alcune porte (il Monaco vuole la legge, il Paladino solo il Bene legale), il Chierico risponde al suo dio, Monaco e Druido rifiutano certe armature, e i livelli da incantatore presi altrove restano indietro. E soprattutto: le nuove classi vanno indicate nel background iniziale, oppure concordate con integrazioni da mandare allo staff — niente multiclasse improvvisato a metà storia.
 
 ## Classi di prestigio
 
