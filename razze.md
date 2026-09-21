@@ -7,7 +7,7 @@ excerpt: Le 7 famiglie e 18 sottorazze giocabili, a confronto
 
 # Razze
 
-<img src="{{ '/assets/images/bannerrazze.webp' | relative_url }}" alt="razze" style="display: block; margin: 0 auto; max-width: 720px;" />
+<img src="{{ '/assets/images/bannerrazze.webp' | relative_url }}" alt="razze" style="display: block; margin: 0 auto; max-width: 100%;" />
 
 <div class="wotsc-cards">
 <a class="wotsc-card" href="{{ '/razze/umano/' | relative_url }}"><strong>Umano</strong><span>Versatile e ambizioso. Talento extra, ideale per tutto.</span></a>

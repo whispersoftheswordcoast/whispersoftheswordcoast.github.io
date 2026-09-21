@@ -5,6 +5,19 @@
    Angoli invariati, bordi in repeat, centro esteso (fill).
    ============================================================ */
 
+@font-face {
+  font-family: "PixelOperator";
+  src: url("/assets/fonts/pixel-operator.ttf") format("truetype");
+  font-weight: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "PixelOperator";
+  src: url("/assets/fonts/pixel-operator-bold.ttf") format("truetype");
+  font-weight: bold;
+  font-display: swap;
+}
+
 :root {
   --wotsc-night: #0B1020;
   --wotsc-blue: #11182A;
@@ -13,8 +26,8 @@
   --wotsc-text: #E6E1D9;
   --wotsc-muted: #9EA4B0;
 
-  --wotsc-font-pixel: "Press Start 2P", "Courier New", monospace;
-  --wotsc-font-title: "DotGothic16", "Courier New", monospace;
+  --wotsc-font-pixel: "PixelOperator", "Courier New", monospace;
+  --wotsc-font-title: "PixelOperator", "Courier New", monospace;
   --wotsc-font-body: Georgia, serif;
 
   --pf-slice: 40;          /* taglio sorgente, deve restare = angoli */

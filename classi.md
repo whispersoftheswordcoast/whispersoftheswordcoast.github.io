@@ -7,7 +7,7 @@ excerpt: Le 11 classi base giocabili, a confronto
 
 # Classi
 
-<img src="{{ '/assets/images/bannerclassi.webp' | relative_url }}" alt="classi" style="display: block; margin: 0 auto; max-width: 720px;" />
+<img src="{{ '/assets/images/bannerclassi.webp' | relative_url }}" alt="classi" style="display: block; margin: 0 auto; max-width: 100%;" />
 
 <div class="wotsc-cards">
 <a class="wotsc-card" href="{{ '/classi/guerriero/' | relative_url }}"><strong>Guerriero</strong><span>Prima linea, tutte armi e armature. Il più semplice per iniziare.</span></a>
