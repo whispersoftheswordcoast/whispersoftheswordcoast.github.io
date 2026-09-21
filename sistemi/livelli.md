@@ -133,7 +133,7 @@ Non sei obbligato a restare su una sola classe: ad ogni passaggio di livello sce
 
 ## Classi di prestigio
 
-Cinque classi di prestigio si sbloccano in gioco con attestazione dello staff, mai alla creazione: Assassino (furtivo, veleni, morte), Mistificatore Arcano (+1 arcana a livello, furtivo), Ombra Danzante (nascondersi in piena vista, salto d'ombra, doti da ladro), Mago Rosso (specialista potenziato fino al tatuaggio) e Guardia Nera (punire il bene, incanalare negativo). Ingresso dal 6°-7° livello e massimo 6-7 livelli ciascuna: Assassino 6/7, Mistificatore 7/6, Ombra 6/7, Mago Rosso 6/7, Guardia Nera 7/6.
+Oltre le classi base esistono classi di prestigio: percorsi che si sbloccano dopo aver soddisfatto certi criteri, meccanici e non — livelli, capacità, allineamento, e un'adeguata storia alle spalle, con attestazione dello staff. Non si scelgono alla creazione e non sono per tutti: sono il premio di chi costruisce il personaggio in una direzione precisa, dentro e fuori la scheda.
 
 ---
 
