@@ -477,9 +477,10 @@ img {
     cursor: zoom-in;
 }
 
-/* Tabelle schede classi/razze */
+/* Tabelle schede classi/razze e guide sistemi */
 
-.page-content table {
+.page-content table,
+.sistemi-content table {
     width: 100%;
     border-collapse: collapse;
     margin: 1rem 0 1.5rem 0;
@@ -489,20 +490,25 @@ img {
     overflow-x: auto;
 }
 
-.page-content thead {
+.page-content thead,
+.sistemi-content thead {
     display: table-header-group;
 }
 
-.page-content tbody {
+.page-content tbody,
+.sistemi-content tbody {
     display: table-row-group;
 }
 
-.page-content tr {
+.page-content tr,
+.sistemi-content tr {
     display: table-row;
 }
 
 .page-content th,
-.page-content td {
+.page-content td,
+.sistemi-content th,
+.sistemi-content td {
     display: table-cell;
     border: 1px solid rgba(246, 231, 193, 0.28);
     padding: 0.45rem 0.6rem;
@@ -510,22 +516,26 @@ img {
     vertical-align: top;
 }
 
-.page-content thead th {
+.page-content thead th,
+.sistemi-content thead th {
     background: rgba(246, 231, 193, 0.14);
     color: #f6e7c1;
     font-weight: bold;
     white-space: nowrap;
 }
 
-.page-content tbody tr:nth-child(even) {
+.page-content tbody tr:nth-child(even),
+.sistemi-content tbody tr:nth-child(even) {
     background: rgba(255, 255, 255, 0.03);
 }
 
-.page-content tbody tr:hover {
+.page-content tbody tr:hover,
+.sistemi-content tbody tr:hover {
     background: rgba(246, 231, 193, 0.07);
 }
 
-.page-content td:first-child {
+.page-content td:first-child,
+.sistemi-content td:first-child {
     white-space: nowrap;
     font-weight: bold;
     color: #f6e7c1;
