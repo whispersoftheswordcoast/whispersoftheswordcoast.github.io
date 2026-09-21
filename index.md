@@ -47,16 +47,24 @@ Molte classi base e di prestigio, sistemi di multiclasse, centinaia di talenti, 
     <button class="wotsc-viewer-prev" aria-label="Immagine precedente">&#10094;</button>
 
     <figure class="wotsc-viewer-item active">
-        <img src="{{ '/assets/images/terrecentrali8.webp' | relative_url }}" alt="Baldur's Gate">    </figure>
+        <img src="{{ '/assets/images/terrecentrali8.webp' | relative_url }}" alt="Baldur's Gate">
+        <figcaption><strong>Baldur's Gate</strong>La città del commercio e dell'avventura.</figcaption>
+    </figure>
 
     <figure class="wotsc-viewer-item">
-        <img src="{{ '/assets/images/athkatlapromenade.jpg' | relative_url }}" alt="Athkatla">    </figure>
+        <img src="{{ '/assets/images/athkatlapromenade.jpg' | relative_url }}" alt="Athkatla">
+        <figcaption><strong>Athkatla</strong>La grande capitale dell'Amn.</figcaption>
+    </figure>
 
     <figure class="wotsc-viewer-item">
-        <img src="{{ '/assets/images/picchi1.jpg' | relative_url }}" alt="Picchi delle Nuvole">    </figure>
+        <img src="{{ '/assets/images/picchi1.jpg' | relative_url }}" alt="Picchi delle Nuvole">
+        <figcaption><strong>Picchi delle Nuvole</strong>Le montagne che dominano le Terre Centrali Occidentali.</figcaption>
+    </figure>
 
     <figure class="wotsc-viewer-item">
-        <img src="{{ '/assets/images/darkhold.jpg' | relative_url }}" alt="Colline dei Troll">    </figure>
+        <img src="{{ '/assets/images/darkhold.jpg' | relative_url }}" alt="Colline dei Troll">
+        <figcaption><strong>Darkhold</strong>La tetra Darkhold.</figcaption>
+    </figure>
 
     <button class="wotsc-viewer-next" aria-label="Immagine successiva">&#10095;</button>
 
@@ -95,16 +103,24 @@ Rispetto all'esperienza tipica di Ultima Online, proponiamo numerose migliorie: 
     <button class="wotsc-viewer-prev" aria-label="Immagine precedente">&#10094;</button>
 
     <figure class="wotsc-viewer-item active">
-        <img src="{{ '/assets/images/profilopersonale.jpg' | relative_url }}" alt="Il profilo">    </figure>
+        <img src="{{ '/assets/images/profilopersonale.jpg' | relative_url }}" alt="Il profilo">
+        <figcaption><strong>Il profilo</strong>Con immagine e descrizione custom.</figcaption>
+    </figure>
 
     <figure class="wotsc-viewer-item">
-        <img src="{{ '/assets/images/bullywug.jpg' | relative_url }}" alt="Bestiario">    </figure>
+        <img src="{{ '/assets/images/bullywug.jpg' | relative_url }}" alt="Bestiario">
+        <figcaption><strong>Bestiario</strong>Un menu consultabile i mostri scoperti.</figcaption>
+    </figure>
 
     <figure class="wotsc-viewer-item">
-        <img src="{{ '/assets/images/craftbook01.webp' | relative_url }}" alt="Craftbook">    </figure>
+        <img src="{{ '/assets/images/craftbook01.webp' | relative_url }}" alt="Craftbook">
+        <figcaption><strong>Craftbook</strong>Un catalogo personale, con le tue creazioni.</figcaption>
+    </figure>
 
     <figure class="wotsc-viewer-item">
-        <img src="{{ '/assets/images/facce01.jpg' | relative_url }}" alt="Facce">    </figure>
+        <img src="{{ '/assets/images/facce01.jpg' | relative_url }}" alt="Facce">
+        <figcaption><strong>Facce</strong>Belle, brutte ma mai banali.</figcaption>
+    </figure>
 
     <button class="wotsc-viewer-next" aria-label="Immagine successiva">&#10095;</button>
 
