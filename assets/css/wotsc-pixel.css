@@ -19,6 +19,10 @@
 }
 
 :root {
+      font-smooth: never;
+  -webkit-font-smoothing: none;
+  text-rendering: geometricPrecision;
+
   --wotsc-night: #0B1020;
   --wotsc-blue: #11182A;
   --wotsc-gold: #D6B56A;
@@ -131,7 +135,7 @@
 }
 .wotsc-viewer-item figcaption strong {
   display: block;
-  font-size: 1.1rem;
+  font-size: 1.32rem;
   margin-bottom: 3px;
 }
 .wotsc-viewer-prev,
@@ -142,7 +146,7 @@
   color: var(--wotsc-gold-light);
   border: 2px solid var(--wotsc-gold);
   box-shadow: 3px 3px 0 #000;
-  font-size: 24px;
+  font-size: 29px;
   cursor: pointer;
 }
 .wotsc-viewer-prev:hover,
@@ -159,7 +163,7 @@
   grid-column: 1 / -1;
   text-align: center;
   font-family: var(--wotsc-font-pixel);
-  font-size: 1.15rem;
+  font-size: 1.38rem;
   color: var(--wotsc-gold-light);
   letter-spacing: 1px;
 }
@@ -221,7 +225,7 @@
   background: var(--wotsc-night);
   color: var(--wotsc-gold-light);
   border: 1px solid var(--wotsc-gold);
-  font-size: 0.8rem;
+  font-size: 0.96rem;
   letter-spacing: 1px;
   text-transform: uppercase;
   white-space: nowrap;
@@ -259,7 +263,7 @@
 }
 .pixel-news .pixel-date {
   color: var(--wotsc-gold-light);
-  font-size: 0.8rem;
+  font-size: 0.96rem;
   letter-spacing: 1px;
 }
 
@@ -270,9 +274,9 @@
 h1, h2, h3 {
   font-family: var(--wotsc-font-title);
 }
-h1 { font-size: 1.7rem; line-height: 1.4; }
-h2 { font-size: 1.4rem; line-height: 1.4; }
-h3 { font-size: 1.15rem; line-height: 1.4; }
+h1 { font-size: 2.04rem; line-height: 1.4; }
+h2 { font-size: 1.68rem; line-height: 1.4; }
+h3 { font-size: 1.38rem; line-height: 1.4; }
 
 .main-nav a,
 .pixel-badge,
@@ -281,10 +285,10 @@ h3 { font-size: 1.15rem; line-height: 1.4; }
 .pixel-news .pixel-date {
   font-family: var(--wotsc-font-pixel);
 }
-.main-nav a { font-size: 1.4rem; }
+.main-nav a { font-size: 1.68rem; }
 .pixel-badge,
 .news-list small,
-.pixel-news .pixel-date { font-size: 1.1rem; }
+.pixel-news .pixel-date { font-size: 1.32rem; }
 
 /* Titoli: card Classi/Razze e testo dei pulsanti */
 .wotsc-card strong,
@@ -293,10 +297,10 @@ h3 { font-size: 1.15rem; line-height: 1.4; }
 .sidebar-toggle-button {
   font-family: var(--wotsc-font-title);
 }
-.wotsc-card strong { font-size: 1.85rem; }
-.pixel-btn { font-size: 1.75rem; min-height: 60px; }
+.wotsc-card strong { font-size: 2.22rem; }
+.pixel-btn { font-size: 2.1rem; min-height: 60px; }
 .toggle-news-btn,
-.sidebar-toggle-button { font-size: 1.75rem; }
+.sidebar-toggle-button { font-size: 2.1rem; }
 
 /* ============================================================
    FASE 6 — header e navigazione stile menu RPG
@@ -337,7 +341,7 @@ h3 { font-size: 1.15rem; line-height: 1.4; }
 /* Titoli lista news/aggiornamenti */
 .news-list a {
   font-family: var(--wotsc-font-title);
-  font-size: 1.05rem;
+  font-size: 1.26rem;
   line-height: 1.4;
 }
 
@@ -345,12 +349,12 @@ h3 { font-size: 1.15rem; line-height: 1.4; }
 .sistemi-sidebar ul a,
 .ambientazione-sidebar ul a {
   font-family: var(--wotsc-font-title);
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 .sistemi-sidebar h4,
 .ambientazione-sidebar h4 {
   font-family: var(--wotsc-font-title);
-  font-size: 1.05rem;
+  font-size: 1.26rem;
 }
 
 /* ============================================================
@@ -364,7 +368,7 @@ h3 { font-size: 1.15rem; line-height: 1.4; }
   .wotsc-viewer-next {
     width: 36px;
     min-height: 52px;
-    font-size: 20px;
+    font-size: 24px;
   }
 }
 
@@ -378,7 +382,7 @@ h3 { font-size: 1.15rem; line-height: 1.4; }
   color: var(--wotsc-gold-light);
   box-shadow: 3px 3px 0 #000;
   opacity: 1;
-  font-size: 32px;
+  font-size: 38px;
 }
 .wotsc-lightbox-prev:hover,
 .wotsc-lightbox-next:hover {
@@ -397,7 +401,7 @@ h3 { font-size: 1.15rem; line-height: 1.4; }
   border: 2px solid var(--wotsc-gold);
   color: var(--wotsc-gold-light);
   box-shadow: 3px 3px 0 #000;
-  font-size: 28px;
+  font-size: 34px;
 }
 .wotsc-lightbox-close:hover {
   background: #1B2A44;
@@ -418,7 +422,7 @@ h3 { font-size: 1.15rem; line-height: 1.4; }
   border: 1px solid var(--wotsc-gold);
   color: var(--wotsc-gold-light);
   font-family: var(--wotsc-font-title);
-  font-size: 1rem;
+  font-size: 1.2rem;
   text-align: center;
 }
 .wotsc-lightbox-caption:empty { display: none; }
