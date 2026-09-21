@@ -37,7 +37,7 @@ Si lancia scrivendo `.casta` seguito dal nome o dal numero dell'incantesimo. Se 
 
 ## Slot, bonus e piccoli privilegi
 
-Ogni livello dà un certo numero di slot per livello di incantesimo, e li trovi nelle schede delle classi. Sopra ci piovono i bonus: caratteristica alta (Intelligenza per il Mago, Saggezza per divini e Ranger, Carisma per Stregone, Bardo e Paladino), uno slot di dominio per livello per il Chierico, uno slot di scuola per livello per il Mago specialista. Morale: la caratteristica da incantatore non è un optional, è il serbatoio.
+Ogni livello dà un certo numero di slot per livello di incantesimo, e li trovi nelle schede delle classi. Sopra si aggiungono gli slot bonus da caratteristica alta: Intelligenza per il Mago, Saggezza per Chierico, Druido e Ranger, Carisma per Stregone, Bardo e Paladino. Il bonus scatta solo se il punteggio arriva alle soglie in tabella, e vale solo per i livelli di incantesimo che sai già lanciare: un bonus di 3° a chi arriva al 2° non serve a niente. Il Chierico aggiunge uno slot di dominio per livello, il Mago specialista uno di scuola per livello.
 
 | Punteggio | 1° | 2° | 3° | 4° | 5° | 6° | 7° | 8° | 9° |
 |---|---|---|---|---|---|---|---|---|---|
