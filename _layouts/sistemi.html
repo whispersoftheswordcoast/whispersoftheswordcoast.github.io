@@ -42,7 +42,7 @@
   <div class="sidebar-section">
     <h4>Prefazione</h4>
     <ul>
-      {% for p in site.pages %}
+      {% assign pagine_ordinate = site.pages | sort: "order" %}{% for p in pagine_ordinate %}
         {% if p.path contains 'sistemi/' and p.order == 1 %}
           <li {% if page.url == p.url %}class="active"{% endif %}>
             <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
@@ -56,7 +56,7 @@
   <div class="sidebar-section">
     <h4>Meccaniche</h4>
     <ul>
-      {% for p in site.pages %}
+      {% assign pagine_ordinate = site.pages | sort: "order" %}{% for p in pagine_ordinate %}
         {% if p.path contains 'sistemi/' and p.order >= 2 and p.order <= 99 %}
           <li {% if page.url == p.url %}class="active"{% endif %}>
             <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
@@ -70,7 +70,7 @@
   <div class="sidebar-section">
     <h4>Sistemi di ruolo</h4>
     <ul>
-      {% for p in site.pages %}
+      {% assign pagine_ordinate = site.pages | sort: "order" %}{% for p in pagine_ordinate %}
         {% if p.path contains 'sistemi/' and p.order >= 100 and p.order <= 199 %}
           <li {% if page.url == p.url %}class="active"{% endif %}>
             <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
@@ -84,7 +84,7 @@
   <div class="sidebar-section">
     <h4>Guide varie</h4>
     <ul>
-      {% for p in site.pages %}
+      {% assign pagine_ordinate = site.pages | sort: "order" %}{% for p in pagine_ordinate %}
         {% if p.path contains 'sistemi/' and p.order >= 200 %}
           <li {% if page.url == p.url %}class="active"{% endif %}>
             <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
@@ -127,4 +127,5 @@
   </script>
 </body>
 </html>
+
 
