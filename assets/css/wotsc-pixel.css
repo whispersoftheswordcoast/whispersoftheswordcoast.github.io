@@ -1,0 +1,408 @@
+/* ============================================================
+   WOTSC pixel-frame — FASE 1 (sistema 9-slice riutilizzabile)
+   Sorgente: /assets/images/frame.png (235x187, taglio 40px)
+   Uso: <div class="pixel-frame"> ...contenuto... </div>
+   Angoli invariati, bordi in repeat, centro esteso (fill).
+   ============================================================ */
+
+:root {
+  --wotsc-night: #0B1020;
+  --wotsc-blue: #11182A;
+  --wotsc-gold: #D6B56A;
+  --wotsc-gold-light: #F3DFA0;
+  --wotsc-text: #E6E1D9;
+  --wotsc-muted: #9EA4B0;
+
+  --wotsc-font-pixel: "Press Start 2P", "Courier New", monospace;
+  --wotsc-font-title: "DotGothic16", "Courier New", monospace;
+  --wotsc-font-body: Georgia, serif;
+
+  --pf-slice: 40;          /* taglio sorgente, deve restare = angoli */
+  --pf-width: 40px;        /* larghezza bordo a schermo (1:1 = pixel-crisp) */
+  --pf-pad: 16px;          /* respiro extra oltre il bordo */
+  --pf-shadow: 4px 4px 0 #000; /* ombra netta, niente blur */
+}
+
+/* Pannello base: unica implementazione da riusare ovunque */
+.pixel-frame {
+  box-sizing: border-box;
+  border-style: solid;
+  border-width: var(--pf-width);
+  border-image-source: url("../images/frame.png");
+  border-image-slice: var(--pf-slice) fill;
+  border-image-width: var(--pf-width);
+  border-image-repeat: repeat; /* bordi ripetuti, mai stirati */
+  border-image-outset: 0;
+  background-color: var(--wotsc-blue); /* fallback se l'immagine manca */
+  padding: var(--pf-pad);
+  box-shadow: var(--pf-shadow);
+  /* il contenuto resta dentro la cornice */
+  min-width: 0;
+}
+
+/* Contenuto lungo: evita che il testo tocchi gli ornamenti */
+.pixel-frame > *:first-child { margin-top: 0; }
+.pixel-frame > *:last-child { margin-bottom: 0; }
+
+/* Stacco verticale tra pannelli impilati */
+.pixel-frame,
+.pixel-panel { margin-bottom: 1.5rem; }
+
+/* Pagine senza sidebar (Classi, Razze, Download...): contenuto pieno */
+.layout > .page-content:only-child { width: 100%; }
+
+/* Classi e Razze: colonna stretta come prima ma centrata */
+.layout > .page-content.page-narrow {
+  max-width: 820px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Sidebar Sistemi/Ambientazione con cornice 9-slice (stessa della homepage) */
+.sistemi-sidebar.pixel-frame,
+.ambientazione-sidebar.pixel-frame {
+  background-color: var(--wotsc-blue);
+  border-style: solid;
+  border-width: var(--pf-width);
+  border-image-source: url("../images/frame.png");
+  border-image-slice: var(--pf-slice) fill;
+  border-image-width: var(--pf-width);
+  border-image-repeat: repeat;
+  border-image-outset: 0;
+  border-radius: 0;
+  padding: var(--pf-pad);
+  box-shadow: var(--pf-shadow);
+}
+
+/* Immagini singole allargabili: cursore coerente con la galleria */
+.page-content p img,
+.sistemi-content p img,
+.ambientazione-content p img { cursor: zoom-in; }
+
+/* ============================================================
+   Viewer gallerie: una immagine grande alla volta, frecce ai lati
+   ============================================================ */
+.wotsc-viewer {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 10px;
+  align-items: center;
+  margin: 1rem 0;
+}
+.wotsc-viewer-item {
+  display: none;
+  margin: 0;
+  position: relative;
+  background: #000;
+  aspect-ratio: 16 / 10;
+  max-height: 600px;
+  overflow: hidden;
+  border: 1px solid var(--wotsc-gold);
+}
+.wotsc-viewer-item.active { display: block; }
+.wotsc-viewer-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background: var(--wotsc-night);
+  cursor: zoom-in;
+  margin: 0;
+}
+.wotsc-viewer-item figcaption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 12px 15px;
+  background: rgba(0, 0, 0, 0.7);
+}
+.wotsc-viewer-item figcaption strong {
+  display: block;
+  font-size: 1.1rem;
+  margin-bottom: 3px;
+}
+.wotsc-viewer-prev,
+.wotsc-viewer-next {
+  width: 44px;
+  min-height: 60px;
+  background: var(--wotsc-blue);
+  color: var(--wotsc-gold-light);
+  border: 2px solid var(--wotsc-gold);
+  box-shadow: 3px 3px 0 #000;
+  font-size: 24px;
+  cursor: pointer;
+}
+.wotsc-viewer-prev:hover,
+.wotsc-viewer-next:hover {
+  background: #1B2A44;
+  color: #fff;
+}
+.wotsc-viewer-prev:active,
+.wotsc-viewer-next:active {
+  transform: translate(2px, 2px);
+  box-shadow: 1px 1px 0 #000;
+}
+.wotsc-viewer-count {
+  grid-column: 1 / -1;
+  text-align: center;
+  font-family: var(--wotsc-font-pixel);
+  font-size: 0.6rem;
+  color: var(--wotsc-gold-light);
+  letter-spacing: 1px;
+}
+
+/* ============================================================
+   FASE 2 — varianti derivate (stessa identità, niente stili nuovi)
+   Pannello normale = .pixel-frame (cornice completa, sopra).
+   Qui: pannello semplice, evidenziato, pulsanti, badge,
+   separatore, news-box. Solo CSS, nessun asset extra.
+   ============================================================ */
+
+/* --- 1. Pannello semplice (sezioni secondarie) --- */
+.pixel-panel {
+  background: var(--wotsc-blue);
+  border: 2px solid var(--wotsc-gold);
+  box-shadow: inset 0 0 0 2px var(--wotsc-night), var(--pf-shadow);
+  padding: 1rem 1.2rem;
+  color: var(--wotsc-text);
+}
+
+/* --- 2. Pannello evidenziato (stessa forma, più contrasto) --- */
+.pixel-panel--hi {
+  background: #1B2A44; /* bordo interno della cornice = riferimento */
+  border-color: var(--wotsc-gold-light);
+}
+
+/* --- 3/4/5. Pulsante normale / hover / active --- */
+.pixel-btn {
+  display: inline-block;
+  min-height: 44px; /* touch */
+  padding: 0.6rem 1.2rem;
+  background: var(--wotsc-blue);
+  color: var(--wotsc-gold-light);
+  border: 2px solid var(--wotsc-gold);
+  box-shadow: inset 0 0 0 2px var(--wotsc-night), 3px 3px 0 #000;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+}
+.pixel-btn:hover {
+  background: #1B2A44;
+  color: #fff;
+  transform: translate(-1px, -1px);
+  box-shadow: inset 0 0 0 2px var(--wotsc-night), 4px 4px 0 #000;
+}
+.pixel-btn:active {
+  transform: translate(2px, 2px);
+  box-shadow: inset 0 0 0 2px var(--wotsc-night), 1px 1px 0 #000;
+}
+
+/* --- 6. Etichetta / badge --- */
+.pixel-badge {
+  display: inline-block;
+  padding: 0.15rem 0.6rem;
+  background: var(--wotsc-night);
+  color: var(--wotsc-gold-light);
+  border: 1px solid var(--wotsc-gold);
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+/* --- 7. Separatore decorativo: <hr class="pixel-sep"> o <div> --- */
+.pixel-sep {
+  border: 0;
+  border-top: 2px solid var(--wotsc-gold);
+  margin: 1.5rem auto;
+  max-width: 320px;
+  text-align: center;
+  overflow: visible;
+}
+.pixel-sep::after {
+  content: "◆";
+  display: inline-block;
+  color: var(--wotsc-gold);
+  background: var(--wotsc-night);
+  padding: 0 0.6rem;
+  transform: translateY(-0.85em);
+}
+
+/* --- 8. Box news (leggero: niente card pesanti in lista) --- */
+.pixel-news {
+  background: #0D1425;
+  border-left: 3px solid var(--wotsc-gold);
+  padding: 0.5rem 0.8rem;
+  margin-bottom: 0.6rem;
+}
+/* nella lista homepage sostituisce il vecchio separatore */
+.news-list li.pixel-news {
+  border-bottom: 0;
+  padding-bottom: 0.5rem;
+}
+.pixel-news .pixel-date {
+  color: var(--wotsc-gold-light);
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+
+/* ============================================================
+   FASE 5 — tipografia (pixel solo per identità, mai corpo testo)
+   TITOLO (pixel) > sottotitolo > testo normale (Georgia).
+   ============================================================ */
+h1, h2, h3 {
+  font-family: var(--wotsc-font-title);
+}
+h1 { font-size: 1.7rem; line-height: 1.4; }
+h2 { font-size: 1.4rem; line-height: 1.4; }
+h3 { font-size: 1.15rem; line-height: 1.4; }
+
+.main-nav a,
+.pixel-badge,
+.pixel-sep::after,
+.news-list small,
+.pixel-news .pixel-date {
+  font-family: var(--wotsc-font-pixel);
+}
+.main-nav a { font-size: 0.65rem; }
+.pixel-badge,
+.news-list small,
+.pixel-news .pixel-date { font-size: 0.55rem; }
+
+/* Titoli: card Classi/Razze e testo dei pulsanti */
+.wotsc-card strong,
+.pixel-btn,
+.toggle-news-btn,
+.sidebar-toggle-button {
+  font-family: var(--wotsc-font-title);
+}
+.wotsc-card strong { font-size: 1.15rem; }
+.pixel-btn { font-size: 0.95rem; }
+.toggle-news-btn,
+.sidebar-toggle-button { font-size: 1rem; }
+
+/* ============================================================
+   FASE 6 — header e navigazione stile menu RPG
+   Struttura HTML invariata. Solo bordi netti, oro, hover/active.
+   ============================================================ */
+
+.main-nav a {
+  background: var(--wotsc-blue);
+  border: 1px solid var(--wotsc-gold);
+  border-radius: 0; /* pixel netti */
+  color: var(--wotsc-gold-light);
+  padding: 0.6rem 0.8rem;
+  box-shadow: 2px 2px 0 #000;
+}
+.main-nav a:hover {
+  background: #1B2A44;
+  border-color: var(--wotsc-gold-light);
+  color: #fff;
+  transform: translate(-1px, -1px);
+  box-shadow: 3px 3px 0 #000;
+}
+.main-nav a:active {
+  transform: translate(1px, 1px);
+  box-shadow: 1px 1px 0 #000;
+}
+/* Stato active: pronto, richiede class="active" sui link (vedi nota) */
+.main-nav a.active {
+  background: #1B2A44;
+  border-color: var(--wotsc-gold-light);
+  color: #fff;
+  box-shadow: inset 0 0 0 1px var(--wotsc-night), 2px 2px 0 #000;
+}
+.main-nav a.active::before {
+  content: "◆ ";
+  color: var(--wotsc-gold);
+}
+
+/* Titoli lista news/aggiornamenti */
+.news-list a {
+  font-family: var(--wotsc-font-title);
+  font-size: 1.05rem;
+  line-height: 1.4;
+}
+
+/* Voci dei menu laterali (Sistemi / Ambientazione) */
+.sistemi-sidebar ul a,
+.ambientazione-sidebar ul a {
+  font-family: var(--wotsc-font-title);
+  font-size: 1rem;
+}
+.sistemi-sidebar h4,
+.ambientazione-sidebar h4 {
+  font-family: var(--wotsc-font-title);
+  font-size: 1.05rem;
+}
+
+/* ============================================================
+   FASE 11 — responsive: cornice più leggera su schermi stretti
+   (scala uniforme, nessuna deformazione; testo mai sui bordi)
+   ============================================================ */
+@media (max-width: 767px) {
+  :root { --pf-width: 24px; }
+  .wotsc-viewer { gap: 6px; }
+  .wotsc-viewer-prev,
+  .wotsc-viewer-next {
+    width: 36px;
+    min-height: 52px;
+    font-size: 20px;
+  }
+}
+
+/* ============================================================
+   FASE 9 — lightbox in stile RPG (solo look, funzioni invariate)
+   ============================================================ */
+.wotsc-lightbox-prev,
+.wotsc-lightbox-next {
+  background: var(--wotsc-blue);
+  border: 2px solid var(--wotsc-gold);
+  color: var(--wotsc-gold-light);
+  box-shadow: 3px 3px 0 #000;
+  opacity: 1;
+  font-size: 32px;
+}
+.wotsc-lightbox-prev:hover,
+.wotsc-lightbox-next:hover {
+  background: #1B2A44;
+  color: #fff;
+  opacity: 1;
+}
+.wotsc-lightbox-close {
+  top: 20px;
+  right: 25px;
+  width: 44px;
+  height: 44px;
+  line-height: 44px;
+  text-align: center;
+  background: var(--wotsc-blue);
+  border: 2px solid var(--wotsc-gold);
+  color: var(--wotsc-gold-light);
+  box-shadow: 3px 3px 0 #000;
+  font-size: 28px;
+}
+.wotsc-lightbox-close:hover {
+  background: #1B2A44;
+  color: #fff;
+}
+.wotsc-lightbox img {
+  border: 2px solid var(--wotsc-gold);
+  box-shadow: 4px 4px 0 #000;
+}
+.wotsc-lightbox-caption {
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 80vw;
+  padding: 0.4rem 1rem;
+  background: rgba(0, 0, 0, 0.7);
+  border: 1px solid var(--wotsc-gold);
+  color: var(--wotsc-gold-light);
+  font-family: var(--wotsc-font-title);
+  font-size: 1rem;
+  text-align: center;
+}
+.wotsc-lightbox-caption:empty { display: none; }

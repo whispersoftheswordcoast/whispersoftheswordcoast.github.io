@@ -6,6 +6,10 @@
   <title>{{ page.title | default: site.title }}</title>
   <meta name="description" content="{{ page.excerpt | escape | default: site.description }}" />
   <link rel="stylesheet" href="/assets/css/style.css" />
+  <link rel="stylesheet" href="/assets/css/wotsc-pixel.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=DotGothic16&display=swap" />
 </head>
 <body>
   <div class="site">
@@ -18,17 +22,17 @@
         />
         <nav class="main-nav">
           <ul>
-            <li><a href="{{ '/' | relative_url }}">Home</a></li>
-            <li><a href="{{ '/come-giocare/' | relative_url }}">Come giocare</a></li>
-            <li><a href="{{ '/ambientazione/' | relative_url }}">Ambientazione</a></li>
-            <li><a href="{{ '/classi/' | relative_url }}">Classi</a></li>
-            <li><a href="{{ '/razze/' | relative_url }}">Razze</a></li>
-            <li><a href="{{ '/sistemi/' | relative_url }}">Guide</a></li>
-            <li><a href="{{ '/download/' | relative_url }}">Download</a></li>
-            <li><a href="{{ '/regolamento/' | relative_url }}">Regolamento</a></li>
-            <li><a href="{{ '/contatti/' | relative_url }}">Contatti</a></li>
-            <li><a href="{{ '/manuale/' | relative_url }}">Manuale di gioco</a></li>
-            <li><a href="{{ '/background/' | relative_url }}">Form Backgrounds</a></li>
+            <li><a href="{{ '/' | relative_url }}"{% if page.url == '/' %} class="active"{% endif %}>Home</a></li>
+            <li><a href="{{ '/come-giocare/' | relative_url }}"{% if page.url == '/come-giocare/' %} class="active"{% endif %}>Come giocare</a></li>
+            <li><a href="{{ '/ambientazione/' | relative_url }}"{% if page.url contains '/ambientazione' %} class="active"{% endif %}>Ambientazione</a></li>
+            <li><a href="{{ '/classi/' | relative_url }}"{% if page.url contains '/classi' %} class="active"{% endif %}>Classi</a></li>
+            <li><a href="{{ '/razze/' | relative_url }}"{% if page.url contains '/razze' %} class="active"{% endif %}>Razze</a></li>
+            <li><a href="{{ '/sistemi/' | relative_url }}"{% if page.url contains '/sistemi' %} class="active"{% endif %}>Guide</a></li>
+            <li><a href="{{ '/download/' | relative_url }}"{% if page.url == '/download/' %} class="active"{% endif %}>Download</a></li>
+            <li><a href="{{ '/regolamento/' | relative_url }}"{% if page.url == '/regolamento/' %} class="active"{% endif %}>Regolamento</a></li>
+            <li><a href="{{ '/contatti/' | relative_url }}"{% if page.url == '/contatti/' %} class="active"{% endif %}>Contatti</a></li>
+            <li><a href="{{ '/manuale/' | relative_url }}"{% if page.url contains '/manuale' %} class="active"{% endif %}>Manuale di gioco</a></li>
+            <li><a href="{{ '/background/' | relative_url }}"{% if page.url contains '/background' %} class="active"{% endif %}>Form Backgrounds</a></li>
           </ul>
         </nav>
       </div>
@@ -43,9 +47,9 @@
           <h2>News & Aggiornamenti</h2>
           <ul class="news-list">
             {% for post in site.posts limit:200 %}
-            <li>
+            <li class="pixel-news">
               <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-              <small>{{ post.date | date: '%d/%m/%Y' }}</small>
+              <small class="pixel-date">{{ post.date | date: '%d/%m/%Y' }}</small>
             </li>
             {% endfor %}
           </ul>
@@ -53,7 +57,7 @@
       </div>
       {% endif %}
 
-      <section class="page-content">
+      <section class="page-content{% if page.url contains '/classi' or page.url contains '/razze' %} page-narrow{% endif %}{% unless page.url == '/' %} pixel-frame{% endunless %}">
         {{ content }}
       </section>
     </main>

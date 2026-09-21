@@ -6,11 +6,17 @@ title: Whispers of the Sword Coast, Server Ultima Online Full GDR D&D Italiano
 excerpt: WOTSC è un server roleplay ambientato nelle Terre Centrali Occidentali dei Forgotten Realms, basato su una versione moderna e pesantemente modificata di Ultima Online con regole Pathfinder 1e.
 ---
 
+<div class="pixel-frame" markdown="1">
+
 # Chi siamo
 
 <img src="{{ '/assets/images/party.jpg' | relative_url }}" alt="eroi nuovi" style="display: block; margin: 0 auto;" />
 
 **Whispers of the Sword Coast** è un server MMORPG basato sul gioco di ruolo **sempre nel personaggio**, su trame curate e sulla voglia di ricreare e vivere un bellissimo mondo fantasy, ispirato ai meravigliosi manuali di seconda edizione dedicati alle **Terre dell'Intrigo** e alle **Terre Centrali Occidentali**, casa della celebre **Baldur's Gate**.
+
+</div>
+
+<div class="pixel-frame" markdown="1">
 
 ## Lo stile
 
@@ -20,63 +26,49 @@ Il nostro desiderio è unire la **profondità di un play by chat** a un mondo se
 
 Ogni cosa ha una causa, una conseguenza ed è parte di una **storia condivisa**, che i giocatori costruiscono e scrivono insieme.
 
+</div>
+
+<div class="pixel-frame" markdown="1">
+
 ## Il gioco
 
 Il gioco è un raffinato **indie sandbox MMORPG**, basato su una versione pesantemente modificata di **Ultima Online**, adattata per ospitare le regole core di **Pathfinder 1e** e trasformarle in un'esperienza completamente in tempo reale.
 
 Molte classi base e di prestigio, sistemi di multiclasse, centinaia di talenti, abilità e magie, accompagnati da una serie di sistemi custom, garantiscono una grande libertà nella costruzione del proprio personaggio e permettono di interpretare praticamente qualsiasi ruolo.
 
+</div>
+
+<div class="pixel-frame" markdown="1">
+
 ## Il mondo
 
-<div class="wotsc-simple-gallery">
+<div class="wotsc-viewer">
 
-    <button onclick="this.parentElement.querySelector('.wotsc-gallery-scroll').scrollBy({left: -615, behavior: 'smooth'})">
-        &#10094;
-    </button>
+    <button class="wotsc-viewer-prev" aria-label="Immagine precedente">&#10094;</button>
 
-    <div class="wotsc-gallery-scroll">
+    <figure class="wotsc-viewer-item active">
+        <img src="{{ '/assets/images/terrecentrali8.webp' | relative_url }}" alt="Baldur's Gate">
+        <figcaption><strong>Baldur's Gate</strong>La città del commercio e dell'avventura.</figcaption>
+    </figure>
 
-        <div class="wotsc-gallery-item">
-            <img src="{{ '/assets/images/terrecentrali8.webp' | relative_url }}" alt="Baldur's Gate">
+    <figure class="wotsc-viewer-item">
+        <img src="{{ '/assets/images/athkatlapromenade.jpg' | relative_url }}" alt="Athkatla">
+        <figcaption><strong>Athkatla</strong>La grande capitale dell'Amn.</figcaption>
+    </figure>
 
-            <div class="wotsc-gallery-caption">
-                <strong>Baldur's Gate</strong>
-                La città del commercio e dell'avventura.
-            </div>
-        </div>
+    <figure class="wotsc-viewer-item">
+        <img src="{{ '/assets/images/picchi1.jpg' | relative_url }}" alt="Picchi delle Nuvole">
+        <figcaption><strong>Picchi delle Nuvole</strong>Le montagne che dominano le Terre Centrali Occidentali.</figcaption>
+    </figure>
 
-        <div class="wotsc-gallery-item">
-            <img src="{{ '/assets/images/athkatlapromenade.jpg' | relative_url }}" alt="Athkatla">
+    <figure class="wotsc-viewer-item">
+        <img src="{{ '/assets/images/darkhold.jpg' | relative_url }}" alt="Colline dei Troll">
+        <figcaption><strong>Darkhold</strong>La tetra Darkhold.</figcaption>
+    </figure>
 
-            <div class="wotsc-gallery-caption">
-                <strong>Athkatla</strong>
-                La grande capitale dell'Amn.
-            </div>
-        </div>
+    <button class="wotsc-viewer-next" aria-label="Immagine successiva">&#10095;</button>
 
-        <div class="wotsc-gallery-item">
-            <img src="{{ '/assets/images/picchi1.jpg' | relative_url }}" alt="Picchi delle Nuvole">
-
-            <div class="wotsc-gallery-caption">
-                <strong>Picchi delle Nuvole</strong>
-                Le montagne che dominano le Terre Centrali Occidentali.
-            </div>
-        </div>
-
-        <div class="wotsc-gallery-item">
-            <img src="{{ '/assets/images/darkhold.jpg' | relative_url }}" alt="Colline dei Troll">
-
-            <div class="wotsc-gallery-caption">
-                <strong>Darkhold</strong>
-                La tetra Darkhold.
-            </div>
-        </div>
-
-    </div>
-
-    <button onclick="this.parentElement.querySelector('.wotsc-gallery-scroll').scrollBy({left: 615, behavior: 'smooth'})">
-        &#10095;
-    </button>
+    <div class="wotsc-viewer-count">1 / 4</div>
 
 </div>
 
@@ -85,6 +77,10 @@ La trasposizione delle **Terre Centrali Occidentali** è stata realizzata con un
 Ogni luogo, pianura, fiume, lago e montagna ha un nome. Poco o nulla è lasciato al generico, perché vogliamo che il mondo abbia carattere, identità e una propria storia.
 
 **Baldur's Gate, Athkatla, i Picchi delle Nuvole, le Colline dei Troll** e molte altre regioni: ogni area è radicata nell'ambientazione e curata nei dettagli per costruire un mondo nel quale sia piacevole perdersi.
+
+</div>
+
+<div class="pixel-frame" markdown="1">
 
 ## Client moderno e customizzato
 
@@ -96,57 +92,39 @@ Attraverso una profonda personalizzazione di **ClassicUO**, possiamo modellare l
 
 Rispetto all'esperienza tipica di Ultima Online, proponiamo numerose migliorie: **supporto alle razze di taglia piccola, fogliame animato, illuminazione avanzata** e molto altro ancora.
 
+</div>
+
+<div class="pixel-frame" markdown="1">
+
 ## I sistemi personalizzati
 
-<div class="wotsc-simple-gallery">
+<div class="wotsc-viewer">
 
-    <button onclick="this.parentElement.querySelector('.wotsc-gallery-scroll').scrollBy({left: -615, behavior: 'smooth'})">
-        &#10094;
-    </button>
+    <button class="wotsc-viewer-prev" aria-label="Immagine precedente">&#10094;</button>
 
-    <div class="wotsc-gallery-scroll">
+    <figure class="wotsc-viewer-item active">
+        <img src="{{ '/assets/images/profilopersonale.jpg' | relative_url }}" alt="Il profilo">
+        <figcaption><strong>Il profilo</strong>Con immagine e descrizione custom.</figcaption>
+    </figure>
 
-        <div class="wotsc-gallery-item">
-            <img src="{{ '/assets/images/profilopersonale.jpg' | relative_url }}" alt="Baldur's Gate">
+    <figure class="wotsc-viewer-item">
+        <img src="{{ '/assets/images/bullywug.jpg' | relative_url }}" alt="Bestiario">
+        <figcaption><strong>Bestiario</strong>Un menu consultabile i mostri scoperti.</figcaption>
+    </figure>
 
-            <div class="wotsc-gallery-caption">
-                <strong>Il profilo</strong>
-                Con immagine e descrizione custom.
-            </div>
-        </div>
+    <figure class="wotsc-viewer-item">
+        <img src="{{ '/assets/images/craftbook01.webp' | relative_url }}" alt="Craftbook">
+        <figcaption><strong>Craftbook</strong>Un catalogo personale, con le tue creazioni.</figcaption>
+    </figure>
 
-        <div class="wotsc-gallery-item">
-            <img src="{{ '/assets/images/bullywug.jpg' | relative_url }}" alt="Athkatla">
+    <figure class="wotsc-viewer-item">
+        <img src="{{ '/assets/images/facce01.jpg' | relative_url }}" alt="Facce">
+        <figcaption><strong>Facce</strong>Belle, brutte ma mai banali.</figcaption>
+    </figure>
 
-            <div class="wotsc-gallery-caption">
-                <strong>Bestiario</strong>
-                Un menu consultabile i mostri scoperti.
-            </div>
-        </div>
+    <button class="wotsc-viewer-next" aria-label="Immagine successiva">&#10095;</button>
 
-        <div class="wotsc-gallery-item">
-            <img src="{{ '/assets/images/craftbook01.jpg' | relative_url }}" alt="Picchi delle Nuvole">
-
-            <div class="wotsc-gallery-caption">
-                <strong>Craftbook</strong>
-                Un catalogo personale, con le tue creazioni.
-            </div>
-        </div>
-
-        <div class="wotsc-gallery-item">
-            <img src="{{ '/assets/images/facce01.jpg' | relative_url }}" alt="Colline dei Troll">
-
-            <div class="wotsc-gallery-caption">
-                <strong>Facce</strong>
-                Belle, brutte ma mai banali.
-            </div>
-        </div>
-
-    </div>
-
-    <button onclick="this.parentElement.querySelector('.wotsc-gallery-scroll').scrollBy({left: 615, behavior: 'smooth'})">
-        &#10095;
-    </button>
+    <div class="wotsc-viewer-count">1 / 4</div>
 
 </div>
 
@@ -157,6 +135,10 @@ Ci piace osare, sperimentare e costruire nel tempo un universo di gioco sempre p
 Tra i sistemi sviluppati troviamo un **bestiario personale con oltre 700 voci collezionabili**, un **Craftbook** che permette di raccogliere e conservare progressi lavorativi e ricette, e un sistema di **crafting personalizzato** basato su avanzamenti iterativi.
 
 Il mondo supporta inoltre lo **spawn casuale dei mostri**, per rendere le sfide meno prevedibili, un sistema di **housing automatizzato** che permette di acquistare e vendere edifici direttamente in gioco, la **personalizzazione delle skin facciali**, schede personali rivisitate con supporto alla personalizzazione di **ritratti e descrizioni**, **intelligenze artificiali avanzate per le boss fight** e molto altro.
+
+</div>
+
+<div class="pixel-frame" markdown="1">
 
 ## Inizia la tua avventura
 
@@ -170,6 +152,8 @@ Se quello che cerchi è un mondo in cui il personaggio non sia soltanto un avata
 - [Download client](/download/)
 - [Manuale di gioco](/manuale/)
 
+</div>
+
 <!-- DI SEGUITO IL SUPPORTO ALLE ANTEPRIME, COPIABILE -->
 
 <div id="wotsc-lightbox" class="wotsc-lightbox">
@@ -181,6 +165,8 @@ Se quello che cerchi è un mondo in cui il personaggio non sia soltanto un avata
     </button>
 
     <img id="wotsc-lightbox-image" src="" alt="">
+
+    <div class="wotsc-lightbox-caption" id="wotsc-lightbox-caption"></div>
 
     <button class="wotsc-lightbox-next">
         &#10095;
@@ -194,6 +180,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const lightbox = document.getElementById('wotsc-lightbox');
     const lightboxImage = document.getElementById('wotsc-lightbox-image');
+    const lightboxCaption = document.getElementById('wotsc-lightbox-caption');
 
     const closeButton = document.querySelector('.wotsc-lightbox-close');
     const prevButton = document.querySelector('.wotsc-lightbox-prev');
@@ -204,20 +191,89 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
     /* ==========================================
-       APERTURA LIGHTBOX
+       VIEWER: una foto grande alla volta
        ========================================== */
 
-    document.querySelectorAll('.wotsc-gallery-item img').forEach(function (image) {
+    document.querySelectorAll('.wotsc-viewer').forEach(function (viewer) {
+
+        const items = Array.from(viewer.querySelectorAll('.wotsc-viewer-item'));
+        const count = viewer.querySelector('.wotsc-viewer-count');
+
+        let index = 0;
+
+        function show(n) {
+
+            index = (n + items.length) % items.length;
+
+            items.forEach(function (item, i) {
+
+                item.classList.toggle('active', i === index);
+
+            });
+
+            if (count) {
+
+                count.textContent = (index + 1) + ' / ' + items.length;
+
+            }
+
+        }
+
+        viewer.querySelector('.wotsc-viewer-prev').addEventListener('click', function () {
+
+            show(index - 1);
+
+        });
+
+        viewer.querySelector('.wotsc-viewer-next').addEventListener('click', function () {
+
+            show(index + 1);
+
+        });
+
+        /* Click sulla foto: lightbox con le foto di questo viewer */
+
+        items.forEach(function (item, i) {
+
+            item.querySelector('img').addEventListener('click', function () {
+
+                currentImages = items.map(function (x) {
+
+                    return x.querySelector('img');
+
+                });
+
+                currentIndex = i;
+
+                showImage();
+
+                lightbox.classList.add('active');
+
+            });
+
+        });
+
+    });
+
+
+    /* ==========================================
+       APERTURA LIGHTBOX (immagini singole)
+       ========================================== */
+
+    document.querySelectorAll('main img:not(#wotsc-lightbox-image)').forEach(function (image) {
+
+        if (image.closest('.wotsc-viewer')) {
+
+            return;
+
+        }
 
         image.addEventListener('click', function () {
 
-            const gallery = this.closest('.wotsc-simple-gallery');
+            /* immagine singola: lightbox con una sola foto */
+            currentImages = [this];
 
-            currentImages = Array.from(
-                gallery.querySelectorAll('.wotsc-gallery-item img')
-            );
-
-            currentIndex = currentImages.indexOf(this);
+            currentIndex = 0;
 
             showImage();
 
@@ -242,6 +298,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
         lightboxImage.src = image.src;
         lightboxImage.alt = image.alt;
+
+        if (lightboxCaption) {
+
+            lightboxCaption.textContent = image.alt || '';
+
+        }
 
     }
 

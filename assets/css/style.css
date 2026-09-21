@@ -1,7 +1,7 @@
 /* Simple fantasy-themed styles */
 body {
   font-family: "Georgia", serif;
-  background: linear-gradient(180deg, #0b1020 0%, #111318 100%);
+  background: #0B1020;
   color: #e6e1d9;
   margin: 0;
   padding: 0;
@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-  max-width: 980px;
+  max-width: 1180px;
   margin: 0 auto;
   padding: 1.2rem;
 }
@@ -17,7 +17,7 @@ body {
 /* Correzione header container */
 .site-header .container {
   display: block;
-  max-width: 980px;
+  max-width: 1180px;
   margin: 0 auto;
   padding: 0 1.2rem;
 }
@@ -148,7 +148,7 @@ a { color: #e6c996; }
     border-radius: 8px;
     padding: 1rem;
     background: rgba(255, 240, 210, 0.05);
-    box-shadow: 0 0 10px rgba(246, 231, 193, 0.1);
+    box-shadow: 4px 4px 0 #000;
     width: 100%; /* sidebar aperta tutta larghezza in mobile */
   }
 
@@ -198,7 +198,7 @@ img {
 
 /* --- PDF STANDARD DESKTOP --- */
 .pdf-wrapper {
-  width: 130%;
+  width: 100%;
   height: 80vh;
   max-height: 900px;
   margin: 0 auto 20px auto;
@@ -252,12 +252,12 @@ img {
 }
 
 .citazione {
-  border-left: 4px solid #e7c818;
+  border-left: 4px solid #D6B56A;
   padding: 0.8em 1.2em;
   margin: 1.5em 0;
   font-style: italic;
-  color: #f5aa0a;
-  background: #3f3f3f;
+  color: #F3DFA0;
+  background: #11182A;
 }
 .citazione footer {
   margin-top: 0.5em;
@@ -266,95 +266,8 @@ img {
 }
 
 /* ==========================================
-   GALLERIA WOTSC
-   ========================================== */
-
-.wotsc-simple-gallery {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin: 30px 0;
-}
-
-.wotsc-gallery-scroll {
-    display: flex;
-    gap: 15px;
-    overflow-x: auto;
-    scroll-behavior: smooth;
-    scrollbar-width: none;
-    flex: 1;
-
-    scroll-snap-type: x mandatory;
-}
-
-.wotsc-gallery-scroll::-webkit-scrollbar {
-    display: none;
-}
-
-.wotsc-gallery-item {
-    position: relative;
-
-    width: 600px;
-    max-width: 80%;
-    height: 350px;
-
-    flex: 0 0 600px;
-
-    overflow: hidden;
-    border-radius: 4px;
-
-    scroll-snap-align: start;
-}
-
-.wotsc-gallery-item img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-}
-
-.wotsc-gallery-caption {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-
-    padding: 12px 15px;
-
-    background: rgba(0, 0, 0, 0.70);
-    color: #fff;
-
-    font-size: 1rem;
-}
-
-.wotsc-gallery-caption strong {
-    display: block;
-    font-size: 1.1rem;
-    margin-bottom: 3px;
-}
-
-.wotsc-simple-gallery button {
-    flex-shrink: 0;
-
-    width: 42px;
-    height: 60px;
-
-    border: none;
-    background: transparent;
-    color: inherit;
-
-    font-size: 42px;
-    cursor: pointer;
-
-    opacity: 0.7;
-}
-
-.wotsc-simple-gallery button:hover {
-    opacity: 1;
-}
-
-/* ==========================================
    LIGHTBOX GALLERIA WOTSC
+   (gallerie: vedi viewer in wotsc-pixel.css)
    ========================================== */
 
 .wotsc-lightbox {
@@ -394,7 +307,7 @@ img {
 
     object-fit: contain;
 
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
+    box-shadow: 4px 4px 0 #000;
 
     cursor: default;
 
@@ -611,8 +524,8 @@ img {
 /* Riquadro attenzione: stesso layout, targhetta diversa */
 
 .wotsc-attention {
-    border-left: 3px solid rgba(255, 170, 120, 0.65);
-    background: rgba(255, 170, 120, 0.07);
+    border-left: 3px solid #F3DFA0;
+    background: rgba(243, 223, 160, 0.07);
     border-radius: 0 8px 8px 0;
     padding: 0.7rem 1rem;
     margin: 0.9rem 0;
@@ -625,7 +538,7 @@ img {
     font-size: 0.8rem;
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: #ffd9b3;
+    color: #F3DFA0;
     margin-bottom: 0.3rem;
 }
 

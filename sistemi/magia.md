@@ -40,37 +40,23 @@ Niente riposo, niente magia. Per ricaricare serve un letto vicino e nessun nemic
 Routine sicura: torni in locanda, ti siedi al letto, `.memo` per vedere gli slot vuoti, `.preparaspells` per riempirli, e riparti carico.
 </div>
 
-<div class="wotsc-simple-gallery">
+<div class="wotsc-viewer">
 
-    <button onclick="this.parentElement.querySelector('.wotsc-gallery-scroll').scrollBy({left: -615, behavior: 'smooth'})">
-        &#10094;
-    </button>
+    <button class="wotsc-viewer-prev" aria-label="Immagine precedente">&#10094;</button>
 
-    <div class="wotsc-gallery-scroll">
+    <figure class="wotsc-viewer-item active">
+        <img src="{{ '/assets/images/rest.webp' | relative_url }}" alt="riposo in locanda">
+        <figcaption><strong>Riposo in locanda</strong>Letto vicino, niente nemici.</figcaption>
+    </figure>
 
-        <div class="wotsc-gallery-item">
-            <img src="{{ '/assets/images/rest.webp' | relative_url }}" alt="riposo in locanda">
+    <figure class="wotsc-viewer-item">
+        <img src="{{ '/assets/images/rest2.webp' | relative_url }}" alt="preparazione">
+        <figcaption><strong>Preparazione</strong>Automatica dopo il riposo: tieni o cambia.</figcaption>
+    </figure>
 
-            <div class="wotsc-gallery-caption">
-                <strong>Riposo in locanda</strong>
-                Letto vicino, niente nemici.
-            </div>
-        </div>
+    <button class="wotsc-viewer-next" aria-label="Immagine successiva">&#10095;</button>
 
-        <div class="wotsc-gallery-item">
-            <img src="{{ '/assets/images/rest2.webp' | relative_url }}" alt="preparazione">
-
-            <div class="wotsc-gallery-caption">
-                <strong>Preparazione</strong>
-                Automatica dopo il riposo: tieni o cambia.
-            </div>
-        </div>
-
-    </div>
-
-    <button onclick="this.parentElement.querySelector('.wotsc-gallery-scroll').scrollBy({left: 615, behavior: 'smooth'})">
-        &#10095;
-    </button>
+    <div class="wotsc-viewer-count">1 / 2</div>
 
 </div>
 

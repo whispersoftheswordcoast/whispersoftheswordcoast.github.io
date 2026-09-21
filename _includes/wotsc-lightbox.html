@@ -9,6 +9,8 @@
 
     <img id="wotsc-lightbox-image" src="" alt="">
 
+    <div class="wotsc-lightbox-caption" id="wotsc-lightbox-caption"></div>
+
     <button class="wotsc-lightbox-next">
         &#10095;
     </button>
@@ -21,6 +23,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const lightbox = document.getElementById('wotsc-lightbox');
     const lightboxImage = document.getElementById('wotsc-lightbox-image');
+    const lightboxCaption = document.getElementById('wotsc-lightbox-caption');
 
     const closeButton = document.querySelector('.wotsc-lightbox-close');
     const prevButton = document.querySelector('.wotsc-lightbox-prev');
@@ -31,20 +34,89 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
     /* ==========================================
-       APERTURA LIGHTBOX
+       VIEWER: una foto grande alla volta
        ========================================== */
 
-    document.querySelectorAll('.wotsc-gallery-item img').forEach(function (image) {
+    document.querySelectorAll('.wotsc-viewer').forEach(function (viewer) {
+
+        const items = Array.from(viewer.querySelectorAll('.wotsc-viewer-item'));
+        const count = viewer.querySelector('.wotsc-viewer-count');
+
+        let index = 0;
+
+        function show(n) {
+
+            index = (n + items.length) % items.length;
+
+            items.forEach(function (item, i) {
+
+                item.classList.toggle('active', i === index);
+
+            });
+
+            if (count) {
+
+                count.textContent = (index + 1) + ' / ' + items.length;
+
+            }
+
+        }
+
+        viewer.querySelector('.wotsc-viewer-prev').addEventListener('click', function () {
+
+            show(index - 1);
+
+        });
+
+        viewer.querySelector('.wotsc-viewer-next').addEventListener('click', function () {
+
+            show(index + 1);
+
+        });
+
+        /* Click sulla foto: lightbox con le foto di questo viewer */
+
+        items.forEach(function (item, i) {
+
+            item.querySelector('img').addEventListener('click', function () {
+
+                currentImages = items.map(function (x) {
+
+                    return x.querySelector('img');
+
+                });
+
+                currentIndex = i;
+
+                showImage();
+
+                lightbox.classList.add('active');
+
+            });
+
+        });
+
+    });
+
+
+    /* ==========================================
+       APERTURA LIGHTBOX (immagini singole)
+       ========================================== */
+
+    document.querySelectorAll('main img:not(#wotsc-lightbox-image)').forEach(function (image) {
+
+        if (image.closest('.wotsc-viewer')) {
+
+            return;
+
+        }
 
         image.addEventListener('click', function () {
 
-            const gallery = this.closest('.wotsc-simple-gallery');
+            /* immagine singola: lightbox con una sola foto */
+            currentImages = [this];
 
-            currentImages = Array.from(
-                gallery.querySelectorAll('.wotsc-gallery-item img')
-            );
-
-            currentIndex = currentImages.indexOf(this);
+            currentIndex = 0;
 
             showImage();
 
@@ -69,6 +141,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
         lightboxImage.src = image.src;
         lightboxImage.alt = image.alt;
+
+        if (lightboxCaption) {
+
+            lightboxCaption.textContent = image.alt || '';
+
+        }
 
     }
 

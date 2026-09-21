@@ -62,37 +62,23 @@ Creare non è un singolo tiro di dado: è uno studio. Quando lavori a un oggetto
 
 Il giro è questo: se l'oggetto riesce ma non è perfetto, puoi accettarlo così com'è oppure continuare ad affinarlo verso il capolavoro, sapendo già quanto bonus avrai al prossimo tentativo. Se fallisci, non butti niente: l'esperienza resta e il prossimo tiro parte avvantaggiato. Se cambi oggetto, il gioco ti chiede se cancellare il bonus accumulato per iniziare l'opera nuova.
 
-<div class="wotsc-simple-gallery">
+<div class="wotsc-viewer">
 
-    <button onclick="this.parentElement.querySelector('.wotsc-gallery-scroll').scrollBy({left: -615, behavior: 'smooth'})">
-        &#10094;
-    </button>
+    <button class="wotsc-viewer-prev" aria-label="Immagine precedente">&#10094;</button>
 
-    <div class="wotsc-gallery-scroll">
+    <figure class="wotsc-viewer-item active">
+        <img src="{{ '/assets/images/lav1.webp' | relative_url }}" alt="lavorazione">
+        <figcaption><strong>Lavorazione</strong>Ogni tentativo insegna qualcosa.</figcaption>
+    </figure>
 
-        <div class="wotsc-gallery-item">
-            <img src="{{ '/assets/images/lav1.webp' | relative_url }}" alt="lavorazione">
+    <figure class="wotsc-viewer-item">
+        <img src="{{ '/assets/images/lav2.webp' | relative_url }}" alt="affinamento">
+        <figcaption><strong>Affinamento</strong>Verso il capolavoro, un passo alla volta.</figcaption>
+    </figure>
 
-            <div class="wotsc-gallery-caption">
-                <strong>Lavorazione</strong>
-                Ogni tentativo insegna qualcosa.
-            </div>
-        </div>
+    <button class="wotsc-viewer-next" aria-label="Immagine successiva">&#10095;</button>
 
-        <div class="wotsc-gallery-item">
-            <img src="{{ '/assets/images/lav2.webp' | relative_url }}" alt="affinamento">
-
-            <div class="wotsc-gallery-caption">
-                <strong>Affinamento</strong>
-                Verso il capolavoro, un passo alla volta.
-            </div>
-        </div>
-
-    </div>
-
-    <button onclick="this.parentElement.querySelector('.wotsc-gallery-scroll').scrollBy({left: 615, behavior: 'smooth'})">
-        &#10095;
-    </button>
+    <div class="wotsc-viewer-count">1 / 2</div>
 
 </div>
 
