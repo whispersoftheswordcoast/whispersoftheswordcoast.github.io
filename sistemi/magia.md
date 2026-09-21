@@ -14,7 +14,7 @@ excerpt: Tutto quel che serve sapere sulla magia prima del primo giorno di gioco
 
 La magia funziona a slot giornalieri divisi per livello di incantesimo: ogni lancio consuma uno slot del suo livello, e gli slot si ricaricano solo con riposo e memorizzazione. Le classi si dividono in preparate (scelgono in anticipo cosa tenere pronto) e spontanee (lanciano dai conosciuti fino a esaurimento slot).
 
-<div class="wotsc-esempio" markdown="1">
+<div class="wotsc-attention" markdown="1">
 Non spaventarti per la quantità di comandi in questa pagina: molti sono già nei menu contestuali cliccando sul personaggio, e in genere si gioca legandoli a macro da tastiera e pulsanti a schermo su ClassicUO. Per partire, vedi [Macro per gli incantesimi](/primipassi/#macro-per-gli-incantesimi).
 </div>
 
@@ -46,9 +46,7 @@ Si lancia scrivendo `.casta` seguito dal nome o dal numero dell'incantesimo. Se 
 
 ## Slot, bonus e piccoli privilegi
 
-<div class="wotsc-attention" markdown="1">
 Ogni livello dà un certo numero di slot per livello di incantesimo, e li trovi nelle schede delle classi. Sopra si aggiungono gli slot bonus da caratteristica alta: Intelligenza per il Mago, Saggezza per Chierico, Druido e Ranger, Carisma per Stregone, Bardo e Paladino. Il bonus scatta solo se il punteggio arriva alle soglie in tabella, e vale solo per i livelli di incantesimo che sai già lanciare: un bonus di 3° a chi arriva al 2° non serve a niente. Il Chierico aggiunge uno slot di dominio per livello, il Mago specialista uno di scuola per livello.
-</div>
 
 | Punteggio | 1° | 2° | 3° | 4° | 5° | 6° | 7° | 8° | 9° |
 |---|---|---|---|---|---|---|---|---|---|
