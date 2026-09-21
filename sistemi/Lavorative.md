@@ -79,6 +79,12 @@ L’agricoltore é una figura fondamentale per la produzione di piante, frutti e
 - Cura piante: usare le varie pozioni di cura tramite il pannello fertilizzazione/concimazione.  
 - Camminare sul terreno arato o su piantine può danneggiarle o ucciderle.  
 
+**Equilibri (l'acqua e il concime vanno dosati)**
+- Troppa acqua fa ammalare e toglie PF; il doppio del massimo annega i semi. Troppo poca rallenta fino a uccidere: a zero la pianta muore.
+- Troppo concime favorisce malattie e funghi, che avanzano da soli se ignorati.
+- Malattie, funghi e bruchi si curano con le pozioni giuste (malattie, veleni, parassiti): trascurarli rallenta o ferma la crescita.
+- Nel deserto l'acqua evapora in fretta: annaffiare più spesso.  
+
 **Attrezzi**
 
 | Attrezzo | Funzione |
