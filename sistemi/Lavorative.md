@@ -129,7 +129,9 @@ Permette di arrostire alla bell'e meglio costolette di carne o tranci di pesce s
 | Libro delle ricette | Salva fino a 20 ricette, prepara da elenco. |
 | Pergamena ricetta | Singola ricetta copiabile e preparabile. |
 | Fuoco da campo | Cuoce i piatti che lo richiedono (entro 2 caselle). |
-| Strumenti da cucina | Almeno uno a scelta per ogni preparazione. |
+| Padella, pentola, pentolone | Cotture principali, secondo ricetta. |
+| Coltello, kit, mattarello | Preparazioni e lavorazioni specifiche. |
+| Paladafarina, legnetti | Attrezzi ausiliari richiesti da alcune ricette. |
 
 
 
