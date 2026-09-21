@@ -62,7 +62,7 @@ I comandi si invocano con la sintassi .comando, e possono essere per facilitá s
 - `.disarma`: Prova a disarmare l'avversario al prossimo attacco in mischia.
 - `.dove`: Fa una prova su geografia o sopravvivenza per comprendere l'area geografica dove ci si trova.
 - `.elencospells [nomeclasse]`: Mostra l'elenco degli incantesimi, della propria classe o di quella indicata.
-- `.elencopergamene`: Elenca le pergamene disponibili, come `.elencospells`.
+- `.elencopergamene`: Apre l'interfaccia con tutte le pergamene (arcane e divine) del contenitore indicato, divise per circolo e lanciabili da lì.
 - `.emote [tipo]`: Permette di eseguire azioni sonore. Emote possibili: ah, ahha, applauso, bacio, fischio, gasp, grido, groan, hey, huh, no, oh, oooh, oops, peto, pianto, ringhio, risata, risatina, russa, rutto, sbadiglio, schiariscegola, shhht, sniff, soffianaso, sospiro, sputo, starnuto, tosse, tosse2, urlo, yahoo, yeah.
 - `.firma`: Attiva/disattiva la propria firma sugli oggetti creati.
 - `.fodero [cinta/schiena/secondario]`: Ripone l'arma impugnata nel fodero indicato.
