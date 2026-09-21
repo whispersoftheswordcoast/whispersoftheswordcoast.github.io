@@ -18,7 +18,7 @@ Non spaventarti per la quantità di comandi in questa pagina: molti sono già ne
 
 ## Preparati e spontanei: le due famiglie
 
-Le classi si dividono in due famiglie, e conviene capirlo subito. Mago, Chierico, Druido, Paladino e Ranger **preparano**: al mattino (si fa per dire) scelgono con `.preparaspells` quali incantesimi tenere pronti, li controllano con `.memo` e li sfogliano con `.spells`. Ogni slot lanciato è andato, e per averne di nuovi serve riposare e rimemorizzare. Al risveglio dopo il riposo il gioco chiede sempre se cambiare gli incantesimi o tenere i precedenti: non serve rifare tutto da zero ogni volta.
+Le classi si dividono in due famiglie, e conviene capirlo subito. Mago, Chierico, Druido, Paladino e Ranger **preparano**: al mattino (si fa per dire) scelgono con `.preparaspells` quali incantesimi tenere pronti, li controllano con `.memo` e li sfogliano con `.spells`. Per velocizzare tutto, vedi [Macro per gli incantesimi](/primipassi/#macro-per-gli-incantesimi). Ogni slot lanciato è andato, e per averne di nuovi serve riposare e rimemorizzare. Al risveglio dopo il riposo il gioco chiede sempre se cambiare gli incantesimi o tenere i precedenti: non serve rifare tutto da zero ogni volta.
 
 Stregone e Bardo invece sono **spontanei**: conoscono pochi incantesimi, ma li tirano fuori al momento finché hanno slot. Niente preparazione, più rapidità, meno scelta. Se ami improvvisare, sono la tua casa; se ami pianificare, prendi un preparato.
 
