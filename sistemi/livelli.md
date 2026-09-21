@@ -1,4 +1,4 @@
----
+﻿---
 title: Livelli
 layout: sistemi
 order: 4
@@ -33,7 +33,7 @@ Le classi castanti inoltre avranno nuovi incantesimi e memorizzazioni:
 
 - i maghi ottengono gratuitamente 2 incantesimi a scelta, e le loro memorizzazioni aumentano  
 - stregoni e bardi aumentano le memorizzazioni  
-- chierici, paladini, druidi e ranger pregheranno la propria propria divinità per ottenere i nuovi incantesimi dal proprio dio (in assenza di bonus, paladini e ranger lanciano incantesimi a partire dal 6° livello)
+- chierici, paladini, druidi e ranger pregheranno la propria propria divinità per ottenere i nuovi incantesimi dal proprio dio (paladini e ranger lanciano dal 5° livello, dal 4° solo con caratteristica alta)
 
 I punti esperienza vengono assegnati in gioco tramite missioni assegnate dai quester, come premio per gioco di ruolo particolarmente buono, dallo script di assegnazione automatica punti esperienza, o uccidendo i mostri sparsi in giro per Faerûn. Questo elimina completamente il sistema di macro tipico di Ultima Online.
 
@@ -121,8 +121,22 @@ In aggiunta ai requisiti di px e valutazione, ci sono alcuni blocchi temporali t
     </tr>
   </tbody>
 </table>
+---
+
+## Classe favorita
+
+Alla creazione scegli una classe favorita (due se sei Mezzelfo, diverse tra loro). Ogni livello preso nella favorita dà un credito da spendere al passaggio: +1 punto ferita oppure +1 punto abilità, a scelta dal gump. Con Apprendimento rapido prendi entrambi.
+
+## Multiclasse
+
+A ogni `.passalivello` scegli in quale classe salire: dadi vita, attacco base, tiri salvezza e punti abilità si sommano per classe (tiro buono 2 + metà livello, scarso un terzo; attacco pieno, medio o scarso secondo classe). La somma fa il livello del personaggio, fino al cap giocabile di 12. Prima di sparpagliare i livelli guarda i vincoli: allineamento (Monaco solo legale, Paladino solo Legale Buono), divinità del Chierico, armature vietate a Monaco e Druido, e livelli da incantatore che restano indietro se mescoli troppo.
+
+## Classi di prestigio
+
+Cinque classi di prestigio si sbloccano in gioco con attestazione dello staff, mai alla creazione: Assassino (furtivo, veleni, morte), Mistificatore Arcano (+1 arcana a livello, furtivo), Ombra Danzante (nascondersi in piena vista, salto d'ombra, doti da ladro), Mago Rosso (specialista potenziato fino al tatuaggio) e Guardia Nera (punire il bene, incanalare negativo). Ingresso dal 6°-7° livello e massimo 6-7 livelli ciascuna: Assassino 6/7, Mistificatore 7/6, Ombra 6/7, Mago Rosso 6/7, Guardia Nera 7/6.
 
 ---
+
 ## Note finali
 
 Su Whispers c'è una [valutazione](/mediaruolo/) che vi permette di raggiungere un certo livello (il livello massimo raggiungibile è il 12) e questo livello è rappresentativo sì del vostro potere meccanico ma, soprattutto, della vostra integrazione nell'ambientazione e del saper far parte di essa in coerenza col livello di potere raggiunto: poco importa che siate un animo derelitto o un impavido paladino votato a grandi gesta, è importante che il vostro personaggio sia coerente e realistico nel contesto.

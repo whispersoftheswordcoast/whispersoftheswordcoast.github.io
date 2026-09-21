@@ -37,7 +37,7 @@ Dal 2° livello il ladro evita con agilità anche gli attacchi magici: se supera
 Dal 4° livello il ladro mantiene il bonus di Destrezza alla CA anche quando è colto alla sprovvista. Dall'8° livello lo schivare è migliorato: non può più essere attaccato ai fianchi, salvo da ladri con almeno 4 livelli oltre i suoi.
 
 ### Doti da ladro
-Dal 2° livello il ladro riceve una dote ogni 2 livelli, fino al 20°. Al `.passalivello` il gioco apre da solo il gump di scelta; con `.dotiladro` rivedi quelle possedute. Dal 10° livello al posto della dote si può prendere un talento, e col talento Dote da ladro extra se ne ottiene una in più.
+Dal 2° livello il ladro riceve una dote ogni 2 livelli, fino al 20°. Ad ogni passaggio di livello il gioco apre da solo il gump di scelta; con `.dotiladro` rivedi quelle possedute. Dal 10° livello al posto della dote si può prendere un talento, e col talento Dote da ladro extra se ne ottiene una in più.
 **Avanzate:** dal 10° livello, vedi sotto.
 
 #### Doti base (dal 2° livello)
@@ -135,12 +135,13 @@ Le doti avanzate qui sopra, oppure un talento al posto della dote.
 
 ## Comandi di classe
 
-* **Doti:** `.dotiladro` per vederle; arrivano da sole al `.passalivello` nei livelli pari. `.dotaladro dita` e `.dotaladro manovra` attivano Dita Rapide e Manovra Senza Pari (usi 1 + livello/5 al giorno)
+* **Doti:** `.dotiladro` per vederle; arrivano da sole ad ogni passaggio di livello nei livelli pari. `.dotaladro dita` e `.dotaladro manovra` attivano Dita Rapide e Manovra Senza Pari (usi 1 + livello/5 al giorno)
 * **Dalle doti:** `.subdolo`, `.settafurtivo`, `.alleatoinvolontario`, `.bersagliatorefurtivo`, `.maestrotravestimento`, `.ridirezionare`, `.riesame`, `.schivataestrema`, `.sorpresacacciatore`, `.disarma`
 
 ## Vai oltre
 
 [Creazione](/manuale/#creazione)
+
 
 
 
