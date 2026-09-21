@@ -132,6 +132,7 @@ Permette di arrostire alla bell'e meglio costolette di carne o tranci di pesce s
 | Padella, pentola, pentolone | Cotture principali, secondo ricetta. |
 | Coltello, kit, mattarello | Preparazioni e lavorazioni specifiche. |
 | Paladafarina, legnetti | Attrezzi ausiliari richiesti da alcune ricette. |
+| Fuoco da campo, fuoco, cucina, forno | Fonti di calore, secondo ricetta (entro 2 caselle). |
 
 
 
