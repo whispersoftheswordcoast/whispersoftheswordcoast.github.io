@@ -14,11 +14,13 @@ excerpt: Tutto quel che serve sapere sulla magia prima del primo giorno di gioco
 
 La magia funziona a slot giornalieri divisi per livello di incantesimo: ogni lancio consuma uno slot del suo livello, e gli slot si ricaricano solo con riposo e memorizzazione. Le classi si dividono in preparate (scelgono in anticipo cosa tenere pronto) e spontanee (lanciano dai conosciuti fino a esaurimento slot).
 
-Non spaventarti per la quantità di comandi in questa pagina: molti sono già nei menu contestuali cliccando sul personaggio, e in genere si gioca legandoli a macro da tastiera e pulsanti a schermo su ClassicUO. Leggi per capire, poi assegna i tasti.
+<div class="wotsc-esempio" markdown="1">
+Non spaventarti per la quantità di comandi in questa pagina: molti sono già nei menu contestuali cliccando sul personaggio, e in genere si gioca legandoli a macro da tastiera e pulsanti a schermo su ClassicUO. Per partire, vedi [Macro per gli incantesimi](/primipassi/#macro-per-gli-incantesimi).
+</div>
 
 ## Preparati e spontanei: le due famiglie
 
-Le classi si dividono in due famiglie, e conviene capirlo subito. Mago, Chierico, Druido, Paladino e Ranger **preparano**: al mattino (si fa per dire) scelgono con `.preparaspells` quali incantesimi tenere pronti, li controllano con `.memo` e li sfogliano con `.spells`. Per velocizzare tutto, vedi [Macro per gli incantesimi](/primipassi/#macro-per-gli-incantesimi). Ogni slot lanciato è andato, e per averne di nuovi serve riposare e rimemorizzare. Al risveglio dopo il riposo il gioco chiede sempre se cambiare gli incantesimi o tenere i precedenti: non serve rifare tutto da zero ogni volta.
+Le classi si dividono in due famiglie, e conviene capirlo subito. Mago, Chierico, Druido, Paladino e Ranger **preparano**: al mattino (si fa per dire) scelgono con `.preparaspells` quali incantesimi tenere pronti, li controllano con `.memo` e li sfogliano con `.spells`. Ogni slot lanciato è andato, e per averne di nuovi serve riposare e rimemorizzare. Al risveglio dopo il riposo il gioco chiede sempre se cambiare gli incantesimi o tenere i precedenti: non serve rifare tutto da zero ogni volta.
 
 Stregone e Bardo invece sono **spontanei**: conoscono pochi incantesimi, ma li tirano fuori al momento finché hanno slot. Niente preparazione, più rapidità, meno scelta. Se ami improvvisare, sono la tua casa; se ami pianificare, prendi un preparato.
 
