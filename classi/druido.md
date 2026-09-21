@@ -9,11 +9,15 @@ excerpt: Natura, animali ed elementi con forme mutevoli
 
 > Torna a [Indice classi](/classi/)
 
+<img src="{{ '/assets/images/druida.webp' | relative_url }}" alt="druido" style="float: right; width: 45%; max-width: 320px; height: auto; margin: 0 0 1rem 1.5rem; border-radius: 10px;" />
+
 La civiltà è un'eccezione, la natura la regola. Il druido lo sa e ci vive dentro: parla con gli animali, piega gli elementi, e quando serve smette di avere forma umana. Custode dell'Equilibrio tra vita e morte, crescita e distruzione.
 
 **Ruolo:** tuttofare della natura. **Allineamento:** almeno in parte neutrale, sempre. **Dado Vita:** d8.
 **Abilità di classe:** Addestrare Animali, Artigianato, Cavalcare, Conoscenze (geografia, natura), Guarire, Nuotare, Percezione, Professione, Sapienza Magica, Scalare, Sopravvivenza, Volare.
 **Competenze:** bastone, dardo, falcetto, fionda, lance, pugnale, randello, scimitarra; armature e scudi solo in materiali naturali, il metallo è bandito.
+
+<div style="clear: both;"></div>
 
 ## Privilegi di classe
 
