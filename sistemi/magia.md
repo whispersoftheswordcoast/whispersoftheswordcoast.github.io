@@ -12,11 +12,15 @@ excerpt: Tutto quel che serve sapere sulla magia prima del primo giorno di gioco
   <footer>— <cite>anonimo</cite></footer>
 </blockquote>
 
+<img src="{{ '/assets/images/magia.webp' | relative_url }}" alt="magia" style="float: left; width: 20%; max-width: 200px; height: auto; margin: 0 1.5rem 1rem 0; border-radius: 10px;" />
+
 La magia funziona a slot giornalieri divisi per livello di incantesimo: ogni lancio consuma uno slot del suo livello, e gli slot si ricaricano solo con riposo e memorizzazione. Le classi si dividono in preparate (scelgono in anticipo cosa tenere pronto) e spontanee (lanciano dai conosciuti fino a esaurimento slot).
 
 <div class="wotsc-attention" markdown="1">
 Non spaventarti per la quantità di comandi in questa pagina: molti sono già nei menu contestuali cliccando sul personaggio, e in genere si gioca legandoli a macro da tastiera e pulsanti a schermo su ClassicUO. Per partire, vedi [Macro per gli incantesimi](/primipassi/#macro-per-gli-incantesimi).
 </div>
+
+<div style="clear: both;"></div>
 
 ## Preparati e spontanei: le due famiglie
 
@@ -35,6 +39,42 @@ Niente riposo, niente magia. Per ricaricare serve un letto vicino, nessun nemico
 <div class="wotsc-esempio" markdown="1">
 Routine sicura: torni in locanda, ti siedi al letto, `.memo` per vedere gli slot vuoti, `.preparaspells` per riempirli, e riparti carico.
 </div>
+
+<div class="wotsc-simple-gallery">
+
+    <button onclick="this.parentElement.querySelector('.wotsc-gallery-scroll').scrollBy({left: -615, behavior: 'smooth'})">
+        &#10094;
+    </button>
+
+    <div class="wotsc-gallery-scroll">
+
+        <div class="wotsc-gallery-item">
+            <img src="{{ '/assets/images/rest.webp' | relative_url }}" alt="riposo in locanda">
+
+            <div class="wotsc-gallery-caption">
+                <strong>Riposo in locanda</strong>
+                Letto vicino, niente nemici, ferite chiuse.
+            </div>
+        </div>
+
+        <div class="wotsc-gallery-item">
+            <img src="{{ '/assets/images/rest2.webp' | relative_url }}" alt="preparazione">
+
+            <div class="wotsc-gallery-caption">
+                <strong>Preparazione</strong>
+                Automatica dopo il riposo: tieni o cambia.
+            </div>
+        </div>
+
+    </div>
+
+    <button onclick="this.parentElement.querySelector('.wotsc-gallery-scroll').scrollBy({left: 615, behavior: 'smooth'})">
+        &#10095;
+    </button>
+
+</div>
+
+{% include wotsc-lightbox.html %}
 
 ## Il tuo primo incantesimo
 
@@ -67,6 +107,8 @@ Avere un talento di metamagia non basta: va anche armato con `.metamagia`, dal g
 <div class="wotsc-esempio" markdown="1">
 Un dardo incantato intensificato a 2 occupa uno slot di 2° livello e picchia più forte del normale.
 </div>
+
+<img src="{{ '/assets/images/metamagia2.webp' | relative_url }}" alt="metamagia" style="display: block; margin: 0 auto; max-width: 720px;" />
 
 ## Duelli, controincantesimi e pergamene
 
