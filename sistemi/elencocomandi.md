@@ -183,7 +183,7 @@ I comandi si invocano con la sintassi .comando, e possono essere per facilitá s
 
 ### Ladro
 
-- `.dotiladro`: Mostra le doti possedute. Le scelte arrivano da sole ad ogni passaggio di livello nei livelli pari.
+- `.dotiladro`: Mostra le doti possedute. Le scelte arrivano da sole al `.passalivello` nei livelli pari.
 - `.dotaladro dita` e `.dotaladro manovra`: Attivano Dita Rapide e Manovra Senza Pari (usi 1 + livello/5 al giorno).
 - Dalle doti: `.subdolo`, `.settafurtivo`, `.alleatoinvolontario`, `.bersagliatorefurtivo`, `.maestrotravestimento`, `.ridirezionare`, `.riesame`, `.schivataestrema`, `.sorpresacacciatore`, `.disarma`, `.falsoamico`, `.rialzati`.
 
@@ -234,3 +234,4 @@ I comandi si invocano con la sintassi .comando, e possono essere per facilitá s
 - `.duellomagico [dimensione]`: Inizia Duello Magico con altro incantatore arcano.
 - `.ven [testo]`: Ventriloquio.
 - Famiglio: `.famigliostregone`, `.evocafamigliostregone`, `.famigliomiglioratostregone`, `.famigliononmortostregone`.
+

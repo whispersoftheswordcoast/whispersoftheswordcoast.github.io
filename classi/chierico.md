@@ -28,7 +28,7 @@ Gli incantesimi arrivano diretti dalla divinità: niente libri né formule, solo
 Il chierico buono scaccia o distrugge i non morti, quello malvagio li intimorisce o li controlla, e in entrambi i casi comanda il Carisma. Usi al giorno: 3 + CAR. Serve il simbolo sacro impugnato a mani libere. La forza è di 2d6 + CAR + livello in dadi vita, con +2 ai DV massimi se impugni uno scudo sacro.
 
 ### Domini
-Si scelgono alla creazione: sono i poteri della divinità, invocabili in gioco con `.poteredominio`.
+Si scelgono al `.pgstart`: sono i poteri della divinità, invocabili in gioco con `.poteredominio`.
 
 ## Competenze
 
@@ -79,7 +79,8 @@ Domini, incantesimi e scacciare attivi dal 1°. Dettagli nel manuale.
 
 ## Vai oltre
 
-[Creazione](/manuale/#creazione) · Nota: divinità e domini si scelgono alla creazione. · [Magia](/sistemi/magia.html)
+[Creazione](/manuale/#creazione) · Nota: divinità e domini si scelgono al `.pgstart`. · [Magia](/sistemi/magia.html)
+
 
 
 

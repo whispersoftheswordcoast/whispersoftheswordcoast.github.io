@@ -31,7 +31,7 @@ Al 1° livello il mago ottiene in automatico il talento Scrivere Pergamene.
 Ogni cinque livelli il mago riceve un talento bonus, da scegliere tra metamagia e padronanza degli incantesimi.
 
 ### Specializzazione (1°)
-Al 1° livello il mago può specializzarsi in una scuola tra Abiurazione, Ammaliamento, Evocazione, Illusione, Divinazione, Invocazione, Necromanzia e Trasmutazione, con maggiore affinità per i suoi incantesimi. In cambio rinuncia per sempre a due scuole proibite (una sola per il Divinatore); l'Universale non si può né proibire né specializzare. Alla creazione riceve gratis 3 + INT incantesimi di 1° nel Libro.
+Al 1° livello il mago può specializzarsi in una scuola tra Abiurazione, Ammaliamento, Evocazione, Illusione, Divinazione, Invocazione, Necromanzia e Trasmutazione, con maggiore affinità per i suoi incantesimi. In cambio rinuncia per sempre a due scuole proibite (una sola per il Divinatore); l'Universale non si può né proibire né specializzare. Al `.pgstart` riceve gratis 3 + INT incantesimi di 1° nel Libro.
 
 ### Famiglio
 Il mago ha un animale addestrato al suo servizio, gestito con i comandi dedicati.
@@ -84,7 +84,8 @@ Prepari dal Libro con `.memo` dopo il riposo. Specialista: +1 slot per livello. 
 
 ## Vai oltre
 
-[Creazione](/manuale/#creazione) · Nota: scuola e 3 + INT incantesimi gratuiti si scelgono alla creazione. · [Magia](/sistemi/magia.html)
+[Creazione](/manuale/#creazione) · Nota: scuola e 3 + INT incantesimi gratuiti si scelgono al `.pgstart`. · [Magia](/sistemi/magia.html)
+
 
 
 
