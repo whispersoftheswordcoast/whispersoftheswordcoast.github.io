@@ -120,7 +120,16 @@ La qualità del cibo creato dipende dalla qualità di tutti gli ingredienti util
 Quando viene selezionato uno stack di ingredienti, essi vengono separati e raggruppati per qualità (come mostrato in figura).
 
 **.arrostire** 
-Permette di arrostire alla bell'e meglio costolette di carne o tranci di pesce su un fuoco preparato entro 2 caselle. Comando senza cooldown, ma con prova di Cuoco (o Terre Selvagge più difficile). 
+Permette di arrostire alla bell'e meglio costolette di carne o tranci di pesce su un fuoco preparato entro 2 caselle. Comando senza cooldown, ma con prova di Cuoco (o Terre Selvagge più difficile).
+
+**Attrezzi**
+
+| Attrezzo | A cosa serve |
+|---|---|
+| Libro delle ricette | Salva fino a 20 ricette, prepara da elenco. |
+| Pergamena ricetta | Singola ricetta copiabile e preparabile. |
+| Fuoco da campo | Cuoce i piatti che lo richiedono (entro 2 caselle). |
+| Strumenti da cucina | Almeno uno a scelta per ogni preparazione. |
 
 
 
