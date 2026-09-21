@@ -60,8 +60,6 @@ Routine sicura: torni in locanda, ti siedi al letto, `.memo` per vedere gli slot
 
 </div>
 
-{% include wotsc-lightbox.html %}
-
 ## Il tuo primo incantesimo
 
 Si lancia scrivendo `.casta` seguito dal nome o dal numero dell'incantesimo. Se sei incollato a un nemico, `.casta difensivo` ti fa lanciare senza provocare attacchi di opportunità, ma al prezzo di una prova di Concentrazione con CD 15 + 2 per livello dell'incantesimo (+4 col talento Incantesimo in Combattimento): se la fallisci, perdi lo slot. Chi ha più classi usa i comandi con nome (`casta` più il nome della classe) per scegliere da quale lista pescare; con `.sceglicast` ne fissa una come predefinita.

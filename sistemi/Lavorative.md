@@ -82,8 +82,6 @@ Il giro è questo: se l'oggetto riesce ma non è perfetto, puoi accettarlo così
 
 </div>
 
-{% include wotsc-lightbox.html %}
-
 ---
 
 # Professioni
