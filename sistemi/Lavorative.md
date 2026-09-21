@@ -33,14 +33,14 @@ L'implementazione delle lavorative é in genere basata su tiri nelle varie skill
 Si usa quasi sempre uno strumento, a volte si clicca anche il materiale necessario e dopo un certo tempo, si arriva al momento del tiro che determinerá se la creazione o la raccolta ha successo.
 
 ### Craftbook
-Il Craftbook è il catalogo personale di ogni artigiano e si apre con `.craftbook`. Ogni oggetto creato per la prima volta viene registrato nella sezione della sua abilità: alchimia, fabbricare armi e armature, falegnameria, ferramenta, intagliare pietre, lavorare pellami, tessitura e metallurgia. Il catalogo tiene fino a 500 oggetti distinti.
+Il Craftbook è il catalogo personale di ogni artigiano: si apre con `.craftbook` oppure dal menu contestuale cliccando su se stessi, sotto lavorative alla voce catalogo. Ogni oggetto creato per la prima volta viene registrato nella sezione della sua abilità: alchimia, fabbricare armi e armature, falegnameria, ferramenta, intagliare pietre, lavorare pellami, tessitura e metallurgia. Il catalogo tiene fino a 500 oggetti distinti, e prende nota anche di formule alchemiche e reagenti per i materiali.
 
-Ogni scoperta paga in punti esperienza: 500 PX per gli oggetti standard, 1500 per le nuove pozioni di alchimia, 750 per tessitura. Pagano anche i materiali: il primo materiale nuovo su un oggetto già noto vale 100 PX, ognuno dei successivi 25 in più. Con `.elencomateriali` vedi i materiali da lavoro nel contenitore indicato, divisi per categoria, e li sposti da e verso lo zaino.
+Ogni scoperta paga in punti esperienza: 500 PX per gli oggetti standard, 1500 per le nuove pozioni di alchimia, 750 per tessitura. Pagano anche i materiali: il primo materiale nuovo su un oggetto già noto vale 100 PX, ognuno dei successivi 25 in più, con il suo reagente annotato accanto. E da lì in poi si lavora meglio: una volta che un reagente è entrato nel Craftbook, la sua selezione diventa automatica e non devi più indicarlo a mano. Con `.elencomateriali` vedi i materiali da lavoro nel contenitore indicato, divisi per categoria, e li sposti da e verso lo zaino.
 
 ### Lavorazione iterativa: lo studio dell'opera
 Creare non è un singolo tiro di dado: è uno studio. Quando lavori a un oggetto, il gioco tiene traccia dei tuoi tentativi su quell'opera e costruisce un bonus che si somma ai tiri successivi verso il perfetto: ogni successo non perfetto che decidi di affinare aggiunge +1, ogni fallimento aggiunge +0,5 — farai tesoro anche degli errori. Il bonus arriva fino a +5.
 
-Il giro è questo: se l'oggetto riesce ma non è perfetto, puoi accettarlo così com'è oppure continuare ad affinarlo verso il capolavoro, sapendo già quanto bonus avrai al prossimo tentativo. Se fallisci, non butti niente: l'esperienza resta e il prossimo tiro parte avvantaggiato. Se cambi oggetto, il gioco ti chiede se cancellare il bonus accumulato per iniziare l'opera nuova. E servono materiali perfetti: senza, al capolavoro non ci arrivi.
+Il giro è questo: se l'oggetto riesce ma non è perfetto, puoi accettarlo così com'è oppure continuare ad affinarlo verso il capolavoro, sapendo già quanto bonus avrai al prossimo tentativo. Se fallisci, non butti niente: l'esperienza resta e il prossimo tiro parte avvantaggiato. Se cambi oggetto, il gioco ti chiede se cancellare il bonus accumulato per iniziare l'opera nuova.
 
 Le lavorative sono divise nel seguente modo
 
