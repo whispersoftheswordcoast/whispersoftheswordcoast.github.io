@@ -32,7 +32,7 @@
 
   --wotsc-font-pixel: "PixelOperator", "Courier New", monospace;
   --wotsc-font-title: "PixelOperator", "Courier New", monospace;
-  --wotsc-font-body: Georgia, serif;
+  --wotsc-font-body: "PixelOperator", "Courier New", monospace;
 
   --pf-slice: 40;          /* taglio sorgente, deve restare = angoli */
   --pf-width: 40px;        /* larghezza bordo a schermo (1:1 = pixel-crisp) */
