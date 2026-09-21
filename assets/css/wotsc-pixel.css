@@ -166,6 +166,7 @@
   font-size: 1.38rem;
   color: var(--wotsc-gold-light);
   letter-spacing: 1px;
+  text-shadow: 2px 2px 0 #000;
 }
 @media (max-width: 767px) {
   .wotsc-viewer-item figcaption { display: none; }
@@ -273,6 +274,7 @@
    ============================================================ */
 h1, h2, h3 {
   font-family: var(--wotsc-font-title);
+  text-shadow: 2px 2px 0 #000;
 }
 h1 { font-size: 2.04rem; line-height: 1.4; }
 h2 { font-size: 1.68rem; line-height: 1.4; }
@@ -284,6 +286,7 @@ h3 { font-size: 1.38rem; line-height: 1.4; }
 .news-list small,
 .pixel-news .pixel-date {
   font-family: var(--wotsc-font-pixel);
+  text-shadow: 2px 2px 0 #000;
 }
 .main-nav a { font-size: 1.68rem; }
 .pixel-badge,
@@ -296,6 +299,7 @@ h3 { font-size: 1.38rem; line-height: 1.4; }
 .toggle-news-btn,
 .sidebar-toggle-button {
   font-family: var(--wotsc-font-title);
+  text-shadow: 2px 2px 0 #000;
 }
 .wotsc-card strong { font-size: 2.22rem; }
 .pixel-btn { font-size: 2.1rem; min-height: 60px; }
@@ -343,6 +347,7 @@ h3 { font-size: 1.38rem; line-height: 1.4; }
   font-family: var(--wotsc-font-title);
   font-size: 1.26rem;
   line-height: 1.4;
+  text-shadow: 2px 2px 0 #000;
 }
 
 /* Voci dei menu laterali (Sistemi / Ambientazione) */
@@ -350,11 +355,13 @@ h3 { font-size: 1.38rem; line-height: 1.4; }
 .ambientazione-sidebar ul a {
   font-family: var(--wotsc-font-title);
   font-size: 1.2rem;
+  text-shadow: 2px 2px 0 #000;
 }
 .sistemi-sidebar h4,
 .ambientazione-sidebar h4 {
   font-family: var(--wotsc-font-title);
   font-size: 1.26rem;
+  text-shadow: 2px 2px 0 #000;
 }
 
 /* ============================================================
@@ -424,5 +431,6 @@ h3 { font-size: 1.38rem; line-height: 1.4; }
   font-family: var(--wotsc-font-title);
   font-size: 1.2rem;
   text-align: center;
+  text-shadow: 2px 2px 0 #000;
 }
 .wotsc-lightbox-caption:empty { display: none; }
