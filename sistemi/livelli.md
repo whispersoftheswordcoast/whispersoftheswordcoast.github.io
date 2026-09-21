@@ -125,7 +125,7 @@ In aggiunta ai requisiti di px e valutazione, ci sono alcuni blocchi temporali t
 
 ## Classe favorita
 
-Alla creazione scegli la classe in cui il tuo personaggio dà il meglio: la classe favorita. I Mezzelfi, divisi tra due mondi, ne scelgono due diverse. Da lì in poi, ogni livello preso nella favorita lascia un credito da spendere al passaggio: un punto ferita in più oppure un punto abilità in più, a scelta dal gump. Col talento Apprendimento rapido prendi entrambi senza scegliere.
+Alla creazione scegli la classe in cui il tuo personaggio dà il meglio: la classe favorita. I Mezzelfi, divisi tra due mondi, ne scelgono due diverse. Da lì in poi, ogni livello preso nella favorita lascia un credito da spendere al passaggio: un punto ferita in più oppure un punto abilità in più, da selezionare di volta in volta. Col talento Apprendimento rapido prendi entrambi senza scegliere.
 
 ## Multiclasse
 
