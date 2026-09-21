@@ -61,4 +61,4 @@ Un dardo incantato intensificato a 2 occupa uno slot di 2° livello e picchia pi
 
 ## Duelli, controincantesimi e pergamene
 
-La magia è anche un duello di nervi: con `.controincantesimo` puoi provare a spezzare il lancio di un avversario mentre lo sta facendo, e con `.duellomagico` due incantatori arcani si sfidano in regola. Le pergamene sono la scorta di emergenza: si elencano con `.elencopergamene` e si lanciano con `.castapergamene`, anche senza averle preparate.
+La magia è anche un duello di nervi: con `.controincantesimo` puoi provare a spezzare il lancio di un avversario mentre lo sta facendo, e con `.duellomagico` due incantatori arcani si sfidano in regola. Le pergamene sono la scorta di emergenza: `.castapergamene` le lancia solo dal portapergamene marcato con `.sceltaportapergamene` (max 50 oggetti), e solo se decifrate — si elencano con `.elencopergamene`, anche senza averle preparate.
