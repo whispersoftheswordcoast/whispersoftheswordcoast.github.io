@@ -75,6 +75,11 @@
   font-family: "Georgia", serif;
 }
 
+.ambientazione-content[data-category="Divinità"],
+.ambientazione-content[data-category="Geografia"] {
+  font-family: var(--wotsc-font-pixel);
+}
+
 /* Headings contenuto */
 .ambientazione-content h1,
 .ambientazione-content h2,
