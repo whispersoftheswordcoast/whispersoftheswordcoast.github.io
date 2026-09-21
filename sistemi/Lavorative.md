@@ -67,14 +67,10 @@ Il giro è questo: se l'oggetto riesce ma non è perfetto, puoi accettarlo così
     <button class="wotsc-viewer-prev" aria-label="Immagine precedente">&#10094;</button>
 
     <figure class="wotsc-viewer-item active">
-        <img src="{{ '/assets/images/lav1.webp' | relative_url }}" alt="lavorazione">
-        <figcaption><strong>Lavorazione</strong>Ogni tentativo insegna qualcosa.</figcaption>
-    </figure>
+        <img src="{{ '/assets/images/lav1.webp' | relative_url }}" alt="lavorazione">    </figure>
 
     <figure class="wotsc-viewer-item">
-        <img src="{{ '/assets/images/lav2.webp' | relative_url }}" alt="affinamento">
-        <figcaption><strong>Affinamento</strong>Verso il capolavoro, un passo alla volta.</figcaption>
-    </figure>
+        <img src="{{ '/assets/images/lav2.webp' | relative_url }}" alt="affinamento">    </figure>
 
     <button class="wotsc-viewer-next" aria-label="Immagine successiva">&#10095;</button>
 

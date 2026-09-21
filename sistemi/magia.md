@@ -45,14 +45,10 @@ Routine sicura: torni in locanda, ti siedi al letto, `.memo` per vedere gli slot
     <button class="wotsc-viewer-prev" aria-label="Immagine precedente">&#10094;</button>
 
     <figure class="wotsc-viewer-item active">
-        <img src="{{ '/assets/images/rest.webp' | relative_url }}" alt="riposo in locanda">
-        <figcaption><strong>Riposo in locanda</strong>Letto vicino, niente nemici.</figcaption>
-    </figure>
+        <img src="{{ '/assets/images/rest.webp' | relative_url }}" alt="riposo in locanda">    </figure>
 
     <figure class="wotsc-viewer-item">
-        <img src="{{ '/assets/images/rest2.webp' | relative_url }}" alt="preparazione">
-        <figcaption><strong>Preparazione</strong>Automatica dopo il riposo: tieni o cambia.</figcaption>
-    </figure>
+        <img src="{{ '/assets/images/rest2.webp' | relative_url }}" alt="preparazione">    </figure>
 
     <button class="wotsc-viewer-next" aria-label="Immagine successiva">&#10095;</button>
 
