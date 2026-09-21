@@ -7,8 +7,10 @@ excerpt: Tutto quel che serve sapere sulla magia prima del primo giorno di gioco
 
 # Magia
 
-> "Il mondo è fatto di regole. Io ho solo speso abbastanza tempo sui libri per imparare a riscriverle."
-> — <cite>anonimo</cite>
+<blockquote class="citazione">
+  <p>“Il mondo è fatto di regole. Io ho solo speso abbastanza tempo sui libri per imparare a riscriverle.”</p>
+  <footer>— <cite>anonimo</cite></footer>
+</blockquote>
 
 La magia funziona a slot giornalieri divisi per livello di incantesimo: ogni lancio consuma uno slot del suo livello, e gli slot si ricaricano solo con riposo e memorizzazione. Le classi si dividono in preparate (scelgono in anticipo cosa tenere pronto) e spontanee (lanciano dai conosciuti fino a esaurimento slot).
 
