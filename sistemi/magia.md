@@ -34,7 +34,7 @@ Uno stregone che conosce dardo incantato e mani brucianti decide sul momento qua
 
 ## Il riposo: dove tutto ricomincia
 
-Niente riposo, niente magia. Per ricaricare serve un letto vicino, nessun nemico attorno e ferite chiuse: il gioco controlla tutto prima di farti sedere. Il Mago studia il Libro, i divini pregano col simbolo sacro in mano, gli spontanei recuperano gli slot dormendo. Regola d'oro del primo giorno: prima di uscire per una spedizione, controlla di aver memorizzato. Dopo, è tardi.
+Niente riposo, niente magia. Per ricaricare serve un letto vicino e nessun nemico attorno: il gioco controlla tutto prima di farti sedere. Il Mago studia il Libro, i divini pregano col simbolo sacro in mano, gli spontanei recuperano gli slot dormendo. Regola d'oro del primo giorno: prima di uscire per una spedizione, controlla di aver memorizzato. Dopo, è tardi.
 
 <div class="wotsc-esempio" markdown="1">
 Routine sicura: torni in locanda, ti siedi al letto, `.memo` per vedere gli slot vuoti, `.preparaspells` per riempirli, e riparti carico.
@@ -53,7 +53,7 @@ Routine sicura: torni in locanda, ti siedi al letto, `.memo` per vedere gli slot
 
             <div class="wotsc-gallery-caption">
                 <strong>Riposo in locanda</strong>
-                Letto vicino, niente nemici, ferite chiuse.
+                Letto vicino, niente nemici.
             </div>
         </div>
 
