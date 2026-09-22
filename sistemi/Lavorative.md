@@ -434,14 +434,22 @@ Col punzone vicino alla forgia conii monete di vario valore; con lo stampo copi 
 <img src="{{ '/assets/images/sartoria.webp' | relative_url }}" alt="Sartoria" style="display: block; margin: 0 auto;" />
 
 **Descrizione**  
-Crea vestiti, bende, armature leggere e abiti decorati usando stoffe, pelli o cuoio. Può tingere, incidere o ricamare i capi.
+Crea vestiti, bende, armature leggere e abiti decorati usando stoffe, pelli o cuoio. Può tingere, incidere o ricamare i capi. Sono due mestieri in uno: Tessitura per le stoffe, Lavorare pellami per le pelli — e spesso lavorano in coppia.
 
-**Meccaniche**
-- Doppio click su ago e filo → click su stoffa/pelle → selezionare l’oggetto.  
-- Per lavori avanzati: usare forbici, arcolaio, filatoio, kit ricamo, colori, tinozza, incisore per cuoio.
-- Per creare rotoli di stoffa in genere serve creare del filo con l'arcolaio (da lana, cotone o seta), e poi tesserlo con il filatoio ( per ottenere i rotoli). I rotoli vanno poi tagliati per ottenere stoffe.
-- Per sgrezzare le pelli grezze e poterle lavorare invece dovrete avvicinarvi alla stenditore che trovate in genere nei negozi, usare la forbice sulla pelle che volete stendere, ed aspettare sia pronta.
-- Per ottenere pelli il modo piú semplice é scuoiare gli animali con un coltellino.
+**Filiera della stoffa**  
+Si parte dal filo: con l'arcolaio ricavi gomitoli da lana, cotone o seta, e poi li tessi al filatoio (o al telaio) per ottenere rotoli di stoffa. I rotoli si tagliano con le forbici per avere le stoffe, e le stoffe si cuciono con ago e filo scegliendo il capo dal menu. Occhio a due cose: i gomitoli di lana non si cuciono direttamente (servono prima le stoffe), e per la maglieria puoi usare anche i ferri da lavoro sui gomitoli.
+
+**Bende**  
+Le forbici sulle stoffe ricavano bende, sempre utili: ogni tanto se ne rovina una parte tagliando. E gli abiti vecchi non si buttano: tagliandoli recuperi stoffa rovinata da riusare.
+
+**Pelli e cuoio**  
+Il modo più semplice per avere pelli è scuoiare gli animali con un coltellino. Poi avvicinati allo stenditore che trovi in genere nei negozi e usa le forbici sulle pelli per sgrezzarle e ricavarne cuoio: orsi, lupi, tigri, viverne e draghi di ogni colore danno ognuno il suo. Se il tiro fallisce, perdi parte delle pelli. Col cuoio e ago e filo crei armature leggere e capi in pelle dal menu.
+
+**Riparare**  
+Ago e filo ripara anche vestiti e pelli danneggiati: prima di buttare un capo rovinato, vale la pena provare.
+
+**Ricami e tinture**  
+Per i lavori avanzati: kit da ricamo per decorare, colori con la tinozza per tingere, incisore per cuoio per incidere pelli e capi.
 
 **Attrezzi**
 
