@@ -12,6 +12,7 @@ excerpt: Ingegnoso e curioso in due sottorazze
 Minuto e inventivo: congegni, alchimia ed esperimenti con entusiasmo contagioso. Dietro l'eccentricità, astuzia e magia naturale.
 
 <img src="{{ '/assets/images/gnomorocce.webp' | relative_url }}" alt="Gnomo delle rocce" style="float: right; width: 200px; max-width: 45%; height: auto; margin: 0 0 1rem 1.5rem; border-radius: 10px;" />
+<img src="{{ '/assets/images/gnomoforeste.webp' | relative_url }}" alt="Gnomo delle foreste" style="float: right; clear: right; width: 200px; max-width: 45%; height: auto; margin: 0 0 1rem 1.5rem; border-radius: 10px;" />
 
 ## Società
 
