@@ -232,7 +232,7 @@ Fai doppio click su un lingotto stando vicino a forgia e incudine per ridurlo in
 <img src="{{ '/assets/images/boscaiolo.webp' | relative_url }}" alt="boscaiolo" style="display: block; margin: 0 auto;" />
 
 **Descrizione**  
-Abbattendo gli alberi, il boscaiolo ricava tronchi e legno per falegnami, fabbri di archi e molti altri mestieri. Non è tutto uguale: esistono molte tipologie di legno, dalle più comuni alle più pregiate, e solo un boscaiolo esperto riesce a lavorare quelle rare.
+Abbattendo gli alberi, il boscaiolo ricava tronchi e legno per falegnami, fabbricanti di archi e molti altri mestieri. Non è tutto uguale: esistono molte tipologie di legno, dalle più comuni alle più pregiate, e solo un boscaiolo esperto riesce a lavorare quelle rare.
 
 **Abbattere**  
 Impugna l'accetta e usala con doppio click, poi indica un albero entro 1 casella e a vista. Restando fermo continui a tagliare finché l'albero non si esaurisce. Alcuni alberi sono troppo marci per essere utilizzati: se te lo dice, tira dritto e cercane un altro. L'accetta si consuma a ogni ciclo e una perfetta rende tutto più facile.
@@ -241,10 +241,10 @@ Impugna l'accetta e usala con doppio click, poi indica un albero entro 1 casella
 Girando per i boschi puoi trovare alberi particolari, diversi da quelli comuni: usali allo stesso modo, ma aspettati rese più ricche e legni che non trovi da nessun'altra parte.
 
 **Boschi: dove tagliare**  
-Ogni bosco ha i suoi legni: Colline di Trieita, Colline dei Troll, paludi, Foresta dei Draghi, Anauroch, Picchi delle Nuvole e tanti altri danno miscele diverse, dal legno comune alle essenze più ricercate. Fuori dalle zone mappate trovi quasi solo legno comune: se cerchi qualcosa di pregiato, esplora e impara a conoscere i boschi.
+Ogni bosco ha i suoi legni: Colline di Trieita, Colline dei Troll, paludi, Foresta dei Draghi, Anauroch, Picchi delle Nuvole e tanti altri danno tipologie diverse, dal legno comune alle varietà più ricercate.
 
 **Legni**  
-Si parte dal legno comune e si sale verso essenze come laspar, vund, phandar, calantra, felsus, hiexel, suth, fogliablu, silverbark, zalantar, shadowtop, pietrificato e weirwood: più il legno è pregiato, più abilità serve per lavorarlo, e migliori sono gli oggetti che se ne ricavano. Quali boschi nascondono quali essenze dovrai scoprirlo tagliando.
+Si parte dal legno comune e si sale verso varietà come laspar, vund, phandar, calantra, felsus, hiexel, suth, fogliablu, silverbark, zalantar, shadowtop, pietrificato e weirwood: più il legno è pregiato, più abilità serve per lavorarlo, e migliori sono gli oggetti che se ne ricavano. Quali boschi nascondono quali essenze dovrai scoprirlo tagliando.
 
 **Attrezzi**
 
