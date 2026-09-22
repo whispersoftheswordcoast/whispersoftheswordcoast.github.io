@@ -186,11 +186,6 @@ Gli alchimisti hanno sempre bisogno di reagenti per le proprie pozioni, e la mag
 | Reagenti Comuni  | Erbe e reagenti facilmente reperibili: ad esempio Aglio, Bacche, Bozzoli, Cenere Sulfurea, Cenere Vulcanica, Foglie di Vischio, Funghi Bianchi, Funghi Rossi, Funghi Viola, Ginseng, Gusci d'Uova, Muschio Sanguigno, Scarafaggi, Terreni Fertili. |
 | Reagenti Rari    | Erbe e ingredienti rari e ricercati: tra questi si trovano Belladonna, Radice di Mandragola, Perla Nera (o altri reagenti speciali) — raccolti solo dagli erboristi più esperti. |
 
-**Note**
-- La raccolta può dare risultati variabili: da semplici reagenti comuni a materiali rari.  
-- L’uso dello sradicatore è necessario: senza di esso non si può raccogliere in modo efficace.  
-- I materiali raccolti da un erborista sono fondamentali per alchimisti, studiosi e altri mestieri che richiedono reagenti.  
-
 ---
 
 ## Metallurgia
