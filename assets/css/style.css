@@ -101,6 +101,7 @@ a { color: #e6c996; }
   display: flex;
   flex-direction: column;
   height: 100%;
+  overflow: hidden;
 }
 
 /* Contenuto: 70% */
@@ -186,7 +187,8 @@ a { color: #e6c996; }
   }
 
   .sidebar-wrapper {
-    display: block !important; /* sidebar sempre visibile */
+    display: flex;
+    flex-direction: column;
     width: 30%;
   }
 }
