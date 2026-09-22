@@ -319,11 +319,20 @@ Il talento Mescere Pozioni rende più facili le preparazioni: se vuoi fare l'alc
 
 **Descrizione**
 Il fabbro è l’artigiano che, una volta che i metalli sono stati estratti e fusi in lingotti, li lavora per creare armi, armature, utensili e altri oggetti metallici necessari.  
-Con incudine, martello da fabbro e lingotti, il fabbro plasma metalli secondo le proprie esigenze, dando vita a spade, corazze, e molto altro.
+Con incudine, martello da fabbro e lingotti, il fabbro plasma metalli secondo le proprie esigenze, dando vita a spade, corazze, e molto altro. E non solo crea: ripara anche le armi e le armature danneggiate.
 
-**Meccaniche / Procedura**  
-- Equipaggiare il martello da fabbro → due click sul martello → click su un’incudine vicina → click sui lingotti da usare → nel menu scegliere il tipo di oggetto (es. “Armi” → “Spade” → “Spada lunga”) → dopo il tempo necessario l’oggetto viene creato e finisce nello zaino o nella borsa.  
-- Se si vuole, con le pinze per fusione e una forgia è possibile fondere o rifondere oggetti metallici: usare pinze → click sulla forgia → click su un oggetto metallico → si ottengono parte dei lingotti impiegati.
+**Forgiare**  
+Impugna il martello da fabbro e usalo con doppio click stando vicino a un'incudine (non serve cliccarla: basta che ce ne sia una a portata), poi indica i lingotti da usare e scegli dal menu cosa creare, fino all'anteprima del colore. Servono abbastanza lingotti per il pezzo e la difficoltà dipende sia dalla ricetta che dal metallo: fallire significa sciupare parte del metallo. Con un buon tiro l'oggetto può venire perfetto, e la fattura la scegli tu. Il martello si consuma lavorando, fino a rompersi.
+- Con certi lingotti esotici il menu offre pezzi speciali, come le armature draconiche.
+
+**Riparare**  
+Lo stesso martello ripara armi e armature danneggiate: usalo sull'oggetto e, se il tiro riesce, recuperi tutto o parte del danno. Non tutto si può salvare: gli oggetti nuovi o già a posto non hanno bisogno di nulla, quelli completamente distrutti sono andati, e quelli troppo rovinati non si riparano più. E attenzione: fallire la riparazione rovina l'oggetto, fino a ridurlo in rottami.
+
+**Martello runico**  
+Un martello particolare serve a unire le scaglie alle corazze e agli scudi di metallo. Basta saperne un minimo di fabbro — ma per lavorarci non bisogna indossare armature pesanti né stare a cavallo.
+
+**Rifondere**  
+Per fondere e rifondere oggetti metallici vedi la sezione Metallurgia: qui basti sapere che si fa con le pinze da fusione vicino a una forgia.
 
 **Attrezzi necessari**  
 
@@ -334,6 +343,7 @@ Con incudine, martello da fabbro e lingotti, il fabbro plasma metalli secondo le
 | Forgia                    | Necessaria per fondere metalli o rifondere oggetti. |
 | Pinze per Fusione         | Usate insieme alla forgia per fondere o smantellare oggetti in metallo. |
 | Incisore                  | Permette di incidere decorazioni o testi su oggetti metallici già creati. |
+| Martello runico           | Unisce scaglie a corazze e scudi di metallo. |
 
 **Materie prime / Materiali lavorabili** 
 
