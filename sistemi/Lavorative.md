@@ -200,7 +200,7 @@ Impugna il piccone e usalo con doppio click, poi indica una parete di roccia, un
 - Con una certa probabilità, invece del metallo trovi una **gemma**: pomice, opale, tormalina, ametista, ambra, smeraldo, zaffiro, rubino, zaffiro a stella e, per i più fortunati, diamante. Fanno gola agli inventori per i gioielli.
 
 **Miniere: dove scavare**  
-Ovunque ci sia roccia puoi cavare ferro e metalli comuni, ma i pezzi pregiati stanno nelle miniere dedicate: Miniere di Nashkel (adamantio), Miniere di Calimport (arandur), Miniere di Baldur's Gate. Come orientamento: ferro e piombo sono alla portata di tutti; oro, argento e platino chiedono già una buona esperienza; i metalli esotici come Hizagkuur, metallo vivente, ferro febbrile e Dlarun solo ai più esperti; adamantio, mithral e arandur sono roba da maestri.
+Ovunque ci sia roccia puoi cavare ferro e metalli comuni, ma i pezzi pregiati stanno nelle miniere dedicate: Miniere di Nashkel, Miniere di Calimport, Miniere di Baldur's Gate. Il ferro è alla portata di tutti; per il resto, più il metallo è pregiato più serve esperienza — e i giacimenti migliori premiano solo i maestri. Cosa si trova dove, però, dovrai scoprirlo scavando.
 
 **Pala**  
 Sui terreni sabbiosi raccoglie sabbia, in palude argilla, in quantità crescenti con la skill. E sì: la pala scava anche fosse — per seppellire oggetti... e cadaveri.
