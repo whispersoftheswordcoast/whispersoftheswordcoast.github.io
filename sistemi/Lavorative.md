@@ -192,7 +192,7 @@ Gli alchimisti hanno sempre bisogno di reagenti per le proprie pozioni, e la mag
 <img src="{{ '/assets/images/metallurgia.webp' | relative_url }}" alt="metallurgia" style="display: block; margin: 0 auto;" />
 
 **Descrizione**  
-Il minatore estrae minerali, metalli e pietre da cave e montagne, e li fonde in lingotti pronti all'uso. È il mestiere che alimenta fabbri e inventori: senza un buon minatore non nascono né spade né armature. Si comincia dal ferro e, con pazienza e skill alta, si arriva ai metalli leggendari come mithral e adamantio.
+Il minatore estrae minerali, metalli e pietre da cave e montagne, e li fonde in lingotti pronti all'uso. È il mestiere che alimenta fabbri e inventori: senza un buon minatore non nascono né spade né armature. Si comincia dal ferro e, con pazienza ed abilità, si arriva ai metalli leggendari come mithral e adamantio.
 
 **Estrarre**  
 Impugna il piccone (chiamato anche piccozza) e usalo con doppio click, poi indica una parete di roccia, una grotta o una vena di minerale entro 1 casella e a vista. Restando fermo continui a scavare finché la zona non si esaurisce. La quantità estratta cresce con la skill, il piccone si consuma a ogni ciclo e uno perfetto rende tutto più facile (−2 alla difficoltà).
