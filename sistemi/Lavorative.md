@@ -195,7 +195,7 @@ Gli alchimisti hanno sempre bisogno di reagenti per le proprie pozioni, e la mag
 Il minatore estrae minerali, metalli e pietre da cave e montagne, e li fonde in lingotti pronti all'uso. È il mestiere che alimenta fabbri e inventori: senza un buon minatore non nascono né spade né armature. Si comincia dal ferro e, con pazienza ed abilità, si arriva ai metalli leggendari come mithral e adamantio.
 
 **Estrarre**  
-Impugna il piccone (chiamato anche piccozza) e usalo con doppio click, poi indica una parete di roccia, una grotta o una vena di minerale entro 1 casella e a vista. Restando fermo continui a scavare finché la zona non si esaurisce. La quantità estratta cresce con la skill, il piccone si consuma a ogni ciclo e uno perfetto rende tutto più facile (−2 alla difficoltà).
+Impugna il piccone e usalo con doppio click, poi indica una parete di roccia, una grotta o una vena di minerale entro 1 casella e a vista. Restando fermo continui a scavare finché la zona non si esaurisce. La quantità estratta cresce con la skill, il piccone si consuma a ogni ciclo e uno perfetto rende tutto più facile (−2 alla difficoltà).
 - Le **vene di minerale**, gli ammassi scintillanti che trovi in miniera, danno rese più ricche delle rocce comuni: se ne vedi una, usala.
 - Con il 10% di probabilità, invece del metallo trovi una **gemma**: pomice, opale, tormalina, ametista, ambra, smeraldo, zaffiro, rubino, zaffiro a stella e, per i più fortunati, diamante. Fanno gola agli inventori per i gioielli — e la grafite serve per l'acciaio (vedi Leghe).
 
