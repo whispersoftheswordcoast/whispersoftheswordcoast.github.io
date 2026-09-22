@@ -11,6 +11,8 @@ excerpt: Forza e ferocia che resta in piedi a 1 punto ferita
 
 Forza orchesca e versatilità umana. Spesso guardato con diffidenza, risponde con carattere: intenso, orgoglioso, leale fino in fondo con chi lo conosce davvero.
 
+<img src="{{ '/assets/images/mezzorco.webp' | relative_url }}" alt="Mezzorco" style="float: right; width: 200px; max-width: 45%; height: auto; margin: 0 0 1rem 1.5rem; border-radius: 10px;" />
+
 ## Società
 
 Nessuna patria, solo margini da conquistare. Cicatrici e avversità come segni di ciò che ha superato. Chi giudica l'aspetto scopre coraggio e generosità fuori dal comune. Il nord ricorda il Regno delle Molte Frecce di Obould, orchi civilizzati per un secolo: per molti è la prova che si può essere altro, per altri solo una tregua. Chi cresce nelle tribù prega Gruumsh, l'Occhio che non dorme; chi cresce tra umani spesso lo nasconde o cerca altri dei, stanco di spiegarsi.
