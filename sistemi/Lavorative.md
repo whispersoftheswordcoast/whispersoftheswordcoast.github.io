@@ -170,7 +170,7 @@ Gli alchimisti hanno sempre bisogno di reagenti per le proprie pozioni, e la mag
 - Equipaggia lo **sradicatore** → due click sullo sradicatore → un click sul terreno verdeggiante.  
 - Finché il personaggio resta fermo, continua a cercare fino all’esaurimento della zona. I reagenti raccolti finiscono nello zaino o nella borsa selezionata.  
 
-**Attrezzi necessari** 
+**Attrezzi** 
 
 | Attrezzo | A cosa serve |
 |-------------|----------------------|
@@ -180,7 +180,7 @@ Gli alchimisti hanno sempre bisogno di reagenti per le proprie pozioni, e la mag
 
 | Categoria / Nome | Note / Descrizione |
 |------------------|--------------------|
-| Fango            | É ovuunque! |
+| Fango            | È ovunque! |
 | Letame           | Praticamente oro per gli agricoltori. |
 | Vermi            | Creature che si trovano scavando il terreno — usati anche come esche dai pescatori. |
 | Reagenti Comuni  | Erbe e reagenti facilmente reperibili: ad esempio Aglio, Bacche, Bozzoli, Cenere Sulfurea, Cenere Vulcanica, Foglie di Vischio, Funghi Bianchi, Funghi Rossi, Funghi Viola, Ginseng, Gusci d'Uova, Muschio Sanguigno, Scarafaggi, Terreni Fertili. |
