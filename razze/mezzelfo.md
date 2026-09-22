@@ -13,6 +13,7 @@ Figlio di umani ed elfi, vive tra due mondi senza appartenere del tutto a nessun
 
 <img src="{{ '/assets/images/mezzelfosole.webp' | relative_url }}" alt="Mezzelfo del sole" style="float: right; width: 200px; max-width: 45%; height: auto; margin: 0 0 1rem 1.5rem; border-radius: 10px;" />
 <img src="{{ '/assets/images/mezzelfodrow.webp' | relative_url }}" alt="Mezzelfo drow" style="float: right; clear: right; width: 200px; max-width: 45%; height: auto; margin: 0 0 1rem 1.5rem; border-radius: 10px;" />
+<img src="{{ '/assets/images/mezzomarino.webp' | relative_url }}" alt="Mezzelfo marino" style="float: right; clear: right; width: 200px; max-width: 45%; height: auto; margin: 0 0 1rem 1.5rem; border-radius: 10px;" />
 
 ## Società
 
