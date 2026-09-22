@@ -363,14 +363,25 @@ Per fondere e rifondere oggetti metallici vedi la sezione Metallurgia: qui basti
 ---
 
 ## Falegname
-<img src="{{ '/assets/images/falegname.webp' | relative_url }}" alt="armi" style="display: block; margin: 0 auto;" />
+<img src="{{ '/assets/images/falegname.webp' | relative_url }}" alt="Falegname" style="display: block; margin: 0 auto;" />
 
 **Descrizione**  
-Lavora il legno per creare mobili, contenitori, armi (archi, balestre, bastoni), strumenti e molti altri oggetti. Legni rari permettono creazioni più pregiate.
+Lavora il legno per creare mobili, contenitori, archi, balestre, frecce, strumenti e molti altri oggetti. Legni rari permettono creazioni più pregiate — e il tipo di legno conta: le assi conservano essenza e colore dei tronchi da cui nascono.
 
-**Meccaniche**
-- Con il coltello intagliatore: doppio click → click sul tronco → scegliere oggetto.  
-- Oggetti complessi richiedono sega, martello, pialla, scalpelli e altri strumenti. Possono essere sostituiti con una semplice borsa da falegname
+**Dai tronchi alle assi**  
+Tutto parte dalla sega: usala (basta averla nello zaino) e poi indica i tronchi per ridurli in assi, che mantengono il tipo di legno d'origine. Se il tiro fallisce, rovini del legno. Da qui in poi lavorerai quasi sempre sulle assi, non sui tronchi.
+
+**Intagliare**  
+Il coltello intagliatore va invece impugnato: usalo direttamente sui tronchi per creare gli oggetti base e gli archi dal menu — archi corti e lunghi, compositi e balestre. Si consuma lavorando.
+
+**Mobili e oggetti complessi**  
+Per il resto — mobili, contenitori, strumenti e oggetti elaborati — servono gli altri attrezzi (sega a coda di rondine, martello, pialle, scalpelli e compagni): basta averli nello zaino, a mani libere, e usarli sulle assi. La difficoltà dipende sia dalla ricetta che dal legno, fallire sciupa parte del materiale, e con un buon tiro l'oggetto può venire perfetto, con fattura a scelta. Possono essere sostituiti con una semplice borsa da falegname.
+
+**Frecce e dardi**  
+Usa le aste di freccia per aprire il menu di frecce e dardi: servono anche piume nello zaino, una per asta. Dai legni e dalle piume particolari nascono varianti speciali.
+
+**Faretre e foderi**  
+Sempre il falegname prepara faretre, bandoliere, foderi per giavellotti, porta asce e cinture per shuriken: i contenitori giusti per tenere in ordine frecce, dardi e armi da lancio.
 
 **Attrezzi**
 
