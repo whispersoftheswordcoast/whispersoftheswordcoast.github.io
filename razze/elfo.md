@@ -14,9 +14,13 @@ Il popolo antico di Faerûn. Grazia, magia e memoria lunga in quattro volti dive
 ## Società
 
 * **Luna:** aperti e curiosi, amano viaggi, arte e altre razze. I più diffusi nel Faerûn: li trovi dal Cormanthor a Silverymoon alle Terre Centrali.
+<img src="{{ '/assets/images/elfoluna.webp' | relative_url }}" alt="Elfo della luna" style="float: right; width: 200px; max-width: 45%; height: auto; margin: 0 0 1rem 1.5rem; border-radius: 10px;" />
 * **Sole:** fieri eredi dorati degli antichi imperi, gelosi del sapere. Molti vivono a Evermeet, dove i non elfi non entrano, o nella ritirata Evereska.
+<img src="{{ '/assets/images/elfosole.webp' | relative_url }}" alt="Elfo del sole" style="float: right; width: 200px; max-width: 45%; height: auto; margin: 0 0 1rem 1.5rem; border-radius: 10px;" />
 * **Boschi:** guardiani delle foreste, fieri ma compassionevoli. Difendono i boschi abbandonati dopo le Guerre della Corona.
+<img src="{{ '/assets/images/elfoboschi.webp' | relative_url }}" alt="Elfo dei boschi" style="float: right; width: 200px; max-width: 45%; height: auto; margin: 0 0 1rem 1.5rem; border-radius: 10px;" />
 * **Selvaggio:** schivi elfi verdi delle giungle del sud, Chondalwood e Chult.
+<img src="{{ '/assets/images/elfoselvaggio.webp' | relative_url }}" alt="Elfo selvaggio" style="float: right; width: 200px; max-width: 45%; height: auto; margin: 0 0 1rem 1.5rem; border-radius: 10px;" />
 
 Tutti venerano il Seldarine guidato da Corellon, con Sehanine per la luna e Hanali per l'amore. Molti giovani lasciano tutto per l'avventura: la Ritirata chiama i vecchi, la strada chiama i giovani.
 
