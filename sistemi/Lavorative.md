@@ -261,16 +261,16 @@ Si parte dal legno comune e si sale verso varietà come laspar, vund, phandar, c
 Il pescatore rifornisce i cuochi di pesce fresco, ma il mare restituisce molto altro: conchiglie, curiosità, gioielli perduti e persino bottiglie con mappe del tesoro. È un mestiere tranquillo, ideale per cominciare, che ripaga la pazienza con le sorprese.
 
 **Pescare**  
-Impugna la canna da pesca e usala con doppio click, poi indica l'acqua entro 7 caselle e a vista. Restando fermo continui a pescare finché la zona non si esaurisce ("l'acqua è completamente pulita"). Non lanciare troppo lontano: più il punto è vicino, meglio abbocca. La canna si consuma pesce dopo pesce e una perfetta rende tutto più facile.
+Impugna la canna da pesca e usala con doppio click, poi indica l'acqua entro 7 caselle e a vista. Restando fermo continuerai a pescare finché la zona non si esaurisce. Non lanciare troppo lontano: più il punto è vicino, migliori i risultati. La canna si consuma a ogni pescata, e una perfetta rende tutto più facile.
 
 **Esche**  
-L'esca non è obbligatoria, ma migliora le possibilità: usa un verme e poi indica la canna per innescarla (una sola esca alla volta, consumata alla prima cattura). I vermi si trovano scavando la terra — chiedi a un erborista.
+L'esca non è obbligatoria, ma migliora le catture: usa un verme sulla canna per innescarla. Vale una sola esca alla volta, consumata alla prima preda. I vermi si trovano scavando la terra — chiedi a un erborista.
 
 **Riva o barca**  
-Dalla riva prendi pesci comuni, pesciolini di scoglio e granchi; al largo, dalla barca, abboccano pesci esotici e cavallucci marini che a riva non vedrai mai. Ovunque, preparati a tirare su anche scarpe, ossa, teschi e altri relitti: il mare restituisce di tutto.
+Dalla riva prendi pesci comuni, pesciolini di scoglio e granchi; al largo, dalla barca, si trovano pesci esotici e cavallucci marini che a riva non vedrai mai. Ovunque, preparati a tirare su anche scarpe, ossa, teschi e altri relitti riportati a galla dalle onde.
 
 **Bottiglie con messaggi**  
-A volte ripeschi bottiglie con messaggi: usale con doppio click per aprirle. Dentro ci trovi mappe del tesoro — e lì comincia un'altra avventura.
+A volte la lenza tira su bottiglie con messaggi: aprile con doppio click. Contengono mappe del tesoro — e lì comincia un'altra avventura.
 
 **Attrezzi**
 
