@@ -83,6 +83,24 @@
           }
         });
       }
+
+      /* La sidebar news non deve superare l'altezza del riquadro
+         di destra: la lista interna scorre indipendentemente. */
+      function matchSidebarHeight() {
+        const content = document.querySelector('.layout .page-content');
+        const wrapper = document.getElementById('sidebar-wrapper');
+        if (!content || !wrapper) {
+          return;
+        }
+        if (window.innerWidth < 768) {
+          wrapper.style.maxHeight = '';
+          return;
+        }
+        wrapper.style.maxHeight = content.offsetHeight + 'px';
+      }
+      matchSidebarHeight();
+      window.addEventListener('load', matchSidebarHeight);
+      window.addEventListener('resize', matchSidebarHeight);
     });
   </script>
 {% include wotsc-lightbox.html %}

@@ -84,7 +84,7 @@ a { color: #e6c996; }
 .layout {
   display: flex;
   gap: 2rem;
-  align-items: stretch;
+  align-items: flex-start;
   flex-direction: row; /* sidebar a sinistra */
 }
 
@@ -93,6 +93,7 @@ a { color: #e6c996; }
   width: 30%;
   display: flex;
   flex-direction: column;
+  min-height: 0;
 }
 
 /* Sidebar dentro sidebar-wrapper */
@@ -100,7 +101,8 @@ a { color: #e6c996; }
   width: 100%;
   display: flex;
   flex-direction: column;
-  height: 100%;
+  flex: 1;
+  min-height: 0;
   overflow: hidden;
 }
 
@@ -115,7 +117,9 @@ a { color: #e6c996; }
   padding: 0;
   margin: 0;
   flex: 1;
+  min-height: 0;
   overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .news-list li {
@@ -189,6 +193,7 @@ a { color: #e6c996; }
   .sidebar-wrapper {
     display: flex;
     flex-direction: column;
+    min-height: 0;
     width: 30%;
   }
 }
