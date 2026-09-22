@@ -109,6 +109,8 @@ a { color: #e6c996; }
 /* Contenuto: 70% */
 .page-content {
   width: 70%;
+  font-size: 1.2rem;
+  line-height: 1.6;
 }
 
 /* Stile news fantasy */
