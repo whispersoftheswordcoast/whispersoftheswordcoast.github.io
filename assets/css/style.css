@@ -74,7 +74,7 @@ body {
 
 /* Article headings */
 h1, h2, h3 {
-  font-family: "Palatino Linotype", "Book Antiqua", serif;
+  font-family: var(--wotsc-font-title, "PixelOperator", monospace);
   color: #f6e7c1;
 }
 
