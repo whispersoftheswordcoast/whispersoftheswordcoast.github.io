@@ -170,6 +170,37 @@
 }
 @media (max-width: 767px) {
   .wotsc-viewer-item figcaption { display: none; }
+  /* Anteprima a tutta larghezza: frecce in overlay sull'immagine */
+  .wotsc-viewer {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+  .wotsc-viewer-item {
+    grid-row: 1;
+    grid-column: 1;
+  }
+  .wotsc-viewer-prev,
+  .wotsc-viewer-next {
+    grid-row: 1;
+    grid-column: 1;
+    align-self: center;
+    z-index: 2;
+    width: 30px;
+    min-height: 48px;
+    font-size: 20px;
+    opacity: 0.92;
+  }
+  .wotsc-viewer-prev {
+    justify-self: start;
+    margin-left: 4px;
+  }
+  .wotsc-viewer-next {
+    justify-self: end;
+    margin-right: 4px;
+  }
+  .wotsc-viewer-count {
+    grid-column: 1;
+  }
 }
 
 /* ============================================================
