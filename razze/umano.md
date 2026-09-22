@@ -9,6 +9,8 @@ excerpt: Versatile e ambizioso, con talento extra e +2 a scelta
 
 > Torna a [Indice razze](/razze/)
 
+<img src="{{ '/assets/images/umano.webp' | relative_url }}" alt="Umano" style="float: right; width: 45%; max-width: 320px; height: auto; margin: 0 0 1rem 1.5rem; border-radius: 10px;" />
+
 Il popolo più diffuso di Faerûn. Vita breve, ambizione lunga: fondano città e imperi dove gli altri vedono solo tradizione.
 
 ## Società
