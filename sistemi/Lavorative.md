@@ -255,14 +255,22 @@ Si parte dal legno comune e si sale verso varietà come laspar, vund, phandar, c
 ---
 
 ## Pescatore
-<img src="{{ '/assets/images/pescare.webp' | relative_url }}" alt="Sartoria" style="display: block; margin: 0 auto;" />
+<img src="{{ '/assets/images/pescare.webp' | relative_url }}" alt="Pescatore" style="display: block; margin: 0 auto;" />
 
 **Descrizione**  
-Con canna ed esche pesca pesci e a volte oggetti rari o utili come reagenti.
+Con canna ed esche pesca pesci per i cuochi — ma il mare nasconde molto altro: conchiglie, curiosità, gioielli perduti e persino bottiglie con mappe del tesoro. È un mestiere tranquillo, adatto anche ai nuovi arrivati, che col tempo ripaga con sorprese.
 
-**Meccaniche**
-- Selezionare l’esca → usare la canna → click sull’acqua. L'esca non é necessaria ma migliora le possibilitá
-- Si consiglia di non lanciare troppo lontano per aumentare la riuscita.
+**Pescare**  
+Impugna la canna da pesca e usala con doppio click, poi indica l'acqua entro 7 caselle e a vista. Restando fermo continui a pescare finché la zona non si esaurisce ("l'acqua è completamente pulita"). Non lanciare troppo lontano: più il punto è vicino, meglio abbocca. La canna si consuma pesce dopo pesce e una perfetta rende tutto più facile.
+
+**Esche**  
+L'esca non è obbligatoria, ma migliora le possibilità: usa un verme e poi indica la canna per innescarla (una sola esca alla volta, consumata alla prima cattura). I vermi si trovano scavando la terra — chiedi a un erborista.
+
+**Riva o barca**  
+Dalla riva prendi pesci comuni, pesciolini di scoglio e granchi; al largo, dalla barca, abboccano pesci esotici e cavallucci marini che a riva non vedrai mai. Ovunque, preparati a tirare su anche scarpe, ossa, teschi e altri relitti: il mare restituisce di tutto.
+
+**Bottiglie con messaggi**  
+A volte ripeschi bottiglie con messaggi: usale con doppio click per aprirle. Dentro ci trovi mappe del tesoro — e lì comincia un'altra avventura.
 
 **Attrezzi**
 
