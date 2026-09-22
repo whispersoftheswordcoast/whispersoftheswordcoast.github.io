@@ -393,6 +393,7 @@ Sempre il falegname prepara faretre, bandoliere, foderi per giavellotti, porta a
 | Pialla (grande/piccola) | Rifinitura e fabbricazione su assi. |
 | Scavatore / Scalpello / Squadra / Coltello Appianatore / Chiodi / Sega a Coda di Rondine | Strumenti vari per mobili e oggetti complessi. |
 | Incisore | Per incidere oggetti in legno con testo o decorazioni. |
+| Borsa da falegname | Sostituisce gli altri attrezzi nei lavori semplici. |
 
 ---
 
