@@ -120,6 +120,11 @@ a { color: #e6c996; }
   min-height: 0;
   overflow-y: auto;
   overflow-x: hidden;
+  scrollbar-width: none; /* Firefox: barra nascosta, scroll attivo */
+  -ms-overflow-style: none; /* IE/Edge legacy */
+}
+.news-list::-webkit-scrollbar {
+  display: none; /* Chrome/Safari/Edge: barra nascosta, scroll attivo */
 }
 
 .news-list li {
