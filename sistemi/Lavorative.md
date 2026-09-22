@@ -192,21 +192,51 @@ Gli alchimisti hanno sempre bisogno di reagenti per le proprie pozioni, e la mag
 <img src="{{ '/assets/images/metallurgia.webp' | relative_url }}" alt="metallurgia" style="display: block; margin: 0 auto;" />
 
 **Descrizione**  
-Il minatore estrae minerali, metalli e pietre da cave e montagne. Le risorse ottenute alimentano il lavoro di fabbri, inventori e altri artigiani.
+Il minatore estrae minerali, metalli e pietre da cave e montagne, e li fonde in lingotti pronti all'uso. È il mestiere che alimenta fabbri e inventori: senza un buon minatore non nascono né spade né armature. Si comincia dal ferro e, con pazienza e skill alta, si arriva ai metalli leggendari come mithral e adamantio.
 
-**Meccaniche**
-- Estrarre: impugnare la piccozza → doppio click → click su terreno roccioso.  
-- Continuando a restare fermi si mina fino all’esaurimento.  
-- Fusioni e leghe avvengono in forgia usando le pinze da fusione. Basta un doppio click sul lingotto vicino ad una forgia, ma la pinza migliora le possibilitá
+**Estrarre**  
+Impugna il piccone (chiamato anche piccozza) e usalo con doppio click, poi indica una parete di roccia, una grotta o una vena di minerale entro 1 casella e a vista. Restando fermo continui a scavare finché la zona non si esaurisce. La quantità estratta cresce con la skill, il piccone si consuma a ogni ciclo e uno perfetto rende tutto più facile (−2 alla difficoltà).
+- Le **vene di minerale**, gli ammassi scintillanti che trovi in miniera, danno rese più ricche delle rocce comuni: se ne vedi una, usala.
+- Con il 10% di probabilità, invece del metallo trovi una **gemma**: pomice, opale, tormalina, ametista, ambra, smeraldo, zaffiro, rubino, zaffiro a stella e, per i più fortunati, diamante. Fanno gola agli inventori per i gioielli — e la grafite serve per l'acciaio (vedi Leghe).
+
+**Miniere: dove scavare**  
+Ovunque ci sia roccia puoi cavare ferro e metalli comuni, ma i pezzi pregiati stanno nelle miniere dedicate: Miniere di Nashkel (adamantio), Miniere di Calimport (arandur), Miniere di Baldur's Gate. Come orientamento: ferro e piombo sono alla portata di tutti; oro, argento e platino chiedono già esperienza (soglie intorno a 26); Hizagkuur, metallo vivente, ferro febbrile e Dlarun stanno oltre il 30; adamantio, mithral e arandur sono roba da maestri (35).
+
+**Pala**  
+Sui terreni sabbiosi raccoglie sabbia (difficoltà 10), in palude argilla (difficoltà 20), in quantità crescenti con la skill. E sì: la pala scava anche fosse — per seppellire oggetti... e cadaveri.
+
+**Fondere**  
+Fai doppio click sul minerale grezzo stando vicino a una forgia, a mani libere. Se il tiro riesce ottieni un lingotto; se fallisci, il grezzo va **distrutto**: non fondere i metalli rari finché la skill non è solida. Una forgia perfetta aiuta (−2 alla difficoltà).
+
+**Leghe**  
+Usa le pinze da fusione su un lingotto vicino a una forgia: si apre un menu dove aggiungere fino ad altri 3 componenti. Le ricette, con la skill richiesta:
+
+| Lega | Ricetta | Risultato | Skill |
+|---|---|---|---|
+| Ottone | 1 zinco + 2 rame | 3 | 15 |
+| Bronzo | 1 stagno + 2 rame | 3 | 20 |
+| Acciaio | 25 ferro + 1 grafite | 25 | 25 |
+| Darksteel | 5 acciaio + 2 cromo + 2 adamantio | 4 | 32 |
+| Telstang | 5 rame + 1 mithral + 2 platino + 1 argento | 5 | 33 |
+| Adamantite | 5 adamantio + 2 argento + 2 electrum + 1 mithral | 5 | 38 |
+| Adamantite drow | 4 adamantite + 2 adamantio + 4 mithral + 2 zinco | 5 | 41 |
+
+Se sbagli i componenti o non ne hai abbastanza, i materiali vanno persi.
+
+**Rifondere oggetti**  
+Usa le pinze su un'arma o un'armatura di metallo — o direttamente sul contenitore che le contiene — vicino a una forgia, per recuperarne parte dei lingotti: più alta la skill, più ne recuperi. Attenzione: gli oggetti magici richiedono pinze magiche, e se fallisci su pezzi grossi perdi quasi tutto.
+
+**Polveri**  
+Fai doppio click su un lingotto stando vicino a forgia e incudine per ridurlo in polvere del metallo. Anche qui, fallire distrugge il metallo.
 
 **Attrezzi**
 
 | Attrezzo | A cosa serve |
 |----------|----------|
-| Pala | Scavare terreni sabbiosi o paludosi. (Utile per alcune risorse come la sabbia o l'argilla) |
-| Piccozza | Estrazione da terreno roccioso, cave. Utile per metalli e altro |
-| Pinze da Fusione | Fondono metalli in forgia e creano leghe. |
-| Forgia | Per fondere minerali grezzi in lingotti. |
+| Pala | Sabbia e argilla; scava fosse. |
+| Piccone (piccozza) | Estrazione da roccia, grotte e vene. Va impugnato e si consuma usandolo. |
+| Pinze da Fusione | Leghe e rifusioni vicino alla forgia. Quelle magiche servono per gli oggetti magici. |
+| Forgia | Fonde i grezzi e ospita leghe e rifusioni. Deve essere vicina. |
 
 ---
 
