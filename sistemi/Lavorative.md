@@ -401,12 +401,19 @@ Sempre il falegname prepara faretre, bandoliere, foderi per giavellotti, porta a
 
 **Descrizione**  
 L’inventore è un artigiano versatile che unisce materiali diversi (metalli, legni, gemme, argilla, ossa, vetro, scaglie) per creare oggetti complessi, strumenti, monili e armature particolari.
-Generalmente parlando intagliare gemme e ferramenta utilizzano lo stesso oggetto, il kit da inventore, ma per scopi diversi. Con ferramenta si fanno utensili da lavoro, e utensili perfetti rendono piú semplice lavorare (-2 sulla cd), mentre con intagliare gemme si possono creare gioielli.
-Con intagliare gemme si puó anche usare l'incisore per perfezionare gemme, per esempio creando una gemma perfetta da una grezza, o per romperle e ricavarne frammenti o polveri.
+Lo stesso kit da inventore serve a due abilità con scopi diversi: con ferramenta si fanno utensili e oggetti da lavoro — e gli utensili perfetti rendono più semplice lavorare — mentre con intagliare gemme si creano gioielli.
 
-**Meccaniche**
-- Usa vari strumenti per tagliare, fondere, assemblare o modellare materiali differenti.  
-- Molte operazioni si avviano con doppio click sull’attrezzo → click sul materiale.
+**Ferramenta**  
+Tieni il kit nello zaino e usalo a mani libere con doppio click, poi scegli dal menu cosa creare: monili, attrezzi e utensili, oggetti in metallo, illuminazione, bacchette e altro. Se scegli un monile, il tiro usa l'abilità Intagliare Pietre invece di Ferramenta. Gli attrezzi si consumano lavorando e fallire sciupa parte del materiale.
+
+**Intagliare gemme**  
+Usa gli attrezzi da intaglio e poi indica una gemma grezza: con opale e tormalina si comincia, fino a zaffiri, rubini e diamanti per le mani più esperte. Ogni gemma si taglia una sola volta — quelle già intagliate o ridotte in frammenti non si rilavorano. E attenzione: fallire può spezzare la pietra (qualche volta, con fortuna, resta intera).
+
+**Polveri di gemme**  
+Fai doppio click su una gemma stando vicino a forgia e incudine per ridurla in polvere, utile in altre lavorazioni.
+
+**Monete e chiavi**  
+Col punzone vicino alla forgia conii monete di vario valore; con lo stampo copi chiavi esistenti (serve un minimo di ferramenta).
 
 **Attrezzi**
 
