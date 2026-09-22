@@ -258,7 +258,7 @@ Si parte dal legno comune e si sale verso varietà come laspar, vund, phandar, c
 <img src="{{ '/assets/images/pescare.webp' | relative_url }}" alt="Pescatore" style="display: block; margin: 0 auto;" />
 
 **Descrizione**  
-Con canna ed esche pesca pesci per i cuochi — ma il mare nasconde molto altro: conchiglie, curiosità, gioielli perduti e persino bottiglie con mappe del tesoro. È un mestiere tranquillo, adatto anche ai nuovi arrivati, che col tempo ripaga con sorprese.
+Il pescatore rifornisce i cuochi di pesce fresco, ma il mare restituisce molto altro: conchiglie, curiosità, gioielli perduti e persino bottiglie con mappe del tesoro. È un mestiere tranquillo, ideale per cominciare, che ripaga la pazienza con le sorprese.
 
 **Pescare**  
 Impugna la canna da pesca e usala con doppio click, poi indica l'acqua entro 7 caselle e a vista. Restando fermo continui a pescare finché la zona non si esaurisce ("l'acqua è completamente pulita"). Non lanciare troppo lontano: più il punto è vicino, meglio abbocca. La canna si consuma pesce dopo pesce e una perfetta rende tutto più facile.
