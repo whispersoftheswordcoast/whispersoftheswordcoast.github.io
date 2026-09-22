@@ -446,10 +446,10 @@ Le forbici sulle stoffe ricavano bende, sempre utili: ogni tanto se ne rovina un
 Il modo più semplice per avere pelli è scuoiare gli animali con un coltellino. Poi avvicinati allo stenditore che trovi in genere nei negozi e usa le forbici sulle pelli per sgrezzarle e ricavarne cuoio: orsi, lupi, tigri, viverne e draghi di ogni colore danno ognuno il suo. Se il tiro fallisce, perdi parte delle pelli. Col cuoio e ago e filo crei armature leggere e capi in pelle dal menu.
 
 **Riparare**  
-Ago e filo ripara anche vestiti e pelli danneggiati: prima di buttare un capo rovinato, vale la pena provare.
+Prima di buttare un capo rovinato, prova a salvarlo: con ago e filo si riparano sia i vestiti che le pelli danneggiate.
 
 **Ricami e tinture**  
-Per i lavori avanzati: kit da ricamo per decorare, colori con la tinozza per tingere, incisore per cuoio per incidere pelli e capi.
+Ai capi finiti puoi dare il tocco personale: il kit da ricamo li decora, i colori con la tinozza li tingono e l'incisore per cuoio incide pelli e capi in pelle.
 
 **Attrezzi**
 
