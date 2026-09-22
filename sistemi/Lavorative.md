@@ -289,18 +289,27 @@ A volte la lenza tira su bottiglie con messaggi: aprile con doppio click. Conten
 <img src="{{ '/assets/images/alchimia.webp' | relative_url }}" alt="Alchimia" style="display: block; margin: 0 auto;" />
 
 **Descrizione**  
-L’alchimista combina reagenti per creare pozioni con vari effetti. Servono solo un mortaio (con pestello) e un’ampolla per contenere il risultato. Generalmente bastano due reagenti, tranne che per i coloranti per cuoio.
-Indizi su come combinarli sono nella descrizione in gioco di alcuni reagenti.
+L'alchimista combina reagenti per creare pozioni con vari effetti: cure, caratteristiche fisiche e mentali, resistenze elementali, veleni e antidoti, esplosivi, rinfrescanti e tinture per cuoio e capelli. Servono solo un mortaio (con pestello) e un'ampolla per contenere il risultato.
+Indizi su come combinarli sono nella descrizione in gioco di alcuni reagenti — per il resto, si sperimenta: ogni pozione scoperta entra nel Craftbook e porta la firma di chi l'ha creata.
 
-**Meccaniche**
-- Creare pozione: doppio click sul mortaio → click sul primo reagente → click sul secondo → premere “Esc” per ottenere la pozione.  
-- Ricreare una pozione già fatta: doppio click sul mortaio → selezionare il mortaio come target.
+**Preparare**  
+Fai doppio click sul mortaio e poi indica i reagenti, uno alla volta: ne servono almeno due diversi, fino a un massimo di quattro — ma sopra i due ci vuole un mortaio grande. Chiudi la selezione (Esc) per miscelare. Attenzione a due cose: i reagenti vengono consumati anche se fallisci, e senza una bottiglia vuota nello zaino la pozione va perduta. Il mortaio si consuma a ogni preparazione.
+
+**Ripetere**  
+Per rifare una pozione già creata non serve reimpostare tutto: fai doppio click sul mortaio e poi indica il mortaio stesso come bersaglio per riusare l'ultima combinazione (sempre che tu abbia ancora i reagenti).
+
+**Intuizione**  
+Anche sbagliare insegna: quando una miscela fallisce, l'intuizione alchemica ti suggerisce un possibile abbinamento tra quelli provati. Non fidarti ciecamente — verifica sempre sperimentando.
+
+**Talenti utili**  
+Il talento Mescere Pozioni rende più facili le preparazioni: se vuoi fare l'alchimista di professione, tienilo d'occhio.
 
 **Attrezzi**
 
 | Attrezzo | A cosa serve |
 |----------|----------|
 | Mortaio | Strumento base per combinare i reagenti. |
+| Mortaio grande | Serve per le miscele da più di due reagenti. |
 | Bottiglie Vuote | Contenitori per le pozioni create. |
 
 ---
