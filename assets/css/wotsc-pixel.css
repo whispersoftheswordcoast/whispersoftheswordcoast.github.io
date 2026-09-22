@@ -233,7 +233,8 @@
   background: var(--wotsc-blue);
   color: var(--wotsc-gold-light);
   border: 2px solid var(--wotsc-gold);
-  box-shadow: inset 0 0 0 2px var(--wotsc-night), 3px 3px 0 #000;
+  border-radius: 0;
+  box-shadow: inset 0 0 0 2px var(--wotsc-night), 4px 4px 0 #000;
   text-decoration: none;
   font-weight: bold;
   letter-spacing: 0.5px;
@@ -241,13 +242,43 @@
 }
 .pixel-btn:hover {
   background: #1B2A44;
+  border-color: var(--wotsc-gold-light);
   color: #fff;
   transform: translate(-1px, -1px);
-  box-shadow: inset 0 0 0 2px var(--wotsc-night), 4px 4px 0 #000;
+  box-shadow: inset 0 0 0 2px var(--wotsc-night), 5px 5px 0 #000;
 }
 .pixel-btn:active {
   transform: translate(2px, 2px);
-  box-shadow: inset 0 0 0 2px var(--wotsc-night), 1px 1px 0 #000;
+  box-shadow: inset 0 0 0 2px var(--wotsc-night), 2px 2px 0 #000;
+}
+
+/* --- 3b. Rivetti angolari oro: dettaglio pixel coerente con la cornice.
+       Condiviso da tutti i pulsanti del sito (nessun overflow). --- */
+.pixel-btn,
+.toggle-news-btn,
+.sidebar-toggle-button {
+  position: relative;
+  border-radius: 0;
+}
+.pixel-btn::before,
+.toggle-news-btn::before,
+.sidebar-toggle-button::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--wotsc-gold);
+  clip-path: polygon(
+    0 0, 5px 0, 5px 5px, 0 5px,
+    100% 0, 100% 5px, calc(100% - 5px) 5px, calc(100% - 5px) 0,
+    100% 100%, calc(100% - 5px) 100%, calc(100% - 5px) calc(100% - 5px), 100% calc(100% - 5px),
+    0 100%, 5px 100%, 5px calc(100% - 5px), 0 calc(100% - 5px)
+  );
+  pointer-events: none;
+}
+.pixel-btn:hover::before,
+.toggle-news-btn:hover::before,
+.sidebar-toggle-button:hover::before {
+  background: var(--wotsc-gold-light);
 }
 
 /* --- 6. Etichetta / badge --- */

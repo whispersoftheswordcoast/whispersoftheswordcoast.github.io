@@ -104,21 +104,29 @@
   padding: 0.5rem 1.2rem;
   background: var(--wotsc-blue, #11182A);
   border: 2px solid var(--wotsc-gold, #D6B56A);
-  box-shadow: 3px 3px 0 #000;
+  border-radius: 0;
+  box-shadow: inset 0 0 0 2px var(--wotsc-night, #0B1020), 4px 4px 0 #000;
   color: var(--wotsc-gold-light, #F3DFA0);
   font-weight: bold;
-  font-family: "Georgia", serif;
+  font-family: var(--wotsc-font-pixel);
+  letter-spacing: 0.5px;
   cursor: pointer;
-  border-radius: 0;
-  z-index: 1100;
   width: 120px;
   text-align: center;
-  transition: background-color 0.3s, color 0.3s;
+  z-index: 1100;
 }
 
 .sidebar-toggle-button:hover {
-  background: #f6e7c1;
-  color: #3a2d12;
+  background: #1B2A44;
+  border-color: var(--wotsc-gold-light, #F3DFA0);
+  color: #fff;
+  transform: translate(-1px, -1px);
+  box-shadow: inset 0 0 0 2px var(--wotsc-night, #0B1020), 5px 5px 0 #000;
+}
+
+.sidebar-toggle-button:active {
+  transform: translate(2px, 2px);
+  box-shadow: inset 0 0 0 2px var(--wotsc-night, #0B1020), 2px 2px 0 #000;
 }
 
 /* Responsive - mobile */
