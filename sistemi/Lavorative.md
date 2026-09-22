@@ -437,7 +437,7 @@ Col punzone vicino alla forgia conii monete di vario valore; con lo stampo copi 
 Crea vestiti, bende, armature leggere e abiti decorati usando stoffe, pelli o cuoio. Può tingere, incidere o ricamare i capi. Sono due mestieri in uno: Tessitura per le stoffe, Lavorare pellami per le pelli — e spesso lavorano in coppia.
 
 **Filiera della stoffa**  
-Si parte dal filo: con l'arcolaio ricavi gomitoli da lana, cotone o seta, e poi li tessi al filatoio (o al telaio) per ottenere rotoli di stoffa. I rotoli si tagliano con le forbici per avere le stoffe, e le stoffe si cuciono con ago e filo scegliendo il capo dal menu. Occhio a due cose: i gomitoli di lana non si cuciono direttamente (servono prima le stoffe), e per la maglieria puoi usare anche i ferri da lavoro sui gomitoli.
+Si parte dal filo: con l'arcolaio ricavi gomitoli da lana, cotone o seta. Quelli di lana si lavorano subito coi ferri da lavoro; seta e cotone devono prima diventare rotoli al filatoio (o al telaio) e poi stoffe con le forbici, e solo allora si cuciono con ago e filo scegliendo il capo dal menu.
 
 **Bende**  
 Le forbici sulle stoffe ricavano bende, sempre utili: ogni tanto se ne rovina una parte tagliando. E gli abiti vecchi non si buttano: tagliandoli recuperi stoffa rovinata da riusare.
