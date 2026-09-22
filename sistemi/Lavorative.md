@@ -233,10 +233,10 @@ Fai doppio click su un lingotto stando vicino a forgia e incudine per ridurlo in
 
 | Attrezzo | A cosa serve |
 |----------|----------|
-| Pala | Sabbia e argilla; scava fosse. |
-| Piccone (piccozza) | Estrazione da roccia, grotte e vene. Va impugnato e si consuma usandolo. |
-| Pinze da Fusione | Leghe e rifusioni vicino alla forgia. Quelle magiche servono per gli oggetti magici. |
-| Forgia | Fonde i grezzi e ospita leghe e rifusioni. Deve essere vicina. |
+| Pala | Scavare terreni sabbiosi o paludosi. (Utile per alcune risorse come la sabbia o l'argilla) |
+| Piccozza | Estrazione da terreno roccioso, cave. Utile per metalli e altro |
+| Pinze da Fusione | Fondono metalli in forgia e creano leghe. |
+| Forgia | Per fondere minerali grezzi in lingotti. |
 
 ---
 
