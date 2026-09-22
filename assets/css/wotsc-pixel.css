@@ -17,6 +17,20 @@
   font-weight: bold;
   font-display: swap;
 }
+@font-face {
+  font-family: "Alegreya";
+  src: url("/assets/fonts/alegreya.ttf") format("truetype");
+  font-weight: 400 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Alegreya";
+  src: url("/assets/fonts/alegreya-italic.ttf") format("truetype");
+  font-weight: 400 900;
+  font-style: italic;
+  font-display: swap;
+}
 
 :root {
       font-smooth: never;
@@ -32,7 +46,7 @@
 
   --wotsc-font-pixel: "PixelOperator", "Courier New", monospace;
   --wotsc-font-title: "PixelOperator", "Courier New", monospace;
-  --wotsc-font-body: "PixelOperator", "Courier New", monospace;
+  --wotsc-font-body: "Alegreya", Georgia, serif;
 
   --pf-slice: 40;          /* taglio sorgente, deve restare = angoli */
   --pf-width: 40px;        /* larghezza bordo a schermo (1:1 = pixel-crisp) */
@@ -332,7 +346,7 @@
 
 /* ============================================================
    FASE 5 — tipografia (pixel solo per identità, mai corpo testo)
-   TITOLO (pixel) > sottotitolo > testo normale (Georgia).
+   TITOLO (pixel) > sottotitolo > testo normale (Alegreya).
    ============================================================ */
 h1, h2, h3 {
   font-family: var(--wotsc-font-title);
