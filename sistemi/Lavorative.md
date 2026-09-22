@@ -353,17 +353,12 @@ Per fondere e rifondere oggetti metallici vedi la sezione Metallurgia: qui basti
 **Attrezzi necessari** 
 
 | Attrezzo | A cosa serve |
-|---------------------------|----------------------|
-| Incudine                  | Supporto per battere e modellare metalli con martello. |
-| Martello da Fabbro        | Strumento principale per forgiare armi/oggetti partendo da lingotti. |
-| Forgia                    | Necessaria per fondere metalli o rifondere oggetti. |
-| Pinze per Fusione         | Usate insieme alla forgia per fondere o smantellare oggetti in metallo. |
-| Incisore                  | Permette di incidere decorazioni o testi su oggetti metallici già creati. |
-**Note**
-
-- La qualità del metallo usato influisce molto su resistenza, durata ed efficacia dell’oggetto finale.  
-- La lavorazione richiede attenzione: una forgia, materiali adeguati e strumenti specifici.  
-- Un fabbro può anche smantellare o rifondere oggetti, recuperando parte del materiale di base se usa pinze e forgia.  
+|----------|----------|
+| Incudine | Supporto per battere e modellare metalli con martello. |
+| Martello da Fabbro | Strumento principale per forgiare armi/oggetti partendo da lingotti. |
+| Forgia | Necessaria per fondere metalli o rifondere oggetti. |
+| Pinze per Fusione | Usate insieme alla forgia per fondere o smantellare oggetti in metallo. |
+| Incisore | Permette di incidere decorazioni o testi su oggetti metallici già creati. |
 
 ---
 
