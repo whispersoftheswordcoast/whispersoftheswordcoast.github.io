@@ -407,7 +407,7 @@ Lo stesso kit da inventore serve a due abilità con scopi diversi: con ferrament
 Tieni il kit nello zaino e usalo a mani libere con doppio click, poi scegli dal menu cosa creare: monili, attrezzi e utensili, oggetti in metallo, illuminazione, bacchette e altro. Se scegli un monile, il tiro usa l'abilità Intagliare Pietre invece di Ferramenta. Gli attrezzi si consumano lavorando e fallire sciupa parte del materiale.
 
 **Bacchette**  
-Dal menu dell'inventore si creano anche bacchette: si lavora come per gli altri oggetti da ferramenta, con kit nello zaino e mani libere.
+Dal menu dell'inventore si creano anche bacchette, unendo legno, metallo e vetro in varie misure a seconda del modello: si lavora come per gli altri oggetti da ferramenta, con kit nello zaino e mani libere. Tieni da parte scorte di tutti e tre i materiali.
 
 **Intagliare gemme**  
 Per i gioielli non servono per forza le pietre: i monili nascono anche dal solo metallo. Ma è con le gemme che diventano pregiati: usa gli attrezzi da intaglio su una pietra grezza — si comincia da opale e tormalina, fino a zaffiri, rubini e diamanti per le mani più esperte. Ogni gemma si taglia una sola volta, e quelle già intagliate o ridotte in frammenti non si rilavorano. Attenzione: se il taglio fallisce, la pietra può spezzarsi (qualche volta, con fortuna, resta intera).
