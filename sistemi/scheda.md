@@ -1,7 +1,7 @@
 ---
 title: La scheda
 layout: sistemi
-order: 200
+order: 3
 excerpt: Lettura tecnica della scheda del personaggio, voce per voce
 ---
 
@@ -15,7 +15,7 @@ La scheda raccoglie tutte le statistiche del personaggio: caratteristiche, punti
 
 Le sei caratteristiche descrivono il personaggio in numeri, su una scala tipica da 3 a 18 con media 10. Nei calcoli non entra il punteggio ma il **modificatore**: (punteggio − 10) / 2, arrotondato per difetto. Forza 14 significa +2, Destrezza 8 significa −1.
 
-- **Forza:** la potenza fisica. Decide quanto fa male un colpo in mischia, se riesci a sfondare una porta, trascinare un ferito o scalare una parete. Mano secondaria: metà bonus al danno; arma a due mani: una volta e mezzo.
+- **Forza:** la potenza fisica. Decide quanto fa male un colpo in mischia, se riesci a sfondare una porta, trascinare un ferito o scalare una parete. Come l'impugnatura cambia il danno è spiegato nella sezione Danno.
 - **Destrezza:** riflessi e coordinazione. Serve a colpire a distanza, a schivare i colpi (Classe Armatura), ad agire per primi (iniziativa) e a tutto ciò che richiede mano leggera: furtività, scasso, acrobazia.
 - **Costituzione:** la salute. Ogni punto di modificatore aggiunge un punto ferita per livello e rende più facile resistere a veleni e malattie.
 - **Intelligenza:** studio e memoria. Determina quanti gradi di abilità si guadagnano a ogni livello, quante lingue si conoscono e quanto si è ferrati in Conoscenze e Sapienza Magica.
@@ -30,7 +30,11 @@ Un guerriero con Forza 16 (+3) tira +3 per colpire in mischia, aggiunge +3 ai da
 
 ## 2. Punti ferita
 
-I punti ferita (PF) misurano quanto danno il personaggio può subire prima di cadere. Ogni livello assegna un Dado Vita di classe (d10 il guerriero, d6 il mago) più il modificatore di Costituzione, con minimo 1 PF per livello. A 0 PF il personaggio è inabile; sotto zero è morente, e muore quando il valore negativo eguaglia il punteggio di Costituzione. Sul server la morte comporta perdita di punti esperienza, in parte recuperabile pregando al tempio della propria divinità: la procedura è descritta nei [Primi passi](/primipassi/).
+I punti ferita (PF) misurano quanto danno il personaggio può subire prima di cadere. Ogni livello assegna un Dado Vita di classe (d10 il guerriero, d6 il mago) più il modificatore di Costituzione, con minimo 1 PF per livello.
+
+<div class="wotsc-esempio" markdown="1">
+Un guerriero con Costituzione 14 (+2) guadagna in media 7 PF per livello (5 di dado + 2): al 4° livello ha intorno ai 28 PF. Un mago con Costituzione 10 (+0) guadagna in media 3-4 PF per livello: al 4° ne ha intorno ai 14, la metà. Con Costituzione 14 anche il mago prenderebbe +2 PF per livello: +8 PF al 4°, più della metà del suo totale.
+</div>
 
 ## 3. Classe Armatura
 
@@ -38,11 +42,11 @@ La Classe Armatura (CA) è il numero che un attacco deve eguagliare o superare p
 
 **CA = 10 + bonus di armatura + bonus di scudo + modificatore di Destrezza + modificatore di taglia + altri modificatori** (armatura naturale, deviazione, schivare)
 
-Note operative:
+Nota bene:
 
 - L'armatura limita il bonus di Destrezza applicabile alla CA: un'armatura pesante protegge molto ma lascia poco spazio alla schivata.
-- Se il personaggio non può reagire all'attacco (impreparato), perde il bonus di Destrezza e i bonus di schivare.
-- Contro gli attacchi di contatto (molti incantesimi), armatura, scudo e armatura naturale non contano: serve solo toccare il bersaglio.
+- Se il personaggio viene colto di sorpresa, non può reagire all'attacco: perde il bonus di Destrezza e i bonus di schivare.
+- Per gli attacchi di contatto in mischia e a distanza degli incantesimi, armatura, scudo e armatura naturale non contano: basta toccare il bersaglio.
 
 <div class="wotsc-esempio" markdown="1">
 Un guerriero con CA 18 (10 base + 5 di armatura + 2 di scudo + 1 di Destrezza) affronta un goblin con +3 al tiro per colpire: il goblin deve tirare 15 o più sul d20 per ferirlo. Lo stesso goblin contro un mago con CA 12 lo colpisce già con un 9.
@@ -63,7 +67,17 @@ Un ranger di 4° livello con Bonus di Attacco Base +4 e Destrezza 16 (+3) tira +
 
 ## 5. Danno
 
-A colpo messo a segno, il danno è il dado dell'arma più il modificatore di Forza (in mischia e con armi da lancio). Se le penalità riducono il totale sotto 1, il colpo infligge comunque 1 danno. Sul 20 naturale il colpo minaccia un **critico**: confermato, i dadi di danno si tirano più volte e si sommano. La scheda riporta il danno già calcolato (ad esempio 1d8+5), così in combattimento si tira e basta.
+A colpo messo a segno, il danno è il dado dell'arma più il modificatore di Forza (in mischia e con armi da lancio). Come si impugna l'arma cambia il bonus:
+
+- **Una mano:** dado + tutto il modificatore di Forza.
+- **Mano secondaria:** dado + metà modificatore di Forza (le penalità valgono per intero).
+- **Due mani:** dado + una volta e mezzo il modificatore di Forza (le penalità non si moltiplicano).
+
+Se le penalità riducono il totale sotto 1, il colpo infligge comunque 1 danno. Sul 20 naturale il colpo minaccia un **critico**: confermato, i dadi di danno si tirano più volte e si sommano (i dadi bonus, come quelli di un'arma infuocata, si tirano una volta sola). La scheda riporta il danno già calcolato, così in combattimento si tira e basta.
+
+<div class="wotsc-esempio" markdown="1">
+Spada lunga con Forza 16 (+3): a una mano fa 1d8+3, a due mani 1d8+4. Con un critico x2 confermato: 2d8+6 a una mano, 2d8+8 a due mani.
+</div>
 
 ## 6. Tiri salvezza
 
@@ -136,7 +150,7 @@ L'iniziativa è una prova di Destrezza tirata all'inizio di ogni combattimento e
 
 - **Allineamento:** la collocazione morale del personaggio (da Legale Buono a Caotico Malvagio). Alcune classi lo esigono come requisito: il Paladino solo Legale Buono, il Monaco solo legale.
 - **Divinità:** rilevante per le classi divine (chierico, paladino, druido, ranger), che ne traggono gli incantesimi. La scelta vincola il personaggio e non si modifica con leggerezza.
-- **PX e livello role:** punti esperienza e valutazione del gioco di ruolo (stelline da 1 a 5), che aprono la progressione fino al livello 12. Meccaniche descritte nelle pagine su [livelli](/sistemi/livelli/) e [voto ruolo](/mediaruolo/).
+- **PX e livello role:** punti esperienza e valutazione del gioco di ruolo (stelline da 1 a 12), che aprono la progressione fino al livello 12. Meccaniche descritte nelle pagine su [livelli](/sistemi/livelli/) e [voto ruolo](/mediaruolo/).
 
 ## Riferimenti
 
@@ -149,7 +163,3 @@ Le meccaniche descritte seguono il regolamento Pathfinder 1e. Approfondimenti, t
 - Abilità e gradi: [Abilità](https://golarion.altervista.org/wiki/Abilit%C3%A0)
 - Talenti e prerequisiti: [Talenti](https://golarion.altervista.org/wiki/Talenti)
 - Manovre, BMC e DMC: [Manovre in Combattimento](https://golarion.altervista.org/wiki/Manovre_in_Combattimento)
-
----
-
-> Torna a [Indice guide](/sistemi/)

@@ -21,7 +21,7 @@
             <li><a href="{{ '/ambientazione/' | relative_url }}"{% if page.url contains '/ambientazione' %} class="active"{% endif %}>Ambientazione</a></li>
             <li><a href="{{ '/classi/' | relative_url }}"{% if page.url contains '/classi' %} class="active"{% endif %}>Classi</a></li>
             <li><a href="{{ '/razze/' | relative_url }}"{% if page.url contains '/razze' %} class="active"{% endif %}>Razze</a></li>
-            <li><a href="{{ '/sistemi/' | relative_url }}"{% if page.url contains '/sistemi' %} class="active"{% endif %}>Guide</a></li>
+            <li><a href="{{ '/primipassi/' | relative_url }}"{% if page.url contains '/sistemi' or page.url == '/primipassi/' %} class="active"{% endif %}>Guide</a></li>
             <li><a href="{{ '/download/' | relative_url }}"{% if page.url == '/download/' %} class="active"{% endif %}>Download</a></li>
             <li><a href="{{ '/regolamento/' | relative_url }}"{% if page.url == '/regolamento/' %} class="active"{% endif %}>Regolamento</a></li>
             <li><a href="{{ '/contatti/' | relative_url }}"{% if page.url == '/contatti/' %} class="active"{% endif %}>Contatti</a></li>

@@ -13,7 +13,7 @@ Il meccanismo di valutazione del ruolo serve a garantire un minimo di qualitá a
 Idealmente non dovrebbe frenarvi troppo, se non per gli ultimissimi livelli.
 Il **voto ruolo** si suddividerà in diverse sezioni che, insieme, comporranno la vostra valutazione complessiva.  
 Valutazioni negative verranno date solo dopo un secondo richiamo, a più di due settimane dal primo.
-Potrete inoltre avere una idea piú o meno precisa di come stiate andando attraverso le stelline che vedrete in scheda, che vanno da 1 a 5 e vi daranno accesso ai livelli fino al 12.
+Potrete inoltre avere una idea piú o meno precisa di come stiate andando attraverso le stelline che vedrete in scheda, che vanno da 1 a 12 e vi daranno accesso ai livelli fino al 12.
 
 ---
 
