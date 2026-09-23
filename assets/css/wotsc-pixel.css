@@ -481,8 +481,19 @@ h3 { font-size: 1.38rem; line-height: 1.4; }
 .racconto-intestazione {
   margin-bottom: 1rem;
 }
+.racconto-kicker {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.95rem;
+  color: var(--wotsc-gold, #D6B56A);
+  margin-bottom: 0.2rem;
+}
 .racconto-intestazione h1:first-child {
   margin-top: 0;
+}
+a.racconto-ultimo {
+  font-size: 1.25em;
+  font-weight: bold;
 }
 .racconto-post {
   border-bottom: 1px solid rgba(246, 231, 193, 0.2);
