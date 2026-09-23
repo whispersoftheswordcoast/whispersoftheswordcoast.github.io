@@ -142,7 +142,11 @@ Non sei obbligato a restare su una sola classe: ad ogni passaggio di livello sce
 
 ### Restrizioni
 
-Mescolare è potente, ma chiede testa. L'allineamento chiude alcune porte: il Monaco richiede il legale, il Paladino solo il Bene legale. Il Chierico risponde al suo dio e non può semplicemente cambiare divinità. Monaco e Druido rifiutano determinate armature, e certe combinazioni richiedono criteri specifici.
+Mescolare le classi è potente, ma non tutto è permesso — ogni scelta deve avere senso per il personaggio:
+
+- **Allineamento:** alcune classi lo esigono. Il Monaco deve essere legale (ordine e disciplina), il Paladino legale buono: se il tuo allineamento non corrisponde, non puoi prendere livelli in quella classe.
+- **Chierico:** i suoi poteri vengono dal dio che serve. La scelta della divinità conta e non si cambia con leggerezza: serve una storia che lo giustifichi e il via dello staff.
+- **Armature:** molte capacità di Monaco e Druido smettono di funzionare con l'armatura sbagliata addosso — il Monaco combatte senza armatura, il Druido non veste il metallo. Pianifica l'equipaggiamento di conseguenza.
 
 ### Requisiti iniziali
 
@@ -150,7 +154,7 @@ Le nuove classi vanno indicate nel background iniziale, oppure concordate con in
 
 ## Classi di prestigio
 
-Oltre le classi base esistono classi di prestigio: percorsi che si sbloccano dopo aver soddisfatto certi criteri, meccanici e non — livelli, capacità, allineamento, e un'adeguata storia alle spalle, con attestazione dello staff. Non si scelgono alla creazione e non sono per tutti: sono il premio di chi costruisce il personaggio in una direzione precisa, dentro e fuori la scheda.
+Oltre alle classi base esistono le classi di prestigio: percorsi speciali che si sbloccano giocando, non alla creazione del personaggio. Per accedervi servono requisiti precisi, in parte meccanici (un certo livello, talenti, abilità o capacità di lanciare incantesimi) e in parte di storia (un background coerente e un percorso ruolato in gioco), sempre con l'approvazione dello staff. Non sono per tutti: sono il traguardo di chi costruisce il personaggio in una direzione precisa, nella scheda come nel ruolo.
 
 ---
 
