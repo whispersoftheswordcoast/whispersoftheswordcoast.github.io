@@ -133,11 +133,12 @@ Non sei obbligato a restare su una sola classe: ad ogni passaggio di livello sce
 
 ### Come funziona
 
-- **Livello totale:** la somma di tutti i livelli nelle varie classi determina il tuo livello complessivo, fino a un tetto massimo di 12.
-- **Dadi vita, attacco base e tiri salvezza** si sommano classe per classe: ogni classe contribuisce con il proprio dato, il proprio bonus di attacco e i propri tiri buoni. Un tiro buono vale +2 più metà livello nella classe presa in considerazione, uno scarso vale un terzo del livello.
-- **Attacco base:** può essere pieno, medio o scarso a seconda della classe scelta.
+- **Livello totale:** la somma di tutti i livelli nelle varie classi determina il tuo livello complessivo, fino a un tetto massimo di 12. Un Guerriero 4 / Ladro 2, ad esempio, è un personaggio di 6° livello con quattro livelli da guerriero e due da ladro.
+- **Dadi Vita:** ogni classe dà il suo dado (d10 il guerriero, d6 il mago...) e i punti ferita si sommano livello per livello.
+- **Tiri salvezza:** sono le prove per resistere a ciò che ti vuole male — Tempra contro veleni e malattie, Riflessi contro trappole ed esplosioni, Volontà contro paure e magie mentali. Ogni classe allena bene alcuni tiri (quelli "buoni", vedi la colonna *Tiri buoni* nelle schede delle classi) e trascura gli altri (quelli "scarsi"); i bonus delle varie classi si sommano. In pratica un tiro buono cresce in fretta (+2 più metà dei livelli in quella classe), uno scarso piano piano (circa un terzo dei livelli): un Guerriero 4 ha Tempra +4, un Mago 4 ha Tempra +1.
+- **Attacco base:** indica quanto sai menare le mani. Le classi marziali avanzano di +1 per livello (attacco "pieno", es. guerriero), quelle arcane di +1 ogni due livelli ("scarso", es. mago), le altre stanno in mezzo ("medio"). Anche qui i bonus delle classi si sommano.
 - **Punti abilità:** si sommano per classe, come per i tiri salvezza.
-- **Livelli da incantatore:** se prendi livelli in una classe lanciante altrove rispetto alla tua classe principale, quei livelli restano indietro — non puoi beneficiare dei nuovi incantesimi o memorizzazioni fino a quando non raggiungi il livello richiesto in quella scuola.
+- **Livelli da incantatore:** contano solo i livelli nella classe che lancia. Se fai il guerriero e prendi due livelli da mago, lanci come un mago di 2° livello — non come un personaggio di livello totale alto. Occhio a non restare indietro con incantesimi e memorizzazioni.
 
 ### Restrizioni
 
