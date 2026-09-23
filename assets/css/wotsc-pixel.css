@@ -449,6 +449,23 @@ h3 { font-size: 1.38rem; line-height: 1.4; }
   text-shadow: 2px 2px 0 #000;
 }
 
+/* Voci dei menu laterali su più righe: ogni voce è un blocco unico
+   (fondino + guida oro a sinistra che lega le righe andate a capo) */
+.sistemi-sidebar ul li,
+.ambientazione-sidebar ul li {
+  background: rgba(246, 231, 193, 0.05);
+  border-left: 3px solid rgba(214, 181, 106, 0.55);
+  border-radius: 0 6px 6px 0;
+  padding: 0.35rem 0.6rem;
+  margin: 0.45rem 0;
+  line-height: 1.5;
+}
+.sistemi-sidebar ul li.active,
+.ambientazione-sidebar ul li.active {
+  background: rgba(246, 231, 193, 0.12);
+  border-left-color: var(--wotsc-gold, #D6B56A);
+}
+
 /* ============================================================
    FASE 11 — responsive: cornice più leggera su schermi stretti
    (scala uniforme, nessuna deformazione; testo mai sui bordi)
