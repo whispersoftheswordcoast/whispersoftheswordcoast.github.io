@@ -466,6 +466,63 @@ h3 { font-size: 1.38rem; line-height: 1.4; }
   border-left-color: var(--wotsc-gold, #D6B56A);
 }
 
+/* Layout post: contenuto stretto e centrato come le colonne di lettura */
+.wotsc-post {
+  max-width: 860px;
+  margin: 0 auto;
+}
+.wotsc-post-meta {
+  opacity: 0.75;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Racconti dal forum */
+.racconto-post {
+  border-bottom: 1px solid rgba(246, 231, 193, 0.2);
+  padding-bottom: 1rem;
+  margin-bottom: 1.5rem;
+}
+.racconto-post:last-child {
+  border-bottom: none;
+}
+.racconto-autore {
+  font-family: var(--wotsc-font-title);
+  color: #f6e7c1;
+  text-shadow: 2px 2px 0 #000;
+}
+.racconto-autore span {
+  opacity: 0.75;
+  font-size: 0.95rem;
+}
+.racconto-testo img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0.8rem auto;
+  border-radius: 8px;
+}
+details.racconto-spoiler {
+  border-left: 3px solid rgba(214, 181, 106, 0.55);
+  background: rgba(246, 231, 193, 0.06);
+  border-radius: 0 8px 8px 0;
+  padding: 0.7rem 1rem;
+  margin: 0.9rem 0;
+}
+details.racconto-spoiler summary {
+  cursor: pointer;
+  font-weight: bold;
+  color: #f6e7c1;
+}
+.racconto-video {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  margin: 1rem 0;
+}
+
 /* ============================================================
    FASE 11 — responsive: cornice più leggera su schermi stretti
    (scala uniforme, nessuna deformazione; testo mai sui bordi)

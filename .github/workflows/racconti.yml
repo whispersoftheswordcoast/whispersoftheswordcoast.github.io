@@ -1,0 +1,40 @@
+name: Racconti dal forum
+
+on:
+  schedule:
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: racconti
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - uses: browser-actions/setup-chrome@latest
+
+      - name: Dipendenze
+        run: pip install selenium beautifulsoup4 pillow
+
+      - name: Mirror racconti
+        run: xvfb-run -a python scripts/forum_mirror.py --browser chrome
+
+      - name: Commit se cambiato
+        run: |
+          git config user.name "wotsc-bot"
+          git config user.email "wotsc-bot@local"
+          git add racconti assets/images/racconti
+          git diff --cached --quiet || git commit -m "Racconti: aggiornamento automatico dal forum"
+          git push

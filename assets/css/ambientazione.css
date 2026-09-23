@@ -27,6 +27,9 @@
   transition: transform 0.3s ease-in-out;
   z-index: 1000;
   text-shadow: 2px 2px 0 #000;
+  max-height: calc(100vh - 40px);
+  overflow-y: auto;
+  overscroll-behavior: contain;
 }
 
 /* Titolo sidebar */
@@ -176,4 +179,28 @@
 
 .ambientazione-sidebar .sidebar-section ul li {
   padding-left: 1rem;
+}
+
+/* Scroll indipendente senza barra visibile (come la lista news) */
+.ambientazione-sidebar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.ambientazione-sidebar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Sezioni collassabili */
+.ambientazione-sidebar .sidebar-section h4.collapsible {
+  cursor: pointer;
+}
+.ambientazione-sidebar .sidebar-section h4.collapsible::after {
+  content: " \25BE";
+  font-size: 0.85em;
+}
+.ambientazione-sidebar .sidebar-section.collapsed h4.collapsible::after {
+  content: " \25B8";
+}
+.ambientazione-sidebar .sidebar-section.collapsed ul {
+  display: none;
 }

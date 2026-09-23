@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>{{ page.title | default: site.title }}</title>
+  <meta name="description" content="{{ page.excerpt | escape | default: site.description }}" />
+  <link rel="stylesheet" href="/assets/css/style.css" />
+  <link rel="stylesheet" href="/assets/css/wotsc-pixel.css" />
+  <link rel="stylesheet" href="/assets/css/ambientazione.css" />
+  </head>
+<body>
+  <div class="site">
+    <header class="site-header">
+      <div class="container">
+        <img src="/assets/images/banner.webp" alt="Banner Ultima Online D&D" style="width:100%; height:auto; display: block;" />
+        <nav class="main-nav">
+          <ul>
+            <li><a href="{{ '/' | relative_url }}">Home</a></li>
+            <li><a href="{{ '/come-giocare/' | relative_url }}">Come giocare</a></li>
+            <li><a href="{{ '/ambientazione/' | relative_url }}">Ambientazione</a></li>
+            <li><a href="{{ '/classi/' | relative_url }}">Classi</a></li>
+            <li><a href="{{ '/razze/' | relative_url }}">Razze</a></li>
+            <li><a href="{{ '/primipassi/' | relative_url }}">Guide</a></li>
+            <li><a href="{{ '/download/' | relative_url }}">Download</a></li>
+            <li><a href="{{ '/regolamento/' | relative_url }}">Regolamento</a></li>
+            <li><a href="{{ '/racconti/' | relative_url }}"{% if page.url contains '/racconti' %} class="active"{% endif %}>Racconti</a></li>
+            <li><a href="{{ '/contatti/' | relative_url }}">Contatti</a></li>
+            <li><a href="{{ '/manuale/' | relative_url }}">Manuale di gioco</a></li>
+            <li><a href="{{ '/background/' | relative_url }}">Form Backgrounds</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container-ambientazione">
+      <aside class="ambientazione-sidebar pixel-frame">
+  <h3>Racconti</h3>
+
+  {% assign racconti_pages = site.pages
+      | where_exp: "page", "page.path contains 'racconti/'"
+      | where_exp: "page", "page.title" %}
+
+  {%- comment -%} Indice (senza gruppo) per primo {%- endcomment -%}
+  {% assign indice_pages = racconti_pages | where_exp: "page", "page.group == nil" %}
+  {% if indice_pages.size > 0 %}
+  <div class="sidebar-section">
+    <h4>Indice</h4>
+    <ul>
+      {% for p in indice_pages %}
+        <li {% if page.url == p.url %}class="active"{% endif %}>
+          <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
+  {%- comment -%} Poi i gruppi, Voci per prime, voci dalla più recente {%- endcomment -%}
+  {% assign group_order = "Voci&Chiacchere,Racconti dal Faerun" | split: "," %}
+  {% for gname in group_order %}
+    {% assign pages_sorted = racconti_pages | where_exp: "page", "page.group == gname" | sort: "date" | reverse %}
+    {% if pages_sorted.size > 0 %}
+    <div class="sidebar-section{% if gname == "Voci&Chiacchere" %} collapsed{% endif %}">
+      <h4 class="collapsible">{{ gname }}</h4>
+      <ul>
+        {% for p in pages_sorted %}
+          <li {% if page.url == p.url %}class="active"{% endif %}>
+            <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+  {% endfor %}
+</aside>
+
+      <!-- Pulsante toggle subito dopo la sidebar -->
+      <button class="sidebar-toggle-button" aria-label="Apri/Chiudi menu">Menu</button>
+
+      <section class="ambientazione-content pixel-frame" data-group="{{ page.group }}">
+        {{ content }}
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© {{ site.time | date: '%Y' }} {{ site.title }} — Non ufficiale</p>
+        <p><a href="https://discord.gg/GrUx8h85f4">Discord</a> • <a href="https://whispersofswoardcoast.forumcommunity.net/">Forum</a></p>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+  const toggleButton = document.querySelector('.sidebar-toggle-button');
+  const sidebar = document.querySelector('.ambientazione-sidebar');
+
+  toggleButton.addEventListener('click', () => {
+    sidebar.classList.toggle('active');
+  });
+
+  /* Sezioni collassabili: click sul titolo apre/chiude */
+  document.querySelectorAll('.ambientazione-sidebar .sidebar-section h4.collapsible').forEach(function (h) {
+    h.addEventListener('click', function () {
+      h.parentElement.classList.toggle('collapsed');
+    });
+  });
+  </script>
+{% include wotsc-lightbox.html %}
+</body>
+</html>

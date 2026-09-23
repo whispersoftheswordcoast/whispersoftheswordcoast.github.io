@@ -42,7 +42,7 @@
         <aside class="sidebar">
           <h2>News & Aggiornamenti</h2>
           <ul class="news-list">
-            {% for post in site.posts limit:200 %}
+            {% for post in site.posts %}
             <li class="pixel-news{% if post.url == page.url %} pixel-news-current{% endif %}">
               <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
               <small class="pixel-date">{{ post.date | date: '%d/%m/%Y' }}</small>
