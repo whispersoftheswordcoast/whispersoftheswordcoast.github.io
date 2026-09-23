@@ -129,7 +129,23 @@ Alla creazione scegli la classe in cui il tuo personaggio dà il meglio: la clas
 
 ## Multiclasse
 
-Non sei obbligato a restare su una sola classe: ad ogni passaggio di livello scegli in quale classe salire, e il personaggio cresce mescolando i percorsi. Dadi vita, attacco base, tiri salvezza e punti abilità si sommano classe per classe — un tiro buono vale 2 più metà livello, uno scarso un terzo del livello; l'attacco può essere pieno, medio o scarso secondo la classe. La somma di tutti i livelli fa il livello del personaggio, fino al tetto giocabile di 12. Mescolare è potente ma chiede testa: l'allineamento chiude alcune porte (il Monaco vuole la legge, il Paladino solo il Bene legale), il Chierico risponde al suo dio, Monaco e Druido rifiutano certe armature, e i livelli da incantatore presi altrove restano indietro. E soprattutto: le nuove classi vanno indicate nel background iniziale, oppure concordate con integrazioni da mandare allo staff — niente multiclasse improvvisato a metà storia.
+Non sei obbligato a restare su una sola classe: ad ogni passaggio di livello scegli in quale classe salire, e il personaggio cresce mescolando i percorsi.
+
+### Come funziona
+
+- **Livello totale:** la somma di tutti i livelli nelle varie classi determina il tuo livello complessivo, fino a un tetto massimo di 12.
+- **Dadi vita, attacco base e tiri salvezza** si sommano classe per classe: ogni classe contribuisce con il proprio dato, il proprio bonus di attacco e i propri tiri buoni. Un tiro buono vale +2 più metà livello nella classe presa in considerazione, uno scarso vale un terzo del livello.
+- **Attacco base:** può essere pieno, medio o scarso a seconda della classe scelta.
+- **Punti abilità:** si sommano per classe, come per i tiri salvezza.
+- **Livelli da incantatore:** se prendi livelli in una classe lanciante altrove rispetto alla tua classe principale, quei livelli restano indietro — non puoi beneficiare dei nuovi incantesimi o memorizzazioni fino a quando non raggiungi il livello richiesto in quella scuola.
+
+### Restrizioni
+
+Mescolare è potente, ma chiede testa. L'allineamento chiude alcune porte: il Monaco richiede il legale, il Paladino solo il Bene legale. Il Chierico risponde al suo dio e non può semplicemente cambiare divinità. Monaco e Druido rifiutano determinate armature, e certe combinazioni richiedono criteri specifici.
+
+### Requisiti iniziali
+
+Le nuove classi vanno indicate nel background iniziale, oppure concordate con integrazioni da inviare allo staff. Niente multiclasse improvvisato a metà storia: ogni livello in più va pianificato prima della creazione del personaggio, oppure preventivamente approvato.
 
 ## Classi di prestigio
 
