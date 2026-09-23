@@ -160,6 +160,9 @@
 
   .sidebar-toggle-button {
     display: block; /* mostrato su mobile */
+    width: 100%;
+    padding: 0.6rem 1rem;
+    text-align: left;
   }
 
   /* A menu aperto il pulsante resta fisso in basso: non segue lo scroll */
@@ -170,6 +173,8 @@
     transform: translateX(-50%);
     z-index: 1101;
     margin: 0;
+    width: auto;
+    padding: 0.5rem 1.2rem;
   }
 
   .ambientazione-content {

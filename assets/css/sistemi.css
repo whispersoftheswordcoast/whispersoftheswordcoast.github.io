@@ -27,6 +27,14 @@
   transition: transform 0.3s ease-in-out;
   z-index: 1000;
   text-shadow: 2px 2px 0 #000;
+  max-height: calc(100vh - 40px);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.sistemi-sidebar::-webkit-scrollbar {
+  display: none;
 }
 
 /* Titolo sidebar */
@@ -154,6 +162,9 @@
 
   .sidebar-toggle-button {
     display: block; /* visibile solo in mobile */
+    width: 100%;
+    padding: 0.6rem 1rem;
+    text-align: left;
   }
 
   /* A menu aperto il pulsante resta fisso in basso: non segue lo scroll */
@@ -164,6 +175,8 @@
     transform: translateX(-50%);
     z-index: 1101;
     margin: 0;
+    width: auto;
+    padding: 0.5rem 1.2rem;
   }
 
   .sistemi-content {
