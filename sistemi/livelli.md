@@ -138,7 +138,7 @@ Le nuove classi vanno indicate nel background iniziale, oppure concordate con in
 ### Come funziona
 
 - **Livello totale:** la somma di tutti i livelli nelle varie classi determina il tuo livello complessivo, fino a un tetto massimo di 12. Un Guerriero 4 / Ladro 2, ad esempio, è un personaggio di 6° livello con quattro livelli da guerriero e due da ladro.
-- **Il resto si somma:** dadi Vita, attacco base, tiri salvezza e punti abilità di ogni classe si aggiungono a quelli delle altre — più livelli da guerriero, più ferita e mira; più livelli da ladro, più abilità.
+- **Il resto si somma:** dadi Vita, tiro per colpire, tiri salvezza e punti abilità di ogni classe si aggiungono a quelli delle altre — più livelli da guerriero, più punti ferita e miglior tiro per colpire; più livelli da ladro, più abilità.
 - **La magia no:** gli incantesimi avanzano solo con i livelli nella classe che li lancia. Due livelli da mago su un guerriero ti fanno lanciare come un mago di 2°, non di più.
 
 ### Restrizioni
