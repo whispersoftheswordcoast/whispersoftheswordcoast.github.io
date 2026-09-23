@@ -32,7 +32,7 @@
         </nav>
 
         <!-- Pulsante toggle spostato sotto il menu -->
-        <button class="sidebar-toggle-button">Menu</button>
+        <button class="sidebar-toggle-button">Guide ▼</button>
       </div>
     </header>
 
@@ -110,7 +110,9 @@
   const sidebar = document.querySelector('.sistemi-sidebar');
 
   toggleButton.addEventListener('click', () => {
-    sidebar.classList.toggle('active');
+    const open = sidebar.classList.toggle('active');
+    toggleButton.textContent = open ? 'Chiudi ▲' : 'Guide ▼';
+    toggleButton.classList.toggle('menu-open', open);
   });
   </script>
 {% include wotsc-lightbox.html %}

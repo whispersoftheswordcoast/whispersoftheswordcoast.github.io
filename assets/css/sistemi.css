@@ -156,6 +156,16 @@
     display: block; /* visibile solo in mobile */
   }
 
+  /* A menu aperto il pulsante resta fisso in basso: non segue lo scroll */
+  .sidebar-toggle-button.menu-open {
+    position: fixed;
+    bottom: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1101;
+    margin: 0;
+  }
+
   .sistemi-content {
     max-width: 100%;
     margin-top: 3rem;

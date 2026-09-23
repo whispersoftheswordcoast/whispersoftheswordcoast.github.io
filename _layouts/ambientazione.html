@@ -77,7 +77,7 @@
 </aside>
 
       <!-- Pulsante toggle subito dopo la sidebar -->
-      <button class="sidebar-toggle-button" aria-label="Apri/Chiudi menu">Menu</button>
+      <button class="sidebar-toggle-button" aria-label="Apri/Chiudi menu">Ambientazione ▼</button>
 
       <section class="ambientazione-content pixel-frame" data-category="{{ page.category }}">
         {{ content }}
@@ -97,13 +97,9 @@
   const sidebar = document.querySelector('.ambientazione-sidebar');
 
   toggleButton.addEventListener('click', () => {
-    sidebar.classList.toggle('active');
-    // Nascondi o mostra il toggle button
-    if (sidebar.classList.contains('active')) {
-      toggleButton.style.display = 'none';
-    } else {
-      toggleButton.style.display = 'block';
-    }
+    const open = sidebar.classList.toggle('active');
+    toggleButton.textContent = open ? 'Chiudi ▲' : 'Ambientazione ▼';
+    toggleButton.classList.toggle('menu-open', open);
   });
 </script>
 {% include wotsc-lightbox.html %}
