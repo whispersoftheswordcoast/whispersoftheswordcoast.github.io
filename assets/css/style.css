@@ -147,6 +147,15 @@ a { color: #e6c996; }
   color: #fff;
 }
 
+/* Voce corrente nell'elenco news (layout post) */
+.pixel-news-current {
+  border-left: 3px solid rgba(214, 181, 106, 0.8);
+  padding-left: 0.5rem;
+}
+.pixel-news-current a {
+  color: #fff;
+}
+
 .news-list small {
   display: block;
   opacity: 0.7;

@@ -73,6 +73,31 @@ Foresta pericolosa, abitata da serpenti velenosi, ragni giganti, beholder, lican
 ### Montagne dei Troll
 Montagne ricche di gemme, ma poco esplorate a causa dei troll che le abitano. Il **Nano Gemente**, una gigantesca statua nanica scolpita nella roccia, indica l’ingresso di un'antica città, ora controllata da troll.
 
+<div class="wotsc-viewer">
+
+    <button class="wotsc-viewer-prev" aria-label="Immagine precedente">&#10094;</button>
+
+    <figure class="wotsc-viewer-item active">
+        <img src="{{ '/assets/images/montagnetroll.webp' | relative_url }}" alt="Montagne dei Troll">
+        <figcaption><strong>Montagne dei Troll</strong>I boschi rifiniti.</figcaption>
+    </figure>
+
+    <figure class="wotsc-viewer-item">
+        <img src="{{ '/assets/images/montagnetroll2.webp' | relative_url }}" alt="Montagne dei Troll, secondo scorcio">
+        <figcaption><strong>Montagne dei Troll</strong>Nuove zone alberose.</figcaption>
+    </figure>
+
+    <figure class="wotsc-viewer-item">
+        <img src="{{ '/assets/images/montagnetroll3.webp' | relative_url }}" alt="Montagne dei Troll, terzo scorcio">
+        <figcaption><strong>Montagne dei Troll</strong>Terraforming completato.</figcaption>
+    </figure>
+
+    <button class="wotsc-viewer-next" aria-label="Immagine successiva">&#10095;</button>
+
+    <div class="wotsc-viewer-count">1 / 3</div>
+
+</div>
+
 ---
 
 ## Città principali
@@ -80,6 +105,66 @@ Montagne ricche di gemme, ma poco esplorate a causa dei troll che le abitano. Il
 ### Athkatla (118.304 abitanti)
 La capitale e il più importante porto commerciale. Qualsiasi bene non magico può essere trovato qui.  
 Il grande tempio di Waukeen, **Le spire d'Oro**, domina la baia.
+
+<div class="wotsc-viewer">
+
+    <button class="wotsc-viewer-prev" aria-label="Immagine precedente">&#10094;</button>
+
+    <figure class="wotsc-viewer-item active">
+        <img src="{{ '/assets/images/athkatlapromenade.webp' | relative_url }}" alt="Athkatla, la promenade">
+        <figcaption><strong>Athkatla</strong>La promenade.</figcaption>
+    </figure>
+
+    <figure class="wotsc-viewer-item">
+        <img src="{{ '/assets/images/athkatlabridge.webp' | relative_url }}" alt="Athkatla, il ponte">
+        <figcaption><strong>Athkatla</strong>Il ponte.</figcaption>
+    </figure>
+
+    <figure class="wotsc-viewer-item">
+        <img src="{{ '/assets/images/athkatlariver.webp' | relative_url }}" alt="Athkatla, il fiume">
+        <figcaption><strong>Athkatla</strong>Il fiume.</figcaption>
+    </figure>
+
+    <figure class="wotsc-viewer-item">
+        <img src="{{ '/assets/images/athkatlacancello.webp' | relative_url }}" alt="Athkatla, il cancello">
+        <figcaption><strong>Athkatla</strong>Il cancello.</figcaption>
+    </figure>
+
+    <figure class="wotsc-viewer-item">
+        <img src="{{ '/assets/images/athkatlatemples.webp' | relative_url }}" alt="Athkatla, i templi">
+        <figcaption><strong>Athkatla</strong>I templi.</figcaption>
+    </figure>
+
+    <figure class="wotsc-viewer-item">
+        <img src="{{ '/assets/images/athkatlasixcouncil.webp' | relative_url }}" alt="Athkatla, il Consiglio dei Sei">
+        <figcaption><strong>Athkatla</strong>Il Consiglio dei Sei.</figcaption>
+    </figure>
+
+    <figure class="wotsc-viewer-item">
+        <img src="{{ '/assets/images/athkatlacimitero.webp' | relative_url }}" alt="Athkatla, il cimitero">
+        <figcaption><strong>Athkatla</strong>Il cimitero.</figcaption>
+    </figure>
+
+    <figure class="wotsc-viewer-item">
+        <img src="{{ '/assets/images/athkatlacimitero1.webp' | relative_url }}" alt="Athkatla, il cimitero, secondo scorcio">
+        <figcaption><strong>Athkatla</strong>Il cimitero, secondo scorcio.</figcaption>
+    </figure>
+
+    <figure class="wotsc-viewer-item">
+        <img src="{{ '/assets/images/athkatlacopper.webp' | relative_url }}" alt="Athkatla, scorcio della città">
+        <figcaption><strong>Athkatla</strong>Uno scorcio della città.</figcaption>
+    </figure>
+
+    <figure class="wotsc-viewer-item">
+        <img src="{{ '/assets/images/athkatlasix.webp' | relative_url }}" alt="Athkatla, scorcio della città">
+        <figcaption><strong>Athkatla</strong>Uno scorcio della città.</figcaption>
+    </figure>
+
+    <button class="wotsc-viewer-next" aria-label="Immagine successiva">&#10095;</button>
+
+    <div class="wotsc-viewer-count">1 / 10</div>
+
+</div>
 
 ### Crimmor (35.491 abitanti)
 La città delle carovane. Tutte le rotte verso nord partono da qui. È ricchissima di locande, taverne e punti di ristoro per mercanti e avventurieri.

@@ -9,7 +9,7 @@ excerpt: Lettura tecnica della scheda del personaggio, voce per voce
 
 La scheda raccoglie tutte le statistiche del personaggio: caratteristiche, punti ferita, valori di combattimento, abilità, talenti e progressione. In gioco si apre con il comando `.scheda` (l'alternativa `.char` mostra le stesse informazioni). Logica di lettura: quasi ogni voce è un bonus da sommare a 1d20 contro una Classe Difficoltà (CD) — risultato pari o superiore, la prova riesce. Questa pagina descrive le voci nell'ordine in cui compaiono.
 
-<img src="{{ '/assets/images/schedaimp.webp' | relative_url }}" alt="scheda del personaggio" style="display: block; margin: 0 auto; max-width: 100%;" />
+<img src="{{ '/assets/images/scheda01.webp' | relative_url }}" alt="scheda del personaggio" style="display: block; margin: 0 auto; max-width: 100%;" />
 
 ## 1. Caratteristiche e modificatori
 
@@ -109,6 +109,8 @@ Prova di abilità: **1d20 + gradi + modificatore di caratteristica (+3 se abilit
 Un ranger cerca tracce (Sopravvivenza, CD 15): 4 gradi + 2 di Saggezza + 3 di abilità di classe = +9. Gli basta un 6 sul dado. Un guerriero senza gradi nella stessa abilità tira solo il modificatore di Saggezza: deve sperare in un numero alto.
 </div>
 
+<img src="{{ '/assets/images/scheda03.webp' | relative_url }}" alt="sezione abilità della scheda" style="display: block; margin: 0 auto; max-width: 100%;" />
+
 ## 8. Talenti
 
 I talenti sono capacità speciali non legate a razza, classe o abilità: stili di combattimento, magie aggiuntive, bonus alle statistiche, azioni altrimenti precluse. Ciascun talento riporta:
@@ -123,7 +125,7 @@ I talenti si acquisiscono con l'avanzamento (vedi [livelli](/sistemi/livelli/)) 
 Un guerriero riceve un talento bonus al 1° livello e a ogni livello pari: al 1° sceglie Attacco Poderoso, al 2° Incalzare, costruendosi uno stile pezzo per pezzo. Un mago, che non ha talenti bonus, deve scegliere con più cura gli unici che il suo avanzamento gli concede.
 </div>
 
-<!-- PLACEHOLDER IMMAGINE: elenco talenti di un personaggio, per mostrare come si presentano in gioco -->
+<img src="{{ '/assets/images/scheda02.webp' | relative_url }}" alt="sezione talenti della scheda" style="display: block; margin: 0 auto; max-width: 100%;" />
 
 ## 9. Resistenze
 

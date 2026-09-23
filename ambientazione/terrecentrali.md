@@ -197,6 +197,36 @@ Le carovane provenienti dalla Coast Way che calcolano male le riserve d’acqua 
 
 Le Troll Hills sono invase dalla stessa orda urlante e infetta di troll che si annida nella Trollbark Forest a nord. Alcuni dicono che i troll che vivono nelle caverne sotto le colline possiedano un proprio regno. In verità, questi troll appartengono a molteplici domini in competizione tra loro, che sarebbero felici di sterminarsi a vicenda, se non fosse per il miracolo della rigenerazione dei troll che permette loro di sopravvivere ai danni che si infliggono con denti e artigli.
 
+<div class="wotsc-viewer">
+
+    <button class="wotsc-viewer-prev" aria-label="Immagine precedente">&#10094;</button>
+
+    <figure class="wotsc-viewer-item active">
+        <img src="{{ '/assets/images/trollhills1.webp' | relative_url }}" alt="Colline dei Troll">
+        <figcaption><strong>Colline dei Troll</strong>Alture selvagge e pericolose.</figcaption>
+    </figure>
+
+    <figure class="wotsc-viewer-item">
+        <img src="{{ '/assets/images/trollhills2.webp' | relative_url }}" alt="Colline dei Troll, secondo scorcio">
+        <figcaption><strong>Colline dei Troll</strong>Sentieri tra rocce e vento.</figcaption>
+    </figure>
+
+    <figure class="wotsc-viewer-item">
+        <img src="{{ '/assets/images/trollhills3.webp' | relative_url }}" alt="Colline dei Troll, terzo scorcio">
+        <figcaption><strong>Colline dei Troll</strong>Rovine e dungeon tematici.</figcaption>
+    </figure>
+
+    <figure class="wotsc-viewer-item">
+        <img src="{{ '/assets/images/trollhills4.webp' | relative_url }}" alt="Colline dei Troll, quarto scorcio">
+        <figcaption><strong>Colline dei Troll</strong>Strutture antiche nel paesaggio.</figcaption>
+    </figure>
+
+    <button class="wotsc-viewer-next" aria-label="Immagine successiva">&#10095;</button>
+
+    <div class="wotsc-viewer-count">1 / 4</div>
+
+</div>
+
 ### Foresta di Trollbark (Trollbark Forest)
 
 In quasi ogni angolo di Faerûn esiste una foresta, una catena montuosa o una brughiera che porta il nome dei troll. Come le altre, anche la Foresta di Trollbark ne è fittamente popolata. Il suo sottobosco intricato, gli spessi e contorti boschetti di frassini, e le numerose paludi ne fanno un terreno di caccia ideale per creature capaci di sfondare barriere di rovi e attraversare nidi di serpenti velenosi senza subirne danni permanenti.
