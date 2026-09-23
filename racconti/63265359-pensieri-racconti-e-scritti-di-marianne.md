@@ -5,6 +5,10 @@ date: 2025-03-29 15:58:11 +0200
 author: "Marianne Liverto"
 topic_url: "https://whispersofswoardcoast.forumcommunity.net/?t=63265359"
 group: "Racconti dal Faerun"
+lastdate: 2025-06-02 21:25:59 +0200
+lastauthor: "Marianne Liverto"
+lastentry: "469466150"
+posts: 10
 ---
 
 <div class="racconto-post" id="p-468941202">

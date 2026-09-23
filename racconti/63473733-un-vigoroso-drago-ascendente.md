@@ -5,6 +5,10 @@ date: 2026-06-03 09:14:52 +0200
 author: "Kralizec"
 topic_url: "https://whispersofswoardcoast.forumcommunity.net/?t=63473733"
 group: "Racconti dal Faerun"
+lastdate: 2026-06-03 09:14:48 +0200
+lastauthor: "Kralizec"
+lastentry: "472262792"
+posts: 1
 ---
 
 <div class="racconto-post" id="p-472262792">

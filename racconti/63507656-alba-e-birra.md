@@ -5,6 +5,10 @@ date: 2026-09-12 00:51:36 +0200
 author: "Ayman yn Hashan el Harvessar"
 topic_url: "https://whispersofswoardcoast.forumcommunity.net/?t=63507656"
 group: "Racconti dal Faerun"
+lastdate: 2026-09-12 00:51:35 +0200
+lastauthor: "Ayman yn Hashan el Harvessar"
+lastentry: "472864314"
+posts: 1
 ---
 
 <div class="racconto-post" id="p-472864314">

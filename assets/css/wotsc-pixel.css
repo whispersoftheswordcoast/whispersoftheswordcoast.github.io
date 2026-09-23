@@ -478,6 +478,12 @@ h3 { font-size: 1.38rem; line-height: 1.4; }
 }
 
 /* Racconti dal forum */
+.racconto-intestazione {
+  margin-bottom: 1rem;
+}
+.racconto-intestazione h1:first-child {
+  margin-top: 0;
+}
 .racconto-post {
   border-bottom: 1px solid rgba(246, 231, 193, 0.2);
   padding-bottom: 1rem;

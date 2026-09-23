@@ -16,6 +16,7 @@ import re
 import sys
 import time
 import urllib.request
+from datetime import datetime
 from email.utils import parsedate_to_datetime
 from xml.etree import ElementTree as ET
 
@@ -123,6 +124,11 @@ def parse_posts(html):
         when = li.select_one('span.when')
         date = when.get('title', '').strip() if when and when.has_attr('title') else (
             when.get_text(strip=True) if when else '')
+        dt = None
+        try:
+            dt = datetime.strptime(date, '%d/%m/%Y, %H:%M:%S')
+        except Exception:
+            dt = None
         color = li.select_one('table.color')
         if not color:
             continue
@@ -134,7 +140,7 @@ def parse_posts(html):
         tds = color.find_all('td')
         body_td = max(tds, key=lambda t: len(t.get_text(strip=True))) if tds else None
         body = ''.join(str(x) for x in body_td.contents) if body_td else ''
-        posts.append({'entry': entry, 'author': author, 'date': date, 'body': body})
+        posts.append({'entry': entry, 'author': author, 'date': date, 'dt': dt, 'body': body})
     return posts
 
 
@@ -244,9 +250,12 @@ def render_md(topic, posts_html):
     def esc(s):
         return s.replace('"', '\\"')
     head = ('---\nlayout: racconti\ntitle: "%s"\ndate: %s\nauthor: "%s"\n'
-            'topic_url: "%s"\ngroup: "%s"\n---\n\n') % (
+            'topic_url: "%s"\ngroup: "%s"\nlastdate: %s\nlastauthor: "%s"\n'
+            'lastentry: "%s"\nposts: %d\n---\n\n') % (
                 esc(topic['title']), topic['date'], esc(topic['author']),
-                topic['link'], GROUP_NAMES.get(topic['group'], topic['group']))
+                topic['link'], GROUP_NAMES.get(topic['group'], topic['group']),
+                topic['lastdate'], esc(topic['lastauthor']),
+                topic['lastentry'], topic['nposts'])
     parts = [head]
     for p in posts_html:
         parts.append('<div class="racconto-post"%s>\n'
@@ -322,6 +331,13 @@ def main():
             if not posts:
                 print('VUOTO', t['topic_id'], t['title'][:40])
                 continue
+            dated = [p for p in posts if p.get('dt')]
+            last = max(dated, key=lambda p: p['dt']) if dated else posts[-1]
+            tz = t['date'].split()[-1] if re.match(r'^[+-]\d{4}$', t['date'].split()[-1]) else '+0200'
+            t['lastdate'] = last['dt'].strftime('%Y-%m-%d %H:%M:%S ') + tz if last.get('dt') else t['date']
+            t['lastauthor'] = last['author']
+            t['lastentry'] = last['entry']
+            t['nposts'] = len(posts)
             content = render_md(t, posts)
             old = open(dest, encoding='utf-8').read() if os.path.exists(dest) else None
             if old != content:

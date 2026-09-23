@@ -5,6 +5,10 @@ date: 2025-10-24 22:56:22 +0200
 author: "Fael"
 topic_url: "https://whispersofswoardcoast.forumcommunity.net/?t=63370681"
 group: "Racconti dal Faerun"
+lastdate: 2026-02-13 00:26:18 +0200
+lastauthor: "Fael"
+lastentry: "471435931"
+posts: 3
 ---
 
 <div class="racconto-post" id="p-470636870">

@@ -5,6 +5,10 @@ date: 2025-03-29 13:51:30 +0200
 author: "Mannaggina"
 topic_url: "https://whispersofswoardcoast.forumcommunity.net/?t=63265297"
 group: "Racconti dal Faerun"
+lastdate: 2025-04-14 21:31:47 +0200
+lastauthor: "Marianne Liverto"
+lastentry: "469089747"
+posts: 2
 ---
 
 <div class="racconto-post" id="p-468940341">

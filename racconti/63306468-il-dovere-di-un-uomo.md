@@ -5,6 +5,10 @@ date: 2025-06-06 14:50:40 +0200
 author: "Evanshion"
 topic_url: "https://whispersofswoardcoast.forumcommunity.net/?t=63306468"
 group: "Racconti dal Faerun"
+lastdate: 2025-06-06 14:50:40 +0200
+lastauthor: "Evanshion"
+lastentry: "469494401"
+posts: 1
 ---
 
 <div class="racconto-post" id="p-469494401">

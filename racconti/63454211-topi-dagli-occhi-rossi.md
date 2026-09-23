@@ -5,6 +5,10 @@ date: 2026-04-15 14:41:58 +0200
 author: "BigBrother - Nakhar"
 topic_url: "https://whispersofswoardcoast.forumcommunity.net/?t=63454211"
 group: "Racconti dal Faerun"
+lastdate: 2026-04-15 16:56:32 +0200
+lastauthor: "Harester"
+lastentry: "471956820"
+posts: 2
 ---
 
 <div class="racconto-post" id="p-471955965">

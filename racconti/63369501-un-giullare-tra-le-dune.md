@@ -5,6 +5,10 @@ date: 2025-10-22 18:32:44 +0200
 author: "DarkJester"
 topic_url: "https://whispersofswoardcoast.forumcommunity.net/?t=63369501"
 group: "Racconti dal Faerun"
+lastdate: 2025-10-28 12:18:51 +0200
+lastauthor: "DarkJester"
+lastentry: "470664055"
+posts: 2
 ---
 
 <div class="racconto-post" id="p-470619969">

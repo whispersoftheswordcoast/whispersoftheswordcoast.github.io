@@ -5,6 +5,10 @@ date: 2025-03-23 01:08:58 +0200
 author: "il_re_nero"
 topic_url: "https://whispersofswoardcoast.forumcommunity.net/?t=63261679"
 group: "Racconti dal Faerun"
+lastdate: 2025-03-23 02:08:56 +0200
+lastauthor: "il_re_nero"
+lastentry: "468884703"
+posts: 1
 ---
 
 <div class="racconto-post" id="p-468884703">

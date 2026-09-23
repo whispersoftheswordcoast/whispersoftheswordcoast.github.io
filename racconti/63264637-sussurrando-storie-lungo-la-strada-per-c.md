@@ -5,6 +5,10 @@ date: 2025-03-28 17:18:33 +0200
 author: "Bertrand Ashford"
 topic_url: "https://whispersofswoardcoast.forumcommunity.net/?t=63264637"
 group: "Racconti dal Faerun"
+lastdate: 2025-04-07 18:45:48 +0200
+lastauthor: "Marianne Liverto"
+lastentry: "469036656"
+posts: 11
 ---
 
 <div class="racconto-post" id="p-468934976">

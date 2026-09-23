@@ -5,6 +5,10 @@ date: 2026-02-17 17:26:53 +0200
 author: "Frattaglia"
 topic_url: "https://whispersofswoardcoast.forumcommunity.net/?t=63427737"
 group: "Racconti dal Faerun"
+lastdate: 2026-02-27 18:45:50 +0200
+lastauthor: "Frattaglia"
+lastentry: "471536574"
+posts: 2
 ---
 
 <div class="racconto-post" id="p-471468429">

@@ -5,6 +5,10 @@ date: 2025-07-22 13:55:02 +0200
 author: "Harester"
 topic_url: "https://whispersofswoardcoast.forumcommunity.net/?t=63325629"
 group: "Racconti dal Faerun"
+lastdate: 2026-02-13 15:33:36 +0200
+lastauthor: "Harester"
+lastentry: "471438936"
+posts: 9
 ---
 
 <div class="racconto-post" id="p-469826987">

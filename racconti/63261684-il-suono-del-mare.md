@@ -5,6 +5,10 @@ date: 2025-03-23 02:14:32 +0200
 author: "Renekton90"
 topic_url: "https://whispersofswoardcoast.forumcommunity.net/?t=63261684"
 group: "Racconti dal Faerun"
+lastdate: 2025-03-27 12:25:08 +0200
+lastauthor: "Renekton90"
+lastentry: "468925477"
+posts: 2
 ---
 
 <div class="racconto-post" id="p-468884875">

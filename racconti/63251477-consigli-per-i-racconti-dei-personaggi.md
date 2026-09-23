@@ -5,6 +5,10 @@ date: 2025-03-08 20:18:53 +0200
 author: "Secretary_WotSC"
 topic_url: "https://whispersofswoardcoast.forumcommunity.net/?t=63251477"
 group: "Racconti dal Faerun"
+lastdate: 2025-03-08 21:18:53 +0200
+lastauthor: "Secretary_WotSC"
+lastentry: "468746915"
+posts: 1
 ---
 
 <div class="racconto-post" id="p-468746915">

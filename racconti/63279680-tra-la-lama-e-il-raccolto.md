@@ -5,6 +5,10 @@ date: 2025-04-13 03:23:50 +0200
 author: "Macomh"
 topic_url: "https://whispersofswoardcoast.forumcommunity.net/?t=63279680"
 group: "Racconti dal Faerun"
+lastdate: 2025-06-02 16:23:07 +0200
+lastauthor: "Macomh"
+lastentry: "469464213"
+posts: 3
 ---
 
 <div class="racconto-post" id="p-469077234">

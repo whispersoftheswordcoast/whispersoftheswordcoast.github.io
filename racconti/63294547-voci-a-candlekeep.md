@@ -5,6 +5,10 @@ date: 2025-05-13 10:45:42 +0200
 author: "Admin Fenice"
 topic_url: "https://whispersofswoardcoast.forumcommunity.net/?t=63294547"
 group: "Voci&Chiacchere"
+lastdate: 2025-05-13 10:45:41 +0200
+lastauthor: "Admin Fenice"
+lastentry: "469316152"
+posts: 1
 ---
 
 <div class="racconto-post" id="p-469316152">

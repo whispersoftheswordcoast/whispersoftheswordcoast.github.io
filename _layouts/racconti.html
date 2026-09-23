@@ -59,7 +59,7 @@
   {%- comment -%} Poi i gruppi, Voci per prime, voci dalla più recente {%- endcomment -%}
   {% assign group_order = "Voci&Chiacchere,Racconti dal Faerun" | split: "," %}
   {% for gname in group_order %}
-    {% assign pages_sorted = racconti_pages | where_exp: "page", "page.group == gname" | sort: "date" | reverse %}
+    {% assign pages_sorted = racconti_pages | where_exp: "page", "page.group == gname" | sort: "lastdate" | reverse %}
     {% if pages_sorted.size > 0 %}
     <div class="sidebar-section{% if gname == "Voci&Chiacchere" %} collapsed{% endif %}">
       <h4 class="collapsible">{{ gname }}</h4>
@@ -79,6 +79,12 @@
       <button class="sidebar-toggle-button" aria-label="Apri/Chiudi menu">Menu</button>
 
       <section class="ambientazione-content pixel-frame" data-group="{{ page.group }}">
+        {% if page.topic_url %}
+        <header class="racconto-intestazione">
+          <h1>{{ page.title }}</h1>
+          <p class="wotsc-post-meta">di {{ page.author }} · dal {{ page.date | date: "%d/%m/%Y" }}{% if page.posts > 1 %} · <a href="#p-{{ page.lastentry }}">ultimo messaggio di {{ page.lastauthor }} ↓</a>{% endif %}</p>
+        </header>
+        {% endif %}
         {{ content }}
       </section>
     </main>

@@ -5,6 +5,10 @@ date: 2025-03-21 16:50:17 +0200
 author: "Macomh"
 topic_url: "https://whispersofswoardcoast.forumcommunity.net/?t=63261100"
 group: "Racconti dal Faerun"
+lastdate: 2025-04-07 14:16:37 +0200
+lastauthor: "Petalosa"
+lastentry: "469031505"
+posts: 12
 ---
 
 <div class="racconto-post" id="p-468873511">

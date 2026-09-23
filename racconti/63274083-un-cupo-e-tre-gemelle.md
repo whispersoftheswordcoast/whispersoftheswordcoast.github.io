@@ -5,6 +5,10 @@ date: 2025-04-10 20:04:02 +0200
 author: "Admin Fenice"
 topic_url: "https://whispersofswoardcoast.forumcommunity.net/?t=63274083"
 group: "Racconti dal Faerun"
+lastdate: 2025-04-10 20:04:01 +0200
+lastauthor: "Admin Fenice"
+lastentry: "469057668"
+posts: 1
 ---
 
 <div class="racconto-post" id="p-469057668">

@@ -5,6 +5,10 @@ date: 2026-03-01 19:55:03 +0200
 author: "Fellone"
 topic_url: "https://whispersofswoardcoast.forumcommunity.net/?t=63433186"
 group: "Racconti dal Faerun"
+lastdate: 2026-03-07 01:13:03 +0200
+lastauthor: "Fellone"
+lastentry: "471593208"
+posts: 2
 ---
 
 <div class="racconto-post" id="p-471551708">

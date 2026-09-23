@@ -5,6 +5,10 @@ date: 2026-03-25 16:54:41 +0200
 author: "Harester"
 topic_url: "https://whispersofswoardcoast.forumcommunity.net/?t=63443809"
 group: "Voci&Chiacchere"
+lastdate: 2026-03-25 17:54:41 +0200
+lastauthor: "Harester"
+lastentry: "471772285"
+posts: 1
 ---
 
 <div class="racconto-post" id="p-471772285">
