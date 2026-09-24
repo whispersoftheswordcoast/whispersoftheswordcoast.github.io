@@ -40,12 +40,12 @@
     <aside class="sistemi-sidebar pixel-frame">
   <h3>Sezioni Sistemi</h3>
 
-  <!-- Meccaniche -->
+  <!-- Primi passi -->
   <div class="sidebar-section">
-    <h4>Meccaniche</h4>
+    <h4>Primi passi</h4>
     <ul>
       {% assign pagine_ordinate = site.pages | sort: "order" %}{% for p in pagine_ordinate %}
-        {% if p.path contains 'sistemi/' and p.order >= 2 and p.order <= 99 %}
+        {% if p.path contains 'sistemi/' and p.order >= 2 and p.order <= 19 %}
           <li {% if page.url == p.url %}class="active"{% endif %}>
             <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
           </li>
@@ -54,12 +54,40 @@
     </ul>
   </div>
 
-  <!-- Sistemi di ruolo -->
+  <!-- Personaggio -->
   <div class="sidebar-section">
-    <h4>Sistemi di ruolo</h4>
+    <h4>Personaggio</h4>
     <ul>
       {% assign pagine_ordinate = site.pages | sort: "order" %}{% for p in pagine_ordinate %}
-        {% if p.path contains 'sistemi/' and p.order >= 100 and p.order <= 199 %}
+        {% if p.path contains 'sistemi/' and p.order >= 20 and p.order <= 99 %}
+          <li {% if page.url == p.url %}class="active"{% endif %}>
+            <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+
+  <!-- Vita nel mondo -->
+  <div class="sidebar-section">
+    <h4>Vita nel mondo</h4>
+    <ul>
+      {% assign pagine_ordinate = site.pages | sort: "order" %}{% for p in pagine_ordinate %}
+        {% if p.path contains 'sistemi/' and p.order >= 100 and p.order <= 119 %}
+          <li {% if page.url == p.url %}class="active"{% endif %}>
+            <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+
+  <!-- Valutazioni -->
+  <div class="sidebar-section">
+    <h4>Valutazioni</h4>
+    <ul>
+      {% assign pagine_ordinate = site.pages | sort: "order" %}{% for p in pagine_ordinate %}
+        {% if p.path contains 'sistemi/' and p.order >= 120 and p.order <= 199 %}
           <li {% if page.url == p.url %}class="active"{% endif %}>
             <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
           </li>

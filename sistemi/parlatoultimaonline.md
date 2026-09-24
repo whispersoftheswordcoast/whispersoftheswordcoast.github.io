@@ -3,7 +3,7 @@ layout: sistemi
 title: "Il parlato in Ultima Online"
 tags: [roleplay, guida, comunicazione, ultima-online]
 excerpt: "Guida alle quattro forme fondamentali di comunicazione di ruolo in Ultima Online."
-order: 8
+order: 4
 ---
 
 # Comunicazione di Roleplay in Ultima Online

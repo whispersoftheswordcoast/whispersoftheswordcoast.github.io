@@ -23,7 +23,7 @@ Sono pochi quelli degni di risplendere del potere divino. Chiamati paladini, que
 
 In battaglia sono il punto di riferimento degli alleati nel caos: letali coi malvagi, scudo per chi vacilla. Fuori, la loro stessa presenza mette alla prova le tentazioni di tutti, comprese le proprie.
 
-**Ruolo:** campione sacro, scudo dei deboli. **Allineamento:** Legale Buono, senza eccezioni nel codice. **Dado Vita:** d10.
+**Ruolo:** campione sacro, scudo dei deboli. [**Allineamento**](/sistemi/allineamenti/): Legale Buono, senza eccezioni nel codice. **Dado Vita:** d10.
 **Abilità di classe:** Addestrare Animali, Artigianato, Cavalcare, Conoscenze (nobiltà, religione), Diplomazia, Guarire, Intuizione, Professione, Sapienza Magica.
 **Competenze:** armi semplici e da guerra; armature leggere, medie, pesanti e scudi.
 

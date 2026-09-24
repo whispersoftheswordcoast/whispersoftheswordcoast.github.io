@@ -21,7 +21,7 @@ excerpt: Magia divina, cure e domini del suo dio
 
 Quando il gruppo è in ginocchio, è al chierico che tutti guardano. Ponte tra gli dei e il campo di battaglia, incanala poteri che nessuna magia arcana può replicare. E ogni chierico ha il volto del suo dio: luce e rinascita con Lathander, dominio e forza con Bane.
 
-**Ruolo:** pilastro del gruppo, cura e decide. **Allineamento:** entro una casella da quello del dio, mai in diagonale. **Dado Vita:** d8.
+**Ruolo:** pilastro del gruppo, cura e decide. [**Allineamento**](/sistemi/allineamenti/): entro una casella da quello del dio, mai in diagonale. **Dado Vita:** d8.
 **Abilità di classe:** Artigianato, Conoscenze (arcane, nobiltà, piani, religioni, storia), Diplomazia, Guarire, Intuizione, Parlare linguaggi, Professione, Sapienza Magica, Valutare.
 **Competenze:** solo armi semplici; armature leggere, medie, pesanti e scudi.
 

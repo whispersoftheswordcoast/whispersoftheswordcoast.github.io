@@ -21,7 +21,7 @@ excerpt: Studio arcano con libro e scuole di magia
 
 Nessuno gli ha regalato niente. Ogni incantesimo che conosce se l'è guadagnato tra libri, pratica e notti insonni, perché per il mago la magia è scienza e linguaggio, non dono. Fragile all'inizio, devastante quando ingrana.
 
-**Ruolo:** la mente, prepara e risolve. **Allineamento:** qualsiasi. **Dado Vita:** d6.
+**Ruolo:** la mente, prepara e risolve. [**Allineamento**](/sistemi/allineamenti/): qualsiasi. **Dado Vita:** d6.
 **Abilità di classe:** Artigianato, tutte le Conoscenze, Parlare linguaggi, Professione, Sapienza Magica, Valutare, Volare.
 **Competenze:** balestre, bastone ferrato, pugnali, randello. Armature: nessuna.
 

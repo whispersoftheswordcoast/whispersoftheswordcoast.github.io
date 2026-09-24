@@ -21,7 +21,7 @@ excerpt: Caccia, tracce e nemico prescelto nelle terre selvagge
 
 Il ranger sa leggere il terreno come gli altri leggono i libri. Boschi, colline, rovine dimenticate: ovunque ci sia natura, lui ci passa senza farsi notare e ne esce con la preda. Cacciatore, ricognitore, guardiano dei confini.
 
-**Ruolo:** occhi e gambe del gruppo. **Allineamento:** qualsiasi. **Dado Vita:** d10.
+**Ruolo:** occhi e gambe del gruppo. [**Allineamento**](/sistemi/allineamenti/): qualsiasi. **Dado Vita:** d10.
 **Abilità di classe:** Addestrare Animali, Artigianato, Cavalcare, Conoscenze (Dungeon, Geografia, Natura), Furtività, Guarire, Intimidire, Nuotare, Percezione, Professione, Sapienza Magica, Scalare, Sopravvivenza.
 **Competenze:** armi semplici e da guerra; armature leggere e medie.
 

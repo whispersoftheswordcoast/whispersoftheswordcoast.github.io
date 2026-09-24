@@ -1,7 +1,7 @@
 ﻿---
 title: Livelli
 layout: sistemi
-order: 4
+order: 21
 excerpt: Panoramica del sistema a livelli basato su pathfinder e D&D
 ---
 <img src="{{ '/assets/images/livelli.webp' | relative_url }}" alt="livelli" style="display: block; margin: 0 auto;" />
@@ -145,7 +145,7 @@ Le nuove classi vanno indicate nel background iniziale, oppure concordate con in
 
 Mescolare le classi è potente, ma non tutto è permesso — ogni scelta deve avere senso per il personaggio:
 
-- **Allineamento:** alcune classi lo esigono. Il Monaco deve essere legale (ordine e disciplina), il Paladino legale buono: se il tuo allineamento non corrisponde, non puoi prendere livelli in quella classe.
+- [**Allineamento:**](/sistemi/allineamenti/) alcune classi lo esigono. Il Monaco deve essere legale (ordine e disciplina), il Paladino legale buono: se il tuo allineamento non corrisponde, non puoi prendere livelli in quella classe.
 - **Chierico:** i suoi poteri vengono dal dio che serve. La scelta della divinità conta e non si cambia con leggerezza: serve una storia che lo giustifichi e il via dello staff.
 - **Armature:** molte capacità di Monaco e Druido smettono di funzionare con l'armatura sbagliata addosso — il Monaco combatte senza armatura, il Druido non veste il metallo. Pianifica l'equipaggiamento di conseguenza.
 

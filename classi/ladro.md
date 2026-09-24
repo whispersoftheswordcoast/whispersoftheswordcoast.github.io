@@ -21,7 +21,7 @@ excerpt: Ombre, scasso e colpi decisivi con più abilità di tutti
 
 Dove il guerriero sfonda la porta, il ladro era già dentro da un'ora. Astuzia, precisione, adattabilità: si muove inosservato, capisce le persone al volo e sfrutta ogni spiraglio, in combattimento come fuori.
 
-**Ruolo:** ombra del gruppo, apre e scopre l'impossibile. **Allineamento:** qualsiasi. **Dado Vita:** d8.
+**Ruolo:** ombra del gruppo, apre e scopre l'impossibile. [**Allineamento**](/sistemi/allineamenti/): qualsiasi. **Dado Vita:** d8.
 **Abilità di classe:** praticamente tutte, da Acrobazia a Valutare passando per Furtività, Disattivare congegni, Raggirare, Rapidità di mano e Utilizzare oggetti magici.
 **Competenze:** arco corto, balestre, pugnali, spade corte e armi leggere simili; solo armature leggere.
 

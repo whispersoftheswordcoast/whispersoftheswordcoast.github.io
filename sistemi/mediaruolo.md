@@ -2,7 +2,7 @@
 title: Voto ruolistico
 layout: sistemi
 permalink: /mediaruolo/
-order: 101
+order: 120
 excerpt: la valutazione del ruolo, un sistema per incentivare la buona interpretazione di tutti
 ---
 <img src="{{ '/assets/images/teacher.webp' | relative_url }}" alt="gli insegnamenti" style="display: block; margin: 0 auto;" />

@@ -1,7 +1,7 @@
 ---
 title: Magia
 layout: sistemi
-order: 7
+order: 22
 excerpt: Tutto quel che serve sapere sulla magia prima del primo giorno di gioco
 ---
 

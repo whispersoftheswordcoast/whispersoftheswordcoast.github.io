@@ -1,7 +1,7 @@
 ﻿---
 title: Lavorative
 layout: sistemi
-order: 6
+order: 100
 excerpt: Tutto quel che c'é da sapere sul sistema di crafting, le abilitá lavorative ed altro
 ---
 <img src="{{ '/assets/images/lavorative.webp' | relative_url }}" alt="lavorative" style="display: block; margin: 0 auto;" />

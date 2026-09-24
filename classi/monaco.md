@@ -21,7 +21,7 @@ excerpt: Arti marziali, velocità e Ki senza armatura
 
 Anni di allenamento per arrivare a non aver bisogno di niente: né spada, né scudo, né armatura. Il monaco ha fatto di corpo, mente e spirito un'unica arma, e quando entra in meditazione il Ki fa il resto. Preciso come una lama, calmo come un lago.
 
-**Ruolo:** combattente mobile e inafferrabile. **Allineamento:** qualsiasi legale. **Dado Vita:** d8.
+**Ruolo:** combattente mobile e inafferrabile. [**Allineamento**](/sistemi/allineamenti/): qualsiasi legale. **Dado Vita:** d8.
 **Abilità di classe:** Acrobazia, Artigianato, Artista della Fuga, Cavalcare, Conoscenze (religioni, storia), Furtività, Intimidire, Intrattenere, Intuizione, Nuotare, Percezione, Professione, Scalare.
 **Competenze:** armi monastiche come kama, nunchaku, siangham, shuriken e bastone. Armature: nessuna, mai.
 

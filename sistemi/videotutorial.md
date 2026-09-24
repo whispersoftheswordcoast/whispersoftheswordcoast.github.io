@@ -1,7 +1,7 @@
 ---
 title: Video tutorial
 layout: sistemi
-order: 201
+order: 5
 excerpt: I video tutorial ufficiali del server, passo passo
 ---
 

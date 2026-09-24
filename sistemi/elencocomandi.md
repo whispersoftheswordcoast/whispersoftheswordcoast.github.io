@@ -1,7 +1,7 @@
 ﻿---
 title: Elenco dei comandi
 layout: sistemi
-order: 5
+order: 3
 excerpt: Le parole di potere che aprono le porte alla fantasia
 ---
 <img src="{{ '/assets/images/library.webp' | relative_url }}" alt="libreria fatata" style="display: block; margin: 0 auto;" />

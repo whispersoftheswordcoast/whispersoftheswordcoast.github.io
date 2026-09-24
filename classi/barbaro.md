@@ -21,7 +21,7 @@ excerpt: Furia primordiale, dado d12 e ira devastante
 
 C'è un momento, in ogni battaglia dura, in cui la disciplina non basta più. È lì che entra il barbaro. Cresciuto tra la durezza della natura e la brutalità della guerra, ha imparato a trasformare istinto ed emozioni in forza pura. La sua ira non è una crisi di nervi: è una tecnica come un'altra, solo più rumorosa.
 
-**Ruolo:** sfondatore, quello che spacca la mischia. **Allineamento:** qualsiasi, purché non legale. **Dado Vita:** d12.
+**Ruolo:** sfondatore, quello che spacca la mischia. [**Allineamento**](/sistemi/allineamenti/): qualsiasi, purché non legale. **Dado Vita:** d12.
 **Abilità di classe:** Acrobazia, Addestrare Animali, Artigianato, Cavalcare, Conoscenze (natura), Intimidire, Nuotare, Percezione, Scalare, Sopravvivenza.
 **Competenze:** armi semplici e da guerra; armature leggere e medie; scudi.
 

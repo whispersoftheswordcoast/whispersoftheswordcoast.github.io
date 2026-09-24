@@ -21,7 +21,7 @@ excerpt: Musica, parole e magia per sostenere gli alleati
 
 Canta nelle taverne, spia nelle corti, ricorda quello che gli altri hanno dimenticato. Il bardo ha capito prima di tutti che parole e musica muovono più eserciti delle spade, e le usa entrambe, condite con un po' di magia.
 
-**Ruolo:** moltiplica il gruppo, sostiene e controlla. **Allineamento:** qualsiasi. **Dado Vita:** d8.
+**Ruolo:** moltiplica il gruppo, sostiene e controlla. [**Allineamento**](/sistemi/allineamenti/): qualsiasi. **Dado Vita:** d8.
 **Abilità di classe:** Acrobazia, Artigianato, Artista della Fuga, Camuffare, tutte le Conoscenze, Diplomazia, Furtività, Intimidire, Intrattenere, Intuizione, Parlare linguaggi, Percezione, Professione, Raggirare, Rapidità di Mano, Sapienza Magica, Scalare, Utilizzare Congegni Magici, Valutare.
 **Competenze:** armi semplici più arco corto, frusta, manganello, spade corta e lunga, stocco; armature leggere e scudi.
 

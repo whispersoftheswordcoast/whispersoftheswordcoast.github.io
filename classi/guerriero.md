@@ -21,7 +21,7 @@ excerpt: Prima linea, talenti bonus e padronanza totale di armi e armature
 
 Quando gli altri arretrano, il guerriero avanza. Niente trucchi, niente scorciatoie: anni di addestramento condensati in ogni colpo di spada. Soldato del Pugno Fiammeggiante, guardia di Athkatla, mercenario di passaggio o cavaliere con giuramento, il mestiere cambia ma il lavoro resta quello di sempre. Tenere la linea.
 
-**Ruolo:** prima linea, scudo del gruppo. **Allineamento:** qualsiasi. **Dado Vita:** d10.
+**Ruolo:** prima linea, scudo del gruppo. [**Allineamento**](/sistemi/allineamenti/): qualsiasi. **Dado Vita:** d10.
 **Abilità di classe:** Addestrare Animali, Artigianato, Cavalcare, Conoscenze (Dungeon, Ingegneria), Intimidire, Nuotare, Professione, Scalare, Sopravvivenza.
 **Competenze:** qualsiasi arma; qualsiasi armatura, pesanti comprese; qualsiasi scudo, torre compresa.
 

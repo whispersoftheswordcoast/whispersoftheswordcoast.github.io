@@ -1,7 +1,7 @@
 ---
 title: Il pagellino
 layout: sistemi
-order: 102
+order: 121
 excerpt: I punti esperienza automatici per chi desidera solo ruolare
 ---
 

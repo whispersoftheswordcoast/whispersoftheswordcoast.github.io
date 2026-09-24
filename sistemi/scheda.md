@@ -1,7 +1,7 @@
 ---
 title: La scheda
 layout: sistemi
-order: 3
+order: 20
 excerpt: Lettura tecnica della scheda del personaggio, voce per voce
 ---
 
@@ -150,7 +150,7 @@ L'iniziativa è una prova di Destrezza tirata all'inizio di ogni combattimento e
 
 ## 12. Allineamento, divinità, esperienza
 
-- **Allineamento:** la collocazione morale del personaggio (da Legale Buono a Caotico Malvagio). Alcune classi lo esigono come requisito: il Paladino solo Legale Buono, il Monaco solo legale.
+- [**Allineamento:**](/sistemi/allineamenti/) la collocazione morale del personaggio (da Legale Buono a Caotico Malvagio). Alcune classi lo esigono come requisito: il Paladino solo Legale Buono, il Monaco solo legale.
 - **Divinità:** rilevante per le classi divine (chierico, paladino, druido, ranger), che ne traggono gli incantesimi. La scelta vincola il personaggio e non si modifica con leggerezza.
 - **PX e livello role:** punti esperienza e valutazione del gioco di ruolo (stelline da 1 a 12), che aprono la progressione fino al livello 12. Meccaniche descritte nelle pagine su [livelli](/sistemi/livelli/) e [voto ruolo](/mediaruolo/).
 

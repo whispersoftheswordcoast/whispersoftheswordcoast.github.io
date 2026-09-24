@@ -21,7 +21,7 @@ excerpt: Magia innata e spontanea da Carisma
 
 Il mago ha studiato, lo stregone c'era già. Il potere gli scorre nel sangue per retaggio o per qualche evento che lo ha segnato, e lo usa d'istinto: niente libri, niente preparazioni, solo l'incantesimo giusto al momento giusto.
 
-**Ruolo:** artiglieria spontanea. **Allineamento:** qualsiasi. **Dado Vita:** d6.
+**Ruolo:** artiglieria spontanea. [**Allineamento**](/sistemi/allineamenti/): qualsiasi. **Dado Vita:** d6.
 **Abilità di classe:** Artigianato, Conoscenze (arcane), Intimidire, Professione, Raggirare, Sapienza Magica, Utilizzare Oggetti Magici, Valutare, Volare.
 **Competenze:** tutte le armi semplici. Armature: nessuna.
 
