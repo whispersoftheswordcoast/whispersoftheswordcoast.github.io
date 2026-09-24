@@ -449,6 +449,36 @@ h3 { font-size: 1.38rem; line-height: 1.4; }
   text-shadow: 2px 2px 0 #000;
 }
 
+/* Scheda divinità dentro cornice: immagine e griglia impilati, niente float */
+.wotsc-divinita-img {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  margin: 0 auto 1rem;
+  border-radius: 10px;
+}
+table.wotsc-allineamenti {
+  margin: 0 auto;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+.wotsc-allineamenti td {
+  border: 1px solid rgba(214, 181, 106, 0.6);
+  text-align: center;
+  padding: 0.25rem 0.6rem;
+  color: #9a917f;
+}
+.wotsc-allineamenti td.me {
+  background: var(--wotsc-gold, #D6B56A);
+  color: #11182A;
+  font-weight: bold;
+}
+.wotsc-allineamenti td.ok {
+  background: rgba(246, 231, 193, 0.12);
+  color: #f6e7c1;
+}
+
 /* Difficoltà classi: stelle gialle in pixel operator */
 .wotsc-stelle {
   font-family: var(--wotsc-font-pixel);
