@@ -13,7 +13,7 @@ excerpt: Magia divina, cure e domini del suo dio
 <p class="wotsc-difficolta"><strong>Difficoltà</strong>:
 <span class="wotsc-diff-item">Iniziale <span class="wotsc-stelle">★★☆☆☆</span></span>
 <span class="wotsc-diff-item">Meccaniche <span class="wotsc-stelle">★★★☆☆</span></span>
-<span class="wotsc-diff-item">Ruolo <span class="wotsc-stelle">★★★☆☆</span></span></p>
+<span class="wotsc-diff-item">Ruolo <span class="wotsc-stelle">★★★★☆</span></span></p>
 
 <img class="wotsc-scheda-img" src="{{ '/assets/images/chierico.webp' | relative_url }}" alt="chierico" />
 <div class="wotsc-scheda-clear"></div>
