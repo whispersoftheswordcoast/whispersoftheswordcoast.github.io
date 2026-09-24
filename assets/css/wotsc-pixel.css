@@ -663,6 +663,15 @@ details.racconto-spoiler summary {
     min-height: 52px;
     font-size: 24px;
   }
+  /* Divinità: rimuove la cornice interna su mobile per larghezza piena */
+  .ambientazione-content .pixel-frame,
+  .ambientazione-content .pixel-frame > * {
+    border: none;
+    border-image: none;
+    box-shadow: none;
+    padding: 0;
+    background: transparent;
+  }
 }
 
 /* ============================================================
