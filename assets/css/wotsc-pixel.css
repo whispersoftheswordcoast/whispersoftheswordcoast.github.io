@@ -449,6 +449,66 @@ h3 { font-size: 1.38rem; line-height: 1.4; }
   text-shadow: 2px 2px 0 #000;
 }
 
+/* Difficoltà classi: stelle gialle in pixel operator */
+.wotsc-stelle {
+  font-family: var(--wotsc-font-pixel);
+  color: #FFD700;
+  font-size: 1.15em;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 0 #000;
+  white-space: nowrap;
+}
+
+/* Difficoltà: in riga su desktop, incolonnate su mobile */
+.wotsc-diff-item + .wotsc-diff-item::before {
+  content: "· ";
+}
+.wotsc-scheda-img {
+  float: right;
+  width: 45%;
+  max-width: 320px;
+  height: auto;
+  margin: 0 0 1rem 1.5rem;
+  border-radius: 10px;
+}
+@media (max-width: 767px) {
+  .wotsc-difficolta {
+    float: left;
+    width: 50%;
+  }
+  .wotsc-scheda-clear {
+    clear: both;
+  }
+  .wotsc-diff-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 0.3rem;
+  }
+  .wotsc-diff-item + .wotsc-diff-item::before {
+    content: none;
+  }
+  .wotsc-difficolta .wotsc-stelle {
+    font-size: 1em;
+    letter-spacing: 1px;
+  }
+}
+
+/* Schermi stretti: difficoltà e immagine impilate, niente float */
+@media (max-width: 480px) {
+  .wotsc-difficolta {
+    float: none;
+    width: 100%;
+  }
+  .wotsc-scheda-img {
+    float: none;
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin: 1rem auto;
+  }
+}
+
 /* Voci dei menu laterali su più righe: ogni voce è un blocco unico
    (fondino + guida oro a sinistra che lega le righe andate a capo) */
 .sistemi-sidebar ul li,
