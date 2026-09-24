@@ -9,7 +9,15 @@ excerpt: Guerriero sacro Legale Buono che punisce il male
 
 > Torna a [Indice classi](/classi/)
 
-<img src="{{ '/assets/images/paladino.webp' | relative_url }}" alt="paladino" style="float: right; width: 45%; max-width: 320px; height: auto; margin: 0 0 1rem 1.5rem; border-radius: 10px;" />
+<div class="wotsc-scheda-top">
+<p class="wotsc-difficolta"><strong>Difficoltà</strong>:
+<span class="wotsc-diff-item">Iniziale <span class="wotsc-stelle">★☆☆☆☆</span></span>
+<span class="wotsc-diff-item">Meccaniche <span class="wotsc-stelle">★★☆☆☆</span></span>
+<span class="wotsc-diff-item">Ruolo <span class="wotsc-stelle">★★★★☆</span></span></p>
+
+<img class="wotsc-scheda-img" src="{{ '/assets/images/paladino.webp' | relative_url }}" alt="paladino" />
+<div class="wotsc-scheda-clear"></div>
+</div>
 
 Sono pochi quelli degni di risplendere del potere divino. Chiamati paladini, queste anime nobili dedicano la vita a combattere il male: cavalieri, crociati e legislatori che abbracciano gli insegnamenti virtuosi della divinità che servono. Li guidano onore, verità e pietà, e in cambio gli dei li benedicono con il potere di punire i malvagi, guarire gli innocenti e ispirare i fedeli.
 

@@ -9,7 +9,15 @@ excerpt: Studio arcano con libro e scuole di magia
 
 > Torna a [Indice classi](/classi/)
 
-<img src="{{ '/assets/images/mago.webp' | relative_url }}" alt="mago" style="float: right; width: 45%; max-width: 320px; height: auto; margin: 0 0 1rem 1.5rem; border-radius: 10px;" />
+<div class="wotsc-scheda-top">
+<p class="wotsc-difficolta"><strong>Difficoltà</strong>:
+<span class="wotsc-diff-item">Iniziale <span class="wotsc-stelle">★★★★★</span></span>
+<span class="wotsc-diff-item">Meccaniche <span class="wotsc-stelle">★★★★★</span></span>
+<span class="wotsc-diff-item">Ruolo <span class="wotsc-stelle">★★★★☆</span></span></p>
+
+<img class="wotsc-scheda-img" src="{{ '/assets/images/mago.webp' | relative_url }}" alt="mago" />
+<div class="wotsc-scheda-clear"></div>
+</div>
 
 Nessuno gli ha regalato niente. Ogni incantesimo che conosce se l'è guadagnato tra libri, pratica e notti insonni, perché per il mago la magia è scienza e linguaggio, non dono. Fragile all'inizio, devastante quando ingrana.
 

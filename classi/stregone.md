@@ -9,7 +9,15 @@ excerpt: Magia innata e spontanea da Carisma
 
 > Torna a [Indice classi](/classi/)
 
-<img src="{{ '/assets/images/stregone.webp' | relative_url }}" alt="stregone" style="float: right; width: 45%; max-width: 320px; height: auto; margin: 0 0 1rem 1.5rem; border-radius: 10px;" />
+<div class="wotsc-scheda-top">
+<p class="wotsc-difficolta"><strong>Difficoltà</strong>:
+<span class="wotsc-diff-item">Iniziale <span class="wotsc-stelle">★★★★☆</span></span>
+<span class="wotsc-diff-item">Meccaniche <span class="wotsc-stelle">★★★★☆</span></span>
+<span class="wotsc-diff-item">Ruolo <span class="wotsc-stelle">★★☆☆☆</span></span></p>
+
+<img class="wotsc-scheda-img" src="{{ '/assets/images/stregone.webp' | relative_url }}" alt="stregone" />
+<div class="wotsc-scheda-clear"></div>
+</div>
 
 Il mago ha studiato, lo stregone c'era già. Il potere gli scorre nel sangue per retaggio o per qualche evento che lo ha segnato, e lo usa d'istinto: niente libri, niente preparazioni, solo l'incantesimo giusto al momento giusto.
 

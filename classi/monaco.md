@@ -9,7 +9,15 @@ excerpt: Arti marziali, velocità e Ki senza armatura
 
 > Torna a [Indice classi](/classi/)
 
-<img src="{{ '/assets/images/monaco.webp' | relative_url }}" alt="monaco" style="float: right; width: 45%; max-width: 320px; height: auto; margin: 0 0 1rem 1.5rem; border-radius: 10px;" />
+<div class="wotsc-scheda-top">
+<p class="wotsc-difficolta"><strong>Difficoltà</strong>:
+<span class="wotsc-diff-item">Iniziale <span class="wotsc-stelle">★★★☆☆</span></span>
+<span class="wotsc-diff-item">Meccaniche <span class="wotsc-stelle">★★☆☆☆</span></span>
+<span class="wotsc-diff-item">Ruolo <span class="wotsc-stelle">★★★☆☆</span></span></p>
+
+<img class="wotsc-scheda-img" src="{{ '/assets/images/monaco.webp' | relative_url }}" alt="monaco" />
+<div class="wotsc-scheda-clear"></div>
+</div>
 
 Anni di allenamento per arrivare a non aver bisogno di niente: né spada, né scudo, né armatura. Il monaco ha fatto di corpo, mente e spirito un'unica arma, e quando entra in meditazione il Ki fa il resto. Preciso come una lama, calmo come un lago.
 

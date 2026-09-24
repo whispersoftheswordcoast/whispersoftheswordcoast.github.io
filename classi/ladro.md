@@ -9,7 +9,15 @@ excerpt: Ombre, scasso e colpi decisivi con più abilità di tutti
 
 > Torna a [Indice classi](/classi/)
 
-<img src="{{ '/assets/images/ladro.webp' | relative_url }}" alt="ladro" style="float: right; width: 45%; max-width: 320px; height: auto; margin: 0 0 1rem 1.5rem; border-radius: 10px;" />
+<div class="wotsc-scheda-top">
+<p class="wotsc-difficolta"><strong>Difficoltà</strong>:
+<span class="wotsc-diff-item">Iniziale <span class="wotsc-stelle">★★★☆☆</span></span>
+<span class="wotsc-diff-item">Meccaniche <span class="wotsc-stelle">★★★☆☆</span></span>
+<span class="wotsc-diff-item">Ruolo <span class="wotsc-stelle">★☆☆☆☆</span></span></p>
+
+<img class="wotsc-scheda-img" src="{{ '/assets/images/ladro.webp' | relative_url }}" alt="ladro" />
+<div class="wotsc-scheda-clear"></div>
+</div>
 
 Dove il guerriero sfonda la porta, il ladro era già dentro da un'ora. Astuzia, precisione, adattabilità: si muove inosservato, capisce le persone al volo e sfrutta ogni spiraglio, in combattimento come fuori.
 

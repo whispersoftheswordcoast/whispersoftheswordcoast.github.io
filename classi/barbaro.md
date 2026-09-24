@@ -9,7 +9,15 @@ excerpt: Furia primordiale, dado d12 e ira devastante
 
 > Torna a [Indice classi](/classi/)
 
-<img src="{{ '/assets/images/barbaro.webp' | relative_url }}" alt="barbaro" style="float: right; width: 45%; max-width: 320px; height: auto; margin: 0 0 1rem 1.5rem; border-radius: 10px;" />
+<div class="wotsc-scheda-top">
+<p class="wotsc-difficolta"><strong>Difficoltà</strong>:
+<span class="wotsc-diff-item">Iniziale <span class="wotsc-stelle">★☆☆☆☆</span></span>
+<span class="wotsc-diff-item">Meccaniche <span class="wotsc-stelle">★★☆☆☆</span></span>
+<span class="wotsc-diff-item">Ruolo <span class="wotsc-stelle">★★☆☆☆</span></span></p>
+
+<img class="wotsc-scheda-img" src="{{ '/assets/images/barbaro.webp' | relative_url }}" alt="barbaro" />
+<div class="wotsc-scheda-clear"></div>
+</div>
 
 C'è un momento, in ogni battaglia dura, in cui la disciplina non basta più. È lì che entra il barbaro. Cresciuto tra la durezza della natura e la brutalità della guerra, ha imparato a trasformare istinto ed emozioni in forza pura. La sua ira non è una crisi di nervi: è una tecnica come un'altra, solo più rumorosa.
 

@@ -9,7 +9,15 @@ excerpt: Magia divina, cure e domini del suo dio
 
 > Torna a [Indice classi](/classi/)
 
-<img src="{{ '/assets/images/chierico.webp' | relative_url }}" alt="chierico" style="float: right; width: 45%; max-width: 320px; height: auto; margin: 0 0 1rem 1.5rem; border-radius: 10px;" />
+<div class="wotsc-scheda-top">
+<p class="wotsc-difficolta"><strong>Difficoltà</strong>:
+<span class="wotsc-diff-item">Iniziale <span class="wotsc-stelle">★★☆☆☆</span></span>
+<span class="wotsc-diff-item">Meccaniche <span class="wotsc-stelle">★★★☆☆</span></span>
+<span class="wotsc-diff-item">Ruolo <span class="wotsc-stelle">★★★☆☆</span></span></p>
+
+<img class="wotsc-scheda-img" src="{{ '/assets/images/chierico.webp' | relative_url }}" alt="chierico" />
+<div class="wotsc-scheda-clear"></div>
+</div>
 
 Quando il gruppo è in ginocchio, è al chierico che tutti guardano. Ponte tra gli dei e il campo di battaglia, incanala poteri che nessuna magia arcana può replicare. E ogni chierico ha il volto del suo dio: luce e rinascita con Lathander, dominio e forza con Bane.
 
