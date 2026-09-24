@@ -449,7 +449,17 @@ h3 { font-size: 1.38rem; line-height: 1.4; }
   text-shadow: 2px 2px 0 #000;
 }
 
-/* Scheda divinità dentro cornice: immagine e griglia impilati, niente float */
+/* Scheda divinità: box laterale (immagine + griglia) dentro la cornice */
+.wotsc-divinita-side {
+  float: right;
+  width: 170px;
+  margin: 0 0 1rem 1.5rem;
+}
+.wotsc-divinita-side .wotsc-divinita-img {
+  float: none;
+  width: 100%;
+  margin: 0 0 0.5rem 0;
+}
 .wotsc-divinita-img {
   display: block;
   width: 100%;
@@ -459,24 +469,34 @@ h3 { font-size: 1.38rem; line-height: 1.4; }
   border-radius: 10px;
 }
 table.wotsc-allineamenti {
-  margin: 0 auto;
+  width: 100%;
+  margin: 0;
   border-collapse: collapse;
   font-size: 0.95rem;
 }
 .wotsc-allineamenti td {
   border: 1px solid rgba(214, 181, 106, 0.6);
   text-align: center;
-  padding: 0.25rem 0.6rem;
+  padding: 0.25rem 0.4rem;
   color: #9a917f;
 }
 .wotsc-allineamenti td.me {
   background: var(--wotsc-gold, #D6B56A);
   color: #11182A;
   font-weight: bold;
+  font-size: 1.3em;
+  border: 2px solid var(--wotsc-gold-light, #F3DFA0);
+  text-shadow: none;
 }
 .wotsc-allineamenti td.ok {
   background: rgba(246, 231, 193, 0.12);
   color: #f6e7c1;
+}
+@media (max-width: 767px) {
+  .wotsc-divinita-side {
+    width: 130px;
+    margin: 0 0 0.8rem 1rem;
+  }
 }
 
 /* Difficoltà classi: stelle gialle in pixel operator */
