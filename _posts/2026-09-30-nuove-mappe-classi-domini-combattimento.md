@@ -22,6 +22,41 @@ Ma il Nano Gemente è molto più di una semplice statua. Secondo la tradizione n
 
 La sua enorme facciata guarda verso est, in direzione del Passo di Breakback e delle Giant's Run Mountains.
 
+<div class="wotsc-viewer">
+
+    <button class="wotsc-viewer-prev" aria-label="Immagine precedente">&#10094;</button>
+
+    <figure class="wotsc-viewer-item active">
+        <img src="{{ '/assets/images/nanog1.webp' | relative_url }}" alt="Il sacrario tra le cascate">
+        <figcaption><strong>Il sacrario tra le cascate</strong>Statue naniche di guardia nella gola.</figcaption>
+    </figure>
+
+    <figure class="wotsc-viewer-item">
+        <img src="{{ '/assets/images/nanog2.webp' | relative_url }}" alt="Il pozzo nella foresta">
+        <figcaption><strong>Il pozzo nella foresta</strong>Un drago bianco in una radura notturna.</figcaption>
+    </figure>
+
+    <figure class="wotsc-viewer-item">
+        <img src="{{ '/assets/images/nanog3.webp' | relative_url }}" alt="La piattaforma musiva">
+        <figcaption><strong>La piattaforma musiva</strong>Rovine colonnate nascoste nel bosco.</figcaption>
+    </figure>
+
+    <figure class="wotsc-viewer-item">
+        <img src="{{ '/assets/images/nanog4.webp' | relative_url }}" alt="La statua del guerriero">
+        <figcaption><strong>La statua del guerriero</strong>Un nano armato di ascia tra le rocce.</figcaption>
+    </figure>
+
+    <figure class="wotsc-viewer-item">
+        <img src="{{ '/assets/images/nanog5.webp' | relative_url }}" alt="Rovine nella notte">
+        <figcaption><strong>Rovine nella notte</strong>Resti di pietra tra i massi delle montagne.</figcaption>
+    </figure>
+
+    <button class="wotsc-viewer-next" aria-label="Immagine successiva">&#10095;</button>
+
+    <div class="wotsc-viewer-count">1 / 5</div>
+
+</div>
+
 ### La Piana dei Giganti
 
 Una vasta pianura che porta ancora oggi il nome dei suoi antichi abitanti.
