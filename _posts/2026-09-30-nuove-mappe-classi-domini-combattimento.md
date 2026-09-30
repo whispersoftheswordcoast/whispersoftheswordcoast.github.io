@@ -150,6 +150,8 @@ Migliorate gestione della **stalla**, ripristino dell'intelligenza artificiale, 
 
 Corretto inoltre un vincolo residuo degli ordini di guardia o girovaga che poteva limitare il successivo inseguimento. Integrate le interazioni dei compagni con ragnatele e poteri di dominio. Sono stati infine integrati **Empatia Selvatica Superiore e Signore della Caccia** con il nuovo sistema di compagni.
 
+<img src="{{ '/assets/images/compagni0001.webp' | relative_url }}" alt="Il nuovo sistema dei compagni" style="display: block; margin: 0 auto;" />
+
 ## Chierico e domini
 
 Revisionati i poteri dei **59 domini**, fino al 12° livello.
