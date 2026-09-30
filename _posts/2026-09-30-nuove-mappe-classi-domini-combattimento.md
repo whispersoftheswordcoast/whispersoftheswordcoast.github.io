@@ -8,6 +8,18 @@ categories: [patch, aggiornamenti, classi, mappe, combattimento]
 
 Questa patch arricchisce la mappa con nuove località del Faerûn occidentale e introduce un'ampia revisione dei sistemi di progressione e combattimento, con interventi su manovre, compagni e famigli, Chierico e domini, diverse classi e nuove opzioni tattiche.
 
+## Nuovo launcher: aggiornate il client
+
+Ecco le novità settimanali. Ricordate di aggiornare... magari con il nuovissimo launcher :)
+
+Scaricalo qui: **[WOTSCLauncher v25.9.4](https://github.com/whispersoftheswordcoast/WotscClient/releases/download/v25.9.4/WOTSCLauncher.zip)**
+
+<img src="{{ '/assets/images/launchernew.webp' | relative_url }}" alt="Il nuovo launcher" style="display: block; margin: 0 auto;" />
+
+Il launcher riconosce la vecchia installazione se ne selezionate la cartella e dovrebbe chiedere un allineamento: rispondete sì e siete pronti.
+
+---
+
 ## Nuove mappe del Faerûn occidentale
 
 La mappa di Whispers of the Sword Coast si arricchisce di nuove località del Faerûn occidentale, alcune delle quali affondano le proprie radici in una storia molto più antica di quanto il loro aspetto possa lasciar pensare.
