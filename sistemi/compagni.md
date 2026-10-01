@@ -7,6 +7,8 @@ excerpt: Come ottenere, far crescere e gestire il compagno animale di druidi e r
 
 # Compagno animale
 
+<img src="{{ '/assets/images/compagni0002.webp' | relative_url }}" alt="compagno animale" style="display: block; margin: 0 auto; max-width: 100%;" />
+
 Un compagno animale non è solo un animale addomesticato: è un compagno di vita. Combatte al tuo fianco, cresce con te e condivide parte del tuo potere. Lo ottengono il **druido dal 1° livello** e il **ranger dal 4°**. Questa pagina ti accompagna in ogni fase: chi può averlo, come si sceglie e si richiama, come gli si danno ordini e come diventa più forte.
 
 ## Chi lo ottiene
