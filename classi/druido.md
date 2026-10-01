@@ -33,7 +33,7 @@ La civiltà è un'eccezione, la natura la regola. Il druido lo sa e ci vive dent
 Il druido prepara ogni incantesimo della sua lista, purché abbia Saggezza pari a 10 + il livello dell'incantesimo.
 
 ### Compagno animale (1°)
-Dal 1° livello un compagno animale lo accompagna e cresce con lui, legato da empatia. Si convince con `.compagnoanimale` e si richiama con `.ricompagno`.
+Dal 1° livello un compagno animale lo accompagna e cresce con lui, legato da empatia. Si convince con `.compagnoanimale` e si gestisce con `.compagni`. Tutti i dettagli nella [guida al compagno animale](/sistemi/compagni/).
 
 ### Passo senza tracce (3°)
 Dal 3° livello il druido e gli alleati entro 3 metri non lasciano tracce.
@@ -86,7 +86,7 @@ Tutta la lista preparabile con SAG 10 + livello incantesimo. Bonus da SAG alta: 
 
 ## Comandi di classe
 
-* **Compagno:** `.compagnoanimale` per convincerlo, `.ricompagno` per richiamarlo
+* **Compagno:** `.compagnoanimale` per convincerlo, `.compagni` per gestirlo e richiamarlo
 * **Forme:** `.formaselvaggia` per cambiare pelle, `.formaumana` per tornare indietro, `.traslazione` per viaggiare tra alberi gemelli
 * **Magia:** `.castadruido` per lanciare, `.memo` e `.preparaspells` per preparare, `.spells` per la lista, `.metamagia` per armare le metamagie
 

@@ -152,16 +152,11 @@ I comandi si invocano con la sintassi .comando, e possono essere per facilitá s
 - `.castachierico` (o `.casta [nome o numero]`): Lancia un incantesimo. `.casta difensivo`: in modalità difensiva.
 - `.memo` e `.preparaspells`: Gestiscono memorizzazione e preparazione. `.spells`: elenco incantesimi.
 - `.metamagia`: Arma le metamagie possedute.
-- `.scacciare`: Usa il simbolo sacro per scacciare/intimorire i non-morti in zona (3 + CAR usi al giorno, simbolo impugnato a mani libere).
-
-  Uso: `.scacciare [rapido] [potenziato] [numero]`  
-  - rapido: attiva Scacciare Rapido  
-  - potenziato: attiva Scacciare Potenziato  
-  - numero: indica i DV usati per Scacciare Intensificato
-
-- `.converti`: Muta un incantesimo preparato in cura o ferita.
-- `.poteredominio <dominio>` (es. `.poteredominio acqua`): Attiva i poteri di dominio.
-- `.incanala`: Riversa energia divina sull'area (cura o ferisce secondo polarità).
+- `.scacciare` e `.scacciare rimanenti`: Usa il simbolo sacro impugnato contro i non-morti (TS Volontà, raggio 6 caselle; 1 uso di Incanalare). I vecchi `rapido / potenziato / numero` non si applicano più.
+- `.converti`: Muta un incantesimo preparato in cura o ferita (stessa polarità permanente di `.incanala`).
+- `.poteredominio <dominio> [potere]` (es. `.poteredominio acqua`): Attiva i poteri di dominio (menu se ometti il potere). Dettagli nella [guida](/sistemi/domini/).
+- `.armadanzante`, `.ragnatela`, `.unitafamiglia`: Comandi dedicati ai domini Artigianato, Ragni e Famiglia.
+- `.incanala cura/danneggia [rapido]` · `.incanala punizione` · `.incanala rimanenti`: Riversa energia divina sull'area (danni/cure (livello+1)/2 d6, raggio 6 caselle).
 - `.qualsiasiincantesimo [id]` comando per gestire Qualsiasi Incantesimo per il dominio incantesimi
 - `.qualsiasiincantesimosuperiore [id]` comando per gestire Qualsiasi Incantesimo Superiore per il dominio incantesimi
 
@@ -170,7 +165,7 @@ I comandi si invocano con la sintassi .comando, e possono essere per facilitá s
 - `.castadruido` (o `.casta [nome o numero]`): Lancia incantesimi. `.casta difensivo`: in modalità difensiva.
 - `.memo` e `.preparaspells`: Gestiscono memorizzazione e preparazione. `.spells`: elenco incantesimi.
 - `.metamagia`: Arma le metamagie possedute.
-- `.compagnoanimale` e `.compagnoanimaledruido`: Convincono un animale a diventare compagno. `.ricompagno`: lo richiama.
+- `.compagnoanimale` e `.compagnoanimaledruido`: Convincono un animale a diventare compagno. `.compagni`: lo richiama e apre il pannello. Dettagli nella [guida](/sistemi/compagni/).
 - `.formaselvaggia [animale]`: Cambia in forma animale. Può essere numero o nome animale. Senza parametro mostra il gump di scelta.
 - `.formaselvaggia rimanenti`: Mostra cariche rimanenti di forma selvaggia.
 - `.formaumana`: Torna alla forma umana, interrompendo metamorfosi.
@@ -223,7 +218,7 @@ I comandi si invocano con la sintassi .comando, e possono essere per facilitá s
 
 - `.castaranger` (o `.casta [nome o numero]`): Lancia incantesimi dal 4°. `.casta difensivo`: in modalità difensiva.
 - `.memo` e `.preparaspells`: Gestiscono memorizzazione e preparazione. `.spells`: elenco incantesimi.
-- `.compagnoanimaleranger`: Convinci un animale a diventare compagno (dal 4°). `.ricompagno`: lo richiama.
+- `.compagnoanimaleranger`: Convinci un animale a diventare compagno (dal 4°). `.compagni`: lo richiama e apre il pannello. Dettagli nella [guida](/sistemi/compagni/).
 - `.preda`: Designa una preda viva a vista tra i Nemici Prescelti (11°). `.preda stato`: controlla quella attiva. `.preda abbandona`: rinuncia (24 ore di attesa).
 
 ### Stregone
