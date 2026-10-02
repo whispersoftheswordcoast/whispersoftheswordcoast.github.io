@@ -19,7 +19,7 @@ excerpt: Magia innata e spontanea da Carisma
 <div class="wotsc-scheda-clear"></div>
 </div>
 
-C'è chi la magia la studia sui libri e chi la porta nel sangue da prima di nascere. Lo stregone appartiene alla seconda schiera: il potere gli scorre nelle vene per retaggio o per un evento che lo ha segnato per sempre, e lo evoca d'istinto, senza formule né preparazioni. Paga questa libertà con una lista cortissima: pochi incantesimi conosciuti davvero bene, da scagliare finché gli slot tengono.
+C'è chi la magia la studia sui libri e chi la porta nel sangue da prima di nascere. Lo stregone appartiene alla seconda schiera: il potere gli scorre nelle vene per retaggio o per un evento che lo ha segnato per sempre, e lo evoca d'istinto, senza formule né preparazioni. Per lui la magia non è uno studio: è un destino scritto nel sangue.
 
 **Ruolo:** artiglieria spontanea. [**Allineamento**](/sistemi/allineamenti/): qualsiasi. **Dado Vita:** d6.
 **Abilità di classe:** Artigianato, Conoscenze (arcane), Intimidire, Professione, Raggirare, Sapienza Magica, Utilizzare Oggetti Magici, Valutare, Volare.
