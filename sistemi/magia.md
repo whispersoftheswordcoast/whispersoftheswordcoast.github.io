@@ -100,25 +100,43 @@ La magia è anche un duello di nervi: con `.controincantesimo` puoi provare a sp
 
 ## Pergamene: crearle, scriverle e lanciarle
 
-Le pergamene sono oggetti a completamento di incantesimo: contengono una magia già quasi pronta, che chiunque abbia i requisiti può liberare leggendola. La scorta di emergenza per eccellenza, ma anche merce, bottino e fonte di studio.
+Le pergamene sono oggetti a completamento di incantesimo. Contengono una magia già quasi pronta, che chiunque ne abbia i requisiti può liberare leggendola. Sono la scorta di emergenza per eccellenza, ma anche merce, bottino e fonte di studio.
 
-Per scriverne una serve il talento **Scrivere Pergamene** e si lavora di penna e calamaio: doppio clic sulla penna, bersaglio su una pergamena vuota, e serve inchiostro a sufficienza (2 cariche). La magia da copiare viene dal grimorio — decifrato, o tuo — oppure dagli incantesimi memorizzati, se sei un mago; gli spontanei pescano dai conosciuti, i divini dai memorizzati. Il mago non può scrivere sopra il proprio livello di lancio e sceglie a che livello fissare la pergamena, da un minimo pari a due volte il circolo meno uno fino al proprio livello: più alto è, più la pergamena picchia — e più costa.
+Per scriverne una occorre il talento Scrivere Pergamene e si lavora di penna e calamaio. Si usa la penna con doppio clic, si indica una pergamena vuota come supporto e occorre inchiostro a sufficienza, due cariche per ogni pergamena. Inchiostro e carta si acquistano dagli NPC giusti, come scribi e mercanti forniti. La magia da copiare proviene dal grimorio, decifrato oppure proprio, o dagli incantesimi memorizzati per il mago. Gli incantatori spontanei attingono ai conosciuti, i divini ai memorizzati. Il mago non può scrivere al di sopra del proprio livello di lancio e sceglie a quale livello fissare la pergamena, da un minimo pari a due volte il circolo meno uno fino al proprio livello. Quanto più alto è il livello, tanto più la pergamena è potente, e tanto più costa.
 
-Il prezzo si paga in due monete: rame pari a livello di lancio per circolo per 1250 (minimo 1250) e punti esperienza pari a livello totale per circolo per 100 (minimo 100, senza mai scendere sotto il minimo del tuo livello). Nascono così pergamene **arcane** (mago, stregone, bardo, warlock) e **divine** (chierico, paladino, druido, ranger, oracolo), ciascuna del suo circolo.
+Il prezzo si paga in due monete. Rame in quantità pari a livello di lancio per circolo per 1250, con un minimo di 1250. Punti esperienza in quantità pari a livello totale per circolo per 100, con un minimo di 100 e senza mai scendere sotto il minimo del proprio livello. Nascono così pergamene arcane per mago, stregone, bardo e warlock, e divine per chierico, paladino, druido, ranger e oracolo, ciascuna del suo circolo.
+
+| Circolo | Livello di lancio minimo | Rame | PX |
+|---|---|---|---|
+| 0° | 1 | 1250 | 100 |
+| 1° | 1 | 1250 | 100 |
+| 2° | 3 | 7500 | 600 |
+| 3° | 5 | 18750 | 1500 |
+| 4° | 7 | 35000 | 2800 |
+| 5° | 9 | 56250 | 4500 |
+| 6° | 11 | 82500 | 6600 |
+
+I valori in tabella usano il livello di lancio minimo; scegliendo un livello più alto, rame e px crescono di conseguenza.
 
 <div class="wotsc-esempio" markdown="1">
 
-Mago di 5° che scrive una Palla di Fuoco a livello 5: paga 5 × 3 × 1250 rame e 5 × 3 × 100 px, e la pergamena lancerà sempre come un 5°.
+Mago di 5° che scrive una Palla di Fuoco a livello 5: paga 5 per 3 per 1250 rame e 5 per 3 per 100 px, e la pergamena lancerà sempre come un 5°.
 
 </div>
 
-Per lanciarla basta il doppio clic dallo zaino — ma attento, ti rivela. Serve un livello di incantatore adeguato al circolo, la pergamena decifrata e l'incantesimo nella lista della tua classe; la magia parte al livello di lancio scritto sopra, non al tuo. Chi non ha la classe giusta può provarci con **Utilizzare Oggetti Magici** (CD pari a 5 per circolo): se fallisce, la pergamena si consuma e il contraccolpo fa male, danni puri. La regressione mentale impedisce del tutto la lettura, e in forma selvatica non parlante serve Lingua selvaggia. `.elencopergamene` apre l'interfaccia con tutte le pergamene del contenitore indicato, divise per circolo e lanciabili da lì; `.castapergamene` le lancia dal portapergamene marcato con `.sceltaportapergamene` (max 50 oggetti).
+Per lanciarla basta il doppio clic dallo zaino, sapendo che la lettura rivela chi è nascosto. Occorrono un livello di incantatore adeguato al circolo, la pergamena decifrata e l'incantesimo nella lista della propria classe. La magia parte sempre al livello di lancio scritto sopra, non a quello del lettore. Chi non appartiene alla classe giusta può tentare con Utilizzare Oggetti Magici, con CD pari a 5 per circolo. Se fallisce, la pergamena si consuma e il contraccolpo infligge danni puri. La regressione mentale impedisce del tutto la lettura, e in forma selvatica non parlante occorre Lingua selvaggia. `.elencopergamene` apre l'interfaccia con tutte le pergamene del contenitore indicato, divise per circolo e lanciabili da lì. `.castapergamene` le lancia dal portapergamene marcato con `.sceltaportapergamene`, che ne contiene al massimo 50.
+
+<img src="{{ '/assets/images/inventario01.webp' | relative_url }}" alt="Elenco delle pergamene per circolo" style="display: block; margin: 0 auto;" />
 
 ## Grimori: imparare e mantenere gli incantesimi
 
-Il grimorio è la memoria esterna del mago: Libro dell'Apprendista, Libro del Mago, Grimorio o Arcanabula, ognuno con le sue pagine massime. Si scrive solo sui propri libri, con penna e inchiostro (tante cariche quanto il circolo), e ogni incantesimo occupa due pagine per circolo — l'Apprendista non va oltre il 2°. Senza il libro nello zaino, al riposo quegli incantesimi non si memorizzano: custodiscilo come la vita.
+Il grimorio è la memoria esterna del mago, e tutto comincia procurandosene uno. Libro dell'Apprendista, Libro del Mago, Grimorio o Arcanabula si acquistano dai maghi mercanti, insieme a pergamene vuote, penne e inchiostro.
 
-Imparare una magia nuova è copiare: da una pergamena altrui (decifrata, e la pergamena si dissolve), dal libro di un altro mago (che resta dov'è) o dalla propria memoria (e la memorizzazione si consuma). Copiare non è gratis: serve una prova di **Sapienza Magica con CD 15 più il circolo** (+2 se è della tua scuola di specializzazione), e la specializzazione può impedire alcuni apprendimenti. Se fallisci copiando da uno scritto altrui, dovrai aspettare prima di poter riprovare quello stesso incantesimo. I propri scritti, invece, sono sempre leggibili senza prove; quelli altrui vanno prima decifrati, di norma con **Lettura del Magico** (10 minuti per livello), scegliendo se renderli chiari per tutti o solo per sé.
+<img src="{{ '/assets/images/magonegozio.webp' | relative_url }}" alt="Un mago mercante con grimori e pergamene" style="display: block; margin: 0 auto;" />
+
+Ognuno ha le sue pagine massime e si scrive soltanto sui propri libri, con penna e inchiostro in quantità pari al circolo in cariche. Ogni incantesimo occupa due pagine per circolo, e l'Apprendista non accoglie nulla oltre il 2°. Senza il libro nello zaino, al riposo quegli incantesimi non si memorizzano. Custodiscilo come la vita.
+
+Imparare una magia nuova è copiare, e le vie sono tre. Da una pergamena altrui, decifrata, che nella copiatura si dissolve. Dal libro di un altro mago, che resta dov'è. Dalla propria memoria, e allora è la memorizzazione a consumarsi. Copiare richiede una prova di Sapienza Magica con CD pari a 15 più il circolo, con bonus di 2 se la magia appartiene alla propria scuola, e la specializzazione può impedire alcuni apprendimenti. Se fallisci copiando da uno scritto altrui, dovrai attendere prima di poter riprovare quello stesso incantesimo. I propri scritti sono sempre leggibili senza prove. Quelli altrui vanno prima decifrati, di norma con Lettura del Magico, che dura 10 minuti per livello, scegliendo se renderli chiari per tutti o solo per sé.
 
 <div class="wotsc-esempio" markdown="1">
 
