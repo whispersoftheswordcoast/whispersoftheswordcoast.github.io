@@ -8,6 +8,11 @@ excerpt: Cosa sono le stirpi, come si scelgono e come si usano i poteri delle 9 
 
 # Stirpi dello stregone
 
+<blockquote class="citazione">
+  <p>“How do you feel about the magical power coursing through you?”</p>
+  <footer>— <cite>D&D Basic Rules</cite></footer>
+</blockquote>
+
 In base alla stirpe, gli stregoni hanno a disposizione poteri diversi: ogni stregone ne sceglie 1 e la tiene per sempre. La fonte può essere un'eredità del sangue o un evento estremo del passato di famiglia: un drago tra gli antenati o un nonno che firmò un patto col diavolo. Questa guida spiega come si sceglie, come si attivano i poteri e cosa fa ognuna delle **9 stirpi fino al 12° livello**.
 
 ## Scegliere la stirpe

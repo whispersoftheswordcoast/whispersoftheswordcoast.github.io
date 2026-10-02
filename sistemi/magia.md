@@ -94,6 +94,34 @@ Un dardo incantato intensificato a 2 occupa uno slot di 2° livello e picchia pi
 
 <img src="{{ '/assets/images/metamagia2.webp' | relative_url }}" alt="metamagia" style="display: block; margin: 0 auto; max-width: 720px;" />
 
-## Duelli, controincantesimi e pergamene
+## Duelli e controincantesimi
 
-La magia è anche un duello di nervi: con `.controincantesimo` puoi provare a spezzare il lancio di un avversario mentre lo sta facendo, e con `.duellomagico` due incantatori arcani si sfidano in regola. Le pergamene sono la scorta di emergenza: `.castapergamene` le lancia solo dal portapergamene marcato con `.sceltaportapergamene` (max 50 oggetti), e solo se decifrate — `.elencopergamene` apre l'interfaccia con tutte le pergamene (arcane e divine) del contenitore indicato, divise per circolo e lanciabili da lì.
+La magia è anche un duello di nervi: con `.controincantesimo` puoi provare a spezzare il lancio di un avversario mentre lo sta facendo, e con `.duellomagico` due incantatori arcani si sfidano in regola.
+
+## Pergamene: crearle, scriverle e lanciarle
+
+Le pergamene sono oggetti a completamento di incantesimo: contengono una magia già quasi pronta, che chiunque abbia i requisiti può liberare leggendola. La scorta di emergenza per eccellenza, ma anche merce, bottino e fonte di studio.
+
+Per scriverne una serve il talento **Scrivere Pergamene** e si lavora di penna e calamaio: doppio clic sulla penna, bersaglio su una pergamena vuota, e serve inchiostro a sufficienza (2 cariche). La magia da copiare viene dal grimorio — decifrato, o tuo — oppure dagli incantesimi memorizzati, se sei un mago; gli spontanei pescano dai conosciuti, i divini dai memorizzati. Il mago non può scrivere sopra il proprio livello di lancio e sceglie a che livello fissare la pergamena, da un minimo pari a due volte il circolo meno uno fino al proprio livello: più alto è, più la pergamena picchia — e più costa.
+
+Il prezzo si paga in due monete: rame pari a livello di lancio per circolo per 1250 (minimo 1250) e punti esperienza pari a livello totale per circolo per 100 (minimo 100, senza mai scendere sotto il minimo del tuo livello). Nascono così pergamene **arcane** (mago, stregone, bardo, warlock) e **divine** (chierico, paladino, druido, ranger, oracolo), ciascuna del suo circolo.
+
+<div class="wotsc-esempio" markdown="1">
+
+Mago di 5° che scrive una Palla di Fuoco a livello 5: paga 5 × 3 × 1250 rame e 5 × 3 × 100 px, e la pergamena lancerà sempre come un 5°.
+
+</div>
+
+Per lanciarla basta il doppio clic dallo zaino — ma attento, ti rivela. Serve un livello di incantatore adeguato al circolo, la pergamena decifrata e l'incantesimo nella lista della tua classe; la magia parte al livello di lancio scritto sopra, non al tuo. Chi non ha la classe giusta può provarci con **Utilizzare Oggetti Magici** (CD pari a 5 per circolo): se fallisce, la pergamena si consuma e il contraccolpo fa male, danni puri. La regressione mentale impedisce del tutto la lettura, e in forma selvatica non parlante serve Lingua selvaggia. `.elencopergamene` apre l'interfaccia con tutte le pergamene del contenitore indicato, divise per circolo e lanciabili da lì; `.castapergamene` le lancia dal portapergamene marcato con `.sceltaportapergamene` (max 50 oggetti).
+
+## Grimori: imparare e mantenere gli incantesimi
+
+Il grimorio è la memoria esterna del mago: Libro dell'Apprendista, Libro del Mago, Grimorio o Arcanabula, ognuno con le sue pagine massime. Si scrive solo sui propri libri, con penna e inchiostro (tante cariche quanto il circolo), e ogni incantesimo occupa due pagine per circolo — l'Apprendista non va oltre il 2°. Senza il libro nello zaino, al riposo quegli incantesimi non si memorizzano: custodiscilo come la vita.
+
+Imparare una magia nuova è copiare: da una pergamena altrui (decifrata, e la pergamena si dissolve), dal libro di un altro mago (che resta dov'è) o dalla propria memoria (e la memorizzazione si consuma). Copiare non è gratis: serve una prova di **Sapienza Magica con CD 15 più il circolo** (+2 se è della tua scuola di specializzazione), e la specializzazione può impedire alcuni apprendimenti. Se fallisci copiando da uno scritto altrui, dovrai aspettare prima di poter riprovare quello stesso incantesimo. I propri scritti, invece, sono sempre leggibili senza prove; quelli altrui vanno prima decifrati, di norma con **Lettura del Magico** (10 minuti per livello), scegliendo se renderli chiari per tutti o solo per sé.
+
+<div class="wotsc-esempio" markdown="1">
+
+Trovi una pergamena di Ragnatela di un collega: la decifri, superi Sapienza Magica CD 17, la pergamena si dissolve e Ragnatela entra nel tuo grimorio occupando 4 pagine. Dalla prossima preparazione potrai memorizzarla.
+
+</div>

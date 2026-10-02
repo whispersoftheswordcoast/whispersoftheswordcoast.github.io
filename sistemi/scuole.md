@@ -8,6 +8,11 @@ excerpt: Come si sceglie la scuola del mago e cosa fanno i poteri di ognuna dell
 
 # Scuole di magia
 
+<blockquote class="citazione">
+  <p>“Even wizards who train apprentices in the solitude of their own towers use the division of magic into schools as a learning device…”</p>
+  <footer>— <cite>Player's Handbook D&D 5e</cite></footer>
+</blockquote>
+
 Al 1° livello il mago sceglie se specializzarsi in una delle otto scuole o restare universalista. La scelta è permanente e decide poteri, slot e scuole proibite per tutto il personaggio. Questa guida spiega come si sceglie, come si attivano i poteri e cosa fa ognuna delle **otto scuole più l'universale**.
 
 ## Scegliere la scuola
