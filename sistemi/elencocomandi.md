@@ -229,5 +229,5 @@ I comandi si invocano con la sintassi .comando, e possono essere per facilitá s
 - `.metamagia`: Arma le metamagie possedute.
 - `.duellomagico [dimensione]`: Inizia Duello Magico con altro incantatore arcano.
 - `.ven [testo]`: Ventriloquio.
-- Famiglio: `.famigliostregone`, `.evocafamigliostregone`, `.famigliomiglioratostregone`, `.famigliononmortostregone`.
+- Famiglio: `.poterestirpe famiglio` per gestirlo, `.compagni` per richiamarlo.
 

@@ -30,25 +30,50 @@ C'è chi la magia la studia sui libri e chi la porta nel sangue da prima di nasc
 ## Privilegi di classe
 
 ### Incantesimi spontanei
-Lo stregone non prepara nulla: conosce un numero limitato di incantesimi e li lancia d'istinto, scegliendo di volta in volta quale usare, finché ha slot liberi del livello giusto. Ogni slot lanciato è andato fino al riposo, come per tutti gli incantatori.
+Lo stregone lancia gli incantesimi che conosce senza prepararli, finché ha slot liberi del livello giusto. Per imparare e lanciare un incantesimo serve Carisma pari a 10 più il livello; la CD per resistervi è 10 più livello più Carisma.
 
 ### Carisma chiave
-Il Carisma è tutto per lo stregone: decide gli slot bonus giornalieri e quanto è difficile resistere ai suoi incantesimi. Un Carisma alto significa più lanci e tiri salvezza più duri per chi sta davanti.
+Il Carisma decide anche gli slot bonus giornalieri: più è alto, più livelli ne beneficiano.
 
-### Nuovi conosciuti
-A ogni livello lo stregone aggiunge nuovi incantesimi alla lista dei conosciuti, secondo la tabella sotto. Sono pochi e restano quelli: ogni scelta pesa, perché non si torna indietro con facilità.
+### Imparare nuovi incantesimi
+A ogni livello lo stregone aggiunge nuovi incantesimi alla lista dei conosciuti, secondo la tabella sotto. I numeri sono fissi e non dipendono dal Carisma. Ai livelli pari dal 4° in poi, al `.passalivello`, può anche scambiare un solo conosciuto con un altro incantesimo: solo trucchetti al 4°, fino al 1° circolo al 6°, al 2° all'8°, al 3° al 10° e al 4° al 12°.
+
+| Liv | 0° | 1° | 2° | 3° | 4° | 5° | 6° |
+|---|---|---|---|---|---|---|---|
+| 1° | 4 | 2 | — | — | — | — | — |
+| 2° | 5 | 2 | — | — | — | — | — |
+| 3° | 5 | 3 | — | — | — | — | — |
+| 4° | 6 | 3 | 1 | — | — | — | — |
+| 5° | 6 | 4 | 2 | — | — | — | — |
+| 6° | 7 | 4 | 2 | 1 | — | — | — |
+| 7° | 7 | 5 | 3 | 2 | — | — | — |
+| 8° | 8 | 5 | 3 | 2 | 1 | — | — |
+| 9° | 8 | 5 | 4 | 3 | 2 | — | — |
+| 10° | 9 | 5 | 4 | 3 | 2 | 1 | — |
+| 11° | 9 | 5 | 5 | 4 | 3 | 2 | — |
+| 12° | 9 | 5 | 5 | 4 | 3 | 2 | 1 |
 
 ### Escludere Materiali
 Alla creazione lo stregone riceve gratis il talento Escludere Materiali: lancia senza componenti materiali povere.
 
 ### Stirpe
-1 stirpe tra 9, scelta al 1° livello con `.poterestirpe` e mai più cambiabile (la draconica sceglie anche il drago). Dà poteri con `.poterestirpe [potere]`, resistenze, talenti e 5 incantesimi bonus al 3°, 5°, 7°, 9° e 11°. Dettagli nella guida [Stirpi dello stregone](/sistemi/stirpi/).
+A livello 1 lo stregone può scegliere la propria stirpe con il comando `.poterestirpe`: 1 tra 9. La fonte può essere un'eredità del sangue o un evento estremo del passato di famiglia: un drago tra gli antenati o un nonno che firmò un patto col diavolo. Ogni stirpe dona le stesse specie di doni:
+
+- poteri tematici legati alla stirpe, da usare con `.poterestirpe [potere]` con usi al giorno;
+- un talento bonus al 7°;
+- 5 incantesimi bonus al 3°, 5°, 7°, 9° e 11°.
+
+<div class="wotsc-esempio" markdown="1">
+La draconica fa anche scegliere il drago tra 10 tipi e dona artigli, armatura naturale e soffio.
+</div>
+
+Dettagli nella guida [Stirpi dello stregone](/sistemi/stirpi/).
 
 ### Metamagia spontanea
 Le metamagie armate con `.metamagia` si applicano al momento del lancio, ma il lancio si allunga di un round, salvo Incantesimi rapidi. Vanno comunque pagate con lo slot maggiorato.
 
 ### Famiglio
-Anche lo stregone ha il suo animale: `.famigliostregone`, `.evocafamigliostregone`, `.famigliomiglioratostregone`, `.famigliononmortostregone`.
+Lo stregone ha un piccolo animale legato a sé, che lo assiste e condivide i suoi poteri: si sceglie e gestisce con `.poterestirpe famiglio`, che apre il pannello, e si richiama con `.compagni`.
 
 ## Competenze
 
@@ -56,36 +81,38 @@ Anche lo stregone ha il suo animale: `.famigliostregone`, `.evocafamigliostregon
 
 ## Incantesimi al giorno
 
-Slot a sinistra, conosciuti a destra: li lanci senza preparare. Con Carisma alto ricevi slot bonus: più è alto, più livelli ne beneficiano (tabella completa nella pagina [Magia](/sistemi/magia.html)).
+Lo stregone lancia un numero di incantesimi al giorno pari agli slot in tabella, pescando dai conosciuti senza preparare. Con Carisma alto ricevi slot bonus: più è alto, più livelli ne beneficiano (tabella completa nella pagina [Magia](/sistemi/magia.html)).
 
-| Liv | Slot 0°-6° | Conosciuti 0°-6° |
-|---|---|---|
-| 1° | 5, 3 | 4, 2 |
-| 2° | 6, 4 | 5, 2 |
-| 3° | 6, 5 | 5, 3 |
-| 4° | 6, 6, 3 | 6, 3, 1 |
-| 5° | 6, 6, 4 | 6, 4, 2 |
-| 6° | 6, 6, 5, 3 | 7, 4, 2, 1 |
-| 7° | 6, 6, 6, 4 | 7, 5, 3, 2 |
-| 8° | 6, 6, 6, 5, 3 | 8, 5, 3, 2, 1 |
-| 9° | 6, 6, 6, 6, 4 | 8, 5, 4, 3, 2 |
-| 10° | 6, 6, 6, 6, 5, 3 | 9, 5, 4, 3, 2, 1 |
-| 11° | 6, 6, 6, 6, 6, 4 | 9, 5, 5, 4, 3, 2 |
-| 12° | 6, 6, 6, 6, 6, 5, 3 | 9, 5, 5, 4, 3, 2, 1 |
+**Slot al giorno**
+
+| Liv | 0° | 1° | 2° | 3° | 4° | 5° | 6° |
+|---|---|---|---|---|---|---|---|
+| 1° | 5 | 3 | — | — | — | — | — |
+| 2° | 6 | 4 | — | — | — | — | — |
+| 3° | 6 | 5 | — | — | — | — | — |
+| 4° | 6 | 6 | 3 | — | — | — | — |
+| 5° | 6 | 6 | 4 | — | — | — | — |
+| 6° | 6 | 6 | 5 | 3 | — | — | — |
+| 7° | 6 | 6 | 6 | 4 | — | — | — |
+| 8° | 6 | 6 | 6 | 5 | 3 | — | — |
+| 9° | 6 | 6 | 6 | 6 | 4 | — | — |
+| 10° | 6 | 6 | 6 | 6 | 5 | 3 | — |
+| 11° | 6 | 6 | 6 | 6 | 6 | 4 | — |
+| 12° | 6 | 6 | 6 | 6 | 6 | 5 | 3 |
 
 ## Progressione 1-12
 
 | Liv | BAB | T / R / V | Privilegi |
 |---|---|---|---|
-| 1° | +0 | +0 / +0 / +2 | Stirpe, poteri base, famiglio |
+| 1° | +0 | +0 / +0 / +2 | Escludere Materiali, stirpe, potere di stirpe, famiglio |
 | 2° | +1 | +0 / +0 / +3 | — |
-| 3° | +1 | +1 / +1 / +3 | Resistenze 5, incantesimo di stirpe |
+| 3° | +1 | +1 / +1 / +3 | Incantesimo di stirpe, potere di stirpe |
 | 4° | +2 | +1 / +1 / +4 | — |
-| 5° | +2 | +1 / +1 / +4 | Incantesimo di stirpe, artigli magici |
+| 5° | +2 | +1 / +1 / +4 | Incantesimo di stirpe |
 | 6° | +3 | +2 / +2 / +5 | — |
-| 7° | +3 | +2 / +2 / +5 | Talento di stirpe, incantesimo di stirpe, artigli 1d6 |
+| 7° | +3 | +2 / +2 / +5 | Incantesimo di stirpe, talento di stirpe |
 | 8° | +4 | +2 / +2 / +6 | — |
-| 9° | +4 | +3 / +3 / +6 | Grandi poteri, resistenze 10, incantesimo di stirpe |
+| 9° | +4 | +3 / +3 / +6 | Incantesimo di stirpe, potere di stirpe |
 | 10° | +5 | +3 / +3 / +7 | — |
 | 11° | +5 | +3 / +3 / +7 | Incantesimo di stirpe |
 | 12° | +6/+1 | +4 / +4 / +8 | — |
@@ -94,7 +121,7 @@ Slot a sinistra, conosciuti a destra: li lanci senza preparare. Con Carisma alto
 
 * **Stirpe:** `.poterestirpe` e `.poterestirpe [potere]` per poteri e scelta iniziale
 * **Magia:** `.castastregone` per lanciare (`.casta` generico), `.spells` per i conosciuti, `.metamagia` per armare le metamagie
-* **Famiglio:** `.famigliostregone`, `.evocafamigliostregone`, `.famigliomiglioratostregone`, `.famigliononmortostregone`
+* **Famiglio:** `.poterestirpe famiglio` per gestirlo, `.compagni` per richiamarlo
 
 ## Vai oltre
 

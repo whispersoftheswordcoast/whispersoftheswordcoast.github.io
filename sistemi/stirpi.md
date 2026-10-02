@@ -8,7 +8,7 @@ excerpt: Cosa sono le stirpi, come si scelgono e come si usano i poteri delle 9 
 
 # Stirpi dello stregone
 
-In base alla stirpe, gli stregoni hanno a disposizione poteri diversi: ogni stregone ne sceglie 1 e la tiene per sempre. Questa guida spiega come si sceglie, come si attivano i poteri e cosa fa ognuna delle **9 stirpi fino al 12° livello**.
+In base alla stirpe, gli stregoni hanno a disposizione poteri diversi: ogni stregone ne sceglie 1 e la tiene per sempre. La fonte può essere un'eredità del sangue o un evento estremo del passato di famiglia: un drago tra gli antenati o un nonno che firmò un patto col diavolo. Questa guida spiega come si sceglie, come si attivano i poteri e cosa fa ognuna delle **9 stirpi fino al 12° livello**.
 
 ## Scegliere la stirpe
 
@@ -46,7 +46,7 @@ Stregone celestiale di 1°: scrivi `.poterestirpe`, scegli `Fuoco Celestiale` da
 
 I poteri a tocco richiedono il contatto, i raggi giungono fino a 6 caselle e le aree si designano fino a 12. Quasi tutto richiede l'azione standard, mentre le cariche di artigli e invisibilità vengono consumate a round. I poteri segnati [GDR] sono al momento solo ruolistici.
 
-Al 3°, 5°, 7°, 9° e 11° livello impari in automatico gli incantesimi bonus della tabella di stirpe, che si aggiungono ai conosciuti. Al 7° livello scegli anche un talento bonus dalla lista di stirpe con `.poterestirpe talento`.
+Al 3°, 5°, 7°, 9° e 11° livello impari in automatico gli incantesimi bonus della tabella di stirpe, che si aggiungono ai conosciuti. Al 7° livello scegli anche un talento bonus dalla lista di stirpe con `.poterestirpe talento`, ma solo se ne hai i prerequisiti.
 
 ## Elenco delle stirpi
 
