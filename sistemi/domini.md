@@ -1,6 +1,7 @@
 ---
 title: Domini del chierico
 layout: sistemi
+permalink: /sistemi/domini/
 order: 25
 excerpt: Cosa sono i domini, come si scelgono e come si usano i 59 domini fino al 12° livello
 ---
@@ -1019,7 +1020,7 @@ Sotto trovi tutti i 59 domini in ordine alfabetico. Ogni voce elenca i poteri co
 ## Vedi anche
 
 - [Chierico](/classi/chierico/): Scacciare, Incanalare, polarità e scuole vietate
-- [Magia](/sistemi/magia/): preparazione, slot bonus e metamagie
-- [Elenco dei comandi](/sistemi/elencocomandi/): sintassi di .poteredominio, .incanala, .scacciare
+- [Magia](/sistemi/magia.html): preparazione, slot bonus e metamagie
+- [Elenco dei comandi](/sistemi/elencocomandi.html): sintassi di .poteredominio, .incanala, .scacciare
 - [Domini su Golarion](https://golarion.altervista.org/wiki/Domini): i domini nel manuale Pathfinder di riferimento
 

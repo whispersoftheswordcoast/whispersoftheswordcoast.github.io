@@ -224,6 +224,7 @@ I comandi si invocano con la sintassi .comando, e possono essere per facilitá s
 ### Stregone
 
 - `.castastregone` (o `.casta [nome o numero]`): Lancia incantesimi spontanei. `.casta difensivo`: in modalità difensiva.
+- `.poterestirpe` e `.poterestirpe [potere]`: Scelta iniziale della stirpe e poteri (menu con cariche). Dettagli nella [guida](/sistemi/stirpi/).
 - `.spells`: Elenco incantesimi conosciuti, da lanciare.
 - `.metamagia`: Arma le metamagie possedute.
 - `.duellomagico [dimensione]`: Inizia Duello Magico con altro incantatore arcano.
