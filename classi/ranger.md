@@ -48,7 +48,7 @@ Al 2° livello il ranger sceglie il suo stile di combattimento, e non lo cambia 
 * **Sella** — 2°: Attacco, Combattere e Tirare in Sella, Cavallerizzo · 6°: + Carica Devastante · 10°: + Cavallerizzo da Guerra.
 
 ### Compagno animale (4°)
-Dal 4° livello il ranger può convincere un animale tra aquila, cane, lupo, cavallo e simili, che deve accettarlo. Il livello effettivo del compagno è pari al livello da ranger −3, e condivide la lista dei Nemici Prescelti del padrone. Tutti i dettagli nella [guida al compagno animale](/sistemi/compagni/).
+Dal 4° livello, dopo aver scelto il Legame del Cacciatore, il ranger può prendere un compagno animale dal menu unificato con `.compagni`. Il livello effettivo segue le regole della [guida al compagno animale](/sistemi/compagni/) e condivide la lista dei Nemici Prescelti del padrone.
 
 ### Preda (11°)
 Dall'11° livello il ranger designa una preda viva a vista con `.preda`, solo del tipo di un suo Nemico Prescelto. In mischia riceve +2 per colpirla. Se la preda muore ne sceglie un'altra tra 1 ora; se l'abbandona deve attendere 24 ore. Con `.preda stato` controlla quella attiva.

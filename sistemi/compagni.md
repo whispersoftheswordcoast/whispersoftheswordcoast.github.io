@@ -104,6 +104,10 @@ Scelto il compagno, lo si richiama a sé con `.compagni` (vale anche `.ricompagn
 Hai scelto il lupo ma è rimasto nella foresta? `.compagni`, aspetti un minuto ed eccolo al tuo fianco. Se cade in combattimento, potrai richiamarne uno nuovo solo dopo 24 ore (oppure rianimarlo, vedi sotto).
 </div>
 
+## Compagno designato
+
+Oltre al compagno di classe esiste il compagno designato. Con 10 gradi veri in Addestrare Animali, `.designaanimale` promuove un animale ordinario a compagno designato: da quel momento è gestibile come se fosse parte del sistema compagni, con ordini, congedo e richiamo. `congedati` lo manda nel box e `.compagni richiama addestrato` lo richiama; con `.designaanimale revoca` la designazione si toglie. Il designato non riceve livelli né bonus da compagno: resta quello che è, custodito. Se ne può designare uno solo alla volta.
+
 ## Il pannello: tutto da un posto
 
 `.compagni` apre il **pannello** del compagno: in alto ritratto, stato, PF, livello effettivo, caratteristiche, CA e talenti assegnati; sotto i pulsanti con cui si fa tutto:

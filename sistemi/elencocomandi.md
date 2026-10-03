@@ -165,7 +165,7 @@ I comandi si invocano con la sintassi .comando, e possono essere per facilitá s
 - `.castadruido` (o `.casta [nome o numero]`): Lancia incantesimi. `.casta difensivo`: in modalità difensiva.
 - `.memo` e `.preparaspells`: Gestiscono memorizzazione e preparazione. `.spells`: elenco incantesimi.
 - `.metamagia`: Arma le metamagie possedute.
-- `.compagnoanimale` e `.compagnoanimaledruido`: Convincono un animale a diventare compagno. `.compagni`: lo richiama e apre il pannello. Dettagli nella [guida](/sistemi/compagni/).
+- `.compagnoanimale` e `.compagnoanimaledruido`: Aprono il menu unificato di scelta del compagno. `.compagni`: lo richiama e apre il pannello. Dettagli nella [guida](/sistemi/compagni/).
 - `.formaselvaggia [animale]`: Cambia in forma animale. Può essere numero o nome animale. Senza parametro mostra il gump di scelta.
 - `.formaselvaggia rimanenti`: Mostra cariche rimanenti di forma selvaggia.
 - `.formaumana`: Torna alla forma umana, interrompendo metamorfosi.
@@ -218,7 +218,7 @@ I comandi si invocano con la sintassi .comando, e possono essere per facilitá s
 
 - `.castaranger` (o `.casta [nome o numero]`): Lancia incantesimi dal 4°. `.casta difensivo`: in modalità difensiva.
 - `.memo` e `.preparaspells`: Gestiscono memorizzazione e preparazione. `.spells`: elenco incantesimi.
-- `.compagnoanimaleranger`: Convinci un animale a diventare compagno (dal 4°). `.compagni`: lo richiama e apre il pannello. Dettagli nella [guida](/sistemi/compagni/).
+- `.compagni`: apre il menu unificato di scelta e il pannello del compagno (dal 4°, con Legame del Cacciatore). Dettagli nella [guida](/sistemi/compagni/).
 - `.preda`: Designa una preda viva a vista tra i Nemici Prescelti (11°). `.preda stato`: controlla quella attiva. `.preda abbandona`: rinuncia (24 ore di attesa).
 
 ### Stregone
