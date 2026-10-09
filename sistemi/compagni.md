@@ -94,7 +94,7 @@ L'elenco nel menu di gioco fa fede: se una specie non compare, non è al momento
 Vuoi un lupo crudele? Lo scegli dal menu al primo livello utile: sarà il tuo livello effettivo a stabilirne la potenza, non la specie in sé. Pazienta le 24 ore del rituale e richiamalo.
 </div>
 
-Se cambi idea, con `sostituisci` rilasci quello vivo (recupera prima tutti i suoi oggetti) e ne parte uno nuovo, sempre col rituale di 24 ore.
+Se cambi idea, con `.compagni sostituisci animale` rilasci quello vivo (recupera prima tutti i suoi oggetti) e ne parte uno nuovo, sempre col rituale di 24 ore.
 
 ## Richiamarlo al tuo fianco
 
