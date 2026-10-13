@@ -5,10 +5,10 @@ date: 2025-10-24 22:56:22 +0200
 author: "Fael"
 topic_url: "https://whispersofswoardcoast.forumcommunity.net/?t=63370681"
 group: "Racconti dal Faerun"
-lastdate: 2026-10-06 00:48:13 +0200
-lastauthor: "Fael"
-lastentry: "473013663"
-posts: 5
+lastdate: 2026-10-12 21:12:19 +0200
+lastauthor: "Admin Sleep"
+lastentry: "473057695"
+posts: 6
 ---
 
 <div class="racconto-post" id="p-470636870">
@@ -39,5 +39,11 @@ La locanda del Canto dell’Elfa era calda.<br/>Il letto morbido.<br/>I vestiti 
 <p class="racconto-autore"><strong>Fael</strong> · <span>6/10/2026, 00:48:13</span></p>
 <div class="racconto-testo">
 Una missiva venne spedita a Calimport, alla vecchia filiale della Moneta Rovente nel quartiere dei Mandriani.<br/><br/>° ° °<br/><br/>Andrud,<br/><br/>spero che questa lettera ti trovi bene, e che gli affari fioriscano come l'ultima volta che mi hai scritto.<br/><br/>Quando la leggerai, sarò già in viaggio verso Calimport. Mi farebbe comodo un appoggio temporaneo per una mezza dozzina di persone, nulla di raffinato, basta che sia discreto. Anche il Mujad andrebbe bene, se è ancora quello che ricordo.<br/><br/>A presto,<br/>Vaelric
+</div>
+</div>
+<div class="racconto-post" id="p-473057695">
+<p class="racconto-autore"><strong>Admin Sleep</strong> · <span>12/10/2026, 21:12:19</span></p>
+<div class="racconto-testo">
+<b><span style="color:gray">Adrund era intenta a spolpare un cosciotto quando uno dei quattro o cinque ragazzacci scappati di casa che ormai lavoravano per la Moneta Rovente le recapitò la missiva.<br/><br/>Alla vista della firma, sputò un boccone dall'altra parte del tavolo, rischiando di centrare il giovane messaggero.<br/><br/><b><i><b>«Vaelric?! Accidenti, che figura ci facciamo se ci vede cosí!»</b></i></b><br/><br/>Rilesse la lettera una seconda volta, poi scoppiò a ridere. Si pulì le dita unte sulla tunica e si mise a cercare qualcosa con cui scrivere.<br/></span></b><br/>° ° °<br/><br/><img alt="9UY7xR4" src="{{ '/assets/images/racconti/63370681/c39901adbec6.webp' | relative_url }}"/><br/><br/><i>Vaelric,<br/><br/>non so quali guai ti stiano riportando a Calimport, ma spero almeno che stavolta siano guai divertenti.<br/><br/>Ho trovato un posto al Mujad per te e i tuoi compari. Ne ho cercata una con due mobili decenti, con il tetto tiene e dove ci siano pochi ficcanaso.<br/><br/>Se dovesse servirti una mano, io e i ragazzi possiamo darvela. Non aspettarti troppo, però. La Moneta Rovente è viva, ma siamo in piena fase di addestramento ancora.<br/><br/>Vedi di arrivare tutto intero, ed occhio ai serpenti del deserto!.<br/><br/>Adrund</i>
 </div>
 </div>
