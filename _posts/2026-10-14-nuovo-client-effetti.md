@@ -2,11 +2,11 @@
 layout: post
 title: "Nuovo client avanzato: effetti migliori"
 date: 2026-10-14
-excerpt: "In arrivo un nuovo client avanzato con supporto per effetti migliori: ecco cosa cambia e come aggiornare."
+excerpt: "Finalmente disponibile un nuovo client avanzato con supporto per effetti migliori: ecco cosa cambia e come aggiornare."
 categories: [patch, aggiornamenti, client]
 ---
 
-È in arrivo un nuovo client avanzato con supporto per effetti migliori. Questa pagina raccoglie cosa cambia e come aggiornare: le immagini del prima/dopo e i dettagli seguiranno qui sotto.
+È finalmente disponibile un nuovo client avanzato con supporto per effetti migliori. Questa pagina raccoglie cosa cambia e come aggiornare: le immagini del prima/dopo e i dettagli seguiranno qui sotto.
 
 ## Rive più morbide
 
